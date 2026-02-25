@@ -291,14 +291,13 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
 
                 <div>
                   <label className="block text-sm font-medium text-muted-foreground mb-1">
-                    Дата запиту *
+                    Дата запиту
                   </label>
                   <input
-                    type="date"
-                    required
-                    value={formatUkrToISO(formData.requestDate || '')}
-                    onChange={(e) => setFormData({ ...formData, requestDate: formatISOToUkr(e.target.value) })}
-                    className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+                    type="text"
+                    disabled
+                    value={formData.requestDate}
+                    className="w-full px-3 py-2 bg-muted border border-input rounded-lg text-muted-foreground cursor-not-allowed"
                   />
                 </div>
 
