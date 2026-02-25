@@ -514,31 +514,21 @@ export default function App() {
             )}
 
             {activeTab === 'needs' && (
-              <div className="space-y-4">
-                <div className="flex justify-end">
-                  <button
-                    onClick={() => {
-                      setEditingNeed(undefined);
-                      setIsNeedFormOpen(true);
-                    }}
-                    className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors w-full sm:w-auto"
-                  >
-                    <Plus size={20} />
-                    Додати запит
-                  </button>
-                </div>
-                <NeedsDataTable
-                  data={needsData}
-                  columns={needsColumns}
-                  onEdit={handleEditNeed}
-                  onDelete={handleDeleteNeed}
-                  onApprove={handleApproveNeed}
-                  onReject={handleRejectNeed}
-                  onRowClick={(item) => handleRowClick(item, 'needs')}
-                  emptyMessage="Немає запитів на потреби"
-                  dateFilter={dateFilter}
-                />
-              </div>
+              <NeedsDataTable
+                data={needsData}
+                columns={needsColumns}
+                onEdit={handleEditNeed}
+                onDelete={handleDeleteNeed}
+                onApprove={handleApproveNeed}
+                onReject={handleRejectNeed}
+                onRowClick={(item) => handleRowClick(item, 'needs')}
+                onAdd={() => {
+                  setEditingNeed(undefined);
+                  setIsNeedFormOpen(true);
+                }}
+                emptyMessage="Немає запитів на потреби"
+                dateFilter={dateFilter}
+              />
             )}
 
             {activeTab === 'issuance' && (

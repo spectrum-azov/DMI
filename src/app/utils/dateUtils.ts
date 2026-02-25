@@ -61,6 +61,32 @@ export function getFilterStartDate(filter: DateFilter): Date | null {
     }
 }
 
+/** Formats Date object → dd.MM.yyyy */
+export function formatUkrDate(date: Date): string {
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const year = date.getFullYear();
+    return `${day}.${month}.${year}`;
+}
+
+/** Formats ISO string (yyyy-mm-dd) → dd.MM.yyyy */
+export function formatISOToUkr(isoStr: string): string {
+    if (!isoStr) return '';
+    const parts = isoStr.split('-');
+    if (parts.length !== 3) return '';
+    const [year, month, day] = parts;
+    return `${day}.${month}.${year}`;
+}
+
+/** Formats Ukrainian date string (dd.MM.yyyy) → yyyy-mm-dd (for input type="date") */
+export function formatUkrToISO(ukrStr: string): string {
+    if (!ukrStr) return '';
+    const parts = ukrStr.split('.');
+    if (parts.length !== 3) return '';
+    const [day, month, year] = parts;
+    return `${year}-${month}-${day}`;
+}
+
 /** Returns true if the given Ukrainian date string falls within the filter period. 
  *  If dateStr is empty, returns true so records without dates aren't hidden by default.
  */

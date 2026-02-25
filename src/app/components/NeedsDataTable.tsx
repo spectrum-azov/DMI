@@ -6,6 +6,7 @@ import {
   XCircle,
   SlidersHorizontal,
   X,
+  Plus,
 } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import { NeedRecord } from '../types';
@@ -29,6 +30,7 @@ interface NeedsDataTableProps {
   onRowClick?: (item: NeedRecord) => void;
   emptyMessage?: string;
   dateFilter: DateFilter;
+  onAdd?: () => void;
 }
 
 /** Column keys visible by default */
@@ -50,6 +52,7 @@ export function NeedsDataTable({
   onRowClick,
   emptyMessage = 'Немає даних',
   dateFilter,
+  onAdd,
 }: NeedsDataTableProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortColumn, setSortColumn] = useState<string | null>(null);
@@ -139,10 +142,33 @@ export function NeedsDataTable({
 
   return (
     <div className="flex flex-col gap-4">
-      {/* Top toolbar */}
-      <div className="flex flex-wrap items-center gap-3">
-        <div className="flex-1" />
-        <div className="flex-1" />
+      {/* Toolbar: Search, Add, Columns */}
+      <div className="flex items-center gap-2">
+        {/* Search - occupies most space */}
+        <div className="relative flex-1">
+          <Search
+            className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"
+            size={18}
+          />
+          <input
+            type="text"
+            placeholder="Пошук..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full pl-10 pr-4 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-foreground"
+          />
+        </div>
+
+        {/* Add Request - hidden on mobile next to search as per request */}
+        {onAdd && (
+          <button
+            onClick={onAdd}
+            className="hidden sm:flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors whitespace-nowrap text-sm font-medium"
+          >
+            <Plus size={18} />
+            Додати запит
+          </button>
+        )}
 
         {/* Column visibility toggle */}
         <div className="relative" ref={columnsRef}>
@@ -210,20 +236,18 @@ export function NeedsDataTable({
         </div>
       </div>
 
-      {/* Search */}
-      <div className="relative">
-        <Search
-          className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"
-          size={18}
-        />
-        <input
-          type="text"
-          placeholder="Пошук..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          className="w-full pl-10 pr-4 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-foreground"
-        />
-      </div>
+      {/* Add Button for mobile only - since it was hidden from top row */}
+      {onAdd && (
+        <div className="sm:hidden">
+          <button
+            onClick={onAdd}
+            className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+          >
+            <Plus size={18} />
+            Додати запит
+          </button>
+        </div>
+      )}
 
       {/* Table */}
       <div className="overflow-x-auto border border-border rounded-lg">

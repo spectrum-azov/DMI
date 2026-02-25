@@ -142,9 +142,8 @@ export function IssuanceDataTable({
 
     return (
         <div className="flex flex-col gap-4">
-            {/* Top toolbar */}
+            {/* Top toolbar: Sub-tabs */}
             <div className="flex flex-wrap items-center justify-between gap-3">
-                {/* Sub-tabs */}
                 <div className="flex gap-2">
                     <button
                         onClick={() => setSubTab('pending')}
@@ -181,6 +180,23 @@ export function IssuanceDataTable({
                         </span>
                         Видано
                     </button>
+                </div>
+            </div>
+
+            {/* Search & Columns */}
+            <div className="flex items-center gap-2">
+                <div className="relative flex-1">
+                    <Search
+                        className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"
+                        size={18}
+                    />
+                    <input
+                        type="text"
+                        placeholder="Пошук..."
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        className="w-full pl-10 pr-4 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-foreground"
+                    />
                 </div>
 
                 {/* Column visibility toggle */}
@@ -247,21 +263,6 @@ export function IssuanceDataTable({
                         </div>
                     )}
                 </div>
-            </div>
-
-            {/* Search */}
-            <div className="relative">
-                <Search
-                    className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"
-                    size={18}
-                />
-                <input
-                    type="text"
-                    placeholder="Пошук..."
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    className="w-full pl-10 pr-4 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-foreground"
-                />
             </div>
 
             {/* Table */}
