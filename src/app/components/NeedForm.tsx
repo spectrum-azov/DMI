@@ -118,7 +118,12 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
         const newAccounts = [...prev];
         if (newAccounts.length < formData.quantity) {
           for (let i = newAccounts.length; i < formData.quantity; i++) {
-            newAccounts.push({ fullName: '', rank: 0, position: '', phone: '' });
+            newAccounts.push({
+              fullName: '',
+              rank: directories.ranks[0]?.id || 0,
+              position: '',
+              phone: ''
+            });
           }
         } else if (newAccounts.length > formData.quantity) {
           return newAccounts.slice(0, formData.quantity);
