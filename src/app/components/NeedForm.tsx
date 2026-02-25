@@ -21,7 +21,7 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData }: NeedFormProps)
     mobileNumber: '',
     requestDate: formatUkrDate(new Date()),
     location: '',
-    status: 'Новий запит',
+    status: 'На погодженні',
     notes: '',
   });
 
@@ -51,7 +51,7 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData }: NeedFormProps)
         mobileNumber: '',
         requestDate: formatUkrDate(new Date()),
         location: '',
-        status: 'Новий запит',
+        status: 'На погодженні',
         notes: '',
       });
     }
@@ -198,20 +198,14 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData }: NeedFormProps)
 
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Статус *
+                Статус
               </label>
-              <select
-                required
+              <input
+                type="text"
+                disabled
                 value={formData.status}
-                onChange={(e) => setFormData({ ...formData, status: e.target.value })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
-              >
-                <option value="">Оберіть статус</option>
-                <option value="Новий запит" className="bg-card">Новий запит</option>
-                <option value="В обробці" className="bg-card">В обробці</option>
-                <option value="Погоджено" className="bg-card">Погоджено</option>
-                <option value="Перенесено до видачі" className="bg-card">Перенесено до видачі</option>
-              </select>
+                className="w-full px-3 py-2 bg-muted border border-input rounded-lg text-muted-foreground cursor-not-allowed"
+              />
             </div>
 
             <div className="md:col-span-2">

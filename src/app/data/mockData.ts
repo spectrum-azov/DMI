@@ -10495,7 +10495,7 @@ export const mockNeedsData: NeedRecord[] = [
     "mobileNumber": "380505605982",
     "requestDate": "24.02.2026",
     "location": "",
-    "status": "",
+    "status": "На погодженні",
     "notes": " 2,3 - 2,4w, вже видано 20.01.2026 Маверіком\n\nДедал: Відьміте статус, перенісість у видачу"
   },
   {
