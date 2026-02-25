@@ -41,6 +41,7 @@ const DEFAULT_VISIBLE: string[] = [
   'nomenclature',
   'quantity',
   'contactPerson',
+  'rank',
   'department',
   'mobileNumber',
 ];
@@ -310,6 +311,7 @@ export function NeedsDataTable({
                         if (val === undefined || val === null || val === '') return '—';
                         if (column.key === 'nomenclature') return directories?.nomenclatures.find(d => d.id === val)?.name || val;
                         if (column.key === 'type') return directories?.types.find(d => d.id === val)?.name || val;
+                        if (column.key === 'rank') return directories?.ranks.find(d => d.id === val)?.name || val;
                         if (column.key === 'department') return directories?.departments.find(d => d.id === val)?.name || val;
                         if (column.key === 'location') return directories?.locations.find(d => d.id === val)?.name || val;
                         return String(val);

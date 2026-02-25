@@ -7,6 +7,7 @@ export interface IssuanceRecord {
   model: string;
   serialNumber: string;
   fullName: string;
+  rank: number;
   department: number;
   request: string;
   requestNumber: string;
@@ -25,6 +26,7 @@ export interface NeedRecord {
   type: number;
   quantity: number;
   contactPerson: string;
+  rank: number;
   position: string;
   department: number;
   mobileNumber: string;
@@ -41,6 +43,7 @@ export interface RejectedRecord {
   type: number;
   quantity: number;
   fullName: string;
+  rank: number;
   position: string;
   department: number;
   mobileNumber: string;

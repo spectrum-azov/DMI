@@ -23,6 +23,7 @@ export function RejectedForm({
     type: 0,
     quantity: 1,
     fullName: '',
+    rank: 0,
     position: '',
     department: 0,
     mobileNumber: '',
@@ -39,6 +40,7 @@ export function RejectedForm({
         type: editData.type,
         quantity: editData.quantity,
         fullName: editData.fullName,
+        rank: editData.rank,
         position: editData.position,
         department: editData.department,
         mobileNumber: editData.mobileNumber,
@@ -53,6 +55,7 @@ export function RejectedForm({
         type: directories.types[0]?.id || 0,
         quantity: 1,
         fullName: '',
+        rank: directories.ranks[0]?.id || 0,
         position: '',
         department: directories.departments[0]?.id || 0,
         mobileNumber: '',
@@ -138,6 +141,14 @@ export function RejectedForm({
                 className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
               />
             </div>
+
+            <SearchableSelect
+              label="Звання"
+              required
+              options={directories.ranks}
+              value={formData.rank}
+              onChange={(val) => setFormData({ ...formData, rank: val })}
+            />
 
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">

@@ -18,6 +18,7 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
     type: 0,
     quantity: 1,
     contactPerson: '',
+    rank: 0,
     position: '',
     department: 0,
     mobileNumber: '',
@@ -34,6 +35,7 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
         type: editData.type,
         quantity: editData.quantity,
         contactPerson: editData.contactPerson,
+        rank: editData.rank,
         position: editData.position,
         department: editData.department,
         mobileNumber: editData.mobileNumber,
@@ -48,6 +50,7 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
         type: directories.types[0]?.id || 0,
         quantity: 1,
         contactPerson: '',
+        rank: directories.ranks[0]?.id || 0,
         position: '',
         department: directories.departments[0]?.id || 0,
         mobileNumber: '',
@@ -123,6 +126,14 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
                 className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
               />
             </div>
+
+            <SearchableSelect
+              label="Звання"
+              required
+              options={directories.ranks}
+              value={formData.rank}
+              onChange={(val) => setFormData({ ...formData, rank: val })}
+            />
 
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">

@@ -19,6 +19,7 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
     model: '',
     serialNumber: '',
     fullName: '',
+    rank: 0,
     department: 0,
     request: '',
     requestNumber: '',
@@ -37,6 +38,7 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
         model: editData.model,
         serialNumber: editData.serialNumber,
         fullName: editData.fullName,
+        rank: editData.rank,
         department: editData.department,
         request: editData.request,
         requestNumber: editData.requestNumber,
@@ -53,6 +55,7 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
         model: '',
         serialNumber: '',
         fullName: '',
+        rank: directories.ranks[0]?.id || 0,
         department: directories.departments[0]?.id || 0,
         request: 'Так',
         requestNumber: '',
@@ -151,6 +154,14 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
                 className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
               />
             </div>
+
+            <SearchableSelect
+              label="Звання"
+              required
+              options={directories.ranks}
+              value={formData.rank}
+              onChange={(val) => setFormData({ ...formData, rank: val })}
+            />
 
             <SearchableSelect
               label="Служба"
