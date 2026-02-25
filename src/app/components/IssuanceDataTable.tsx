@@ -29,6 +29,7 @@ interface IssuanceDataTableProps {
     onRowClick?: (item: IssuanceRecord) => void;
     emptyMessage?: string;
     dateFilter: DateFilter;
+    locationFilter: number;
     onStatusChange?: (id: number, newStatus: string) => void;
     onReturnToIssuance?: (item: IssuanceRecord) => void;
     directories?: Directories;
@@ -47,6 +48,7 @@ const ISSUANCE_STATUSES = [
 
 /** Column keys visible by default */
 const DEFAULT_VISIBLE: string[] = [
+    'id',
     'nomenclature',
     'quantity',
     'fullName',
@@ -63,6 +65,7 @@ export function IssuanceDataTable({
     onRowClick,
     emptyMessage = 'Немає даних',
     dateFilter,
+    locationFilter,
     onStatusChange,
     onReturnToIssuance,
     directories,
@@ -107,7 +110,7 @@ export function IssuanceDataTable({
     // Reset to first page when filters or tabs change
     useEffect(() => {
         setCurrentPage(1);
-    }, [searchTerm, dateFilter, subTab]);
+    }, [searchTerm, dateFilter, subTab, locationFilter]);
 
     // Persist column visibility
     useEffect(() => {
@@ -133,13 +136,13 @@ export function IssuanceDataTable({
     const cancelledData = data.filter((item) => item.status === 'Відміна');
 
     const filteredPendingCount = pendingData.filter((i) =>
-        isWithinPeriod(i.issueDate, dateFilter),
+        isWithinPeriod(i.issueDate, dateFilter) && (locationFilter === 0 || i.location === locationFilter),
     ).length;
     const filteredIssuedCount = issuedData.filter((i) =>
-        isWithinPeriod(i.issueDate, dateFilter),
+        isWithinPeriod(i.issueDate, dateFilter) && (locationFilter === 0 || i.location === locationFilter),
     ).length;
     const filteredCancelledCount = cancelledData.filter((i) =>
-        isWithinPeriod(i.issueDate, dateFilter),
+        isWithinPeriod(i.issueDate, dateFilter) && (locationFilter === 0 || i.location === locationFilter),
     ).length;
 
     const activeData =
@@ -147,11 +150,11 @@ export function IssuanceDataTable({
             subTab === 'issued' ? issuedData :
                 cancelledData;
 
-    const dateFiltered = activeData.filter((item) =>
-        isWithinPeriod(item.issueDate, dateFilter),
+    const filtered = activeData.filter((item) =>
+        isWithinPeriod(item.issueDate, dateFilter) && (locationFilter === 0 || item.location === locationFilter)
     );
 
-    const searchFiltered = dateFiltered.filter((item) => {
+    const searchFiltered = filtered.filter((item) => {
         const lower = searchTerm.toLowerCase();
         return Object.values(item).some((v) =>
             String(v).toLowerCase().includes(lower),

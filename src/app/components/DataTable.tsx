@@ -30,6 +30,7 @@ interface DataTableProps {
   dateField?: string;
   onRowClick?: (item: any) => void;
   dateFilter: DateFilter;
+  locationFilter?: number;
   defaultVisibleColumns?: string[];
   storageKey?: string;
   directories?: Directories;
@@ -46,6 +47,7 @@ export function DataTable({
   dateField,
   onRowClick,
   dateFilter,
+  locationFilter = 0,
   defaultVisibleColumns,
   storageKey = 'common_visible_columns',
   directories,
@@ -82,7 +84,7 @@ export function DataTable({
   // Reset to first page when filters change
   useEffect(() => {
     setCurrentPage(1);
-  }, [searchTerm, dateFilter]);
+  }, [searchTerm, dateFilter, locationFilter]);
 
   // Persist column visibility
   useEffect(() => {
@@ -103,11 +105,13 @@ export function DataTable({
 
   const activeColumns = columns.filter((col) => visibleColumns.has(col.key));
 
-  const dateFiltered = dateField
-    ? data.filter((item) => isWithinPeriod(item[dateField], dateFilter))
-    : data;
+  const filtered = data.filter((item) => {
+    const isDateMatch = !dateField || isWithinPeriod(item[dateField], dateFilter);
+    const isLocMatch = locationFilter === 0 || item.location === locationFilter;
+    return isDateMatch && isLocMatch;
+  });
 
-  const filteredData = dateFiltered.filter((item) => {
+  const filteredData = filtered.filter((item) => {
     const searchLower = searchTerm.toLowerCase();
     return Object.values(item).some((value) =>
       String(value).toLowerCase().includes(searchLower),

@@ -9,6 +9,7 @@ interface DashboardProps {
   needsData: NeedRecord[];
   rejectedData: RejectedRecord[];
   dateFilter: DateFilter;
+  locationFilter: number;
   directories?: Directories;
   onRowClick?: (item: any, type: 'needs' | 'issuance' | 'rejected') => void;
 }
@@ -18,18 +19,19 @@ export function Dashboard({
   needsData,
   rejectedData,
   dateFilter,
+  locationFilter,
   directories,
   onRowClick,
 }: DashboardProps) {
 
   const filteredIssuance = issuanceData.filter((i) =>
-    isWithinPeriod(i.issueDate, dateFilter),
+    isWithinPeriod(i.issueDate, dateFilter) && (locationFilter === 0 || i.location === locationFilter),
   );
   const filteredNeeds = needsData.filter((n) =>
-    isWithinPeriod(n.requestDate, dateFilter),
+    isWithinPeriod(n.requestDate, dateFilter) && (locationFilter === 0 || n.location === locationFilter),
   );
   const filteredRejected = rejectedData.filter((r) =>
-    isWithinPeriod(r.rejectedDate, dateFilter),
+    isWithinPeriod(r.rejectedDate, dateFilter) && (locationFilter === 0 || r.location === locationFilter),
   );
 
   const totalIssuances = filteredIssuance.length;

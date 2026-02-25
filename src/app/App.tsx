@@ -48,6 +48,7 @@ import {
 import { DirectoryForm } from './components/DirectoryForm';
 import { DirectoryItem } from './types';
 import { QuickDateFilter } from './components/QuickDateFilter';
+import { LocationFilter } from './components/LocationFilter';
 import { DateFilter, isWithinPeriod } from './utils/dateUtils';
 import { useEffect } from 'react';
 
@@ -64,9 +65,18 @@ export default function App() {
     return (saved as DateFilter) || 'month';
   });
 
+  const [locationFilter, setLocationFilter] = useState<number>(() => {
+    const saved = localStorage.getItem('global_location_filter');
+    return saved ? parseInt(saved) : 0;
+  });
+
   useEffect(() => {
     localStorage.setItem('global_date_filter', dateFilter);
   }, [dateFilter]);
+
+  useEffect(() => {
+    localStorage.setItem('global_location_filter', locationFilter.toString());
+  }, [locationFilter]);
 
 
   // State for each data type
@@ -99,13 +109,13 @@ export default function App() {
 
   // Filtered counts for sidebar
   const filteredNeedsCount = needsData.filter((n) =>
-    isWithinPeriod(n.requestDate, dateFilter),
+    isWithinPeriod(n.requestDate, dateFilter) && (locationFilter === 0 || n.location === locationFilter),
   ).length;
   const filteredIssuanceCount = issuanceData.filter((i) =>
-    isWithinPeriod(i.issueDate, dateFilter),
+    isWithinPeriod(i.issueDate, dateFilter) && (locationFilter === 0 || i.location === locationFilter),
   ).length;
   const filteredRejectedCount = rejectedData.filter((r) =>
-    isWithinPeriod(r.rejectedDate, dateFilter),
+    isWithinPeriod(r.rejectedDate, dateFilter) && (locationFilter === 0 || r.location === locationFilter),
   ).length;
 
   // Form states
@@ -512,6 +522,7 @@ export default function App() {
   };
 
   const issuanceColumns = [
+    { key: 'id', label: '№', width: '60px' },
     { key: 'nomenclature', label: 'Номенклатура', width: '150px' },
     { key: 'type', label: 'Тип', width: '100px' },
     { key: 'quantity', label: 'К-сть', width: '80px' },
@@ -526,6 +537,7 @@ export default function App() {
   ];
 
   const needsColumns = [
+    { key: 'id', label: '№', width: '60px' },
     { key: 'nomenclature', label: 'Номенклатура', width: '150px' },
     { key: 'type', label: 'Тип', width: '100px' },
     { key: 'quantity', label: 'К-сть', width: '80px' },
@@ -539,6 +551,7 @@ export default function App() {
   ];
 
   const rejectedColumns = [
+    { key: 'id', label: '№', width: '60px' },
     { key: 'nomenclature', label: 'Номенклатура', width: '150px' },
     { key: 'type', label: 'Тип', width: '100px' },
     { key: 'quantity', label: 'К-сть', width: '80px' },
@@ -751,7 +764,14 @@ export default function App() {
                 </p>
               </div>
               {activeTab !== 'status-graph' && !activeTab.startsWith('dir-') && (
-                <QuickDateFilter value={dateFilter} onChange={setDateFilter} />
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                  <LocationFilter
+                    value={locationFilter}
+                    options={locations}
+                    onChange={setLocationFilter}
+                  />
+                  <QuickDateFilter value={dateFilter} onChange={setDateFilter} />
+                </div>
               )}
             </div>
 
@@ -761,6 +781,7 @@ export default function App() {
                 issuanceData={issuanceData}
                 rejectedData={rejectedData}
                 dateFilter={dateFilter}
+                locationFilter={locationFilter}
                 directories={directories}
                 onRowClick={handleRowClick}
               />
@@ -776,6 +797,7 @@ export default function App() {
                 onReject={handleRejectNeed}
                 onRowClick={(item) => handleRowClick(item, 'needs')}
                 dateFilter={dateFilter}
+                locationFilter={locationFilter}
                 onAdd={() => setIsNeedFormOpen(true)}
                 directories={directories}
               />
@@ -793,6 +815,7 @@ export default function App() {
                   onReturnToIssuance={handleMoveCancelledToIssuance}
                   onRowClick={(item) => handleRowClick(item, 'issuance')}
                   dateFilter={dateFilter}
+                  locationFilter={locationFilter}
                   directories={directories}
                 />
               </div>

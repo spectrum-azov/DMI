@@ -30,12 +30,14 @@ interface NeedsDataTableProps {
   onRowClick?: (item: NeedRecord) => void;
   emptyMessage?: string;
   dateFilter: DateFilter;
+  locationFilter: number;
   onAdd?: () => void;
   directories?: Directories;
 }
 
 /** Column keys visible by default */
 const DEFAULT_VISIBLE: string[] = [
+  'id',
   'nomenclature',
   'quantity',
   'contactPerson',
@@ -53,6 +55,7 @@ export function NeedsDataTable({
   onRowClick,
   emptyMessage = 'Немає даних',
   dateFilter,
+  locationFilter,
   onAdd,
   directories,
 }: NeedsDataTableProps) {
@@ -87,7 +90,7 @@ export function NeedsDataTable({
   // Reset to first page when filters change
   useEffect(() => {
     setCurrentPage(1);
-  }, [searchTerm, dateFilter]);
+  }, [searchTerm, dateFilter, locationFilter]);
 
   // Persist column visibility
   useEffect(() => {
@@ -108,11 +111,11 @@ export function NeedsDataTable({
 
   const activeColumns = columns.filter((col) => visibleColumns.has(col.key));
 
-  const dateFiltered = data.filter((item) =>
-    isWithinPeriod(item.requestDate, dateFilter),
+  const filtered = data.filter((item) =>
+    isWithinPeriod(item.requestDate, dateFilter) && (locationFilter === 0 || item.location === locationFilter)
   );
 
-  const searchFiltered = dateFiltered.filter((item) => {
+  const searchFiltered = filtered.filter((item) => {
     const lower = searchTerm.toLowerCase();
     return Object.values(item).some((v) =>
       String(v).toLowerCase().includes(lower),
