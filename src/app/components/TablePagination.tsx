@@ -5,6 +5,8 @@ import {
     PaginationLink,
     PaginationNext,
     PaginationPrevious,
+    PaginationFirst,
+    PaginationLast,
 } from './ui/pagination';
 import {
     Select,
@@ -86,6 +88,16 @@ export function TablePagination({
             <Pagination className="w-auto mx-0 order-1 sm:order-2">
                 <PaginationContent>
                     <PaginationItem>
+                        <PaginationFirst
+                            onClick={(e) => {
+                                e.preventDefault();
+                                if (currentPage > 1) onPageChange(1);
+                            }}
+                            className={currentPage === 1 ? 'pointer-events-none opacity-40' : 'cursor-pointer hover:bg-gray-100'}
+                            href="#"
+                        />
+                    </PaginationItem>
+                    <PaginationItem>
                         <PaginationPrevious
                             onClick={(e) => {
                                 e.preventDefault();
@@ -121,6 +133,16 @@ export function TablePagination({
                             onClick={(e) => {
                                 e.preventDefault();
                                 if (currentPage < totalPages) onPageChange(currentPage + 1);
+                            }}
+                            className={currentPage === totalPages || totalPages === 0 ? 'pointer-events-none opacity-40' : 'cursor-pointer hover:bg-gray-100'}
+                            href="#"
+                        />
+                    </PaginationItem>
+                    <PaginationItem>
+                        <PaginationLast
+                            onClick={(e) => {
+                                e.preventDefault();
+                                if (currentPage < totalPages) onPageChange(totalPages);
                             }}
                             className={currentPage === totalPages || totalPages === 0 ? 'pointer-events-none opacity-40' : 'cursor-pointer hover:bg-gray-100'}
                             href="#"
