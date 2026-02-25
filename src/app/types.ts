@@ -51,4 +51,9 @@ export interface RejectedRecord {
   rejectedDate: string;
 }
 
-export type SheetType = 'issuance' | 'needs' | 'rejected' | 'dashboard';
+export interface DirectoryItem {
+  id: string;
+  name: string;
+}
+
+export type SheetType = 'issuance' | 'needs' | 'rejected' | 'dashboard' | 'directories';

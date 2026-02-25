@@ -11,6 +11,15 @@ import {
   FileText,
   Sun,
   Moon,
+  BookOpen,
+  ChevronDown,
+  ChevronRight,
+  Users,
+  Briefcase,
+  Layers,
+  MapPin,
+  Tag,
+  Star
 } from 'lucide-react';
 import { ThemeProvider } from 'next-themes';
 import { ThemeToggle } from './components/ui/theme-toggle';
@@ -29,14 +38,23 @@ import {
   mockIssuanceData,
   mockNeedsData,
   mockRejectedData,
+  mockNomenclatures,
+  mockTypes,
+  mockPositions,
+  mockDepartments,
+  mockRanks,
+  mockLocations
 } from './data/mockData';
+import { DirectoryForm } from './components/DirectoryForm';
+import { DirectoryItem } from './types';
 import { QuickDateFilter } from './components/QuickDateFilter';
 import { DateFilter, isWithinPeriod } from './utils/dateUtils';
 import { useEffect } from 'react';
 
 import { StatusGraph } from './components/StatusGraph';
 
-type TabType = 'dashboard' | 'issuance' | 'needs' | 'rejected' | 'status-graph';
+type DirectoryTab = 'dir-nomenclature' | 'dir-types' | 'dir-positions' | 'dir-departments' | 'dir-ranks' | 'dir-locations';
+type TabType = 'dashboard' | 'issuance' | 'needs' | 'rejected' | 'status-graph' | DirectoryTab;
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<TabType>('dashboard');
@@ -57,6 +75,18 @@ export default function App() {
   const [needsData, setNeedsData] = useState<NeedRecord[]>(mockNeedsData);
   const [rejectedData, setRejectedData] =
     useState<RejectedRecord[]>(mockRejectedData);
+
+  // Directory state
+  const [nomenclatures, setNomenclatures] = useState<DirectoryItem[]>(mockNomenclatures);
+  const [types, setTypes] = useState<DirectoryItem[]>(mockTypes);
+  const [positions, setPositions] = useState<DirectoryItem[]>(mockPositions);
+  const [departments, setDepartments] = useState<DirectoryItem[]>(mockDepartments);
+  const [ranks, setRanks] = useState<DirectoryItem[]>(mockRanks);
+  const [locations, setLocations] = useState<DirectoryItem[]>(mockLocations);
+
+  const [isDirectoriesOpen, setIsDirectoriesOpen] = useState(false);
+  const [isDirectoryFormOpen, setIsDirectoryFormOpen] = useState(false);
+  const [editingDirectoryItem, setEditingDirectoryItem] = useState<DirectoryItem | undefined>();
 
   // Filtered counts for sidebar
   const filteredNeedsCount = needsData.filter((n) =>
@@ -392,7 +422,68 @@ export default function App() {
     setMoveTarget(undefined);
   };
 
+  // Directory handlers
+  const handleAddDirectoryItem = (data: Omit<DirectoryItem, 'id'>) => {
+    const list = getDirectoryList(activeTab as DirectoryTab);
+    const setList = getDirectorySetter(activeTab as DirectoryTab);
+
+    if (editingDirectoryItem) {
+      setList(list.map(item => item.id === editingDirectoryItem.id ? { ...data, id: item.id } : item));
+      setEditingDirectoryItem(undefined);
+    } else {
+      setList([...list, { ...data, id: Date.now().toString() }]);
+    }
+  };
+
+  const handleEditDirectoryItem = (item: DirectoryItem) => {
+    setEditingDirectoryItem(item);
+    setIsDirectoryFormOpen(true);
+  };
+
+  const handleDeleteDirectoryItem = (id: string, list: DirectoryItem[], setList: (list: DirectoryItem[]) => void) => {
+    if (confirm('Ви впевнені, що хочете видалити цей запис?')) {
+      setList(list.filter(item => item.id !== id));
+    }
+  };
+
+  const getDirectoryList = (tab: DirectoryTab): DirectoryItem[] => {
+    switch (tab) {
+      case 'dir-nomenclature': return nomenclatures;
+      case 'dir-types': return types;
+      case 'dir-positions': return positions;
+      case 'dir-departments': return departments;
+      case 'dir-ranks': return ranks;
+      case 'dir-locations': return locations;
+      default: return [];
+    }
+  };
+
+  const getDirectorySetter = (tab: DirectoryTab) => {
+    switch (tab) {
+      case 'dir-nomenclature': return setNomenclatures;
+      case 'dir-types': return setTypes;
+      case 'dir-positions': return setPositions;
+      case 'dir-departments': return setDepartments;
+      case 'dir-ranks': return setRanks;
+      case 'dir-locations': return setLocations;
+      default: return () => { };
+    }
+  };
+
+  const getDirectoryTitle = (tab: DirectoryTab) => {
+    switch (tab) {
+      case 'dir-nomenclature': return 'Номенклатури';
+      case 'dir-types': return 'Типи';
+      case 'dir-positions': return 'Посади';
+      case 'dir-departments': return 'Служби';
+      case 'dir-ranks': return 'Звання';
+      case 'dir-locations': return 'Локації';
+      default: return '';
+    }
+  };
+
   const handleRowClick = (item: any, type: TabType) => {
+
     let title = '';
     let columns: { key: string; label: string }[] = [];
 
@@ -459,6 +550,7 @@ export default function App() {
     setIsRejectedFormOpen(false);
     setIsRejectDialogOpen(false);
     setIsMoveDialogOpen(false);
+    setIsDirectoryFormOpen(false);
   };
 
   return (
@@ -571,6 +663,44 @@ export default function App() {
             </span>
           </button>
 
+          <div className="pt-2">
+            <button
+              onClick={() => setIsDirectoriesOpen(!isDirectoriesOpen)}
+              className="w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors text-muted-foreground hover:bg-muted hover:text-foreground"
+            >
+              <div className="flex items-center gap-3">
+                <BookOpen size={20} />
+                Довідники
+              </div>
+              {isDirectoriesOpen ? <ChevronDown size={18} /> : <ChevronRight size={18} />}
+            </button>
+
+            {isDirectoriesOpen && (
+              <div className="mt-1 ml-4 space-y-1 border-l-2 border-muted pl-2">
+                {[
+                  { id: 'dir-nomenclature', label: 'Номенклатури', icon: Tag },
+                  { id: 'dir-types', label: 'Типи', icon: Layers },
+                  { id: 'dir-positions', label: 'Посади', icon: Briefcase },
+                  { id: 'dir-departments', label: 'Служби', icon: Users },
+                  { id: 'dir-ranks', label: 'Звання', icon: Star },
+                  { id: 'dir-locations', label: 'Локації', icon: MapPin },
+                ].map((item) => (
+                  <button
+                    key={item.id}
+                    onClick={() => handleTabChange(item.id as TabType)}
+                    className={`w-full flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors ${activeTab === item.id
+                      ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400 font-medium'
+                      : 'text-muted-foreground hover:bg-muted hover:text-foreground'
+                      }`}
+                  >
+                    <item.icon size={16} />
+                    {item.label}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
           <div className="pt-4 mt-4 border-t border-border space-y-2">
             <ThemeToggle />
             <button
@@ -608,9 +738,10 @@ export default function App() {
                   {activeTab === 'issuance' && 'Облік виданого обладнання та черга на видачу'}
                   {activeTab === 'rejected' && 'Історія відхилених потреб'}
                   {activeTab === 'status-graph' && 'Візуалізація життєвого циклу обладнання'}
+                  {activeTab.startsWith('dir-') && `Управління довідником: ${getDirectoryTitle(activeTab as DirectoryTab)}`}
                 </p>
               </div>
-              {activeTab !== 'status-graph' && (
+              {activeTab !== 'status-graph' && !activeTab.startsWith('dir-') && (
                 <QuickDateFilter value={dateFilter} onChange={setDateFilter} />
               )}
             </div>
@@ -672,6 +803,41 @@ export default function App() {
                   dateField="rejectedDate"
                   emptyMessage="Немає відхилених запитів"
                   dateFilter={dateFilter}
+                  defaultVisibleColumns={[
+                    'nomenclature',
+                    'quantity',
+                    'fullName',
+                    'department',
+                    'rejectedDate',
+                    'notes',
+                  ]}
+                  storageKey="rejected_visible_columns"
+                />
+              </div>
+            )}
+
+            {activeTab.startsWith('dir-') && (
+              <div className="space-y-4">
+                <div className="flex justify-between items-center bg-muted/20 p-4 rounded-lg">
+                  <h3 className="font-semibold text-lg">{getDirectoryTitle(activeTab as DirectoryTab)}</h3>
+                  <button
+                    onClick={() => {
+                      setEditingDirectoryItem(undefined);
+                      setIsDirectoryFormOpen(true);
+                    }}
+                    className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-sm"
+                  >
+                    <Plus size={18} />
+                    Додати
+                  </button>
+                </div>
+                <DataTable
+                  data={getDirectoryList(activeTab as DirectoryTab)}
+                  columns={[{ key: 'name', label: 'Назва' }]}
+                  onEdit={handleEditDirectoryItem}
+                  onDelete={(id) => handleDeleteDirectoryItem(id, getDirectoryList(activeTab as DirectoryTab), getDirectorySetter(activeTab as DirectoryTab))}
+                  dateFilter={dateFilter}
+                  storageKey={`${activeTab}_visible_columns`}
                 />
               </div>
             )}
@@ -738,6 +904,17 @@ export default function App() {
         description={moveType === 'needs' ? 'Запис буде повернено до списку потреб' : moveType === 'issuance' ? 'Запис буде перенесено в чергу на видачу' : 'Запис буде повернено до черги на видачу'}
         itemName={moveType === 'return-issuance' ? (moveIssuanceTarget?.nomenclature || '') : (moveTarget?.nomenclature || '')}
         initialNotes={moveType === 'return-issuance' ? moveIssuanceTarget?.notes : moveTarget?.notes}
+      />
+
+      <DirectoryForm
+        isOpen={isDirectoryFormOpen}
+        onClose={() => {
+          setIsDirectoryFormOpen(false);
+          setEditingDirectoryItem(undefined);
+        }}
+        onSubmit={handleAddDirectoryItem}
+        editData={editingDirectoryItem}
+        title={activeTab.startsWith('dir-') ? getDirectoryTitle(activeTab as DirectoryTab) : ''}
       />
     </div>
   );

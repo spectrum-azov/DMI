@@ -29,17 +29,9 @@ interface DataTableProps {
   dateField?: string;
   onRowClick?: (item: any) => void;
   dateFilter: DateFilter;
+  defaultVisibleColumns?: string[];
+  storageKey?: string;
 }
-
-/** Column keys visible by default for Rejected table */
-const DEFAULT_VISIBLE: string[] = [
-  'nomenclature',
-  'quantity',
-  'fullName',
-  'department',
-  'rejectedDate',
-  'notes',
-];
 
 export function DataTable({
   data,
@@ -52,14 +44,17 @@ export function DataTable({
   dateField,
   onRowClick,
   dateFilter,
+  defaultVisibleColumns,
+  storageKey = 'common_visible_columns',
 }: DataTableProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortColumn, setSortColumn] = useState<string | null>(null);
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
   const [visibleColumns, setVisibleColumns] = useState<Set<string>>(() => {
-    const saved = localStorage.getItem('rejected_visible_columns');
-    return saved ? new Set(JSON.parse(saved)) : new Set(DEFAULT_VISIBLE);
+    const saved = localStorage.getItem(storageKey);
+    return saved ? new Set(JSON.parse(saved)) : new Set(defaultVisibleColumns || columns.map(c => c.key));
   });
+
   const [isColumnsOpen, setIsColumnsOpen] = useState(false);
   const columnsRef = useRef<HTMLDivElement>(null);
 
@@ -88,8 +83,8 @@ export function DataTable({
 
   // Persist column visibility
   useEffect(() => {
-    localStorage.setItem('rejected_visible_columns', JSON.stringify(Array.from(visibleColumns)));
-  }, [visibleColumns]);
+    localStorage.setItem(storageKey, JSON.stringify(Array.from(visibleColumns)));
+  }, [visibleColumns, storageKey]);
 
   const toggleColumn = (key: string) => {
     setVisibleColumns((prev) => {
@@ -217,7 +212,7 @@ export function DataTable({
                 </button>
                 <button
                   onClick={() =>
-                    setVisibleColumns(new Set(DEFAULT_VISIBLE))
+                    setVisibleColumns(new Set(defaultVisibleColumns || columns.map(c => c.key)))
                   }
                   className="text-xs text-muted-foreground hover:underline"
                 >
