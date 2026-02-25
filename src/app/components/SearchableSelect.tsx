@@ -13,6 +13,7 @@ interface SearchableSelectProps {
     placeholder?: string;
     label?: string;
     required?: boolean;
+    labelClassName?: string;
 }
 
 export function SearchableSelect({
@@ -21,7 +22,8 @@ export function SearchableSelect({
     onChange,
     placeholder = 'Оберіть значення...',
     label,
-    required = false
+    required = false,
+    labelClassName
 }: SearchableSelectProps) {
     const [isOpen, setIsOpen] = useState(false);
     const [searchTerm, setSearchTerm] = useState('');
@@ -57,7 +59,7 @@ export function SearchableSelect({
     return (
         <div className="relative" ref={containerRef}>
             {label && (
-                <label className="block text-sm font-medium text-muted-foreground mb-1">
+                <label className={labelClassName || "block text-sm font-medium text-muted-foreground mb-1"}>
                     {label} {required && '*'}
                 </label>
             )}
@@ -105,8 +107,8 @@ export function SearchableSelect({
                                 <div
                                     key={option.id}
                                     className={`flex items-center justify-between px-3 py-2 cursor-pointer transition-colors ${option.id === value
-                                            ? 'bg-blue-500/10 text-blue-500'
-                                            : 'hover:bg-muted text-foreground'
+                                        ? 'bg-blue-500/10 text-blue-500'
+                                        : 'hover:bg-muted text-foreground'
                                         }`}
                                     onClick={(e) => {
                                         e.stopPropagation();

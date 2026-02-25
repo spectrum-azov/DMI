@@ -11,6 +11,8 @@ import {
     Info,
     Clock,
     LayoutDashboard,
+    Shield,
+    Briefcase,
 } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 import { Directories } from '../types';
@@ -151,6 +153,61 @@ export function DetailsModal({
                             </div>
                         ))}
                     </div>
+
+                    {/* Accounts Section Parsing */}
+                    {data.accountsData && (
+                        (() => {
+                            try {
+                                const accounts = JSON.parse(data.accountsData);
+                                if (!Array.isArray(accounts) || accounts.length === 0) return null;
+                                return (
+                                    <div className="mt-8 pt-6 border-t border-border">
+                                        <h3 className="text-[11px] font-black uppercase tracking-[0.2em] text-blue-500 mb-4 flex items-center gap-2">
+                                            <Shield size={14} /> Облікові записи
+                                        </h3>
+                                        <div className="space-y-4">
+                                            {accounts.map((acc: any, idx: number) => (
+                                                <div key={idx} className="p-4 rounded-2xl bg-muted/30 border border-border group hover:border-blue-500/30 transition-colors">
+                                                    <div className="flex items-center gap-2 mb-3">
+                                                        <span className="w-5 h-5 rounded-full bg-blue-500 text-white flex items-center justify-center text-[10px] font-bold">
+                                                            {idx + 1}
+                                                        </span>
+                                                        <span className="text-xs font-black text-foreground">
+                                                            {acc.fullName || 'Без імені'}
+                                                        </span>
+                                                    </div>
+                                                    <div className="grid grid-cols-2 gap-y-2 gap-x-4">
+                                                        {acc.rank ? (
+                                                            <div className="flex items-center gap-2 text-muted-foreground">
+                                                                <Shield size={12} className="opacity-50" />
+                                                                <span className="text-xs font-semibold">
+                                                                    {directories?.ranks.find(r => r.id === acc.rank)?.name || acc.rank}
+                                                                </span>
+                                                            </div>
+                                                        ) : null}
+                                                        {acc.phone ? (
+                                                            <div className="flex items-center gap-2 text-muted-foreground">
+                                                                <Phone size={12} className="opacity-50" />
+                                                                <span className="text-xs font-semibold">{acc.phone}</span>
+                                                            </div>
+                                                        ) : null}
+                                                        {acc.position ? (
+                                                            <div className="flex items-center gap-2 text-muted-foreground col-span-2">
+                                                                <Briefcase size={12} className="opacity-50" />
+                                                                <span className="text-xs font-semibold">{acc.position}</span>
+                                                            </div>
+                                                        ) : null}
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+                                );
+                            } catch (e) {
+                                return null;
+                            }
+                        })()
+                    )}
                 </div>
 
                 {/* Action Button - Insets in the bottom right */}

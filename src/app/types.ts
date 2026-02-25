@@ -36,6 +36,7 @@ export interface BaseRecord {
   issueDate?: string;
   requestDate?: string;
   rejectedDate?: string;
+  accountsData?: string;
 }
 
 export type IssuanceRecord = BaseRecord;
