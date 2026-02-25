@@ -46,7 +46,6 @@ export type RejectedRecord = BaseRecord;
 export interface DirectoryItem {
   id: number;
   name: string;
-  mobileNumber?: string;
   notes?: string;
   position?: string;
   quantity?: number;
