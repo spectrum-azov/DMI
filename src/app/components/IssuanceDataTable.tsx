@@ -25,6 +25,7 @@ interface IssuanceDataTableProps {
     onDelete?: (id: string) => void;
     /** Called when user clicks "Видати" on a pending item */
     onIssue?: (id: string) => void;
+    onRowClick?: (item: IssuanceRecord) => void;
     emptyMessage?: string;
 }
 
@@ -43,6 +44,7 @@ export function IssuanceDataTable({
     onEdit,
     onDelete,
     onIssue,
+    onRowClick,
     emptyMessage = 'Немає даних',
 }: IssuanceDataTableProps) {
     const [subTab, setSubTab] = useState<'pending' | 'issued'>('pending');
@@ -310,7 +312,8 @@ export function IssuanceDataTable({
                             paginatedData.map((item) => (
                                 <tr
                                     key={item.id}
-                                    className="hover:bg-gray-50 transition-colors"
+                                    onClick={() => onRowClick && onRowClick(item)}
+                                    className={`transition-colors ${onRowClick ? 'cursor-pointer hover:bg-blue-50/50' : 'hover:bg-gray-50'}`}
                                 >
                                     {activeColumns.map((column) => (
                                         <td
@@ -336,7 +339,10 @@ export function IssuanceDataTable({
                                             <div className="flex gap-1">
                                                 {onIssue && subTab === 'pending' && (
                                                     <button
-                                                        onClick={() => onIssue(item.id)}
+                                                        onClick={(e) => {
+                                                            e.stopPropagation();
+                                                            onIssue(item.id);
+                                                        }}
                                                         className="flex items-center gap-1 px-2 py-1 bg-green-600 text-white rounded text-xs font-medium hover:bg-green-700 transition-colors"
                                                         title="Видати"
                                                     >
@@ -346,7 +352,10 @@ export function IssuanceDataTable({
                                                 )}
                                                 {onEdit && (
                                                     <button
-                                                        onClick={() => onEdit(item)}
+                                                        onClick={(e) => {
+                                                            e.stopPropagation();
+                                                            onEdit(item);
+                                                        }}
                                                         className="p-1.5 text-blue-600 hover:bg-blue-50 rounded transition-colors"
                                                         title="Редагувати"
                                                     >
@@ -355,7 +364,10 @@ export function IssuanceDataTable({
                                                 )}
                                                 {onDelete && (
                                                     <button
-                                                        onClick={() => onDelete(item.id)}
+                                                        onClick={(e) => {
+                                                            e.stopPropagation();
+                                                            onDelete(item.id);
+                                                        }}
                                                         className="p-1.5 text-gray-500 hover:bg-gray-100 rounded transition-colors"
                                                         title="Видалити"
                                                     >

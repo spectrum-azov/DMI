@@ -23,6 +23,7 @@ interface DataTableProps {
   onDelete?: (id: string) => void;
   emptyMessage?: string;
   dateField?: string;
+  onRowClick?: (item: any) => void;
 }
 
 /** Column keys visible by default for Rejected table */
@@ -42,6 +43,7 @@ export function DataTable({
   onDelete,
   emptyMessage = 'Немає даних',
   dateField,
+  onRowClick,
 }: DataTableProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortColumn, setSortColumn] = useState<string | null>(null);
@@ -261,7 +263,11 @@ export function DataTable({
               </tr>
             ) : (
               paginatedData.map((item: any) => (
-                <tr key={item.id} className="hover:bg-gray-50 transition-colors">
+                <tr
+                  key={item.id}
+                  onClick={() => onRowClick && onRowClick(item)}
+                  className={`transition-colors ${onRowClick ? 'cursor-pointer hover:bg-blue-50/50' : 'hover:bg-gray-50'}`}
+                >
                   {activeColumns.map((column) => (
                     <td
                       key={column.key}
@@ -275,7 +281,10 @@ export function DataTable({
                       <div className="flex gap-1">
                         {onEdit && (
                           <button
-                            onClick={() => onEdit(item)}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              onEdit(item);
+                            }}
                             className="p-1.5 text-blue-600 hover:bg-blue-50 rounded transition-colors"
                             title="Редагувати"
                           >
@@ -284,7 +293,10 @@ export function DataTable({
                         )}
                         {onDelete && (
                           <button
-                            onClick={() => onDelete(item.id)}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              onDelete(item.id);
+                            }}
                             className="p-1.5 text-red-600 hover:bg-red-50 rounded transition-colors"
                             title="Видалити"
                           >

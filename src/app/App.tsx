@@ -8,6 +8,7 @@ import {
   LayoutDashboard,
   Menu,
   X,
+  FileText,
 } from 'lucide-react';
 import { DataTable } from './components/DataTable';
 import { NeedsDataTable } from './components/NeedsDataTable';
@@ -16,6 +17,7 @@ import { IssuanceForm } from './components/IssuanceForm';
 import { NeedForm } from './components/NeedForm';
 import { RejectedForm } from './components/RejectedForm';
 import { RejectDialog } from './components/RejectDialog';
+import { DetailsModal } from './components/DetailsModal';
 import { Dashboard } from './components/Dashboard';
 import { IssuanceRecord, NeedRecord, RejectedRecord } from './types';
 import {
@@ -42,6 +44,12 @@ export default function App() {
   const [isNeedFormOpen, setIsNeedFormOpen] = useState(false);
   const [isRejectedFormOpen, setIsRejectedFormOpen] = useState(false);
   const [isRejectDialogOpen, setIsRejectDialogOpen] = useState(false);
+  const [isDetailsModalOpen, setIsDetailsModalOpen] = useState(false);
+  const [viewingRecord, setViewingRecord] = useState<{
+    data: any;
+    title: string;
+    columns: { key: string; label: string }[];
+  } | null>(null);
 
   // Edit states
   const [editingIssuance, setEditingIssuance] = useState<
@@ -235,6 +243,25 @@ export default function App() {
     }
   };
 
+  const handleRowClick = (item: any, type: TabType) => {
+    let title = '';
+    let columns: { key: string; label: string }[] = [];
+
+    if (type === 'needs') {
+      title = 'Деталі запиту на потребу';
+      columns = needsColumns;
+    } else if (type === 'issuance') {
+      title = 'Деталі видачі обладнання';
+      columns = issuanceColumns;
+    } else if (type === 'rejected') {
+      title = 'Деталі відхиленого запиту';
+      columns = rejectedColumns;
+    }
+
+    setViewingRecord({ data: item, title, columns });
+    setIsDetailsModalOpen(true);
+  };
+
   const issuanceColumns = [
     { key: 'nomenclature', label: 'Номенклатура', width: '150px' },
     { key: 'type', label: 'Тип', width: '100px' },
@@ -316,8 +343,8 @@ export default function App() {
           <button
             onClick={() => handleTabChange('dashboard')}
             className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'dashboard'
-                ? 'bg-blue-50 text-blue-700'
-                : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+              ? 'bg-blue-50 text-blue-700'
+              : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
               }`}
           >
             <div className="flex items-center gap-3">
@@ -329,8 +356,8 @@ export default function App() {
           <button
             onClick={() => handleTabChange('needs')}
             className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'needs'
-                ? 'bg-blue-50 text-blue-700'
-                : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+              ? 'bg-blue-50 text-blue-700'
+              : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
               }`}
           >
             <div className="flex items-center gap-3">
@@ -339,8 +366,8 @@ export default function App() {
             </div>
             <span
               className={`text-xs px-2 py-0.5 rounded-full ${activeTab === 'needs'
-                  ? 'bg-blue-200 text-blue-800'
-                  : 'bg-gray-100 text-gray-600'
+                ? 'bg-blue-200 text-blue-800'
+                : 'bg-gray-100 text-gray-600'
                 }`}
             >
               {needsData.length}
@@ -350,8 +377,8 @@ export default function App() {
           <button
             onClick={() => handleTabChange('issuance')}
             className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'issuance'
-                ? 'bg-blue-50 text-blue-700'
-                : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+              ? 'bg-blue-50 text-blue-700'
+              : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
               }`}
           >
             <div className="flex items-center gap-3">
@@ -360,8 +387,8 @@ export default function App() {
             </div>
             <span
               className={`text-xs px-2 py-0.5 rounded-full ${activeTab === 'issuance'
-                  ? 'bg-blue-200 text-blue-800'
-                  : 'bg-gray-100 text-gray-600'
+                ? 'bg-blue-200 text-blue-800'
+                : 'bg-gray-100 text-gray-600'
                 }`}
             >
               {issuanceData.length}
@@ -371,8 +398,8 @@ export default function App() {
           <button
             onClick={() => handleTabChange('rejected')}
             className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'rejected'
-                ? 'bg-blue-50 text-blue-700'
-                : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+              ? 'bg-blue-50 text-blue-700'
+              : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
               }`}
           >
             <div className="flex items-center gap-3">
@@ -381,8 +408,8 @@ export default function App() {
             </div>
             <span
               className={`text-xs px-2 py-0.5 rounded-full ${activeTab === 'rejected'
-                  ? 'bg-blue-200 text-blue-800'
-                  : 'bg-gray-100 text-gray-600'
+                ? 'bg-blue-200 text-blue-800'
+                : 'bg-gray-100 text-gray-600'
                 }`}
             >
               {rejectedData.length}
@@ -432,6 +459,7 @@ export default function App() {
                   onDelete={handleDeleteNeed}
                   onApprove={handleApproveNeed}
                   onReject={handleRejectNeed}
+                  onRowClick={(item) => handleRowClick(item, 'needs')}
                   emptyMessage="Немає запитів на потреби"
                 />
               </div>
@@ -448,16 +476,6 @@ export default function App() {
                       Облік виданого обладнання та черга на видачу
                     </p>
                   </div>
-                  <button
-                    onClick={() => {
-                      setEditingIssuance(undefined);
-                      setIsIssuanceFormOpen(true);
-                    }}
-                    className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors w-full sm:w-auto"
-                  >
-                    <Plus size={20} />
-                    Додати запис
-                  </button>
                 </div>
                 <IssuanceDataTable
                   data={issuanceData}
@@ -465,6 +483,7 @@ export default function App() {
                   onEdit={handleEditIssuance}
                   onDelete={handleDeleteIssuance}
                   onIssue={handleIssueItem}
+                  onRowClick={(item) => handleRowClick(item, 'issuance')}
                   emptyMessage="Немає записів про видачу"
                 />
               </div>
@@ -481,22 +500,13 @@ export default function App() {
                       Історія відхилених потреб
                     </p>
                   </div>
-                  <button
-                    onClick={() => {
-                      setEditingRejected(undefined);
-                      setIsRejectedFormOpen(true);
-                    }}
-                    className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors w-full sm:w-auto"
-                  >
-                    <Plus size={20} />
-                    Додати запис
-                  </button>
                 </div>
                 <DataTable
                   data={rejectedData}
                   columns={rejectedColumns}
                   onEdit={handleEditRejected}
                   onDelete={handleDeleteRejected}
+                  onRowClick={(item) => handleRowClick(item, 'rejected')}
                   dateField="rejectedDate"
                   emptyMessage="Немає відхилених запитів"
                 />
@@ -545,6 +555,14 @@ export default function App() {
         }}
         onConfirm={handleConfirmReject}
         itemName={rejectingNeed?.nomenclature || ''}
+      />
+
+      <DetailsModal
+        isOpen={isDetailsModalOpen}
+        onClose={() => setIsDetailsModalOpen(false)}
+        title={viewingRecord?.title || ''}
+        data={viewingRecord?.data}
+        columns={viewingRecord?.columns || []}
       />
     </div>
   );

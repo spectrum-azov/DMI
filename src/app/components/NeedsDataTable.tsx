@@ -26,6 +26,7 @@ interface NeedsDataTableProps {
   onDelete?: (id: string) => void;
   onApprove?: (item: NeedRecord) => void;
   onReject?: (item: NeedRecord) => void;
+  onRowClick?: (item: NeedRecord) => void;
   emptyMessage?: string;
 }
 
@@ -45,6 +46,7 @@ export function NeedsDataTable({
   onDelete,
   onApprove,
   onReject,
+  onRowClick,
   emptyMessage = 'Немає даних',
 }: NeedsDataTableProps) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -266,7 +268,8 @@ export function NeedsDataTable({
               paginatedData.map((item) => (
                 <tr
                   key={item.id}
-                  className="hover:bg-gray-50 transition-colors"
+                  onClick={() => onRowClick && onRowClick(item)}
+                  className={`transition-colors ${onRowClick ? 'cursor-pointer hover:bg-blue-50/50' : 'hover:bg-gray-50'}`}
                 >
                   {activeColumns.map((column) => (
                     <td
@@ -282,7 +285,10 @@ export function NeedsDataTable({
                     <div className="flex gap-1">
                       {onApprove && (
                         <button
-                          onClick={() => onApprove(item)}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onApprove(item);
+                          }}
                           className="p-1.5 text-green-600 hover:bg-green-50 rounded transition-colors"
                           title="Погодити"
                         >
@@ -291,7 +297,10 @@ export function NeedsDataTable({
                       )}
                       {onReject && (
                         <button
-                          onClick={() => onReject(item)}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onReject(item);
+                          }}
                           className="p-1.5 text-red-600 hover:bg-red-50 rounded transition-colors"
                           title="Відхилити"
                         >
@@ -300,7 +309,10 @@ export function NeedsDataTable({
                       )}
                       {onEdit && (
                         <button
-                          onClick={() => onEdit(item)}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onEdit(item);
+                          }}
                           className="p-1.5 text-blue-600 hover:bg-blue-50 rounded transition-colors"
                           title="Редагувати"
                         >
@@ -309,7 +321,10 @@ export function NeedsDataTable({
                       )}
                       {onDelete && (
                         <button
-                          onClick={() => onDelete(item.id)}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onDelete(item.id);
+                          }}
                           className="p-1.5 text-gray-500 hover:bg-gray-100 rounded transition-colors"
                           title="Видалити"
                         >
