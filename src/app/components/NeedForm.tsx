@@ -17,16 +17,16 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
     nomenclature: 0,
     type: 0,
     quantity: 1,
-    fullName: '',
-    rank: 0,
-    position: '',
+    fullName: '',      // FRP ПІБ
+    rank: 0,          // FRP Rank
+    position: '',      // FRP Position
     department: 0,
-    mobileNumber: '',
-    isFrtCp: true,
-    frpFullName: '',
-    frpRank: 0,
-    frpPosition: '',
-    frpMobileNumber: '',
+    mobileNumber: '',  // FRP Phone
+    isFrtCp: true,     // true means contact person IS THE SAME as FRP
+    frpFullName: '',   // Contact Person ПІБ (if different)
+    frpRank: 0,        // Contact Person Rank
+    frpPosition: '',   // Contact Person Position
+    frpMobileNumber: '', // Contact Person Phone
     requestDate: formatUkrDate(new Date()),
     location: 0,
     status: 'На погодженні',
@@ -75,7 +75,7 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
         notes: '',
       });
     }
-  }, [editData, isOpen]);
+  }, [editData, isOpen, directories]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -129,9 +129,15 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
               />
             </div>
 
+            <div className="md:col-span-2 border-t border-border pt-4 mt-2">
+              <h3 className="text-sm font-semibold text-foreground mb-4">
+                Матеріально відповідальна особа (МВО)
+              </h3>
+            </div>
+
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Контактна особа *
+                ПІБ МВО *
               </label>
               <input
                 type="text"
@@ -143,7 +149,7 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
             </div>
 
             <SearchableSelect
-              label="Звання"
+              label="Звання МВО"
               required
               options={directories.ranks}
               value={formData.rank}
@@ -152,7 +158,7 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
 
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Посада *
+                Посада МВО *
               </label>
               <input
                 type="text"
@@ -163,17 +169,9 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
               />
             </div>
 
-            <SearchableSelect
-              label="Служба"
-              required
-              options={directories.departments}
-              value={formData.department}
-              onChange={(val) => setFormData({ ...formData, department: val })}
-            />
-
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Моб. номер
+                Моб. номер МВО
               </label>
               <input
                 type="tel"
@@ -183,50 +181,17 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
               />
             </div>
 
-            <div>
-              <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Дата запиту *
-              </label>
-              <input
-                type="date"
-                required
-                value={formatUkrToISO(formData.requestDate || '')}
-                onChange={(e) => setFormData({ ...formData, requestDate: formatISOToUkr(e.target.value) })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
-              />
-            </div>
-
-            <SearchableSelect
-              label="Локація"
-              required
-              options={directories.locations}
-              value={formData.location}
-              onChange={(val) => setFormData({ ...formData, location: val })}
-            />
-
-            <div>
-              <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Статус
-              </label>
-              <input
-                type="text"
-                disabled
-                value={formData.status}
-                className="w-full px-3 py-2 bg-muted border border-input rounded-lg text-muted-foreground cursor-not-allowed"
-              />
-            </div>
-
             <div className="md:col-span-2 border-t border-border pt-4 mt-2">
               <div className="flex items-center gap-2 mb-4">
                 <input
                   type="checkbox"
-                  id="isFrtCp"
-                  checked={formData.isFrtCp}
-                  onChange={(e) => setFormData({ ...formData, isFrtCp: e.target.checked })}
+                  id="isNotFrtCp"
+                  checked={!formData.isFrtCp}
+                  onChange={(e) => setFormData({ ...formData, isFrtCp: !e.target.checked })}
                   className="w-4 h-4 text-blue-600 rounded border-input focus:ring-blue-500"
                 />
-                <label htmlFor="isFrtCp" className="text-sm font-medium text-foreground">
-                  Матеріально відповідальна особа спропадає з контактною особою
+                <label htmlFor="isNotFrtCp" className="text-sm font-medium text-foreground">
+                  Контактна особа відрізняється від МВО
                 </label>
               </div>
 
@@ -234,13 +199,13 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 animate-in fade-in slide-in-from-top-2 duration-300">
                   <div className="md:col-span-2">
                     <h3 className="text-sm font-semibold text-foreground mb-2">
-                      Дані матеріально відповідальної особи
+                      Дані контактної особи
                     </h3>
                   </div>
 
                   <div>
                     <label className="block text-sm font-medium text-muted-foreground mb-1">
-                      ПІБ МВО *
+                      ПІБ контактної особи *
                     </label>
                     <input
                       type="text"
@@ -252,7 +217,7 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
                   </div>
 
                   <SearchableSelect
-                    label="Звання МВО"
+                    label="Звання контактної особи"
                     required={!formData.isFrtCp}
                     options={directories.ranks}
                     value={formData.frpRank || 0}
@@ -261,7 +226,7 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
 
                   <div>
                     <label className="block text-sm font-medium text-muted-foreground mb-1">
-                      Посада МВО *
+                      Посада контактної особи *
                     </label>
                     <input
                       type="text"
@@ -274,7 +239,7 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
 
                   <div>
                     <label className="block text-sm font-medium text-muted-foreground mb-1">
-                      Моб. номер МВО *
+                      Моб. номер контактної особи *
                     </label>
                     <input
                       type="tel"
@@ -286,6 +251,51 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
                   </div>
                 </div>
               )}
+            </div>
+
+            <div className="md:col-span-2 border-t border-border pt-4 mt-2">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <SearchableSelect
+                  label="Служба"
+                  required
+                  options={directories.departments}
+                  value={formData.department}
+                  onChange={(val) => setFormData({ ...formData, department: val })}
+                />
+
+                <SearchableSelect
+                  label="Локація"
+                  required
+                  options={directories.locations}
+                  value={formData.location}
+                  onChange={(val) => setFormData({ ...formData, location: val })}
+                />
+
+                <div>
+                  <label className="block text-sm font-medium text-muted-foreground mb-1">
+                    Дата запиту *
+                  </label>
+                  <input
+                    type="date"
+                    required
+                    value={formatUkrToISO(formData.requestDate || '')}
+                    onChange={(e) => setFormData({ ...formData, requestDate: formatISOToUkr(e.target.value) })}
+                    className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-muted-foreground mb-1">
+                    Статус
+                  </label>
+                  <input
+                    type="text"
+                    disabled
+                    value={formData.status}
+                    className="w-full px-3 py-2 bg-muted border border-input rounded-lg text-muted-foreground cursor-not-allowed"
+                  />
+                </div>
+              </div>
             </div>
 
             <div className="md:col-span-2">

@@ -40,7 +40,7 @@ const DEFAULT_VISIBLE: string[] = [
   'id',
   'nomenclature',
   'quantity',
-  'contactPerson',
+  'fullName',
   'rank',
   'department',
   'mobileNumber',
@@ -113,7 +113,7 @@ export function NeedsDataTable({
   const activeColumns = columns.filter((col) => visibleColumns.has(col.key));
 
   const filtered = data.filter((item) =>
-    isWithinPeriod(item.requestDate, dateFilter) && (locationFilter === 0 || item.location === locationFilter)
+    isWithinPeriod(item.requestDate || '', dateFilter) && (locationFilter === 0 || item.location === locationFilter)
   );
 
   const searchFiltered = filtered.filter((item) => {

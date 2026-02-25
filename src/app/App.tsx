@@ -109,13 +109,13 @@ export default function App() {
 
   // Filtered counts for sidebar
   const filteredNeedsCount = needsData.filter((n) =>
-    isWithinPeriod(n.requestDate, dateFilter) && (locationFilter === 0 || n.location === locationFilter),
+    isWithinPeriod(n.requestDate || '', dateFilter) && (locationFilter === 0 || n.location === locationFilter),
   ).length;
   const filteredIssuanceCount = issuanceData.filter((i) =>
-    isWithinPeriod(i.issueDate, dateFilter) && (locationFilter === 0 || i.location === locationFilter),
+    isWithinPeriod(i.issueDate || '', dateFilter) && (locationFilter === 0 || i.location === locationFilter),
   ).length;
   const filteredRejectedCount = rejectedData.filter((r) =>
-    isWithinPeriod(r.rejectedDate, dateFilter) && (locationFilter === 0 || r.location === locationFilter),
+    isWithinPeriod(r.rejectedDate || '', dateFilter) && (locationFilter === 0 || r.location === locationFilter),
   ).length;
 
   // Form states
@@ -426,7 +426,7 @@ export default function App() {
         nomenclature: moveTarget.nomenclature,
         type: moveTarget.type,
         quantity: moveTarget.quantity,
-        contactPerson: moveTarget.fullName,
+        fullName: moveTarget.fullName,
         rank: moveTarget.rank,
         position: moveTarget.position,
         department: moveTarget.department,
@@ -582,7 +582,7 @@ export default function App() {
     { key: 'nomenclature', label: 'Номенклатура', width: '150px' },
     { key: 'type', label: 'Тип', width: '100px' },
     { key: 'quantity', label: 'К-сть', width: '80px' },
-    { key: 'fullName', label: 'Контактна особа', width: '150px' },
+    { key: 'fullName', label: 'МВО', width: '150px' },
     { key: 'rank', label: 'Звання', width: '100px' },
     { key: 'position', label: 'Посада', width: '120px' },
     { key: 'department', label: 'Служба', width: '120px' },
