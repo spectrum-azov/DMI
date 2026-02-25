@@ -33,7 +33,7 @@ import { RejectDialog } from './components/RejectDialog';
 import { DetailsModal } from './components/DetailsModal';
 import { MoveDialog } from './components/MoveDialog';
 import { Dashboard } from './components/Dashboard';
-import { IssuanceRecord, NeedRecord, RejectedRecord } from './types';
+import { IssuanceRecord, NeedRecord, RejectedRecord, Directories } from './types';
 import {
   mockIssuanceData,
   mockNeedsData,
@@ -83,6 +83,15 @@ export default function App() {
   const [departments, setDepartments] = useState<DirectoryItem[]>(mockDepartments);
   const [ranks, setRanks] = useState<DirectoryItem[]>(mockRanks);
   const [locations, setLocations] = useState<DirectoryItem[]>(mockLocations);
+
+  const directories: Directories = {
+    nomenclatures,
+    types,
+    departments,
+    locations,
+    positions,
+    ranks
+  };
 
   const [isDirectoriesOpen, setIsDirectoriesOpen] = useState(false);
   const [isDirectoryFormOpen, setIsDirectoryFormOpen] = useState(false);
@@ -407,7 +416,7 @@ export default function App() {
         serialNumber: '',
         fullName: moveTarget.fullName,
         department: moveTarget.department,
-        request: moveTarget.nomenclature,
+        request: directories.nomenclatures.find(d => d.id === moveTarget.nomenclature)?.name || String(moveTarget.nomenclature),
         requestNumber: '',
         issueDate: new Date().toLocaleDateString('uk-UA'),
         location: moveTarget.location,
@@ -748,10 +757,11 @@ export default function App() {
 
             {activeTab === 'dashboard' && (
               <Dashboard
-                issuanceData={issuanceData}
                 needsData={needsData}
+                issuanceData={issuanceData}
                 rejectedData={rejectedData}
                 dateFilter={dateFilter}
+                directories={directories}
               />
             )}
 
@@ -764,12 +774,9 @@ export default function App() {
                 onApprove={handleApproveNeed}
                 onReject={handleRejectNeed}
                 onRowClick={(item) => handleRowClick(item, 'needs')}
-                onAdd={() => {
-                  setEditingNeed(undefined);
-                  setIsNeedFormOpen(true);
-                }}
-                emptyMessage="Немає запитів на потреби"
                 dateFilter={dateFilter}
+                onAdd={() => setIsNeedFormOpen(true)}
+                directories={directories}
               />
             )}
 
@@ -784,8 +791,8 @@ export default function App() {
                   onStatusChange={handleUpdateIssuanceStatus}
                   onReturnToIssuance={handleMoveCancelledToIssuance}
                   onRowClick={(item) => handleRowClick(item, 'issuance')}
-                  emptyMessage="Немає записів про видачу"
                   dateFilter={dateFilter}
+                  directories={directories}
                 />
               </div>
             )}
@@ -803,14 +810,7 @@ export default function App() {
                   dateField="rejectedDate"
                   emptyMessage="Немає відхилених запитів"
                   dateFilter={dateFilter}
-                  defaultVisibleColumns={[
-                    'nomenclature',
-                    'quantity',
-                    'fullName',
-                    'department',
-                    'rejectedDate',
-                    'notes',
-                  ]}
+                  directories={directories}
                   storageKey="rejected_visible_columns"
                 />
               </div>
@@ -856,6 +856,7 @@ export default function App() {
         }}
         onSubmit={handleAddIssuance}
         editData={editingIssuance}
+        directories={directories}
       />
 
       <NeedForm
@@ -866,6 +867,7 @@ export default function App() {
         }}
         onSubmit={handleAddNeed}
         editData={editingNeed}
+        directories={directories}
       />
 
       <RejectedForm
@@ -876,6 +878,7 @@ export default function App() {
         }}
         onSubmit={handleAddRejected}
         editData={editingRejected}
+        directories={directories}
       />
 
       <RejectDialog
@@ -885,7 +888,7 @@ export default function App() {
           setRejectingNeed(undefined);
         }}
         onConfirm={handleConfirmReject}
-        itemName={rejectingNeed?.nomenclature || ''}
+        itemName={directories.nomenclatures.find(d => d.id === rejectingNeed?.nomenclature)?.name || ''}
       />
 
       <DetailsModal
@@ -894,6 +897,7 @@ export default function App() {
         title={viewingRecord?.title || ''}
         data={viewingRecord?.data}
         columns={viewingRecord?.columns || []}
+        directories={directories}
       />
 
       <MoveDialog
@@ -902,7 +906,7 @@ export default function App() {
         onConfirm={handleConfirmMove}
         title={moveType === 'needs' ? 'Повернення в потреби' : moveType === 'issuance' ? 'Переніс у видачу' : 'Повернення до видачі'}
         description={moveType === 'needs' ? 'Запис буде повернено до списку потреб' : moveType === 'issuance' ? 'Запис буде перенесено в чергу на видачу' : 'Запис буде повернено до черги на видачу'}
-        itemName={moveType === 'return-issuance' ? (moveIssuanceTarget?.nomenclature || '') : (moveTarget?.nomenclature || '')}
+        itemName={moveType === 'return-issuance' ? (directories.nomenclatures.find(d => d.id === moveIssuanceTarget?.nomenclature)?.name || '') : (directories.nomenclatures.find(d => d.id === moveTarget?.nomenclature)?.name || '')}
         initialNotes={moveType === 'return-issuance' ? moveIssuanceTarget?.notes : moveTarget?.notes}
       />
 

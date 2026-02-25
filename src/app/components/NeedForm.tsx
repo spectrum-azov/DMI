@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
-import { NeedRecord } from '../types';
+import { NeedRecord, Directories } from '../types';
 import { formatUkrDate, formatISOToUkr, formatUkrToISO } from '../utils/dateUtils';
 
 interface NeedFormProps {
@@ -8,19 +8,20 @@ interface NeedFormProps {
   onClose: () => void;
   onSubmit: (data: Omit<NeedRecord, 'id'>) => void;
   editData?: NeedRecord;
+  directories: Directories;
 }
 
-export function NeedForm({ isOpen, onClose, onSubmit, editData }: NeedFormProps) {
-  const [formData, setFormData] = useState({
-    nomenclature: '',
-    type: '',
+export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: NeedFormProps) {
+  const [formData, setFormData] = useState<Omit<NeedRecord, 'id'>>({
+    nomenclature: 0,
+    type: 0,
     quantity: 1,
     contactPerson: '',
     position: '',
-    department: '',
+    department: 0,
     mobileNumber: '',
     requestDate: formatUkrDate(new Date()),
-    location: '',
+    location: 0,
     status: 'На погодженні',
     notes: '',
   });
@@ -42,15 +43,15 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData }: NeedFormProps)
       });
     } else {
       setFormData({
-        nomenclature: '',
-        type: '',
+        nomenclature: directories.nomenclatures[0]?.id || 0,
+        type: directories.types[0]?.id || 0,
         quantity: 1,
         contactPerson: '',
         position: '',
-        department: '',
+        department: directories.departments[0]?.id || 0,
         mobileNumber: '',
         requestDate: formatUkrDate(new Date()),
-        location: '',
+        location: directories.locations[0]?.id || 0,
         status: 'На погодженні',
         notes: '',
       });
@@ -83,26 +84,32 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData }: NeedFormProps)
               <label className="block text-sm font-medium text-muted-foreground mb-1">
                 Номенклатура *
               </label>
-              <input
-                type="text"
+              <select
                 required
                 value={formData.nomenclature}
-                onChange={(e) => setFormData({ ...formData, nomenclature: e.target.value })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
+                onChange={(e) => setFormData({ ...formData, nomenclature: parseInt(e.target.value) })}
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                {directories.nomenclatures.map(item => (
+                  <option key={item.id} value={item.id}>{item.name}</option>
+                ))}
+              </select>
             </div>
 
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">
                 Тип *
               </label>
-              <input
-                type="text"
+              <select
                 required
                 value={formData.type}
-                onChange={(e) => setFormData({ ...formData, type: e.target.value })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
+                onChange={(e) => setFormData({ ...formData, type: parseInt(e.target.value) })}
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                {directories.types.map(item => (
+                  <option key={item.id} value={item.id}>{item.name}</option>
+                ))}
+              </select>
             </div>
 
             <div>
@@ -149,13 +156,16 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData }: NeedFormProps)
               <label className="block text-sm font-medium text-muted-foreground mb-1">
                 Служба *
               </label>
-              <input
-                type="text"
+              <select
                 required
                 value={formData.department}
-                onChange={(e) => setFormData({ ...formData, department: e.target.value })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
+                onChange={(e) => setFormData({ ...formData, department: parseInt(e.target.value) })}
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                {directories.departments.map(item => (
+                  <option key={item.id} value={item.id}>{item.name}</option>
+                ))}
+              </select>
             </div>
 
             <div>
@@ -187,13 +197,16 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData }: NeedFormProps)
               <label className="block text-sm font-medium text-muted-foreground mb-1">
                 Локація *
               </label>
-              <input
-                type="text"
+              <select
                 required
                 value={formData.location}
-                onChange={(e) => setFormData({ ...formData, location: e.target.value })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
+                onChange={(e) => setFormData({ ...formData, location: parseInt(e.target.value) })}
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                {directories.locations.map(item => (
+                  <option key={item.id} value={item.id}>{item.name}</option>
+                ))}
+              </select>
             </div>
 
             <div>

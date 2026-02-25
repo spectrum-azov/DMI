@@ -1,28 +1,29 @@
 import { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
-import { IssuanceRecord } from '../types';
+import { IssuanceRecord, Directories } from '../types';
 
 interface IssuanceFormProps {
   isOpen: boolean;
   onClose: () => void;
   onSubmit: (data: Omit<IssuanceRecord, 'id'>) => void;
   editData?: IssuanceRecord;
+  directories: Directories;
 }
 
-export function IssuanceForm({ isOpen, onClose, onSubmit, editData }: IssuanceFormProps) {
-  const [formData, setFormData] = useState({
-    nomenclature: '',
-    type: '',
+export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories }: IssuanceFormProps) {
+  const [formData, setFormData] = useState<Omit<IssuanceRecord, 'id'>>({
+    nomenclature: 0,
+    type: 0,
     quantity: 1,
     model: '',
     serialNumber: '',
     fullName: '',
-    department: '',
+    department: 0,
     request: '',
     requestNumber: '',
     issueDate: '',
-    location: '',
-    status: '',
+    location: 0,
+    status: 'На видачу',
     notes: '',
   });
 
@@ -45,18 +46,18 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData }: IssuanceFo
       });
     } else {
       setFormData({
-        nomenclature: '',
-        type: '',
+        nomenclature: directories.nomenclatures[0]?.id || 0,
+        type: directories.types[0]?.id || 0,
         quantity: 1,
         model: '',
         serialNumber: '',
         fullName: '',
-        department: '',
-        request: '',
+        department: directories.departments[0]?.id || 0,
+        request: 'Так',
         requestNumber: '',
-        issueDate: '',
-        location: '',
-        status: '',
+        issueDate: new Date().toLocaleDateString('uk-UA'),
+        location: directories.locations[0]?.id || 0,
+        status: 'На видачу',
         notes: '',
       });
     }
@@ -88,26 +89,32 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData }: IssuanceFo
               <label className="block text-sm font-medium text-muted-foreground mb-1">
                 Номенклатура *
               </label>
-              <input
-                type="text"
+              <select
                 required
                 value={formData.nomenclature}
-                onChange={(e) => setFormData({ ...formData, nomenclature: e.target.value })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
+                onChange={(e) => setFormData({ ...formData, nomenclature: parseInt(e.target.value) })}
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                {directories.nomenclatures.map(item => (
+                  <option key={item.id} value={item.id}>{item.name}</option>
+                ))}
+              </select>
             </div>
 
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">
                 Тип *
               </label>
-              <input
-                type="text"
+              <select
                 required
                 value={formData.type}
-                onChange={(e) => setFormData({ ...formData, type: e.target.value })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
+                onChange={(e) => setFormData({ ...formData, type: parseInt(e.target.value) })}
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                {directories.types.map(item => (
+                  <option key={item.id} value={item.id}>{item.name}</option>
+                ))}
+              </select>
             </div>
 
             <div>
@@ -164,13 +171,16 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData }: IssuanceFo
               <label className="block text-sm font-medium text-muted-foreground mb-1">
                 Служба *
               </label>
-              <input
-                type="text"
+              <select
                 required
                 value={formData.department}
-                onChange={(e) => setFormData({ ...formData, department: e.target.value })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
+                onChange={(e) => setFormData({ ...formData, department: parseInt(e.target.value) })}
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                {directories.departments.map(item => (
+                  <option key={item.id} value={item.id}>{item.name}</option>
+                ))}
+              </select>
             </div>
 
             <div>
@@ -215,13 +225,16 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData }: IssuanceFo
               <label className="block text-sm font-medium text-muted-foreground mb-1">
                 Локація *
               </label>
-              <input
-                type="text"
+              <select
                 required
                 value={formData.location}
-                onChange={(e) => setFormData({ ...formData, location: e.target.value })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
+                onChange={(e) => setFormData({ ...formData, location: parseInt(e.target.value) })}
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                {directories.locations.map(item => (
+                  <option key={item.id} value={item.id}>{item.name}</option>
+                ))}
+              </select>
             </div>
 
             <div>

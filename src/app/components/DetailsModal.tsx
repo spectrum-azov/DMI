@@ -13,6 +13,7 @@ import {
     LayoutDashboard,
 } from 'lucide-react';
 import { useEffect, useRef } from 'react';
+import { Directories } from '../types';
 
 interface DetailsModalProps {
     isOpen: boolean;
@@ -20,6 +21,7 @@ interface DetailsModalProps {
     title: string;
     data: any;
     columns: { key: string; label: string }[];
+    directories?: Directories;
 }
 
 export function DetailsModal({
@@ -28,6 +30,7 @@ export function DetailsModal({
     title,
     data,
     columns,
+    directories,
 }: DetailsModalProps) {
     const modalRef = useRef<HTMLDivElement>(null);
 
@@ -102,7 +105,7 @@ export function DetailsModal({
                     {/* Main Title Row */}
                     <div className="mb-6">
                         <h2 className="text-2xl font-black text-foreground leading-tight mb-2 tracking-tight">
-                            {data.nomenclature || 'Без назви'}
+                            {directories?.nomenclatures.find(d => d.id === data.nomenclature)?.name || data.nomenclature || 'Без назви'}
                         </h2>
                         <div className="flex items-start gap-2 bg-muted/50 p-3 rounded-2xl border border-border">
                             <FileText size={16} className="text-muted-foreground mt-0.5 shrink-0" />
@@ -123,7 +126,15 @@ export function DetailsModal({
                                     </span>
                                 </div>
                                 <div className="text-foreground font-bold text-[13px] leading-tight break-words">
-                                    {data[col.key] || <span className="text-muted-foreground/50 font-normal italic">—</span>}
+                                    {(() => {
+                                        const val = data[col.key];
+                                        if (val === undefined || val === null || val === '') return <span className="text-muted-foreground/50 font-normal italic">—</span>;
+                                        if (col.key === 'nomenclature') return directories?.nomenclatures.find(d => d.id === val)?.name || val;
+                                        if (col.key === 'type') return directories?.types.find(d => d.id === val)?.name || val;
+                                        if (col.key === 'department') return directories?.departments.find(d => d.id === val)?.name || val;
+                                        if (col.key === 'location') return directories?.locations.find(d => d.id === val)?.name || val;
+                                        return String(val);
+                                    })()}
                                 </div>
                             </div>
                         ))}

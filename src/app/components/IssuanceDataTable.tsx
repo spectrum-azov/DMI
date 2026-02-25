@@ -8,7 +8,7 @@ import {
     ChevronDown,
 } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
-import { IssuanceRecord } from '../types';
+import { IssuanceRecord, Directories } from '../types';
 import { QuickDateFilter } from './QuickDateFilter';
 import { DateFilter, isWithinPeriod } from '../utils/dateUtils';
 import { TablePagination } from './TablePagination';
@@ -31,6 +31,7 @@ interface IssuanceDataTableProps {
     dateFilter: DateFilter;
     onStatusChange?: (id: number, newStatus: string) => void;
     onReturnToIssuance?: (item: IssuanceRecord) => void;
+    directories?: Directories;
 }
 
 const ISSUANCE_STATUSES = [
@@ -64,6 +65,7 @@ export function IssuanceDataTable({
     dateFilter,
     onStatusChange,
     onReturnToIssuance,
+    directories,
 }: IssuanceDataTableProps) {
     const [subTab, setSubTab] = useState<'pending' | 'issued' | 'cancelled'>('pending');
     const [searchTerm, setSearchTerm] = useState('');
@@ -400,7 +402,15 @@ export function IssuanceDataTable({
                                                     {item.status}
                                                 </span>
                                             ) : (
-                                                ((item as any)[column.key] ?? '—') as string
+                                                (() => {
+                                                    const val = (item as any)[column.key];
+                                                    if (val === undefined || val === null || val === '') return '—';
+                                                    if (column.key === 'nomenclature') return directories?.nomenclatures.find(d => d.id === val)?.name || val;
+                                                    if (column.key === 'type') return directories?.types.find(d => d.id === val)?.name || val;
+                                                    if (column.key === 'department') return directories?.departments.find(d => d.id === val)?.name || val;
+                                                    if (column.key === 'location') return directories?.locations.find(d => d.id === val)?.name || val;
+                                                    return val as string;
+                                                })()
                                             )}
                                         </td>
                                     ))}

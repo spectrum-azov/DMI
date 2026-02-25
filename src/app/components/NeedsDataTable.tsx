@@ -9,7 +9,7 @@ import {
   Plus,
 } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
-import { NeedRecord } from '../types';
+import { NeedRecord, Directories } from '../types';
 import { QuickDateFilter } from './QuickDateFilter';
 import { DateFilter, isWithinPeriod } from '../utils/dateUtils';
 import { TablePagination } from './TablePagination';
@@ -31,6 +31,7 @@ interface NeedsDataTableProps {
   emptyMessage?: string;
   dateFilter: DateFilter;
   onAdd?: () => void;
+  directories?: Directories;
 }
 
 /** Column keys visible by default */
@@ -53,6 +54,7 @@ export function NeedsDataTable({
   emptyMessage = 'Немає даних',
   dateFilter,
   onAdd,
+  directories,
 }: NeedsDataTableProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortColumn, setSortColumn] = useState<string | null>(null);
@@ -300,9 +302,15 @@ export function NeedsDataTable({
                       key={column.key}
                       className="px-4 py-3 text-sm text-foreground whitespace-nowrap"
                     >
-                      {(item as any)[column.key] != null
-                        ? String((item as any)[column.key])
-                        : '—'}
+                      {(() => {
+                        const val = (item as any)[column.key];
+                        if (val === undefined || val === null || val === '') return '—';
+                        if (column.key === 'nomenclature') return directories?.nomenclatures.find(d => d.id === val)?.name || val;
+                        if (column.key === 'type') return directories?.types.find(d => d.id === val)?.name || val;
+                        if (column.key === 'department') return directories?.departments.find(d => d.id === val)?.name || val;
+                        if (column.key === 'location') return directories?.locations.find(d => d.id === val)?.name || val;
+                        return String(val);
+                      })()}
                     </td>
                   ))}
                   <td className="px-4 py-3 text-sm">

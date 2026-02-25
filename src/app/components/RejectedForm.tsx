@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
-import { RejectedRecord } from '../types';
+import { RejectedRecord, Directories } from '../types';
 
 interface RejectedFormProps {
   isOpen: boolean;
   onClose: () => void;
   onSubmit: (data: Omit<RejectedRecord, 'id'>) => void;
   editData?: RejectedRecord;
+  directories: Directories;
 }
 
 export function RejectedForm({
@@ -14,18 +15,20 @@ export function RejectedForm({
   onClose,
   onSubmit,
   editData,
+  directories,
 }: RejectedFormProps) {
-  const [formData, setFormData] = useState({
-    nomenclature: '',
-    type: '',
+  const [formData, setFormData] = useState<Omit<RejectedRecord, 'id'>>({
+    nomenclature: 0,
+    type: 0,
     quantity: 1,
     fullName: '',
     position: '',
-    department: '',
+    department: 0,
     mobileNumber: '',
-    status: '',
+    status: 'Відхилено',
     notes: '',
-    rejectedDate: '',
+    location: 0,
+    rejectedDate: new Date().toLocaleDateString('uk-UA'),
   });
 
   useEffect(() => {
@@ -40,19 +43,21 @@ export function RejectedForm({
         mobileNumber: editData.mobileNumber,
         status: editData.status,
         notes: editData.notes,
+        location: editData.location,
         rejectedDate: editData.rejectedDate || '',
       });
     } else {
       setFormData({
-        nomenclature: '',
-        type: '',
+        nomenclature: directories.nomenclatures[0]?.id || 0,
+        type: directories.types[0]?.id || 0,
         quantity: 1,
         fullName: '',
         position: '',
-        department: '',
+        department: directories.departments[0]?.id || 0,
         mobileNumber: '',
-        status: '',
+        status: 'Відхилено',
         notes: '',
+        location: directories.locations[0]?.id || 0,
         rejectedDate: new Date().toLocaleDateString('uk-UA'),
       });
     }
@@ -87,30 +92,36 @@ export function RejectedForm({
               <label className="block text-sm font-medium text-muted-foreground mb-1">
                 Номенклатура *
               </label>
-              <input
-                type="text"
+              <select
                 required
                 value={formData.nomenclature}
                 onChange={(e) =>
-                  setFormData({ ...formData, nomenclature: e.target.value })
+                  setFormData({ ...formData, nomenclature: parseInt(e.target.value) })
                 }
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                {directories.nomenclatures.map(item => (
+                  <option key={item.id} value={item.id}>{item.name}</option>
+                ))}
+              </select>
             </div>
 
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">
                 Тип *
               </label>
-              <input
-                type="text"
+              <select
                 required
                 value={formData.type}
                 onChange={(e) =>
-                  setFormData({ ...formData, type: e.target.value })
+                  setFormData({ ...formData, type: parseInt(e.target.value) })
                 }
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                {directories.types.map(item => (
+                  <option key={item.id} value={item.id}>{item.name}</option>
+                ))}
+              </select>
             </div>
 
             <div>
@@ -166,15 +177,18 @@ export function RejectedForm({
               <label className="block text-sm font-medium text-muted-foreground mb-1">
                 Служба *
               </label>
-              <input
-                type="text"
+              <select
                 required
                 value={formData.department}
                 onChange={(e) =>
-                  setFormData({ ...formData, department: e.target.value })
+                  setFormData({ ...formData, department: parseInt(e.target.value) })
                 }
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                {directories.departments.map(item => (
+                  <option key={item.id} value={item.id}>{item.name}</option>
+                ))}
+              </select>
             </div>
 
             <div>
@@ -205,6 +219,24 @@ export function RejectedForm({
               >
                 <option value="">Оберіть статус</option>
                 <option value="Відхилено" className="bg-card">Відхилено</option>
+              </select>
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-muted-foreground mb-1">
+                Локація *
+              </label>
+              <select
+                required
+                value={formData.location}
+                onChange={(e) =>
+                  setFormData({ ...formData, location: parseInt(e.target.value) })
+                }
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                {directories.locations.map(item => (
+                  <option key={item.id} value={item.id}>{item.name}</option>
+                ))}
               </select>
             </div>
 

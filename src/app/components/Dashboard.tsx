@@ -1,6 +1,6 @@
 import { BarChart3, Package, CheckCircle, XCircle, Clock } from 'lucide-react';
 import { useState } from 'react';
-import { IssuanceRecord, NeedRecord, RejectedRecord } from '../types';
+import { IssuanceRecord, NeedRecord, RejectedRecord, Directories } from '../types';
 import { QuickDateFilter } from './QuickDateFilter';
 import { DateFilter, isWithinPeriod } from '../utils/dateUtils';
 
@@ -9,6 +9,7 @@ interface DashboardProps {
   needsData: NeedRecord[];
   rejectedData: RejectedRecord[];
   dateFilter: DateFilter;
+  directories?: Directories;
 }
 
 export function Dashboard({
@@ -16,6 +17,7 @@ export function Dashboard({
   needsData,
   rejectedData,
   dateFilter,
+  directories,
 }: DashboardProps) {
 
   const filteredIssuance = issuanceData.filter((i) =>
@@ -294,9 +296,11 @@ export function Dashboard({
                   className="flex items-start justify-between pb-3 border-b border-border last:border-0 last:pb-0"
                 >
                   <div className="flex-1 pr-2">
-                    <p className="font-medium text-sm text-foreground">{need.nomenclature}</p>
+                    <p className="font-medium text-sm text-foreground">
+                      {directories?.nomenclatures.find(d => d.id === need.nomenclature)?.name || need.nomenclature}
+                    </p>
                     <p className="text-xs text-muted-foreground mt-0.5">
-                      {need.contactPerson} • {need.department}
+                      {need.contactPerson} • {directories?.departments.find(d => d.id === need.department)?.name || need.department}
                     </p>
                   </div>
                   <span
