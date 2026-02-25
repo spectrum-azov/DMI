@@ -1,9 +1,5 @@
 export const statusChart = `flowchart TD
     %% Стилізація вузлів
-    classDef needs fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
-    classDef issuance fill:#fff3e0,stroke:#e65100,stroke-width:2px;
-    classDef done fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px;
-    classDef error fill:#ffebee,stroke:#b71c1c,stroke-width:2px;
 
     %% Початок
     Start([Початок]) --> N1

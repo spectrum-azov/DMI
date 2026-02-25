@@ -43,9 +43,24 @@ export function StatusGraph() {
                 // Clear previous SVG to force complete re-render
                 setSvg('');
 
+                // Define theme-aware classDefs
+                const themeClassDefs = isDark ? `
+                  classDef needs fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#eff6ff;
+                  classDef issuance fill:#7c2d12,stroke:#f97316,stroke-width:2px,color:#fff7ed;
+                  classDef done fill:#064e3b,stroke:#10b981,stroke-width:2px,color:#ecfdf5;
+                  classDef error fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fef2f2;
+                ` : `
+                  classDef needs fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#01579b;
+                  classDef issuance fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#e65100;
+                  classDef done fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px,color:#1b5e20;
+                  classDef error fill:#ffebee,stroke:#b71c1c,stroke-width:2px,color:#b71c1c;
+                `;
+
+                const chartWithTheme = statusChart.replace('%% Стилізація вузлів', themeClassDefs);
+
                 // Use a unique ID based on theme to avoid caching issues
                 const id = `status-chart-${currentTheme}`;
-                const { svg: generatedSvg } = await mermaid.render(id, statusChart);
+                const { svg: generatedSvg } = await mermaid.render(id, chartWithTheme);
                 setSvg(generatedSvg);
             } catch (error) {
                 console.error('Mermaid render error:', error);
