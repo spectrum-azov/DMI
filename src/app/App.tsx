@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 import {
   FileSpreadsheet,
   Package,
@@ -6,66 +6,55 @@ import {
   XCircle,
   Plus,
   LayoutDashboard,
-} from "lucide-react";
-import { DataTable } from "./components/DataTable";
-import { NeedsDataTable } from "./components/NeedsDataTable";
-import { IssuanceForm } from "./components/IssuanceForm";
-import { NeedForm } from "./components/NeedForm";
-import { RejectedForm } from "./components/RejectedForm";
-import { RejectDialog } from "./components/RejectDialog";
-import { Dashboard } from "./components/Dashboard";
-import {
-  IssuanceRecord,
-  NeedRecord,
-  RejectedRecord,
-} from "./types";
+  Menu,
+  X,
+} from 'lucide-react';
+import { DataTable } from './components/DataTable';
+import { NeedsDataTable } from './components/NeedsDataTable';
+import { IssuanceDataTable } from './components/IssuanceDataTable';
+import { IssuanceForm } from './components/IssuanceForm';
+import { NeedForm } from './components/NeedForm';
+import { RejectedForm } from './components/RejectedForm';
+import { RejectDialog } from './components/RejectDialog';
+import { Dashboard } from './components/Dashboard';
+import { IssuanceRecord, NeedRecord, RejectedRecord } from './types';
 import {
   mockIssuanceData,
   mockNeedsData,
   mockRejectedData,
-} from "./data/mockData";
+} from './data/mockData';
 
-type TabType = "dashboard" | "issuance" | "needs" | "rejected";
+type TabType = 'dashboard' | 'issuance' | 'needs' | 'rejected';
 
 export default function App() {
-  const [activeTab, setActiveTab] =
-    useState<TabType>("dashboard");
+  const [activeTab, setActiveTab] = useState<TabType>('dashboard');
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   // State for each data type
   const [issuanceData, setIssuanceData] =
     useState<IssuanceRecord[]>(mockIssuanceData);
-  const [needsData, setNeedsData] =
-    useState<NeedRecord[]>(mockNeedsData);
+  const [needsData, setNeedsData] = useState<NeedRecord[]>(mockNeedsData);
   const [rejectedData, setRejectedData] =
     useState<RejectedRecord[]>(mockRejectedData);
 
   // Form states
-  const [isIssuanceFormOpen, setIsIssuanceFormOpen] =
-    useState(false);
+  const [isIssuanceFormOpen, setIsIssuanceFormOpen] = useState(false);
   const [isNeedFormOpen, setIsNeedFormOpen] = useState(false);
-  const [isRejectedFormOpen, setIsRejectedFormOpen] =
-    useState(false);
-  const [isRejectDialogOpen, setIsRejectDialogOpen] =
-    useState(false);
+  const [isRejectedFormOpen, setIsRejectedFormOpen] = useState(false);
+  const [isRejectDialogOpen, setIsRejectDialogOpen] = useState(false);
 
   // Edit states
   const [editingIssuance, setEditingIssuance] = useState<
     IssuanceRecord | undefined
   >();
-  const [editingNeed, setEditingNeed] = useState<
-    NeedRecord | undefined
-  >();
+  const [editingNeed, setEditingNeed] = useState<NeedRecord | undefined>();
   const [editingRejected, setEditingRejected] = useState<
     RejectedRecord | undefined
   >();
-  const [rejectingNeed, setRejectingNeed] = useState<
-    NeedRecord | undefined
-  >();
+  const [rejectingNeed, setRejectingNeed] = useState<NeedRecord | undefined>();
 
   // Handlers for Issuance
-  const handleAddIssuance = (
-    data: Omit<IssuanceRecord, "id">,
-  ) => {
+  const handleAddIssuance = (data: Omit<IssuanceRecord, 'id'>) => {
     if (editingIssuance) {
       setIssuanceData(
         issuanceData.map((item) =>
@@ -90,28 +79,33 @@ export default function App() {
   };
 
   const handleDeleteIssuance = (id: string) => {
-    if (confirm("Ви впевнені, що хочете видалити цей запис?")) {
+    if (confirm('Ви впевнені, що хочете видалити цей запис?')) {
+      setIssuanceData(issuanceData.filter((item) => item.id !== id));
+    }
+  };
+
+  const handleIssueItem = (id: string) => {
+    if (confirm('Змінити статус на "Видано"?')) {
       setIssuanceData(
-        issuanceData.filter((item) => item.id !== id),
+        issuanceData.map((item) =>
+          item.id === id ? { ...item, status: 'Видано' } : item,
+        ),
       );
     }
   };
 
   // Handlers for Needs
-  const handleAddNeed = (data: Omit<NeedRecord, "id">) => {
+  const handleAddNeed = (data: Omit<NeedRecord, 'id'>) => {
     if (editingNeed) {
       const updatedRecord = { ...data, id: editingNeed.id };
 
       // Якщо статус змінився на "Погоджено" - переносимо у видачу
-      if (data.status === "Погоджено") {
+      if (data.status === 'Погоджено') {
         moveNeedToIssuance(updatedRecord);
       }
       // Якщо статус змінився на "Відхилено" - переносимо у відхилені
-      else if (data.status === "Відхилено") {
-        moveNeedToRejected(
-          updatedRecord,
-          data.notes || "Не вказано",
-        );
+      else if (data.status === 'Відхилено') {
+        moveNeedToRejected(updatedRecord, data.notes || 'Не вказано');
       }
       // Інакше просто оновлюємо
       else {
@@ -137,7 +131,7 @@ export default function App() {
   };
 
   const handleDeleteNeed = (id: string) => {
-    if (confirm("Ви впевнені, що хочете видалити цей запит?")) {
+    if (confirm('Ви впевнені, що хочете видалити цей запит?')) {
       setNeedsData(needsData.filter((item) => item.id !== id));
     }
   };
@@ -165,45 +159,32 @@ export default function App() {
     }
   };
 
-  // Функція переміщення з потреб у видачу
+  // Функція переміщення з потреб у видачу (тепер зі статусом "На видачу")
   const moveNeedToIssuance = (need: NeedRecord) => {
-    // Створюємо новий запис видачі на основі потреби
     const newIssuance: IssuanceRecord = {
       id: Date.now().toString(),
       nomenclature: need.nomenclature,
       type: need.type,
       quantity: need.quantity,
-      model: "",
-      serialNumber: "",
-      fullName: need.contactPerson,
+      model: '',
+      serialNumber: '',
+      fullName: need.contactPerson, // Using contact person
       department: need.department,
-      request: "Перенесено з потреби",
+      request: 'Перенесено з потреби',
       requestNumber: `REQ-${Date.now()}`,
-      issueDate: new Date().toLocaleDateString("uk-UA"),
+      issueDate: new Date().toLocaleDateString('uk-UA'),
       location: need.location,
-      status: "Видано",
-      notes:
-        need.notes || `Погоджено запит від ${need.requestDate}`,
+      status: 'На видачу',
+      notes: need.notes || `Погоджено запит від ${need.requestDate}`,
     };
 
-    // Додаємо у видачу
     setIssuanceData([...issuanceData, newIssuance]);
-
-    // Видаляємо з потреб
-    setNeedsData(
-      needsData.filter((item) => item.id !== need.id),
-    );
-
-    // Переключаємося на вкладку видачі
-    setActiveTab("issuance");
+    setNeedsData(needsData.filter((item) => item.id !== need.id));
+    setActiveTab('issuance');
   };
 
   // Функція переміщення з потреб у відхилені
-  const moveNeedToRejected = (
-    need: NeedRecord,
-    reason: string,
-  ) => {
-    // Створюємо новий запис відхилення на основі потреби
+  const moveNeedToRejected = (need: NeedRecord, reason: string) => {
     const newRejected: RejectedRecord = {
       id: Date.now().toString(),
       nomenclature: need.nomenclature,
@@ -213,26 +194,18 @@ export default function App() {
       position: need.position,
       department: need.department,
       mobileNumber: need.mobileNumber,
-      status: "Відхилено",
+      status: 'Відхилено',
       notes: reason,
+      rejectedDate: new Date().toLocaleDateString('uk-UA'),
     };
 
-    // Додаємо у відхилені
     setRejectedData([...rejectedData, newRejected]);
-
-    // Видаляємо з потреб
-    setNeedsData(
-      needsData.filter((item) => item.id !== need.id),
-    );
-
-    // Переключаємося на вкладку відхилених
-    setActiveTab("rejected");
+    setNeedsData(needsData.filter((item) => item.id !== need.id));
+    setActiveTab('rejected');
   };
 
   // Handlers for Rejected
-  const handleAddRejected = (
-    data: Omit<RejectedRecord, "id">,
-  ) => {
+  const handleAddRejected = (data: Omit<RejectedRecord, 'id'>) => {
     if (editingRejected) {
       setRejectedData(
         rejectedData.map((item) =>
@@ -257,166 +230,172 @@ export default function App() {
   };
 
   const handleDeleteRejected = (id: string) => {
-    if (confirm("Ви впевнені, що хочете видалити цей запис?")) {
-      setRejectedData(
-        rejectedData.filter((item) => item.id !== id),
-      );
+    if (confirm('Ви впевнені, що хочете видалити цей запис?')) {
+      setRejectedData(rejectedData.filter((item) => item.id !== id));
     }
   };
 
   const issuanceColumns = [
-    {
-      key: "nomenclature",
-      label: "Номенклатура",
-      width: "150px",
-    },
-    { key: "type", label: "Тип", width: "100px" },
-    { key: "quantity", label: "К-сть", width: "80px" },
-    { key: "model", label: "Модель", width: "120px" },
-    {
-      key: "serialNumber",
-      label: "Серійний номер",
-      width: "120px",
-    },
-    { key: "fullName", label: "ПІБ", width: "180px" },
-    { key: "department", label: "Служба", width: "120px" },
-    {
-      key: "requestNumber",
-      label: "Номер заявки",
-      width: "120px",
-    },
-    { key: "issueDate", label: "Дата видачі", width: "100px" },
-    { key: "location", label: "Локація", width: "100px" },
-    { key: "status", label: "Статус", width: "100px" },
+    { key: 'nomenclature', label: 'Номенклатура', width: '150px' },
+    { key: 'type', label: 'Тип', width: '100px' },
+    { key: 'quantity', label: 'К-сть', width: '80px' },
+    { key: 'model', label: 'Модель', width: '120px' },
+    { key: 'serialNumber', label: 'Серійний номер', width: '120px' },
+    { key: 'fullName', label: 'ПІБ', width: '180px' },
+    { key: 'department', label: 'Служба', width: '120px' },
+    { key: 'requestNumber', label: 'Номер заявки', width: '120px' },
+    { key: 'issueDate', label: 'Дата запису', width: '100px' },
+    { key: 'location', label: 'Локація', width: '100px' },
+    { key: 'status', label: 'Статус', width: '100px' },
   ];
 
   const needsColumns = [
-    {
-      key: "nomenclature",
-      label: "Номенклатура",
-      width: "150px",
-    },
-    { key: "type", label: "Тип", width: "100px" },
-    { key: "quantity", label: "К-сть", width: "80px" },
-    {
-      key: "contactPerson",
-      label: "Контактна особа",
-      width: "150px",
-    },
-    { key: "position", label: "Посада", width: "120px" },
-    { key: "department", label: "Служба", width: "120px" },
-    {
-      key: "mobileNumber",
-      label: "Моб. номер",
-      width: "120px",
-    },
-    {
-      key: "requestDate",
-      label: "Дата запиту",
-      width: "100px",
-    },
-    { key: "location", label: "Локація", width: "100px" },
-    { key: "status", label: "Статус", width: "130px" },
+    { key: 'nomenclature', label: 'Номенклатура', width: '150px' },
+    { key: 'type', label: 'Тип', width: '100px' },
+    { key: 'quantity', label: 'К-сть', width: '80px' },
+    { key: 'contactPerson', label: 'Контактна особа', width: '150px' },
+    { key: 'position', label: 'Посада', width: '120px' },
+    { key: 'department', label: 'Служба', width: '120px' },
+    { key: 'mobileNumber', label: 'Моб. номер', width: '120px' },
+    { key: 'requestDate', label: 'Дата запиту', width: '100px' },
+    { key: 'location', label: 'Локація', width: '100px' },
+    { key: 'status', label: 'Статус', width: '130px' },
   ];
 
   const rejectedColumns = [
-    {
-      key: "nomenclature",
-      label: "Номенклатура",
-      width: "150px",
-    },
-    { key: "type", label: "Тип", width: "100px" },
-    { key: "quantity", label: "К-сть", width: "80px" },
-    { key: "fullName", label: "ПІБ", width: "180px" },
-    { key: "position", label: "Посада", width: "150px" },
-    { key: "department", label: "Служба", width: "120px" },
-    {
-      key: "mobileNumber",
-      label: "Моб. номер",
-      width: "120px",
-    },
-    { key: "status", label: "Статус", width: "100px" },
-    { key: "notes", label: "Примітки", width: "200px" },
+    { key: 'nomenclature', label: 'Номенклатура', width: '150px' },
+    { key: 'type', label: 'Тип', width: '100px' },
+    { key: 'quantity', label: 'К-сть', width: '80px' },
+    { key: 'fullName', label: 'ПІБ', width: '180px' },
+    { key: 'position', label: 'Посада', width: '150px' },
+    { key: 'department', label: 'Служба', width: '120px' },
+    { key: 'mobileNumber', label: 'Моб. номер', width: '120px' },
+    { key: 'status', label: 'Статус', width: '100px' },
+    { key: 'rejectedDate', label: 'Дата відхилення', width: '120px' },
+    { key: 'notes', label: 'Примітки', width: '200px' },
   ];
 
+  const handleTabChange = (tab: TabType) => {
+    setActiveTab(tab);
+    setIsMobileMenuOpen(false); // Close menu on mobile after selection
+  };
+
   return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="bg-white border-b border-gray-200 sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 py-4">
-          <div className="flex items-center gap-3">
-            <FileSpreadsheet
-              className="text-blue-600"
-              size={32}
-            />
-            <div>
-              <h1 className="text-2xl font-bold text-gray-900">
-                Система обліку обладнання
-              </h1>
-              <p className="text-sm text-gray-600">
-                Управління видачами, потребами та відхиленими
-                запитами
-              </p>
-            </div>
+    <div className="min-h-screen bg-gray-50 flex flex-col md:flex-row">
+      {/* Mobile top bar */}
+      <div className="md:hidden bg-white border-b border-gray-200 p-4 flex items-center justify-between sticky top-0 z-30">
+        <div className="flex items-center gap-2">
+          <FileSpreadsheet className="text-blue-600" size={24} />
+          <h1 className="text-lg font-bold text-gray-900 leading-tight">
+            Система обліку <br /> обладнання
+          </h1>
+        </div>
+        <button
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          className="p-2 bg-gray-100 rounded-lg text-gray-700 hover:bg-gray-200"
+        >
+          {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
+      </div>
+
+      {/* Sidebar navigation */}
+      <aside
+        className={`${isMobileMenuOpen ? 'block' : 'hidden'
+          } md:block w-full md:w-64 bg-white border-r border-gray-200 flex-shrink-0 md:sticky md:top-0 md:h-screen md:overflow-y-auto z-20`}
+      >
+        <div className="hidden md:flex items-center gap-3 p-6 border-b border-gray-100">
+          <FileSpreadsheet className="text-blue-600 flex-shrink-0" size={32} />
+          <div>
+            <h1 className="text-lg font-bold text-gray-900 leading-tight">
+              Система обліку <br /> обладнання
+            </h1>
           </div>
         </div>
-      </header>
 
-      <div className="max-w-7xl mx-auto px-4 py-6">
-        <div className="bg-white border border-gray-200 rounded-lg shadow-sm mb-6">
-          <div className="border-b border-gray-200">
-            <nav className="flex overflow-x-auto">
-              <button
-                onClick={() => setActiveTab("dashboard")}
-                className={`flex items-center gap-2 px-6 py-4 border-b-2 font-medium whitespace-nowrap transition-colors ${
-                  activeTab === "dashboard"
-                    ? "border-blue-600 text-blue-600"
-                    : "border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300"
+        <nav className="p-4 space-y-2">
+          <button
+            onClick={() => handleTabChange('dashboard')}
+            className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'dashboard'
+                ? 'bg-blue-50 text-blue-700'
+                : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+              }`}
+          >
+            <div className="flex items-center gap-3">
+              <LayoutDashboard size={20} />
+              Dashboard
+            </div>
+          </button>
+
+          <button
+            onClick={() => handleTabChange('needs')}
+            className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'needs'
+                ? 'bg-blue-50 text-blue-700'
+                : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+              }`}
+          >
+            <div className="flex items-center gap-3">
+              <AlertCircle size={20} />
+              Потреба
+            </div>
+            <span
+              className={`text-xs px-2 py-0.5 rounded-full ${activeTab === 'needs'
+                  ? 'bg-blue-200 text-blue-800'
+                  : 'bg-gray-100 text-gray-600'
                 }`}
-              >
-                <LayoutDashboard size={20} />
-                Dashboard
-              </button>
+            >
+              {needsData.length}
+            </span>
+          </button>
 
-              <button
-                onClick={() => setActiveTab("needs")}
-                className={`flex items-center gap-2 px-6 py-4 border-b-2 font-medium whitespace-nowrap transition-colors ${
-                  activeTab === "needs"
-                    ? "border-blue-600 text-blue-600"
-                    : "border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300"
+          <button
+            onClick={() => handleTabChange('issuance')}
+            className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'issuance'
+                ? 'bg-blue-50 text-blue-700'
+                : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+              }`}
+          >
+            <div className="flex items-center gap-3">
+              <Package size={20} />
+              Видача
+            </div>
+            <span
+              className={`text-xs px-2 py-0.5 rounded-full ${activeTab === 'issuance'
+                  ? 'bg-blue-200 text-blue-800'
+                  : 'bg-gray-100 text-gray-600'
                 }`}
-              >
-                <AlertCircle size={20} />
-                Потреба ({needsData.length})
-              </button>
+            >
+              {issuanceData.length}
+            </span>
+          </button>
 
-              <button
-                onClick={() => setActiveTab("issuance")}
-                className={`flex items-center gap-2 px-6 py-4 border-b-2 font-medium whitespace-nowrap transition-colors ${
-                  activeTab === "issuance"
-                    ? "border-blue-600 text-blue-600"
-                    : "border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300"
+          <button
+            onClick={() => handleTabChange('rejected')}
+            className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'rejected'
+                ? 'bg-blue-50 text-blue-700'
+                : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+              }`}
+          >
+            <div className="flex items-center gap-3">
+              <XCircle size={20} />
+              Відхилені
+            </div>
+            <span
+              className={`text-xs px-2 py-0.5 rounded-full ${activeTab === 'rejected'
+                  ? 'bg-blue-200 text-blue-800'
+                  : 'bg-gray-100 text-gray-600'
                 }`}
-              >
-                <Package size={20} />
-                Видача ({issuanceData.length})
-              </button>
+            >
+              {rejectedData.length}
+            </span>
+          </button>
+        </nav>
+      </aside>
 
-              <button
-                onClick={() => setActiveTab("rejected")}
-                className={`flex items-center gap-2 px-6 py-4 border-b-2 font-medium whitespace-nowrap transition-colors ${
-                  activeTab === "rejected"
-                    ? "border-blue-600 text-blue-600"
-                    : "border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300"
-                }`}
-              >
-                <XCircle size={20} />
-                Відхилені ({rejectedData.length})
-              </button>
-            </nav>
-          </div>
-
-          <div className="p-6">
-            {activeTab === "dashboard" && (
+      {/* Main content */}
+      <main className="flex-1 w-full max-w-full overflow-hidden">
+        <div className="p-4 md:p-8 w-full max-w-6xl mx-auto">
+          <div className="bg-white border border-gray-200 rounded-xl shadow-sm p-4 md:p-6 overflow-hidden">
+            {activeTab === 'dashboard' && (
               <Dashboard
                 issuanceData={issuanceData}
                 needsData={needsData}
@@ -424,15 +403,15 @@ export default function App() {
               />
             )}
 
-            {activeTab === "needs" && (
+            {activeTab === 'needs' && (
               <div className="space-y-4">
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                   <div>
                     <h2 className="text-xl font-semibold">
                       Потреби в обладнанні
                     </h2>
-                    <p className="text-sm text-gray-600 mt-1">
-                      Всього запитів: {needsData.length}
+                    <p className="text-sm text-gray-500 mt-1">
+                      Управління запитами на нове обладнання
                     </p>
                   </div>
                   <button
@@ -440,7 +419,7 @@ export default function App() {
                       setEditingNeed(undefined);
                       setIsNeedFormOpen(true);
                     }}
-                    className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                    className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors w-full sm:w-auto"
                   >
                     <Plus size={20} />
                     Додати запит
@@ -458,53 +437,76 @@ export default function App() {
               </div>
             )}
 
-            {activeTab === "issuance" && (
+            {activeTab === 'issuance' && (
               <div className="space-y-4">
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                   <div>
                     <h2 className="text-xl font-semibold">
                       Видача обладнання
                     </h2>
-                    <p className="text-sm text-gray-600 mt-1">
-                      Всього записів: {issuanceData.length}
+                    <p className="text-sm text-gray-500 mt-1">
+                      Облік виданого обладнання та черга на видачу
                     </p>
                   </div>
+                  <button
+                    onClick={() => {
+                      setEditingIssuance(undefined);
+                      setIsIssuanceFormOpen(true);
+                    }}
+                    className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors w-full sm:w-auto"
+                  >
+                    <Plus size={20} />
+                    Додати запис
+                  </button>
                 </div>
-                <DataTable
+                <IssuanceDataTable
                   data={issuanceData}
                   columns={issuanceColumns}
                   onEdit={handleEditIssuance}
                   onDelete={handleDeleteIssuance}
+                  onIssue={handleIssueItem}
                   emptyMessage="Немає записів про видачу"
                 />
               </div>
             )}
 
-            {activeTab === "rejected" && (
+            {activeTab === 'rejected' && (
               <div className="space-y-4">
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                   <div>
                     <h2 className="text-xl font-semibold">
                       Відхилені запити
                     </h2>
-                    <p className="text-sm text-gray-600 mt-1">
-                      Всього відхилених: {rejectedData.length}
+                    <p className="text-sm text-gray-500 mt-1">
+                      Історія відхилених потреб
                     </p>
                   </div>
+                  <button
+                    onClick={() => {
+                      setEditingRejected(undefined);
+                      setIsRejectedFormOpen(true);
+                    }}
+                    className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors w-full sm:w-auto"
+                  >
+                    <Plus size={20} />
+                    Додати запис
+                  </button>
                 </div>
                 <DataTable
                   data={rejectedData}
                   columns={rejectedColumns}
                   onEdit={handleEditRejected}
                   onDelete={handleDeleteRejected}
+                  dateField="rejectedDate"
                   emptyMessage="Немає відхилених запитів"
                 />
               </div>
             )}
           </div>
         </div>
-      </div>
+      </main>
 
+      {/* Forms and Dialogs */}
       <IssuanceForm
         isOpen={isIssuanceFormOpen}
         onClose={() => {
@@ -542,7 +544,7 @@ export default function App() {
           setRejectingNeed(undefined);
         }}
         onConfirm={handleConfirmReject}
-        itemName={rejectingNeed?.nomenclature || ""}
+        itemName={rejectingNeed?.nomenclature || ''}
       />
     </div>
   );

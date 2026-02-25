@@ -10,8 +10,10 @@ export interface IssuanceRecord {
   department: string;
   request: string;
   requestNumber: string;
+  /** Date queued/issued — format dd.MM.yyyy */
   issueDate: string;
   location: string;
+  /** 'На видачу' | 'Видано' */
   status: string;
   notes: string;
   quantity: number;
@@ -26,6 +28,7 @@ export interface NeedRecord {
   position: string;
   department: string;
   mobileNumber: string;
+  /** format dd.MM.yyyy */
   requestDate: string;
   location: string;
   status: string;
@@ -43,6 +46,8 @@ export interface RejectedRecord {
   mobileNumber: string;
   status: string;
   notes: string;
+  /** format dd.MM.yyyy */
+  rejectedDate: string;
 }
 
 export type SheetType = 'issuance' | 'needs' | 'rejected' | 'dashboard';
