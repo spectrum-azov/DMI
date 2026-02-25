@@ -20,6 +20,7 @@ export function RejectedForm({ isOpen, onClose, onSubmit, editData }: RejectedFo
     mobileNumber: '',
     status: '',
     notes: '',
+    rejectedDate: '',
   });
 
   useEffect(() => {
@@ -34,6 +35,7 @@ export function RejectedForm({ isOpen, onClose, onSubmit, editData }: RejectedFo
         mobileNumber: editData.mobileNumber,
         status: editData.status,
         notes: editData.notes,
+        rejectedDate: editData.rejectedDate || '',
       });
     } else {
       setFormData({
@@ -46,6 +48,7 @@ export function RejectedForm({ isOpen, onClose, onSubmit, editData }: RejectedFo
         mobileNumber: '',
         status: '',
         notes: '',
+        rejectedDate: new Date().toLocaleDateString('uk-UA'),
       });
     }
   }, [editData, isOpen]);
@@ -167,49 +170,9 @@ export function RejectedForm({ isOpen, onClose, onSubmit, editData }: RejectedFo
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 Статус *
               </label>
-              <select
-                required
-                value={formData.status}
-                onChange={(e) => setFormData({ ...formData, status: e.target.value })}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              >
-                <option value="">Оберіть статус</option>
-                <option value="Відхилено">Відхилено</option>
-              </select>
-            </div>
 
-            <div className="md:col-span-2">
-              <label className="block text-sm font-medium text-gray-700 mb-1">
-                Примітки *
-              </label>
-              <textarea
-                required
-                value={formData.notes}
-                onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
-                rows={3}
-                placeholder="Причина відхилення..."
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              />
-            </div>
+            </form>
           </div>
-
-          <div className="flex gap-3 justify-end pt-4 border-t border-gray-200">
-            <button
-              type="button"
-              onClick={onClose}
-              className="px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
-            >
-              Скасувати
-            </button>
-            <button
-              type="submit"
-              className="px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors"
-            >
-              {editData ? 'Зберегти зміни' : 'Додати запис'}
-            </button>
-          </div>
-        </form>
       </div>
-    </div>
-  );
+      );
 }
