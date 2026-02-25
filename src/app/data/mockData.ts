@@ -2,7 +2,7 @@ import { IssuanceRecord, NeedRecord, RejectedRecord, DirectoryItem } from '../ty
 
 export const mockIssuanceData: IssuanceRecord[] = [
   {
-    "id": "iss-0",
+    "id": 1,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -18,7 +18,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-1",
+    "id": 2,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -34,7 +34,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-2",
+    "id": 3,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -50,7 +50,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-3",
+    "id": 4,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -66,7 +66,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-4",
+    "id": 5,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -82,7 +82,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-5",
+    "id": 6,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -98,7 +98,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-6",
+    "id": 7,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -114,7 +114,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-7",
+    "id": 8,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -130,7 +130,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-8",
+    "id": 9,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -146,7 +146,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-9",
+    "id": 10,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -162,7 +162,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-10",
+    "id": 11,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -178,7 +178,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-11",
+    "id": 12,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -194,7 +194,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-12",
+    "id": 13,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -210,7 +210,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-13",
+    "id": 14,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -226,7 +226,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-14",
+    "id": 15,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -242,7 +242,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-15",
+    "id": 16,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -258,7 +258,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-16",
+    "id": 17,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -274,7 +274,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-17",
+    "id": 18,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -290,7 +290,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-18",
+    "id": 19,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -306,7 +306,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-19",
+    "id": 20,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -322,7 +322,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-20",
+    "id": 21,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -338,7 +338,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-21",
+    "id": 22,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -354,7 +354,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-22",
+    "id": 23,
     "nomenclature": "Принтер",
     "type": "СЕДО",
     "model": "HP LaserJet 4102dw",
@@ -370,7 +370,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-23",
+    "id": 24,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "HP LaserJet 4102dw",
@@ -386,7 +386,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-24",
+    "id": 25,
     "nomenclature": "IP-Телефон",
     "type": "МОСІ",
     "model": "Cisco 7821",
@@ -402,7 +402,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-25",
+    "id": 26,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -418,7 +418,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-26",
+    "id": 27,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -434,7 +434,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-27",
+    "id": 28,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -450,7 +450,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-28",
+    "id": 29,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -466,7 +466,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-29",
+    "id": 30,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -482,7 +482,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-30",
+    "id": 31,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "HP LaserJet 4102dw",
@@ -498,7 +498,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-31",
+    "id": 32,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -514,7 +514,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-32",
+    "id": 33,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -530,7 +530,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-33",
+    "id": 34,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -546,7 +546,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-34",
+    "id": 35,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -562,7 +562,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-35",
+    "id": 36,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -578,7 +578,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-36",
+    "id": 37,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -594,7 +594,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-37",
+    "id": 38,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -610,7 +610,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-38",
+    "id": 39,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -626,7 +626,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-39",
+    "id": 40,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -642,7 +642,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-40",
+    "id": 41,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -658,7 +658,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-41",
+    "id": 42,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -674,7 +674,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-42",
+    "id": 43,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -690,7 +690,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-43",
+    "id": 44,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -706,7 +706,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-44",
+    "id": 45,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -722,7 +722,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-45",
+    "id": 46,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -738,7 +738,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-46",
+    "id": 47,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -754,7 +754,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-47",
+    "id": 48,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -770,7 +770,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-48",
+    "id": 49,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -786,7 +786,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-49",
+    "id": 50,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B3403CV + мишка",
@@ -802,7 +802,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-50",
+    "id": 51,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B3403CV + мишка",
@@ -818,7 +818,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-51",
+    "id": 52,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -834,7 +834,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-52",
+    "id": 53,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -850,7 +850,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-53",
+    "id": 54,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "HP LaserJet 4102dw",
@@ -866,7 +866,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-54",
+    "id": 55,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -882,7 +882,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-55",
+    "id": 56,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -898,7 +898,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-56",
+    "id": 57,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -914,7 +914,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-57",
+    "id": 58,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -930,7 +930,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-58",
+    "id": 59,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -946,7 +946,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-59",
+    "id": 60,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -962,7 +962,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-60",
+    "id": 61,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -978,7 +978,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-61",
+    "id": 62,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -994,7 +994,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-62",
+    "id": 63,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1010,7 +1010,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-63",
+    "id": 64,
     "nomenclature": "IP-Телефон",
     "type": "МОСІ",
     "model": "Cisco 7821",
@@ -1026,7 +1026,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-64",
+    "id": 65,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1042,7 +1042,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-65",
+    "id": 66,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "HP LaserJet 4102dw",
@@ -1058,7 +1058,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-66",
+    "id": 67,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1074,7 +1074,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-67",
+    "id": 68,
     "nomenclature": "Моноблок",
     "type": "Робочий",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1090,7 +1090,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-68",
+    "id": 69,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1106,7 +1106,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-69",
+    "id": 70,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1122,7 +1122,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-70",
+    "id": 71,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1138,7 +1138,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-71",
+    "id": 72,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1154,7 +1154,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-72",
+    "id": 73,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1170,7 +1170,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-73",
+    "id": 74,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1186,7 +1186,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-74",
+    "id": 75,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1202,7 +1202,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-75",
+    "id": 76,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1218,7 +1218,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-76",
+    "id": 77,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1234,7 +1234,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-77",
+    "id": 78,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1250,7 +1250,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-78",
+    "id": 79,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1266,7 +1266,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-79",
+    "id": 80,
     "nomenclature": "Планшет",
     "type": "СЕДО",
     "model": "Lenovo Tab M10  + Адаптер ІІТ + Алмаз 1К",
@@ -1282,7 +1282,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-80",
+    "id": 81,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "HP LaserJet 4102dw",
@@ -1298,7 +1298,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-81",
+    "id": 82,
     "nomenclature": "Планшет",
     "type": "СЕДО",
     "model": "Lenovo Tab M10  + Адаптер ІІТ + Алмаз 1К",
@@ -1314,7 +1314,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-82",
+    "id": 83,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1330,7 +1330,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-83",
+    "id": 84,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1346,7 +1346,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-84",
+    "id": 85,
     "nomenclature": "Планшет",
     "type": "СЕДО",
     "model": "Lenovo Tab M10  + Адаптер ІІТ + Алмаз 1К",
@@ -1362,7 +1362,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-85",
+    "id": 86,
     "nomenclature": "Планшет",
     "type": "СЕДО",
     "model": "Lenovo Tab M10  + Адаптер ІІТ + Алмаз 1К",
@@ -1378,7 +1378,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-86",
+    "id": 87,
     "nomenclature": "Телефон",
     "type": "Робочий",
     "model": "Iphone 15 Pro Max",
@@ -1394,7 +1394,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-87",
+    "id": 88,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1410,7 +1410,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-88",
+    "id": 89,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1426,7 +1426,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-89",
+    "id": 90,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "HP LaserJet 4102dw",
@@ -1442,7 +1442,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-90",
+    "id": 91,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1458,7 +1458,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-91",
+    "id": 92,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1474,7 +1474,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-92",
+    "id": 93,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1490,7 +1490,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-93",
+    "id": 94,
     "nomenclature": "Порт. Р/С UHF",
     "type": "Робочий",
     "model": "Motorola R7 + комплект (8 шт)",
@@ -1506,7 +1506,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-94",
+    "id": 95,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "2E Imaginary 15",
@@ -1522,7 +1522,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-95",
+    "id": 96,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1538,7 +1538,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-96",
+    "id": 97,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1554,7 +1554,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-97",
+    "id": 98,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "HP LaserJet 4102dw",
@@ -1570,7 +1570,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-98",
+    "id": 99,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1586,7 +1586,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-99",
+    "id": 100,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1602,7 +1602,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-100",
+    "id": 101,
     "nomenclature": "Телефон",
     "type": "Робочий",
     "model": "Iphone 15 Pro Max",
@@ -1618,7 +1618,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-101",
+    "id": 102,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -1634,7 +1634,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-102",
+    "id": 103,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -1650,7 +1650,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-103",
+    "id": 104,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -1666,7 +1666,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-104",
+    "id": 105,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -1682,7 +1682,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-105",
+    "id": 106,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -1698,7 +1698,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-106",
+    "id": 107,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1714,7 +1714,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-107",
+    "id": 108,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -1730,7 +1730,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-108",
+    "id": 109,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -1746,7 +1746,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-109",
+    "id": 110,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1762,7 +1762,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-110",
+    "id": 111,
     "nomenclature": "IP-Телефон",
     "type": "МОСІ",
     "model": "Cisco 7821",
@@ -1778,7 +1778,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-111",
+    "id": 112,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1794,7 +1794,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-112",
+    "id": 113,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "HP LaserJet 4102dw",
@@ -1810,7 +1810,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-113",
+    "id": 114,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1826,7 +1826,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-114",
+    "id": 115,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B3403CV + мишка",
@@ -1842,7 +1842,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-115",
+    "id": 116,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1858,7 +1858,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-116",
+    "id": 117,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1874,7 +1874,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-117",
+    "id": 118,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B1503CVA + мишка",
@@ -1890,7 +1890,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-118",
+    "id": 119,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B3403CV + мишка",
@@ -1906,7 +1906,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-119",
+    "id": 120,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "Epson L6290",
@@ -1922,7 +1922,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-120",
+    "id": 121,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1938,7 +1938,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-121",
+    "id": 122,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1954,7 +1954,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-122",
+    "id": 123,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -1970,7 +1970,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-123",
+    "id": 124,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "HP LaserJet 4102dw",
@@ -1986,7 +1986,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-124",
+    "id": 125,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Lenovo G14 IRU",
@@ -2002,7 +2002,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-125",
+    "id": 126,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "Lenovo G14 IRU",
@@ -2018,7 +2018,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-126",
+    "id": 127,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Lenovo V15 G14 IRU",
@@ -2034,7 +2034,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-127",
+    "id": 128,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -2050,7 +2050,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-128",
+    "id": 129,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2066,7 +2066,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-129",
+    "id": 130,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler 3.0",
@@ -2082,7 +2082,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-130",
+    "id": 131,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -2098,7 +2098,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-131",
+    "id": 132,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -2114,7 +2114,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-132",
+    "id": 133,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Львівський лицар",
@@ -2130,7 +2130,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-133",
+    "id": 134,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2146,7 +2146,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-134",
+    "id": 135,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2162,7 +2162,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-135",
+    "id": 136,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -2178,7 +2178,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-136",
+    "id": 137,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -2194,7 +2194,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-137",
+    "id": 138,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -2210,7 +2210,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-138",
+    "id": 139,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2226,7 +2226,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-139",
+    "id": 140,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "Canon MF463cdw",
@@ -2242,7 +2242,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-140",
+    "id": 141,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler 3.0 ",
@@ -2258,7 +2258,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-141",
+    "id": 142,
     "nomenclature": "Мишка",
     "type": "Робочий",
     "model": "Logitech M185",
@@ -2274,7 +2274,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-142",
+    "id": 143,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -2290,7 +2290,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-143",
+    "id": 144,
     "nomenclature": "Ламінатор",
     "type": "Робочий",
     "model": "Ламінатор HP Pro Laminator 600 A3",
@@ -2306,7 +2306,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-144",
+    "id": 145,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Львівський лицар",
@@ -2322,7 +2322,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-145",
+    "id": 146,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "MSI PRO MP273A 3PB4",
@@ -2338,7 +2338,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-146",
+    "id": 147,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2354,7 +2354,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-147",
+    "id": 148,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2370,7 +2370,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-148",
+    "id": 149,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2386,7 +2386,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-149",
+    "id": 150,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2402,7 +2402,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-150",
+    "id": 151,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2418,7 +2418,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-151",
+    "id": 152,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -2434,7 +2434,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-152",
+    "id": 153,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -2450,7 +2450,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-153",
+    "id": 154,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B3403CV + мишка",
@@ -2466,7 +2466,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-154",
+    "id": 155,
     "nomenclature": "HDMI кабель",
     "type": "Робочий",
     "model": "Ugreen 1m",
@@ -2482,7 +2482,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-155",
+    "id": 156,
     "nomenclature": "Комутатор",
     "type": "Робочий",
     "model": "TP-Link 8 ports",
@@ -2498,7 +2498,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-156",
+    "id": 157,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2514,7 +2514,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-157",
+    "id": 158,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -2530,7 +2530,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-158",
+    "id": 159,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2546,7 +2546,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-159",
+    "id": 160,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2562,7 +2562,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-160",
+    "id": 161,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -2578,7 +2578,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-161",
+    "id": 162,
     "nomenclature": "Кабель",
     "type": "Робочий",
     "model": "Кабель VGA - VGA",
@@ -2594,7 +2594,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-162",
+    "id": 163,
     "nomenclature": "Кабель",
     "type": "Робочий",
     "model": "Кабель Живлення до ПК",
@@ -2610,7 +2610,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-163",
+    "id": 164,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2626,7 +2626,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-164",
+    "id": 165,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -2642,7 +2642,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-165",
+    "id": 166,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -2658,7 +2658,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-166",
+    "id": 167,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -2674,7 +2674,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-167",
+    "id": 168,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -2690,7 +2690,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-168",
+    "id": 169,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "DELL",
@@ -2706,7 +2706,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-169",
+    "id": 170,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "DELL",
@@ -2722,7 +2722,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-170",
+    "id": 171,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "MSI PRO MP273A 3PB4",
@@ -2738,7 +2738,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-171",
+    "id": 172,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "DELL",
@@ -2754,7 +2754,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-172",
+    "id": 173,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "MSI PRO MP273A 3PB5",
@@ -2770,7 +2770,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-173",
+    "id": 174,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "DELL",
@@ -2786,7 +2786,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-174",
+    "id": 175,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "MSI PRO MP273A 3PB6",
@@ -2802,7 +2802,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-175",
+    "id": 176,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "DELL",
@@ -2818,7 +2818,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-176",
+    "id": 177,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "MSI PRO MP273A 3PB7",
@@ -2834,7 +2834,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-177",
+    "id": 178,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "MSI PRO MP273A 3PB8",
@@ -2850,7 +2850,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-178",
+    "id": 179,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "MSI PRO MP273A 3PB9",
@@ -2866,7 +2866,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-179",
+    "id": 180,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "MSI PRO MP273A 3PB10",
@@ -2882,7 +2882,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-180",
+    "id": 181,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "DELL",
@@ -2898,7 +2898,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-181",
+    "id": 182,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "DELL",
@@ -2914,7 +2914,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-182",
+    "id": 183,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "DELL",
@@ -2930,7 +2930,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-183",
+    "id": 184,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "DELL",
@@ -2946,7 +2946,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-184",
+    "id": 185,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -2962,7 +2962,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-185",
+    "id": 186,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -2978,7 +2978,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-186",
+    "id": 187,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -2994,7 +2994,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-187",
+    "id": 188,
     "nomenclature": "Мишка",
     "type": "Робочий",
     "model": "Logitech M185",
@@ -3010,7 +3010,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-188",
+    "id": 189,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -3026,7 +3026,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-189",
+    "id": 190,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -3042,7 +3042,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-190",
+    "id": 191,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -3058,7 +3058,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-191",
+    "id": 192,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -3074,7 +3074,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-192",
+    "id": 193,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -3090,7 +3090,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-193",
+    "id": 194,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3106,7 +3106,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-194",
+    "id": 195,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3122,7 +3122,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-195",
+    "id": 196,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3138,7 +3138,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-196",
+    "id": 197,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3154,7 +3154,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-197",
+    "id": 198,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3170,7 +3170,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-198",
+    "id": 199,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3186,7 +3186,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-199",
+    "id": 200,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3202,7 +3202,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-200",
+    "id": 201,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3218,7 +3218,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-201",
+    "id": 202,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3234,7 +3234,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-202",
+    "id": 203,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3250,7 +3250,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-203",
+    "id": 204,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3266,7 +3266,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-204",
+    "id": 205,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3282,7 +3282,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-205",
+    "id": 206,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3298,7 +3298,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-206",
+    "id": 207,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -3314,7 +3314,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-207",
+    "id": 208,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -3330,7 +3330,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-208",
+    "id": 209,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3346,7 +3346,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-209",
+    "id": 210,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3362,7 +3362,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-210",
+    "id": 211,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3378,7 +3378,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-211",
+    "id": 212,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3394,7 +3394,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-212",
+    "id": 213,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "Dell 27`",
@@ -3410,7 +3410,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-213",
+    "id": 214,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3426,7 +3426,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-214",
+    "id": 215,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3442,7 +3442,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-215",
+    "id": 216,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3458,7 +3458,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-216",
+    "id": 217,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3474,7 +3474,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-217",
+    "id": 218,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3490,7 +3490,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-218",
+    "id": 219,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3506,7 +3506,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-219",
+    "id": 220,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3522,7 +3522,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-220",
+    "id": 221,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3538,7 +3538,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-221",
+    "id": 222,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3554,7 +3554,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-222",
+    "id": 223,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3570,7 +3570,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-223",
+    "id": 224,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3586,7 +3586,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-224",
+    "id": 225,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3602,7 +3602,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-225",
+    "id": 226,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3618,7 +3618,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-226",
+    "id": 227,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -3634,7 +3634,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-227",
+    "id": 228,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -3650,7 +3650,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-228",
+    "id": 229,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Dream Machine Rg5050",
@@ -3666,7 +3666,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-229",
+    "id": 230,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3682,7 +3682,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-230",
+    "id": 231,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3698,7 +3698,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-231",
+    "id": 232,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3714,7 +3714,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-232",
+    "id": 233,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3730,7 +3730,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-233",
+    "id": 234,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3746,7 +3746,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-234",
+    "id": 235,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -3762,7 +3762,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-235",
+    "id": 236,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3778,7 +3778,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-236",
+    "id": 237,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3794,7 +3794,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-237",
+    "id": 238,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3810,7 +3810,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-238",
+    "id": 239,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3826,7 +3826,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-239",
+    "id": 240,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3842,7 +3842,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-240",
+    "id": 241,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -3858,7 +3858,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-241",
+    "id": 242,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -3874,7 +3874,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-242",
+    "id": 243,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -3890,7 +3890,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-243",
+    "id": 244,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -3906,7 +3906,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-244",
+    "id": 245,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -3922,7 +3922,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-245",
+    "id": 246,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -3938,7 +3938,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-246",
+    "id": 247,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -3954,7 +3954,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-247",
+    "id": 248,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -3970,7 +3970,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-248",
+    "id": 249,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -3986,7 +3986,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-249",
+    "id": 250,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -4002,7 +4002,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-250",
+    "id": 251,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Dream Machine Rg5050",
@@ -4018,7 +4018,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-251",
+    "id": 252,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -4034,7 +4034,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-252",
+    "id": 253,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -4050,7 +4050,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-253",
+    "id": 254,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -4066,7 +4066,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-254",
+    "id": 255,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -4082,7 +4082,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-255",
+    "id": 256,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Dream Machine Rg5050",
@@ -4098,7 +4098,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-256",
+    "id": 257,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Dream Machine Rg5050",
@@ -4114,7 +4114,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-257",
+    "id": 258,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B3404CV + мишка",
@@ -4130,7 +4130,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-258",
+    "id": 259,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "Asus Expertbook B3404CV + мишка",
@@ -4146,7 +4146,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-259",
+    "id": 260,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "model": "Lenovo ?",
@@ -4162,7 +4162,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-260",
+    "id": 261,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -4178,7 +4178,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-261",
+    "id": 262,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -4194,7 +4194,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-262",
+    "id": 263,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -4210,7 +4210,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-263",
+    "id": 264,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -4226,7 +4226,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-264",
+    "id": 265,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "PRO MP273A Монітор IPS27 FHD",
@@ -4242,7 +4242,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-265",
+    "id": 266,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "PRO MP273A Монітор IPS27 FHD",
@@ -4258,7 +4258,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-266",
+    "id": 267,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4274,7 +4274,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-267",
+    "id": 268,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4290,7 +4290,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-268",
+    "id": 269,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4306,7 +4306,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-269",
+    "id": 270,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4322,7 +4322,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-270",
+    "id": 271,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4338,7 +4338,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-271",
+    "id": 272,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4354,7 +4354,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-272",
+    "id": 273,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4370,7 +4370,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-273",
+    "id": 274,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4386,7 +4386,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-274",
+    "id": 275,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4402,7 +4402,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-275",
+    "id": 276,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4418,7 +4418,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-276",
+    "id": 277,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4434,7 +4434,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-277",
+    "id": 278,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4450,7 +4450,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-278",
+    "id": 279,
     "nomenclature": "Авто р/ст VHF",
     "type": "Робочий",
     "model": "Motorola DM4600e",
@@ -4466,7 +4466,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-279",
+    "id": 280,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -4482,7 +4482,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-280",
+    "id": 281,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -4498,7 +4498,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-281",
+    "id": 282,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -4514,7 +4514,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-282",
+    "id": 283,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -4530,7 +4530,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-283",
+    "id": 284,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -4546,7 +4546,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-284",
+    "id": 285,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -4562,7 +4562,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-285",
+    "id": 286,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -4578,7 +4578,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-286",
+    "id": 287,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -4594,7 +4594,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-287",
+    "id": 288,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -4610,7 +4610,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-288",
+    "id": 289,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -4626,7 +4626,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-289",
+    "id": 290,
     "nomenclature": "Проектор",
     "type": "Робочий",
     "model": "SMART Board SBX885 + Mitsubishi Проектор",
@@ -4642,7 +4642,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-290",
+    "id": 291,
     "nomenclature": "IP-Телефон",
     "type": "МОСІ",
     "model": "Cisco 7821",
@@ -4658,7 +4658,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-291",
+    "id": 292,
     "nomenclature": "Планшет",
     "type": "СЕДО",
     "model": "Планшет + Алмаз BT",
@@ -4674,7 +4674,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-292",
+    "id": 293,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4690,7 +4690,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-293",
+    "id": 294,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4706,7 +4706,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-294",
+    "id": 295,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4722,7 +4722,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-295",
+    "id": 296,
     "nomenclature": "Порт р/ст VHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -4738,7 +4738,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-296",
+    "id": 297,
     "nomenclature": "Генератор",
     "type": "Робочий",
     "model": "KS 3100i S",
@@ -4754,7 +4754,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-297",
+    "id": 298,
     "nomenclature": "Генератор",
     "type": "Робочий",
     "model": "KS 3100i S",
@@ -4770,7 +4770,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-298",
+    "id": 299,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "Dell 27 S2725QC",
@@ -4786,7 +4786,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-299",
+    "id": 300,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "Dell 27 S2725QC",
@@ -4802,7 +4802,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-300",
+    "id": 301,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "MSI PRO MP273A 3PB4",
@@ -4818,7 +4818,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-301",
+    "id": 302,
     "nomenclature": "Авто р/ст VHF",
     "type": "Робочий",
     "model": "Motorola DM4600",
@@ -4834,7 +4834,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-302",
+    "id": 303,
     "nomenclature": "Авто р/ст VHF",
     "type": "Робочий",
     "model": "Motorola DM4600e",
@@ -4850,7 +4850,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-303",
+    "id": 304,
     "nomenclature": "Авто р/ст VHF",
     "type": "Робочий",
     "model": "Motorola DM4600e",
@@ -4866,7 +4866,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-304",
+    "id": 305,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -4882,7 +4882,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-305",
+    "id": 306,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -4898,7 +4898,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-306",
+    "id": 307,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -4914,7 +4914,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-307",
+    "id": 308,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -4930,7 +4930,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-308",
+    "id": 309,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "Artline Bussiness M61 + клава та мишка",
@@ -4946,7 +4946,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-309",
+    "id": 310,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "model": "Blackview Active 10 Pro",
@@ -4962,7 +4962,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-310",
+    "id": 311,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "model": "Blackview Active 10 Pro",
@@ -4978,7 +4978,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-311",
+    "id": 312,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "model": "Blackview Active 10 Pro",
@@ -4994,7 +4994,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-312",
+    "id": 313,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "model": "Blackview Active 10 Pro",
@@ -5010,7 +5010,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-313",
+    "id": 314,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "model": "Blackview Active 10 Pro",
@@ -5026,7 +5026,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-314",
+    "id": 315,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "model": "Blackview Active 10 Pro",
@@ -5042,7 +5042,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-315",
+    "id": 316,
     "nomenclature": "Авто р/ст UHF",
     "type": "Робочий",
     "model": "Motorola DM4601e",
@@ -5058,7 +5058,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-316",
+    "id": 317,
     "nomenclature": "Принтер",
     "type": "",
     "model": "Принтер HP LaserJet Pro 3003dn з катриджем ",
@@ -5074,7 +5074,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-317",
+    "id": 318,
     "nomenclature": "Авто р/ст UHF",
     "type": "Робочий",
     "model": "Motorola DM4601e",
@@ -5090,7 +5090,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-318",
+    "id": 319,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -5106,7 +5106,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-319",
+    "id": 320,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -5122,7 +5122,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-320",
+    "id": 321,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -5138,7 +5138,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-321",
+    "id": 322,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -5154,7 +5154,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-322",
+    "id": 323,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -5170,7 +5170,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-323",
+    "id": 324,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -5186,7 +5186,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-324",
+    "id": 325,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -5202,7 +5202,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-325",
+    "id": 326,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -5218,7 +5218,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-326",
+    "id": 327,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -5234,7 +5234,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-327",
+    "id": 328,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -5250,7 +5250,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-328",
+    "id": 329,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "LHGG LTE6  kit",
@@ -5266,7 +5266,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-329",
+    "id": 330,
     "nomenclature": "Wifi міст",
     "type": "Робочий",
     "model": "LTU Pro",
@@ -5282,7 +5282,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-330",
+    "id": 331,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "Canon MF463cdw",
@@ -5298,7 +5298,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-331",
+    "id": 332,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -5314,7 +5314,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-332",
+    "id": 333,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -5330,7 +5330,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-333",
+    "id": 334,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -5346,7 +5346,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-334",
+    "id": 335,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -5362,7 +5362,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-335",
+    "id": 336,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -5378,7 +5378,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-336",
+    "id": 337,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -5394,7 +5394,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-337",
+    "id": 338,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -5410,7 +5410,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-338",
+    "id": 339,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -5426,7 +5426,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-339",
+    "id": 340,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -5442,7 +5442,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-340",
+    "id": 341,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -5458,7 +5458,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-341",
+    "id": 342,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -5474,7 +5474,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-342",
+    "id": 343,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -5490,7 +5490,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-343",
+    "id": 344,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -5506,7 +5506,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-344",
+    "id": 345,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "model": "Blackview Active 10 Pro",
@@ -5522,7 +5522,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-345",
+    "id": 346,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -5538,7 +5538,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-346",
+    "id": 347,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -5554,7 +5554,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-347",
+    "id": 348,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -5570,7 +5570,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-348",
+    "id": 349,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "LHGG LTE6  kit",
@@ -5586,7 +5586,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-349",
+    "id": 350,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "LHGG LTE6  kit",
@@ -5602,7 +5602,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-350",
+    "id": 351,
     "nomenclature": "Зарядна станція",
     "type": "Робочий",
     "model": "EcoFlow DELTA 2 Max",
@@ -5618,7 +5618,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-351",
+    "id": 352,
     "nomenclature": "Зарядна станція",
     "type": "Робочий",
     "model": "EcoFlow DELTA 2 Max",
@@ -5634,7 +5634,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-352",
+    "id": 353,
     "nomenclature": "Starlink",
     "type": "Робочий",
     "model": "Starlink mini kit zicta",
@@ -5650,7 +5650,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-353",
+    "id": 354,
     "nomenclature": "Starlink",
     "type": "Робочий",
     "model": "Starlink mini kit zicta",
@@ -5666,7 +5666,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-354",
+    "id": 355,
     "nomenclature": "Генератор",
     "type": "Робочий",
     "model": "KS 3100i S",
@@ -5682,7 +5682,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-355",
+    "id": 356,
     "nomenclature": "Генератор",
     "type": "Робочий",
     "model": "KS 3100i S",
@@ -5698,7 +5698,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-356",
+    "id": 357,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "LHGG LTE6  kit",
@@ -5714,7 +5714,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-357",
+    "id": 358,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "LHGG LTE6  kit",
@@ -5730,7 +5730,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-358",
+    "id": 359,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -5746,7 +5746,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-359",
+    "id": 360,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -5762,7 +5762,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-360",
+    "id": 361,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -5778,7 +5778,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-361",
+    "id": 362,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -5794,7 +5794,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-362",
+    "id": 363,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -5810,7 +5810,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-363",
+    "id": 364,
     "nomenclature": "LTE модем",
     "type": "Робочий",
     "model": "SXT LTE6 kit",
@@ -5826,7 +5826,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-364",
+    "id": 365,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "DELL 27''",
@@ -5842,7 +5842,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-365",
+    "id": 366,
     "nomenclature": "Телевізор",
     "type": "Робочий",
     "model": "Philips 55''",
@@ -5858,7 +5858,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-366",
+    "id": 367,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -5874,7 +5874,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-367",
+    "id": 368,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -5890,7 +5890,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-368",
+    "id": 369,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -5906,7 +5906,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-369",
+    "id": 370,
     "nomenclature": "Флеш-носій",
     "type": "СЕДО",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -5922,7 +5922,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-370",
+    "id": 371,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -5938,7 +5938,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-371",
+    "id": 372,
     "nomenclature": "Порт р/ст UHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -5954,7 +5954,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-372",
+    "id": 373,
     "nomenclature": "Порт р/ст UHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -5970,7 +5970,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-373",
+    "id": 374,
     "nomenclature": "Порт р/ст UHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -5986,7 +5986,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-374",
+    "id": 375,
     "nomenclature": "Порт р/ст UHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -6002,7 +6002,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-375",
+    "id": 376,
     "nomenclature": "Порт р/ст UHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -6018,7 +6018,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-376",
+    "id": 377,
     "nomenclature": "Порт р/ст UHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -6034,7 +6034,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-377",
+    "id": 378,
     "nomenclature": "Порт р/ст UHF",
     "type": "Робочий",
     "model": "Motorola R7 NKP",
@@ -6050,7 +6050,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-378",
+    "id": 379,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -6066,7 +6066,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-379",
+    "id": 380,
     "nomenclature": "Starlink",
     "type": "Робочий",
     "model": "Starlink mini",
@@ -6082,7 +6082,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-380",
+    "id": 381,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "MSI PRO MP273A 3PB4",
@@ -6098,7 +6098,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-381",
+    "id": 382,
     "nomenclature": "Авто р/ст VHF",
     "type": "Робочий",
     "model": "Motorola DM4600e",
@@ -6114,7 +6114,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-382",
+    "id": 383,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "Kingston DataTraveler SE9 G3 64 GB",
@@ -6130,7 +6130,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-383",
+    "id": 384,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -6146,7 +6146,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-384",
+    "id": 385,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "model": "Lenovo Tab M110",
@@ -6162,7 +6162,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-385",
+    "id": 386,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "Epson EcoTank L6290",
@@ -6178,7 +6178,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-386",
+    "id": 387,
     "nomenclature": "Starlink",
     "type": "Робочий",
     "model": "Starlink gen2",
@@ -6194,7 +6194,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-387",
+    "id": 388,
     "nomenclature": "Starlink",
     "type": "Робочий",
     "model": "Starlink gen2",
@@ -6210,7 +6210,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-388",
+    "id": 389,
     "nomenclature": "Starlink",
     "type": "Робочий",
     "model": "Starlink мінцифра",
@@ -6226,7 +6226,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-389",
+    "id": 390,
     "nomenclature": "Зарядна станція",
     "type": "Робочий",
     "model": "Зарядна станція Oukitel P2001E Plus",
@@ -6242,7 +6242,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-390",
+    "id": 391,
     "nomenclature": "Генератор",
     "type": "Робочий",
     "model": "Konner&Sohnen KS 3100iG S ",
@@ -6258,7 +6258,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-391",
+    "id": 392,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": " ASUS EXPERTBOOK B1503CVA ",
@@ -6274,7 +6274,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-392",
+    "id": 393,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "",
@@ -6290,7 +6290,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-393",
+    "id": 394,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "БФП А4 ч/б Canon i-SENSYS MF463dw з Wi-Fi",
@@ -6306,7 +6306,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-394",
+    "id": 395,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "БФП А4 ч/б Canon i-SENSYS MF463dw з Wi-Fi",
@@ -6322,7 +6322,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-395",
+    "id": 396,
     "nomenclature": "Принтер",
     "type": "ДСК",
     "model": "Видати один комплект на Ядро на G-6 в цілому",
@@ -6338,7 +6338,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-396",
+    "id": 397,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "Lenovo V15 G14 IRU",
@@ -6354,7 +6354,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-397",
+    "id": 398,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -6370,7 +6370,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-398",
+    "id": 399,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -6386,7 +6386,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-399",
+    "id": 400,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -6402,7 +6402,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-400",
+    "id": 401,
     "nomenclature": "Ноутбук",
     "type": "ДСК",
     "model": "Lenovo V15 G14 IRU",
@@ -6418,7 +6418,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-401",
+    "id": 402,
     "nomenclature": "Мишка",
     "type": "Робочий",
     "model": "4шт",
@@ -6434,7 +6434,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-402",
+    "id": 403,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "4шт",
@@ -6450,7 +6450,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-403",
+    "id": 404,
     "nomenclature": "Мобільне ТК МОСІ в захищенному кейсі",
     "type": "МОСІ",
     "model": "",
@@ -6466,7 +6466,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-404",
+    "id": 405,
     "nomenclature": "Мобільне ТК МОСІ в захищенному кейсі",
     "type": "МОСІ",
     "model": "",
@@ -6482,7 +6482,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-405",
+    "id": 406,
     "nomenclature": "Мобільне ТК МОСІ в захищенному кейсі",
     "type": "МОСІ",
     "model": "",
@@ -6498,7 +6498,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-406",
+    "id": 407,
     "nomenclature": "Зарядна станція",
     "type": "Робочий",
     "model": "",
@@ -6514,7 +6514,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-407",
+    "id": 408,
     "nomenclature": "Гарнітура",
     "type": "Робочий",
     "model": "",
@@ -6530,7 +6530,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-408",
+    "id": 409,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -6546,7 +6546,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-409",
+    "id": 410,
     "nomenclature": "Токен / ЕКП",
     "type": "СЕДО",
     "model": "Автор 338",
@@ -6562,7 +6562,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-410",
+    "id": 411,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -6578,7 +6578,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-411",
+    "id": 412,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "Lenovo V15 G14 IRU",
@@ -6594,7 +6594,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-412",
+    "id": 413,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -6610,7 +6610,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-413",
+    "id": 414,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "ASUS EXPERTBOOK B1503CVA",
@@ -6626,7 +6626,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-414",
+    "id": 415,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "",
@@ -6642,7 +6642,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-415",
+    "id": 416,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "1шт ",
@@ -6658,7 +6658,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-416",
+    "id": 417,
     "nomenclature": "Флеш-носій",
     "type": "Робочий",
     "model": "",
@@ -6674,7 +6674,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-417",
+    "id": 418,
     "nomenclature": "983",
     "type": "СЕДО",
     "model": "",
@@ -6690,7 +6690,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-418",
+    "id": 419,
     "nomenclature": "LTE модем комплект",
     "type": "Робочий",
     "model": "",
@@ -6706,7 +6706,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 7
   },
   {
-    "id": "iss-419",
+    "id": 420,
     "nomenclature": "LTE модем комплект",
     "type": "Робочий",
     "model": "",
@@ -6722,7 +6722,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 3
   },
   {
-    "id": "iss-420",
+    "id": 421,
     "nomenclature": "LTE модем комплект",
     "type": "Робочий",
     "model": "",
@@ -6738,7 +6738,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-421",
+    "id": 422,
     "nomenclature": "LTE модем комплект",
     "type": "Робочий",
     "model": "",
@@ -6754,7 +6754,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 6
   },
   {
-    "id": "iss-422",
+    "id": 423,
     "nomenclature": "LTEмодем LHGG LTE6",
     "type": "Робочий",
     "model": "",
@@ -6770,7 +6770,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 2
   },
   {
-    "id": "iss-423",
+    "id": 424,
     "nomenclature": "LTEмодем SXT LTE6 kit",
     "type": "Робочий",
     "model": "",
@@ -6786,7 +6786,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 6
   },
   {
-    "id": "iss-424",
+    "id": 425,
     "nomenclature": "Starlink mini",
     "type": "Робочий",
     "model": "",
@@ -6802,7 +6802,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-425",
+    "id": 426,
     "nomenclature": "Авто р/ст UHF",
     "type": "Робочий",
     "model": "",
@@ -6818,7 +6818,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-426",
+    "id": 427,
     "nomenclature": "Авто р/ст UHF",
     "type": "Робочий",
     "model": "",
@@ -6834,7 +6834,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-427",
+    "id": 428,
     "nomenclature": "Авто р/ст VHF",
     "type": "Робочий",
     "model": "",
@@ -6850,7 +6850,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 3
   },
   {
-    "id": "iss-428",
+    "id": 429,
     "nomenclature": "Авто р/ст VHF",
     "type": "Робочий",
     "model": "",
@@ -6866,7 +6866,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-429",
+    "id": 430,
     "nomenclature": "Авто. р/ст",
     "type": "Робочий",
     "model": "",
@@ -6882,7 +6882,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-430",
+    "id": 431,
     "nomenclature": "Вайфай міст",
     "type": "Робочий",
     "model": "",
@@ -6898,7 +6898,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 2
   },
   {
-    "id": "iss-431",
+    "id": 432,
     "nomenclature": "Гарнітура",
     "type": "Робочий",
     "model": "",
@@ -6914,7 +6914,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 2
   },
   {
-    "id": "iss-432",
+    "id": 433,
     "nomenclature": "Генератор",
     "type": "Робочий",
     "model": "",
@@ -6930,7 +6930,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 2
   },
   {
-    "id": "iss-433",
+    "id": 434,
     "nomenclature": "Зарядна станція 2кВт",
     "type": "Робочий",
     "model": "",
@@ -6946,7 +6946,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 2
   },
   {
-    "id": "iss-434",
+    "id": 435,
     "nomenclature": "Зарядна станція 2кВт",
     "type": "Робочий",
     "model": "",
@@ -6962,7 +6962,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 2
   },
   {
-    "id": "iss-435",
+    "id": 436,
     "nomenclature": "інвенторний генератор",
     "type": "Робочий",
     "model": "",
@@ -6978,7 +6978,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 2
   },
   {
-    "id": "iss-436",
+    "id": 437,
     "nomenclature": "кабель VGA -VGA та перехідник VGA - HDMI",
     "type": "Робочий",
     "model": "",
@@ -6994,7 +6994,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-437",
+    "id": 438,
     "nomenclature": "кабель живлення до системного блоку",
     "type": "Робочий",
     "model": "",
@@ -7010,7 +7010,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-438",
+    "id": 439,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "",
@@ -7026,7 +7026,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-439",
+    "id": 440,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "",
@@ -7042,7 +7042,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-440",
+    "id": 441,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "",
@@ -7058,7 +7058,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-441",
+    "id": 442,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "",
@@ -7074,7 +7074,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-442",
+    "id": 443,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "",
@@ -7090,7 +7090,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 4
   },
   {
-    "id": "iss-443",
+    "id": 444,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "",
@@ -7106,7 +7106,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 4
   },
   {
-    "id": "iss-444",
+    "id": 445,
     "nomenclature": "Комплект рацій",
     "type": "Робочий",
     "model": "",
@@ -7122,7 +7122,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 8
   },
   {
-    "id": "iss-445",
+    "id": 446,
     "nomenclature": "Ламінатор",
     "type": "Робочий",
     "model": "",
@@ -7138,7 +7138,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-446",
+    "id": 447,
     "nomenclature": "Мишка",
     "type": "",
     "model": "",
@@ -7154,7 +7154,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-447",
+    "id": 448,
     "nomenclature": "Мишка",
     "type": "Робочий",
     "model": "",
@@ -7170,7 +7170,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-448",
+    "id": 449,
     "nomenclature": "Мишка",
     "type": "Робочий",
     "model": "",
@@ -7186,7 +7186,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 4
   },
   {
-    "id": "iss-449",
+    "id": 450,
     "nomenclature": "Мобільне ТК МОСІ в захищенному кейсі",
     "type": "МОСІ",
     "model": "",
@@ -7202,7 +7202,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-450",
+    "id": 451,
     "nomenclature": "Мобільне ТК МОСІ в захищенному кейсі",
     "type": "МОСІ",
     "model": "",
@@ -7218,7 +7218,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-451",
+    "id": 452,
     "nomenclature": "Мобільне ТК МОСІ в захищенному кейсі",
     "type": "МОСІ",
     "model": "",
@@ -7234,7 +7234,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-452",
+    "id": 453,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "",
@@ -7250,7 +7250,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 2
   },
   {
-    "id": "iss-453",
+    "id": 454,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "",
@@ -7266,7 +7266,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-454",
+    "id": 455,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "",
@@ -7282,7 +7282,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-455",
+    "id": 456,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "",
@@ -7298,7 +7298,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-456",
+    "id": 457,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "",
@@ -7314,7 +7314,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-457",
+    "id": 458,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "",
@@ -7330,7 +7330,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-458",
+    "id": 459,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "",
@@ -7346,7 +7346,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 4
   },
   {
-    "id": "iss-459",
+    "id": 460,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "",
@@ -7362,7 +7362,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-460",
+    "id": 461,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "",
@@ -7378,7 +7378,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-461",
+    "id": 462,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "",
@@ -7394,7 +7394,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-462",
+    "id": 463,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "",
@@ -7410,7 +7410,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-463",
+    "id": 464,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "model": "",
@@ -7426,7 +7426,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-464",
+    "id": 465,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "",
@@ -7442,7 +7442,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-465",
+    "id": 466,
     "nomenclature": "Моноблок",
     "type": "Робочий",
     "model": "",
@@ -7458,7 +7458,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-466",
+    "id": 467,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "",
@@ -7474,7 +7474,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-467",
+    "id": 468,
     "nomenclature": "Моноблок",
     "type": "СЕДО",
     "model": "",
@@ -7490,7 +7490,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-468",
+    "id": 469,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -7506,7 +7506,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 2
   },
   {
-    "id": "iss-469",
+    "id": 470,
     "nomenclature": "МОСІ комплект (ноут принтер мишка)",
     "type": "МОСІ",
     "model": "",
@@ -7522,7 +7522,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-470",
+    "id": 471,
     "nomenclature": "МОСІ комплект (ноут принтер мишка)",
     "type": "МОСІ",
     "model": "",
@@ -7538,7 +7538,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-471",
+    "id": 472,
     "nomenclature": "МОСІ комплект (ноут принтер мишка)",
     "type": "МОСІ",
     "model": "",
@@ -7554,7 +7554,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-472",
+    "id": 473,
     "nomenclature": "МОСІ комплект (ноут принтер мишка)",
     "type": "МОСІ",
     "model": "",
@@ -7570,7 +7570,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-473",
+    "id": 474,
     "nomenclature": "МОСІ комплект (ноут принтер мишка)",
     "type": "МОСІ",
     "model": "",
@@ -7586,7 +7586,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-474",
+    "id": 475,
     "nomenclature": "МОСІ телефон",
     "type": "МОСІ",
     "model": "",
@@ -7602,7 +7602,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-475",
+    "id": 476,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7618,7 +7618,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-476",
+    "id": 477,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7634,7 +7634,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-477",
+    "id": 478,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7650,7 +7650,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-478",
+    "id": 479,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7666,7 +7666,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-479",
+    "id": 480,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7682,7 +7682,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-480",
+    "id": 481,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7698,7 +7698,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-481",
+    "id": 482,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7714,7 +7714,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-482",
+    "id": 483,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7730,7 +7730,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-483",
+    "id": 484,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7746,7 +7746,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-484",
+    "id": 485,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -7762,7 +7762,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-485",
+    "id": 486,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -7778,7 +7778,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-486",
+    "id": 487,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7794,7 +7794,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-487",
+    "id": 488,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7810,7 +7810,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-488",
+    "id": 489,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7826,7 +7826,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-489",
+    "id": 490,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -7842,7 +7842,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-490",
+    "id": 491,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7858,7 +7858,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-491",
+    "id": 492,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7874,7 +7874,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-492",
+    "id": 493,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7890,7 +7890,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-493",
+    "id": 494,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7906,7 +7906,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-494",
+    "id": 495,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7922,7 +7922,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-495",
+    "id": 496,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7938,7 +7938,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-496",
+    "id": 497,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7954,7 +7954,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-497",
+    "id": 498,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7970,7 +7970,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-498",
+    "id": 499,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -7986,7 +7986,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-499",
+    "id": 500,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -8002,7 +8002,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-500",
+    "id": 501,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8018,7 +8018,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-501",
+    "id": 502,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8034,7 +8034,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-502",
+    "id": 503,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8050,7 +8050,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 5
   },
   {
-    "id": "iss-503",
+    "id": 504,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -8066,7 +8066,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-504",
+    "id": 505,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -8082,7 +8082,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-505",
+    "id": 506,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -8098,7 +8098,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-506",
+    "id": 507,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8114,7 +8114,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-507",
+    "id": 508,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -8130,7 +8130,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-508",
+    "id": 509,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8146,7 +8146,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-509",
+    "id": 510,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8162,7 +8162,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-510",
+    "id": 511,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8178,7 +8178,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-511",
+    "id": 512,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8194,7 +8194,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-512",
+    "id": 513,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -8210,7 +8210,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-513",
+    "id": 514,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8226,7 +8226,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 5
   },
   {
-    "id": "iss-514",
+    "id": 515,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8242,7 +8242,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-515",
+    "id": 516,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -8258,7 +8258,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-516",
+    "id": 517,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -8274,7 +8274,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-517",
+    "id": 518,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8290,7 +8290,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-518",
+    "id": 519,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8306,7 +8306,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-519",
+    "id": 520,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8322,7 +8322,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-520",
+    "id": 521,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8338,7 +8338,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 2
   },
   {
-    "id": "iss-521",
+    "id": 522,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8354,7 +8354,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-522",
+    "id": 523,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8370,7 +8370,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 5
   },
   {
-    "id": "iss-523",
+    "id": 524,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8386,7 +8386,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-524",
+    "id": 525,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8402,7 +8402,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-525",
+    "id": 526,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8418,7 +8418,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-526",
+    "id": 527,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -8434,7 +8434,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-527",
+    "id": 528,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8450,7 +8450,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-528",
+    "id": 529,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -8466,7 +8466,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-529",
+    "id": 530,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "model": "",
@@ -8482,7 +8482,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-530",
+    "id": 531,
     "nomenclature": "Ноутбук",
     "type": "ДСК",
     "model": "",
@@ -8498,7 +8498,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-531",
+    "id": 532,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8514,7 +8514,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-532",
+    "id": 533,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8530,7 +8530,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-533",
+    "id": 534,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8546,7 +8546,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-534",
+    "id": 535,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8562,7 +8562,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-535",
+    "id": 536,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8578,7 +8578,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-536",
+    "id": 537,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8594,7 +8594,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-537",
+    "id": 538,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8610,7 +8610,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-538",
+    "id": 539,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8626,7 +8626,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-539",
+    "id": 540,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8642,7 +8642,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-540",
+    "id": 541,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8658,7 +8658,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-541",
+    "id": 542,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8674,7 +8674,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-542",
+    "id": 543,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8690,7 +8690,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-543",
+    "id": 544,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8706,7 +8706,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-544",
+    "id": 545,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8722,7 +8722,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-545",
+    "id": 546,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -8738,7 +8738,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-546",
+    "id": 547,
     "nomenclature": "Павук, мишки ноут 10, блоки живлення 12",
     "type": "Робочий",
     "model": "",
@@ -8754,7 +8754,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 0
   },
   {
-    "id": "iss-547",
+    "id": 548,
     "nomenclature": "Планшет",
     "type": "СЕДО",
     "model": "",
@@ -8770,7 +8770,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-548",
+    "id": 549,
     "nomenclature": "Планшет",
     "type": "СЕДО",
     "model": "",
@@ -8786,7 +8786,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-549",
+    "id": 550,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "model": "",
@@ -8802,7 +8802,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-550",
+    "id": 551,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "model": "",
@@ -8818,7 +8818,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 5
   },
   {
-    "id": "iss-551",
+    "id": 552,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "model": "",
@@ -8834,7 +8834,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-552",
+    "id": 553,
     "nomenclature": "Планшет ",
     "type": "Робочий",
     "model": "",
@@ -8850,7 +8850,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-553",
+    "id": 554,
     "nomenclature": "Планшет + Алмаз BT",
     "type": "СЕДО",
     "model": "",
@@ -8866,7 +8866,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-554",
+    "id": 555,
     "nomenclature": "Порт. р/ст UHF",
     "type": "Робочий",
     "model": "",
@@ -8882,7 +8882,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 7
   },
   {
-    "id": "iss-555",
+    "id": 556,
     "nomenclature": "Порт. р/ст VHF",
     "type": "Робочий",
     "model": "",
@@ -8898,7 +8898,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 12
   },
   {
-    "id": "iss-556",
+    "id": 557,
     "nomenclature": "Порт. р/ст VHF",
     "type": "Робочий",
     "model": "",
@@ -8914,7 +8914,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 4
   },
   {
-    "id": "iss-557",
+    "id": 558,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "",
@@ -8930,7 +8930,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-558",
+    "id": 559,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "",
@@ -8946,7 +8946,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-559",
+    "id": 560,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "",
@@ -8962,7 +8962,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-560",
+    "id": 561,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "",
@@ -8978,7 +8978,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-561",
+    "id": 562,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "",
@@ -8994,7 +8994,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-562",
+    "id": 563,
     "nomenclature": "Принтер",
     "type": "ДСК",
     "model": "",
@@ -9010,7 +9010,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-563",
+    "id": 564,
     "nomenclature": "Принтер",
     "type": "СЕДО",
     "model": "",
@@ -9026,7 +9026,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-564",
+    "id": 565,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "",
@@ -9042,7 +9042,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-565",
+    "id": 566,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "",
@@ -9058,7 +9058,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-566",
+    "id": 567,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "",
@@ -9074,7 +9074,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-567",
+    "id": 568,
     "nomenclature": "Программатор DM4600",
     "type": "Робочий",
     "model": "",
@@ -9090,7 +9090,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-568",
+    "id": 569,
     "nomenclature": "Программатор R7",
     "type": "Робочий",
     "model": "",
@@ -9106,7 +9106,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-569",
+    "id": 570,
     "nomenclature": "Проектор + дошка",
     "type": "Робочий",
     "model": "",
@@ -9122,7 +9122,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-570",
+    "id": 571,
     "nomenclature": "Старлінк міні",
     "type": "Робочий",
     "model": "",
@@ -9138,7 +9138,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 2
   },
   {
-    "id": "iss-571",
+    "id": 572,
     "nomenclature": "Телевізор",
     "type": "Робочий",
     "model": "",
@@ -9154,7 +9154,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-572",
+    "id": 573,
     "nomenclature": "Телефон",
     "type": "Робочий",
     "model": "",
@@ -9170,7 +9170,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-573",
+    "id": 574,
     "nomenclature": "Телефон",
     "type": "Робочий",
     "model": "",
@@ -9186,7 +9186,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-574",
+    "id": 575,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9202,7 +9202,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-575",
+    "id": 576,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9218,7 +9218,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-576",
+    "id": 577,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9234,7 +9234,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-577",
+    "id": 578,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9250,7 +9250,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-578",
+    "id": 579,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9266,7 +9266,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-579",
+    "id": 580,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9282,7 +9282,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-580",
+    "id": 581,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9298,7 +9298,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-581",
+    "id": 582,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9314,7 +9314,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-582",
+    "id": 583,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9330,7 +9330,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-583",
+    "id": 584,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9346,7 +9346,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-584",
+    "id": 585,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9362,7 +9362,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-585",
+    "id": 586,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9378,7 +9378,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-586",
+    "id": 587,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9394,7 +9394,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-587",
+    "id": 588,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9410,7 +9410,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-588",
+    "id": 589,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9426,7 +9426,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-589",
+    "id": 590,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9442,7 +9442,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-590",
+    "id": 591,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9458,7 +9458,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-591",
+    "id": 592,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9474,7 +9474,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-592",
+    "id": 593,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9490,7 +9490,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-593",
+    "id": 594,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9506,7 +9506,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-594",
+    "id": 595,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9522,7 +9522,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-595",
+    "id": 596,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9538,7 +9538,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-596",
+    "id": 597,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9554,7 +9554,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-597",
+    "id": 598,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9570,7 +9570,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-598",
+    "id": 599,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9586,7 +9586,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-599",
+    "id": 600,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9602,7 +9602,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-600",
+    "id": 601,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9618,7 +9618,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-601",
+    "id": 602,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9634,7 +9634,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-602",
+    "id": 603,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9650,7 +9650,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-603",
+    "id": 604,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9666,7 +9666,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-604",
+    "id": 605,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9682,7 +9682,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-605",
+    "id": 606,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9698,7 +9698,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-606",
+    "id": 607,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9714,7 +9714,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-607",
+    "id": 608,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -9730,7 +9730,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-608",
+    "id": 609,
     "nomenclature": "Токен ",
     "type": "Робочий",
     "model": "",
@@ -9746,7 +9746,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-609",
+    "id": 610,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -9762,7 +9762,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-610",
+    "id": 611,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -9778,7 +9778,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-611",
+    "id": 612,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -9794,7 +9794,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-612",
+    "id": 613,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -9810,7 +9810,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-613",
+    "id": 614,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -9826,7 +9826,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-614",
+    "id": 615,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -9842,7 +9842,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-615",
+    "id": 616,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -9858,7 +9858,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-616",
+    "id": 617,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -9874,7 +9874,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-617",
+    "id": 618,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -9890,7 +9890,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-618",
+    "id": 619,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -9906,7 +9906,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-619",
+    "id": 620,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -9922,7 +9922,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-620",
+    "id": 621,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -9938,7 +9938,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-621",
+    "id": 622,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -9954,7 +9954,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-622",
+    "id": 623,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -9970,7 +9970,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-623",
+    "id": 624,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -9986,7 +9986,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-624",
+    "id": 625,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -10002,7 +10002,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-625",
+    "id": 626,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -10018,7 +10018,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-626",
+    "id": 627,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -10034,7 +10034,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-627",
+    "id": 628,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -10050,7 +10050,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-628",
+    "id": 629,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -10066,7 +10066,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-629",
+    "id": 630,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -10082,7 +10082,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-630",
+    "id": 631,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -10098,7 +10098,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-631",
+    "id": 632,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -10114,7 +10114,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-632",
+    "id": 633,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -10130,7 +10130,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-633",
+    "id": 634,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -10146,7 +10146,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-634",
+    "id": 635,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -10162,7 +10162,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-635",
+    "id": 636,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -10178,7 +10178,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-636",
+    "id": 637,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -10194,7 +10194,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-637",
+    "id": 638,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -10210,7 +10210,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-638",
+    "id": 639,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -10226,7 +10226,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-639",
+    "id": 640,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -10242,7 +10242,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-640",
+    "id": 641,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -10258,7 +10258,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-641",
+    "id": 642,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -10274,7 +10274,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-642",
+    "id": 643,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "model": "",
@@ -10290,7 +10290,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-643",
+    "id": 644,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -10306,7 +10306,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-644",
+    "id": 645,
     "nomenclature": "Флешка ",
     "type": "Робочий",
     "model": "",
@@ -10322,7 +10322,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-645",
+    "id": 646,
     "nomenclature": "Флешка ",
     "type": "Робочий",
     "model": "",
@@ -10338,7 +10338,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-646",
+    "id": 647,
     "nomenclature": "Флешка ",
     "type": "Робочий",
     "model": "",
@@ -10354,7 +10354,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-647",
+    "id": 648,
     "nomenclature": "Флешку або Жорсткий диск",
     "type": "Робочий",
     "model": "",
@@ -10370,7 +10370,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-648",
+    "id": 649,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -10386,7 +10386,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-649",
+    "id": 650,
     "nomenclature": "Токен",
     "type": "СЕДО",
     "model": "",
@@ -10402,7 +10402,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-650",
+    "id": 651,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -10418,7 +10418,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-651",
+    "id": 652,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "model": "",
@@ -10434,7 +10434,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-652",
+    "id": 653,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "model": "",
@@ -10450,7 +10450,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-653",
+    "id": 654,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "model": "",
@@ -10466,7 +10466,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "quantity": 1
   },
   {
-    "id": "iss-654",
+    "id": 655,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "model": "",
@@ -10485,7 +10485,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
 
 export const mockNeedsData: NeedRecord[] = [
   {
-    "id": "need-16",
+    "id": 656,
     "nomenclature": "Генератор",
     "type": "Робочий",
     "quantity": 2,
@@ -10499,7 +10499,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": " 2,3 - 2,4w, вже видано 20.01.2026 Маверіком\n\nДедал: Відьміте статус, перенісість у видачу"
   },
   {
-    "id": "need-19",
+    "id": 657,
     "nomenclature": "Генератор 5кВт інверторний",
     "type": "Робочий",
     "quantity": 1,
@@ -10513,7 +10513,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Запит був на Дедала"
   },
   {
-    "id": "need-20",
+    "id": 658,
     "nomenclature": "Диски",
     "type": "Робочий",
     "quantity": 10,
@@ -10527,7 +10527,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "CD-R"
   },
   {
-    "id": "need-22",
+    "id": 659,
     "nomenclature": "Жорсткий диск 1-2Тб",
     "type": "Робочий",
     "quantity": 1,
@@ -10541,7 +10541,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-50",
+    "id": 660,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 4,
@@ -10555,7 +10555,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-51",
+    "id": 661,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -10569,7 +10569,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-52",
+    "id": 662,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -10583,7 +10583,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-56",
+    "id": 663,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -10597,7 +10597,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-57",
+    "id": 664,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -10611,7 +10611,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-58",
+    "id": 665,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -10625,7 +10625,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-60",
+    "id": 666,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -10639,7 +10639,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Широкодіагональний типу дуги. Діагональ екрана 34-41,5\"; частота оновлення: 120-140 Гц"
   },
   {
-    "id": "need-67",
+    "id": 667,
     "nomenclature": "моноблок",
     "type": "СЕДО",
     "quantity": 1,
@@ -10653,7 +10653,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-75",
+    "id": 668,
     "nomenclature": "МФУ",
     "type": "Робочий",
     "quantity": 1,
@@ -10667,7 +10667,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-145",
+    "id": 669,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "quantity": 1,
@@ -10681,7 +10681,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-146",
+    "id": 670,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "quantity": 1,
@@ -10695,7 +10695,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-148",
+    "id": 671,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "quantity": 1,
@@ -10709,7 +10709,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Видати леново"
   },
   {
-    "id": "need-149",
+    "id": 672,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -10723,7 +10723,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-151",
+    "id": 673,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "quantity": 1,
@@ -10737,7 +10737,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-152",
+    "id": 674,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -10751,7 +10751,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-153",
+    "id": 675,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -10765,7 +10765,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-154",
+    "id": 676,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -10779,7 +10779,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-155",
+    "id": 677,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -10793,7 +10793,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-156",
+    "id": 678,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -10807,7 +10807,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-158",
+    "id": 679,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -10821,7 +10821,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-159",
+    "id": 680,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -10835,7 +10835,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Ноутбук не має бути підключений до мереж, це чисто щоб друкувати тексти на ньому. Подавала Валерія"
   },
   {
-    "id": "need-160",
+    "id": 681,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 3,
@@ -10849,7 +10849,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-161",
+    "id": 682,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 2,
@@ -10863,7 +10863,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-162",
+    "id": 683,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -10877,7 +10877,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-163",
+    "id": 684,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -10891,7 +10891,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Потрібен для роботи з Дельтою, важею, в подальшому симуляторами"
   },
   {
-    "id": "need-182",
+    "id": 685,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -10905,7 +10905,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-183",
+    "id": 686,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -10919,7 +10919,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "принтер (з можливістю друку формату А3"
   },
   {
-    "id": "need-184",
+    "id": 687,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -10933,7 +10933,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-185",
+    "id": 688,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -10947,7 +10947,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-186",
+    "id": 689,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -10961,7 +10961,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "кольоровий"
   },
   {
-    "id": "need-187",
+    "id": 690,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -10975,7 +10975,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Принтер з двостороннім друком та двостороннім скануванням. (МВО: Степанчук Микола Ігорович)"
   },
   {
-    "id": "need-188",
+    "id": 691,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -10989,7 +10989,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-191",
+    "id": 692,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -11003,7 +11003,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-192",
+    "id": 693,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -11017,7 +11017,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Робочий принтер багатофункціональний який зможе друкувати в форматі А3"
   },
   {
-    "id": "need-193",
+    "id": 694,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -11031,7 +11031,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-194",
+    "id": 695,
     "nomenclature": "Принтер",
     "type": "СЕДО",
     "quantity": 1,
@@ -11045,7 +11045,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-196",
+    "id": 696,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -11059,7 +11059,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-198",
+    "id": 697,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -11073,7 +11073,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-199",
+    "id": 698,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -11087,7 +11087,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-200",
+    "id": 699,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -11101,7 +11101,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Чорно-білий, лазерний"
   },
   {
-    "id": "need-202",
+    "id": 700,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 2,
@@ -11115,7 +11115,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-204",
+    "id": 701,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -11129,7 +11129,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "(МФП) Принтер/сканер"
   },
   {
-    "id": "need-205",
+    "id": 702,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -11143,7 +11143,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "(МФП) Принтер кольоровий"
   },
   {
-    "id": "need-206",
+    "id": 703,
     "nomenclature": "принтер кольоровий",
     "type": "Робочий",
     "quantity": 1,
@@ -11157,7 +11157,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-211",
+    "id": 704,
     "nomenclature": "Смартфон",
     "type": "Робочий",
     "quantity": 2,
@@ -11171,7 +11171,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-217",
+    "id": 705,
     "nomenclature": "Телефон",
     "type": "Робочий",
     "quantity": 1,
@@ -11185,7 +11185,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Мобільний телефон із сім картою на медпункт для цілодобового зв'язку із черговим"
   },
   {
-    "id": "need-292",
+    "id": 706,
     "nomenclature": "Шредер",
     "type": "Робочий",
     "quantity": 1,
@@ -11199,7 +11199,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-293",
+    "id": 707,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -11213,7 +11213,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-294",
+    "id": 708,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "quantity": 1,
@@ -11227,7 +11227,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-295",
+    "id": 709,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -11241,7 +11241,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-296",
+    "id": 710,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -11255,7 +11255,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "мво зеленяк"
   },
   {
-    "id": "need-297",
+    "id": 711,
     "nomenclature": "Екофлоу 3600",
     "type": "Робочий",
     "quantity": 22,
@@ -11269,7 +11269,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-298",
+    "id": 712,
     "nomenclature": "Екофлоу 2400",
     "type": "Робочий",
     "quantity": 10,
@@ -11283,7 +11283,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-299",
+    "id": 713,
     "nomenclature": "Екофлоу міні до1000",
     "type": "Робочий",
     "quantity": 11,
@@ -11297,7 +11297,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-300",
+    "id": 714,
     "nomenclature": "Старлінк",
     "type": "Робочий",
     "quantity": 15,
@@ -11311,7 +11311,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "( Мінцифра за можливості)"
   },
   {
-    "id": "need-301",
+    "id": 715,
     "nomenclature": "Старлінк міні",
     "type": "Робочий",
     "quantity": 9,
@@ -11325,7 +11325,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-302",
+    "id": 716,
     "nomenclature": "Телевізор на КСП\n 50-55\"",
     "type": "Робочий",
     "quantity": 6,
@@ -11339,7 +11339,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-303",
+    "id": 717,
     "nomenclature": "Виносна штирьова\n антена(не павук)",
     "type": "Робочий",
     "quantity": 8,
@@ -11353,7 +11353,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-304",
+    "id": 718,
     "nomenclature": "Планшет",
     "type": "Робочий",
     "quantity": 15,
@@ -11367,7 +11367,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-305",
+    "id": 719,
     "nomenclature": "Р/ст порт VHF",
     "type": "Робочий",
     "quantity": 14,
@@ -11381,7 +11381,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-306",
+    "id": 720,
     "nomenclature": "Р/ст порт R7 VHF \nз екраном",
     "type": "Робочий",
     "quantity": 2,
@@ -11395,7 +11395,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-307",
+    "id": 721,
     "nomenclature": "Р/ст авто VHF",
     "type": "Робочий",
     "quantity": 10,
@@ -11409,7 +11409,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-308",
+    "id": 722,
     "nomenclature": "Монітор 23-27\"",
     "type": "Робочий",
     "quantity": 4,
@@ -11423,7 +11423,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-309",
+    "id": 723,
     "nomenclature": "Кабель для прошивки\n Motorola R7",
     "type": "Робочий",
     "quantity": 3,
@@ -11437,7 +11437,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-310",
+    "id": 724,
     "nomenclature": "Кабель для прошивки\n Motorola DP",
     "type": "Робочий",
     "quantity": 1,
@@ -11451,7 +11451,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-311",
+    "id": 725,
     "nomenclature": "Кабель для прошивки автомобільної Motorola DM4400/4600 (HKN6184)",
     "type": "Робочий",
     "quantity": 1,
@@ -11465,7 +11465,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-312",
+    "id": 726,
     "nomenclature": "Кабель для прошивки автомобільної Motorola DM4400/4600 (PMKN4010)",
     "type": "Робочий",
     "quantity": 1,
@@ -11479,7 +11479,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-313",
+    "id": 727,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -11493,7 +11493,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-314",
+    "id": 728,
     "nomenclature": "Монітор 23-27\"",
     "type": "Робочий",
     "quantity": 1,
@@ -11507,7 +11507,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-315",
+    "id": 729,
     "nomenclature": " інверторний генератор 3кВт",
     "type": "Робочий",
     "quantity": 21,
@@ -11521,7 +11521,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-317",
+    "id": 730,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "quantity": 1,
@@ -11535,7 +11535,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-323",
+    "id": 731,
     "nomenclature": "Монітор ",
     "type": "Робочий",
     "quantity": 1,
@@ -11549,7 +11549,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Казала людина, що її начальник говорив з Дедалом"
   },
   {
-    "id": "need-324",
+    "id": 732,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 10,
@@ -11563,7 +11563,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Для роботи ТПУ на ППД батальйону забезпечення є потреба в 10 робочих нотубуках. По мірі надходження"
   },
   {
-    "id": "need-325",
+    "id": 733,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -11577,7 +11577,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Ноутбук, мощщний, для роботи з CorelDraw, мапами, та великої кількості задач"
   },
   {
-    "id": "need-326",
+    "id": 734,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 3,
@@ -11591,7 +11591,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-327",
+    "id": 735,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 2,
@@ -11605,7 +11605,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-328",
+    "id": 736,
     "nomenclature": "Відеоспостереження",
     "type": "Робочий",
     "quantity": 1,
@@ -11619,7 +11619,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "2 камери, відеореєстратор, монітор, HDD"
   },
   {
-    "id": "need-329",
+    "id": 737,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -11633,7 +11633,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-330",
+    "id": 738,
     "nomenclature": "Системний блок",
     "type": "Робочий",
     "quantity": 1,
@@ -11647,7 +11647,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-331",
+    "id": 739,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -11661,7 +11661,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-332",
+    "id": 740,
     "nomenclature": "ІР Телефон",
     "type": "МОСІ",
     "quantity": 1,
@@ -11675,7 +11675,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-333",
+    "id": 741,
     "nomenclature": "Сімкартка",
     "type": "Робочий",
     "quantity": 1,
@@ -11689,7 +11689,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "639413120"
   },
   {
-    "id": "need-334",
+    "id": 742,
     "nomenclature": "Телевізор 43\"",
     "type": "Робочий",
     "quantity": 2,
@@ -11703,7 +11703,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-335",
+    "id": 743,
     "nomenclature": "Кронтшейн для ТВ",
     "type": "Робочий",
     "quantity": 3,
@@ -11717,7 +11717,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-336",
+    "id": 744,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -11731,7 +11731,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-337",
+    "id": 745,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -11745,7 +11745,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "плюс мишка"
   },
   {
-    "id": "need-338",
+    "id": 746,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -11759,7 +11759,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "плюс мишка"
   },
   {
-    "id": "need-339",
+    "id": 747,
     "nomenclature": "Монітор ",
     "type": "Робочий",
     "quantity": 1,
@@ -11773,7 +11773,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "монітор до ноутбука 27дюймів"
   },
   {
-    "id": "need-340",
+    "id": 748,
     "nomenclature": "Ноутбук",
     "type": "СЕДО",
     "quantity": 1,
@@ -11787,7 +11787,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "плюс мишка"
   },
   {
-    "id": "need-341",
+    "id": 749,
     "nomenclature": "ІР Телефон",
     "type": "МОСІ",
     "quantity": 1,
@@ -11801,7 +11801,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-342",
+    "id": 750,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 2,
@@ -11815,7 +11815,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": ""
   },
   {
-    "id": "need-344",
+    "id": 751,
     "nomenclature": "Флешка",
     "type": "Робочий",
     "quantity": 1,
@@ -11829,7 +11829,7 @@ export const mockNeedsData: NeedRecord[] = [
     "notes": "Флешка 16 гБт для зберігання інформації 1-ої автомобільної роти"
   },
   {
-    "id": "need-345",
+    "id": 752,
     "nomenclature": "Флешка",
     "type": "СЕДО",
     "quantity": 1,
@@ -11846,7 +11846,7 @@ export const mockNeedsData: NeedRecord[] = [
 
 export const mockRejectedData: RejectedRecord[] = [
   {
-    "id": "rej-0",
+    "id": 753,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 3,
@@ -11859,7 +11859,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-1",
+    "id": 754,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 3,
@@ -11872,7 +11872,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-2",
+    "id": 755,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -11885,7 +11885,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-3",
+    "id": 756,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -11898,7 +11898,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-4",
+    "id": 757,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 3,
@@ -11911,7 +11911,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-5",
+    "id": 758,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -11924,7 +11924,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-6",
+    "id": 759,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -11937,7 +11937,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-7",
+    "id": 760,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -11950,7 +11950,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-8",
+    "id": 761,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -11963,7 +11963,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-9",
+    "id": 762,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "quantity": 1,
@@ -11976,7 +11976,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-10",
+    "id": 763,
     "nomenclature": "Клавіатура",
     "type": "Робочий",
     "quantity": 1,
@@ -11989,7 +11989,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-11",
+    "id": 764,
     "nomenclature": "Шредер",
     "type": "Робочий",
     "quantity": 1,
@@ -12002,7 +12002,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-12",
+    "id": 765,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -12015,7 +12015,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-13",
+    "id": 766,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -12028,7 +12028,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-14",
+    "id": 767,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -12041,7 +12041,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-15",
+    "id": 768,
     "nomenclature": "Широкоформатний монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -12054,7 +12054,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-16",
+    "id": 769,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -12067,7 +12067,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-17",
+    "id": 770,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -12080,7 +12080,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-18",
+    "id": 771,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -12093,7 +12093,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-19",
+    "id": 772,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -12106,7 +12106,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-20",
+    "id": 773,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -12119,7 +12119,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-21",
+    "id": 774,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -12132,7 +12132,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-22",
+    "id": 775,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 2,
@@ -12145,7 +12145,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-23",
+    "id": 776,
     "nomenclature": "Телефон",
     "type": "Робочий",
     "quantity": 1,
@@ -12158,7 +12158,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-24",
+    "id": 777,
     "nomenclature": "Токен",
     "type": "Робочий",
     "quantity": 1,
@@ -12171,7 +12171,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-25",
+    "id": 778,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -12184,7 +12184,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-26",
+    "id": 779,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -12197,7 +12197,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-27",
+    "id": 780,
     "nomenclature": "Токен",
     "type": "Робочий",
     "quantity": 1,
@@ -12210,7 +12210,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-28",
+    "id": 781,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -12223,7 +12223,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-29",
+    "id": 782,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -12236,7 +12236,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-30",
+    "id": 783,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -12249,7 +12249,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-31",
+    "id": 784,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 2,
@@ -12262,7 +12262,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-32",
+    "id": 785,
     "nomenclature": "Токен",
     "type": "Робочий",
     "quantity": 1,
@@ -12275,7 +12275,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-33",
+    "id": 786,
     "nomenclature": "Токен",
     "type": "Робочий",
     "quantity": 1,
@@ -12288,7 +12288,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-34",
+    "id": 787,
     "nomenclature": "Токен",
     "type": "Робочий",
     "quantity": 1,
@@ -12301,7 +12301,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-35",
+    "id": 788,
     "nomenclature": "Токен",
     "type": "Робочий",
     "quantity": 1,
@@ -12314,7 +12314,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-36",
+    "id": 789,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -12327,7 +12327,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-37",
+    "id": 790,
     "nomenclature": "Токен",
     "type": "Робочий",
     "quantity": 1,
@@ -12340,7 +12340,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-38",
+    "id": 791,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -12353,7 +12353,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-39",
+    "id": 792,
     "nomenclature": "Токен",
     "type": "Робочий",
     "quantity": 1,
@@ -12366,7 +12366,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-40",
+    "id": 793,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -12379,7 +12379,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-41",
+    "id": 794,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -12392,7 +12392,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-42",
+    "id": 795,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -12405,7 +12405,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-43",
+    "id": 796,
     "nomenclature": "Ecoflow delta max",
     "type": "Робочий",
     "quantity": 1,
@@ -12418,7 +12418,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-44",
+    "id": 797,
     "nomenclature": "Генератор",
     "type": "Робочий",
     "quantity": 1,
@@ -12431,7 +12431,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-45",
+    "id": 798,
     "nomenclature": "Екофло",
     "type": "Робочий",
     "quantity": 3,
@@ -12444,7 +12444,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-46",
+    "id": 799,
     "nomenclature": "Зарядна станція 3кВт",
     "type": "Робочий",
     "quantity": 1,
@@ -12457,7 +12457,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-47",
+    "id": 800,
     "nomenclature": "Монітор",
     "type": "Робочий",
     "quantity": 1,
@@ -12470,7 +12470,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-48",
+    "id": 801,
     "nomenclature": "Ноутбук",
     "type": "Робочий",
     "quantity": 1,
@@ -12483,7 +12483,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-49",
+    "id": 802,
     "nomenclature": "Плазма",
     "type": "Робочий",
     "quantity": 2,
@@ -12496,7 +12496,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-50",
+    "id": 803,
     "nomenclature": "Плазма",
     "type": "Робочий",
     "quantity": 2,
@@ -12509,7 +12509,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-51",
+    "id": 804,
     "nomenclature": "Принтер",
     "type": "Робочий",
     "quantity": 1,
@@ -12522,7 +12522,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-52",
+    "id": 805,
     "nomenclature": "Системний блок",
     "type": "Робочий",
     "quantity": 1,
@@ -12535,7 +12535,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "rejectedDate": "24.02.2026"
   },
   {
-    "id": "rej-53",
+    "id": 806,
     "nomenclature": "Старлінк",
     "type": "Робочий",
     "quantity": 1,
@@ -12551,1138 +12551,1138 @@ export const mockRejectedData: RejectedRecord[] = [
 
 export const mockNomenclatures: DirectoryItem[] = [
   {
-    "id": "nom-0",
+    "id": 807,
     "name": "983"
   },
   {
-    "id": "nom-1",
+    "id": 808,
     "name": "Ecoflow delta max"
   },
   {
-    "id": "nom-2",
+    "id": 809,
     "name": "HDMI кабель"
   },
   {
-    "id": "nom-3",
+    "id": 810,
     "name": "IP-Телефон"
   },
   {
-    "id": "nom-4",
+    "id": 811,
     "name": "LTE модем"
   },
   {
-    "id": "nom-5",
+    "id": 812,
     "name": "LTE модем комплект"
   },
   {
-    "id": "nom-6",
+    "id": 813,
     "name": "LTEмодем LHGG LTE6"
   },
   {
-    "id": "nom-7",
+    "id": 814,
     "name": "LTEмодем SXT LTE6 kit"
   },
   {
-    "id": "nom-8",
+    "id": 815,
     "name": "Starlink"
   },
   {
-    "id": "nom-9",
+    "id": 816,
     "name": "Starlink mini"
   },
   {
-    "id": "nom-10",
+    "id": 817,
     "name": "Wifi міст"
   },
   {
-    "id": "nom-11",
+    "id": 818,
     "name": "ІР Телефон"
   },
   {
-    "id": "nom-12",
+    "id": 819,
     "name": "Авто р/ст UHF"
   },
   {
-    "id": "nom-13",
+    "id": 820,
     "name": "Авто р/ст VHF"
   },
   {
-    "id": "nom-14",
+    "id": 821,
     "name": "Авто. р/ст"
   },
   {
-    "id": "nom-15",
+    "id": 822,
     "name": "Вайфай міст"
   },
   {
-    "id": "nom-16",
+    "id": 823,
     "name": "Виносна штирьова\n антена(не павук)"
   },
   {
-    "id": "nom-17",
+    "id": 824,
     "name": "Відеоспостереження"
   },
   {
-    "id": "nom-18",
+    "id": 825,
     "name": "Гарнітура"
   },
   {
-    "id": "nom-19",
+    "id": 826,
     "name": "Генератор"
   },
   {
-    "id": "nom-20",
+    "id": 827,
     "name": "Генератор 5кВт інверторний"
   },
   {
-    "id": "nom-21",
+    "id": 828,
     "name": "Диски"
   },
   {
-    "id": "nom-22",
+    "id": 829,
     "name": "Екофло"
   },
   {
-    "id": "nom-23",
+    "id": 830,
     "name": "Екофлоу 2400"
   },
   {
-    "id": "nom-24",
+    "id": 831,
     "name": "Екофлоу 3600"
   },
   {
-    "id": "nom-25",
+    "id": 832,
     "name": "Екофлоу міні до1000"
   },
   {
-    "id": "nom-26",
+    "id": 833,
     "name": "Жорсткий диск 1-2Тб"
   },
   {
-    "id": "nom-27",
+    "id": 834,
     "name": "Зарядна станція"
   },
   {
-    "id": "nom-28",
+    "id": 835,
     "name": "Зарядна станція 2кВт"
   },
   {
-    "id": "nom-29",
+    "id": 836,
     "name": "Зарядна станція 3кВт"
   },
   {
-    "id": "nom-30",
+    "id": 837,
     "name": "Кабель"
   },
   {
-    "id": "nom-31",
+    "id": 838,
     "name": "Кабель для прошивки\n Motorola DP"
   },
   {
-    "id": "nom-32",
+    "id": 839,
     "name": "Кабель для прошивки\n Motorola R7"
   },
   {
-    "id": "nom-33",
+    "id": 840,
     "name": "Кабель для прошивки автомобільної Motorola DM4400/4600 (HKN6184)"
   },
   {
-    "id": "nom-34",
+    "id": 841,
     "name": "Кабель для прошивки автомобільної Motorola DM4400/4600 (PMKN4010)"
   },
   {
-    "id": "nom-35",
+    "id": 842,
     "name": "Клавіатура"
   },
   {
-    "id": "nom-36",
+    "id": 843,
     "name": "Комплект рацій"
   },
   {
-    "id": "nom-37",
+    "id": 844,
     "name": "Комутатор"
   },
   {
-    "id": "nom-38",
+    "id": 845,
     "name": "Кронтшейн для ТВ"
   },
   {
-    "id": "nom-39",
+    "id": 846,
     "name": "Ламінатор"
   },
   {
-    "id": "nom-40",
+    "id": 847,
     "name": "МОСІ комплект (ноут принтер мишка)"
   },
   {
-    "id": "nom-41",
+    "id": 848,
     "name": "МОСІ телефон"
   },
   {
-    "id": "nom-42",
+    "id": 849,
     "name": "МФУ"
   },
   {
-    "id": "nom-43",
+    "id": 850,
     "name": "Мишка"
   },
   {
-    "id": "nom-44",
+    "id": 851,
     "name": "Мобільне ТК МОСІ в захищенному кейсі"
   },
   {
-    "id": "nom-45",
+    "id": 852,
     "name": "Моноблок"
   },
   {
-    "id": "nom-46",
+    "id": 853,
     "name": "Монітор"
   },
   {
-    "id": "nom-47",
+    "id": 854,
     "name": "Монітор 23-27\""
   },
   {
-    "id": "nom-48",
+    "id": 855,
     "name": "Ноутбук"
   },
   {
-    "id": "nom-49",
+    "id": 856,
     "name": "Павук, мишки ноут 10, блоки живлення 12"
   },
   {
-    "id": "nom-50",
+    "id": 857,
     "name": "Плазма"
   },
   {
-    "id": "nom-51",
+    "id": 858,
     "name": "Планшет"
   },
   {
-    "id": "nom-52",
+    "id": 859,
     "name": "Планшет + Алмаз BT"
   },
   {
-    "id": "nom-53",
+    "id": 860,
     "name": "Порт р/ст UHF"
   },
   {
-    "id": "nom-54",
+    "id": 861,
     "name": "Порт р/ст VHF"
   },
   {
-    "id": "nom-55",
+    "id": 862,
     "name": "Порт. Р/С UHF"
   },
   {
-    "id": "nom-56",
+    "id": 863,
     "name": "Порт. р/ст UHF"
   },
   {
-    "id": "nom-57",
+    "id": 864,
     "name": "Порт. р/ст VHF"
   },
   {
-    "id": "nom-58",
+    "id": 865,
     "name": "Принтер"
   },
   {
-    "id": "nom-59",
+    "id": 866,
     "name": "Программатор DM4600"
   },
   {
-    "id": "nom-60",
+    "id": 867,
     "name": "Программатор R7"
   },
   {
-    "id": "nom-61",
+    "id": 868,
     "name": "Проектор"
   },
   {
-    "id": "nom-62",
+    "id": 869,
     "name": "Проектор + дошка"
   },
   {
-    "id": "nom-63",
+    "id": 870,
     "name": "Р/ст авто VHF"
   },
   {
-    "id": "nom-64",
+    "id": 871,
     "name": "Р/ст порт R7 VHF \nз екраном"
   },
   {
-    "id": "nom-65",
+    "id": 872,
     "name": "Р/ст порт VHF"
   },
   {
-    "id": "nom-66",
+    "id": 873,
     "name": "Системний блок"
   },
   {
-    "id": "nom-67",
+    "id": 874,
     "name": "Смартфон"
   },
   {
-    "id": "nom-68",
+    "id": 875,
     "name": "Старлінк"
   },
   {
-    "id": "nom-69",
+    "id": 876,
     "name": "Старлінк міні"
   },
   {
-    "id": "nom-70",
+    "id": 877,
     "name": "Сімкартка"
   },
   {
-    "id": "nom-71",
+    "id": 878,
     "name": "Телевізор"
   },
   {
-    "id": "nom-72",
+    "id": 879,
     "name": "Телевізор 43\""
   },
   {
-    "id": "nom-73",
+    "id": 880,
     "name": "Телевізор на КСП\n 50-55\""
   },
   {
-    "id": "nom-74",
+    "id": 881,
     "name": "Телефон"
   },
   {
-    "id": "nom-75",
+    "id": 882,
     "name": "Токен"
   },
   {
-    "id": "nom-76",
+    "id": 883,
     "name": "Токен / ЕКП"
   },
   {
-    "id": "nom-77",
+    "id": 884,
     "name": "Флеш-носій"
   },
   {
-    "id": "nom-78",
+    "id": 885,
     "name": "Флешка"
   },
   {
-    "id": "nom-79",
+    "id": 886,
     "name": "Флешку або Жорсткий диск"
   },
   {
-    "id": "nom-80",
+    "id": 887,
     "name": "Широкоформатний монітор"
   },
   {
-    "id": "nom-81",
+    "id": 888,
     "name": "Шредер"
   },
   {
-    "id": "nom-82",
+    "id": 889,
     "name": "кабель VGA -VGA та перехідник VGA - HDMI"
   },
   {
-    "id": "nom-83",
+    "id": 890,
     "name": "кабель живлення до системного блоку"
   },
   {
-    "id": "nom-84",
+    "id": 891,
     "name": "моноблок"
   },
   {
-    "id": "nom-85",
+    "id": 892,
     "name": "принтер кольоровий"
   },
   {
-    "id": "nom-86",
+    "id": 893,
     "name": "інвенторний генератор"
   },
   {
-    "id": "nom-87",
+    "id": 894,
     "name": "інверторний генератор 3кВт"
   }
 ];
 
 export const mockTypes: DirectoryItem[] = [
   {
-    "id": "typ-0",
+    "id": 895,
     "name": "ДСК"
   },
   {
-    "id": "typ-1",
+    "id": 896,
     "name": "МОСІ"
   },
   {
-    "id": "typ-2",
+    "id": 897,
     "name": "Робочий"
   },
   {
-    "id": "typ-3",
+    "id": 898,
     "name": "СЕДО"
   }
 ];
 
 export const mockPositions: DirectoryItem[] = [
   {
-    "id": "pos-0",
+    "id": 899,
     "name": "G-1"
   },
   {
-    "id": "pos-1",
+    "id": 900,
     "name": "Інспектор СДБР"
   },
   {
-    "id": "pos-2",
+    "id": 901,
     "name": "Асистент фармацевта аптеки медичного пункту медичного батальйону"
   },
   {
-    "id": "pos-3",
+    "id": 902,
     "name": "Головний сержант 3-го господарчого взводу 2-ї роти матеріального забезпечення батальйону забезпечення"
   },
   {
-    "id": "pos-4",
+    "id": 903,
     "name": "Діловод"
   },
   {
-    "id": "pos-5",
+    "id": 904,
     "name": "Діловод S1"
   },
   {
-    "id": "pos-6",
+    "id": 905,
     "name": "Діловод матеріально технічними засобами медичного відділу управління тилу логістики (G-4)"
   },
   {
-    "id": "pos-7",
+    "id": 906,
     "name": "Діловот АТ"
   },
   {
-    "id": "pos-8",
+    "id": 907,
     "name": "Лікар медичного пункту медичного батальйону"
   },
   {
-    "id": "pos-9",
+    "id": 908,
     "name": "Нач служби забезпеченя ПММ"
   },
   {
-    "id": "pos-10",
+    "id": 909,
     "name": "Начальник КТП СДБР"
   },
   {
-    "id": "pos-11",
+    "id": 910,
     "name": "Начальник Служби Координації підготовки підрозділів артилерії відділу підготовки за призначенням (G-7)"
   },
   {
-    "id": "pos-12",
+    "id": 911,
     "name": "Начальник відділення медичного забезпечення медичного батальйону"
   },
   {
-    "id": "pos-13",
+    "id": 912,
     "name": "Начальник відділу квартирно експлуатаційного забезпечення управління тилу логістики"
   },
   {
-    "id": "pos-14",
+    "id": 913,
     "name": "Начальник відділу планування та підготовки управлінь військових частин управління підготовки"
   },
   {
-    "id": "pos-15",
+    "id": 914,
     "name": "Начальник речового складу 2-го господарчого взводу 1-ї роти матеріального забезпечення батальйону забезпечення"
   },
   {
-    "id": "pos-16",
+    "id": 915,
     "name": "Начальник служби вивчення та впровадження досвіду відділу планування та підготовки управлінь військових частин управління підготовки G-7"
   },
   {
-    "id": "pos-17",
+    "id": 916,
     "name": "Начальник служби з питань запобігання та виявлення корупції ПШГ"
   },
   {
-    "id": "pos-18",
+    "id": 917,
     "name": "Оператор безпілотних літальних апаратів 5 відділення ударних безпілотних авіаційних комплексів взводу ударних безпілотних авіаційних комплексів літакового типу спеціального призначення роти ударних безпілотних авіаційних комплексів спеціального призначення батальйону безпілотних систем"
   },
   {
-    "id": "pos-19",
+    "id": 918,
     "name": "Офіцер відділу комунікацій персональної штабної групи"
   },
   {
-    "id": "pos-20",
+    "id": 919,
     "name": "Помічник начальника служби РХБЗ"
   },
   {
-    "id": "pos-21",
+    "id": 920,
     "name": "Сержант з матеріального забезпечення 1-ї зенітної артилерійської батареї зентіного ракетно-артилерійського дивізіону"
   },
   {
-    "id": "pos-22",
+    "id": 921,
     "name": "Служба безпілотних систем"
   },
   {
-    "id": "pos-23",
+    "id": 922,
     "name": "Старший офіцер відділення обліку виплати одноразової грошової допомоги управління фінансового забезпечення"
   },
   {
-    "id": "pos-24",
+    "id": 923,
     "name": "Старший офіцер відділення організації зв'язку управління зв'язку та інформатизації (G-6) штабу"
   },
   {
-    "id": "pos-25",
+    "id": 924,
     "name": "Старший офіцер служби координації колективної підготовки відділу підготовки військ управління підготовки"
   },
   {
-    "id": "pos-26",
+    "id": 925,
     "name": "Старший офіцер служби охорони праці персональної штабної групи"
   },
   {
-    "id": "pos-27",
+    "id": 926,
     "name": "Старший помічник начальника віддлення напрямків відділу командних пунктів G-3 Штабу"
   },
   {
-    "id": "pos-28",
+    "id": 927,
     "name": "Т.в.о. начальника відділу матеріального обілдку управління фінансового забезпечення"
   },
   {
-    "id": "pos-29",
+    "id": 928,
     "name": "Топографічна служба"
   },
   {
-    "id": "pos-30",
+    "id": 929,
     "name": "Штаб сержант першої категорії СБДР управління озброєння і техніки (технічної частини)"
   },
   {
-    "id": "pos-31",
+    "id": 930,
     "name": "Штаб-сержант першої категорії продовольчого відділу управління тилу логістики (G-4)"
   },
   {
-    "id": "pos-32",
+    "id": 931,
     "name": "водій 1-го зенітно ракетного відділення 1-го зенітно ракетного взводу 1-ї зенітно ракетної батареї зенітно ракетно-артилеріцського дивізіону"
   },
   {
-    "id": "pos-33",
+    "id": 932,
     "name": "головний сержант 3-го взводу охорони 2-ї роти охорони батальйону охорони"
   },
   {
-    "id": "pos-34",
+    "id": 933,
     "name": "головний сержант батальйону охорони"
   },
   {
-    "id": "pos-35",
+    "id": 934,
     "name": "дешифрувальник розвідувальних матеріалів з безпілотних літальних апаратів відділення збору, обробки та аналізу інформації роти ударних безпілотних авіаційних комплексів спеціального призначення батальйону безпілотних систем"
   },
   {
-    "id": "pos-36",
+    "id": 935,
     "name": "діловод обліково - операційної служби  відділу бронетанкової техніки  управління озброєння і техніки (технічної частини) логістики (G-4)"
   },
   {
-    "id": "pos-37",
+    "id": 936,
     "name": "командир 1-го автомобільного взводу 2-ї автомобільної роти батальйону забезпечення"
   },
   {
-    "id": "pos-38",
+    "id": 937,
     "name": "командир 1-го господарчого взводу 1-ї роти матеріального забезпечення батальйону забезпечення"
   },
   {
-    "id": "pos-39",
+    "id": 938,
     "name": "командир 1-ої автомобільної роти"
   },
   {
-    "id": "pos-40",
+    "id": 939,
     "name": "командир 1-ї роти матеріального забезпечення батальйону забезпечення"
   },
   {
-    "id": "pos-41",
+    "id": 940,
     "name": "командир 2-го взводу охорони 2-ї роти охорони батальйону охорони"
   },
   {
-    "id": "pos-42",
+    "id": 941,
     "name": "командир взводу 3-го взводу охорони 1-ї роти охорони батальйону охорони"
   },
   {
-    "id": "pos-43",
+    "id": 942,
     "name": "командир госпітальної роти медичного батальйону"
   },
   {
-    "id": "pos-44",
+    "id": 943,
     "name": "командир евакуаційної роти ремонтно-відновлювального батальйону"
   },
   {
-    "id": "pos-45",
+    "id": 944,
     "name": "начальник відділу кадрової роботи управління персоналу (G-1) штабу"
   },
   {
-    "id": "pos-46",
+    "id": 945,
     "name": "начальник групи технічного обслуговування та списання безпілотних систем відділу технічного забезпечення безпілотних систем управління безпілотних систем"
   },
   {
-    "id": "pos-47",
+    "id": 946,
     "name": "начальник служби військового капеланства персональної штабної групи"
   },
   {
-    "id": "pos-48",
+    "id": 947,
     "name": "начальник служби запобігання та виявлення корупції"
   },
   {
-    "id": "pos-49",
+    "id": 948,
     "name": "начальник служби координації підготовки підрозділів ППО  відділу підготовки за призначенням управління підготовки (G-7)"
   },
   {
-    "id": "pos-50",
+    "id": 949,
     "name": "начальник топографічної служби"
   },
   {
-    "id": "pos-51",
+    "id": 950,
     "name": "начальника служби організації ремонту БТ техніки"
   },
   {
-    "id": "pos-52",
+    "id": 951,
     "name": "сержант з матеріального забезпечення 2-ї автомобільної роти батальйону забезпечення"
   },
   {
-    "id": "pos-53",
+    "id": 952,
     "name": "сержант матеріального забезпечення"
   },
   {
-    "id": "pos-54",
+    "id": 953,
     "name": "старший оператор відділення обслуговування роти"
   },
   {
-    "id": "pos-55",
+    "id": 954,
     "name": "старший офіцер Розрахункового відділу управління фін. забезпечення персональної штабної групи"
   },
   {
-    "id": "pos-56",
+    "id": 955,
     "name": "старший офіцер відділу матеріального обліку управління фінансового забезпечення"
   },
   {
-    "id": "pos-57",
+    "id": 956,
     "name": "старший офіцер служби забезпечення безпілотних систем відділу безпілотних систем штабу молодший лейтенант"
   },
   {
-    "id": "pos-58",
+    "id": 957,
     "name": "старший офіцер служби комплектування та проходження служби рядовим, сержантським і старшинським складом відділу кадрової роботи управління персоналу штабу"
   },
   {
-    "id": "pos-59",
+    "id": 958,
     "name": "старший офіцер служби обліку та звітності відділу обліку особового складу управління персоналу (G-1) штабу"
   },
   {
-    "id": "pos-60",
+    "id": 959,
     "name": "старший офіцер фінансово видаткового відділення"
   },
   {
-    "id": "pos-61",
+    "id": 960,
     "name": "старший технік- начальник КТП СБДР"
   },
   {
-    "id": "pos-62",
+    "id": 961,
     "name": "т. в. о. начальника управління безпілотних систем персональної штабної групи"
   },
   {
-    "id": "pos-63",
+    "id": 962,
     "name": "т.в.о. КРВБ"
   },
   {
-    "id": "pos-64",
+    "id": 963,
     "name": "тво командира взводу Сбдр"
   },
   {
-    "id": "pos-65",
+    "id": 964,
     "name": "технік служби технічного захисту інформації режимно-секретного відділу персональної штабної групи"
   },
   {
-    "id": "pos-66",
+    "id": 965,
     "name": "штаб серажнт першої категорії фінансово-видаткового відділення управління фінансвого забезпечення"
   },
   {
-    "id": "pos-67",
+    "id": 966,
     "name": "штаб-сержант служби організації забезпечення бронетанковою технікою відділу бронетанкової техніки управління озброєння і техніки (технічної частини) логістики (G-4)"
   },
   {
-    "id": "pos-68",
+    "id": 967,
     "name": "інженер групи технічного обслуговування та списання безпілотних систем відділу технічного забезпечення безпілотних систем управління безпілотних систем"
   }
 ];
 
 export const mockDepartments: DirectoryItem[] = [
   {
-    "id": "dep-0",
+    "id": 968,
     "name": "(G-1)"
   },
   {
-    "id": "dep-1",
+    "id": 969,
     "name": "G-1"
   },
   {
-    "id": "dep-2",
+    "id": 970,
     "name": "G-2"
   },
   {
-    "id": "dep-3",
+    "id": 971,
     "name": "G-3"
   },
   {
-    "id": "dep-4",
+    "id": 972,
     "name": "G-4"
   },
   {
-    "id": "dep-5",
+    "id": 973,
     "name": "G-5"
   },
   {
-    "id": "dep-6",
+    "id": 974,
     "name": "G-6"
   },
   {
-    "id": "dep-7",
+    "id": 975,
     "name": "G-7"
   },
   {
-    "id": "dep-8",
+    "id": 976,
     "name": "G1"
   },
   {
-    "id": "dep-9",
+    "id": 977,
     "name": "G3"
   },
   {
-    "id": "dep-10",
+    "id": 978,
     "name": "G7"
   },
   {
-    "id": "dep-11",
+    "id": 979,
     "name": "Інф. роботи"
   },
   {
-    "id": "dep-12",
+    "id": 980,
     "name": "АТ"
   },
   {
-    "id": "dep-13",
+    "id": 981,
     "name": "Автомобіл. служба"
   },
   {
-    "id": "dep-14",
+    "id": 982,
     "name": "Автомобільна техніка"
   },
   {
-    "id": "dep-15",
+    "id": 983,
     "name": "ББпС"
   },
   {
-    "id": "dep-16",
+    "id": 984,
     "name": "БЗ"
   },
   {
-    "id": "dep-17",
+    "id": 985,
     "name": "БПС"
   },
   {
-    "id": "dep-18",
+    "id": 986,
     "name": "БТ відділ"
   },
   {
-    "id": "dep-19",
+    "id": 987,
     "name": "Бат. забезпечення"
   },
   {
-    "id": "dep-20",
+    "id": 988,
     "name": "Бат.забезпечення"
   },
   {
-    "id": "dep-21",
+    "id": 989,
     "name": "Бат.охорони"
   },
   {
-    "id": "dep-22",
+    "id": 990,
     "name": "Батальйон Охорони"
   },
   {
-    "id": "dep-23",
+    "id": 991,
     "name": "Батальйон забезпечення"
   },
   {
-    "id": "dep-24",
+    "id": 992,
     "name": "Батальйон охорони"
   },
   {
-    "id": "dep-25",
+    "id": 993,
     "name": "Батальон охорони"
   },
   {
-    "id": "dep-26",
+    "id": 994,
     "name": "Безпілотних систем"
   },
   {
-    "id": "dep-27",
+    "id": 995,
     "name": "Безпілотні системи"
   },
   {
-    "id": "dep-28",
+    "id": 996,
     "name": "БпС"
   },
   {
-    "id": "dep-29",
+    "id": 997,
     "name": "Бронетанкової техніки"
   },
   {
-    "id": "dep-30",
+    "id": 998,
     "name": "ВБпСШ"
   },
   {
-    "id": "dep-31",
+    "id": 999,
     "name": "ВДЗК"
   },
   {
-    "id": "dep-32",
+    "id": 1000,
     "name": "ВЗ"
   },
   {
-    "id": "dep-33",
+    "id": 1001,
     "name": "Вузол зв'язку"
   },
   {
-    "id": "dep-34",
+    "id": 1002,
     "name": "Відділ благодійної допомоги"
   },
   {
-    "id": "dep-35",
+    "id": 1003,
     "name": "Відділ комунікації (медійка)"
   },
   {
-    "id": "dep-36",
+    "id": 1004,
     "name": "Відділ медичного забезпечення"
   },
   {
-    "id": "dep-37",
+    "id": 1005,
     "name": "Відділ озброєння"
   },
   {
-    "id": "dep-38",
+    "id": 1006,
     "name": "Відділ підтримки"
   },
   {
-    "id": "dep-39",
+    "id": 1007,
     "name": "Відділення РЕБ штабу"
   },
   {
-    "id": "dep-40",
+    "id": 1008,
     "name": "Відділення гуманітарних дисциплін управління по РОС"
   },
   {
-    "id": "dep-41",
+    "id": 1009,
     "name": "Відділення дисципліни"
   },
   {
-    "id": "dep-42",
+    "id": 1010,
     "name": "Група комплектування"
   },
   {
-    "id": "dep-43",
+    "id": 1011,
     "name": "Група нагородженнь (G-1)"
   },
   {
-    "id": "dep-44",
+    "id": 1012,
     "name": "Група організації списання матеріально-технічних засобів управління озброєння і техніки (технічної частини) логістики (G-4)"
   },
   {
-    "id": "dep-45",
+    "id": 1013,
     "name": "ЗРАД"
   },
   {
-    "id": "dep-46",
+    "id": 1014,
     "name": "ЗРАДН"
   },
   {
-    "id": "dep-47",
+    "id": 1015,
     "name": "ЗРАДн"
   },
   {
-    "id": "dep-48",
+    "id": 1016,
     "name": "КЕЗ"
   },
   {
-    "id": "dep-49",
+    "id": 1017,
     "name": "Кадрова робота G-1"
   },
   {
-    "id": "dep-50",
+    "id": 1018,
     "name": "Мед.забезпеченння"
   },
   {
-    "id": "dep-51",
+    "id": 1019,
     "name": "Мед.забезпечення"
   },
   {
-    "id": "dep-52",
+    "id": 1020,
     "name": "Медична служба"
   },
   {
-    "id": "dep-53",
+    "id": 1021,
     "name": "Медичний бат"
   },
   {
-    "id": "dep-54",
+    "id": 1022,
     "name": "Медичний відділ"
   },
   {
-    "id": "dep-55",
+    "id": 1023,
     "name": "ОЗСП"
   },
   {
-    "id": "dep-56",
+    "id": 1024,
     "name": "Облік особового складу G-1"
   },
   {
-    "id": "dep-57",
+    "id": 1025,
     "name": "ПММ"
   },
   {
-    "id": "dep-58",
+    "id": 1026,
     "name": "ППО"
   },
   {
-    "id": "dep-59",
+    "id": 1027,
     "name": "ПШГ"
   },
   {
-    "id": "dep-60",
+    "id": 1028,
     "name": "Пожежний відділ"
   },
   {
-    "id": "dep-61",
+    "id": 1029,
     "name": "Пожежний загін"
   },
   {
-    "id": "dep-62",
+    "id": 1030,
     "name": "Продовольчий відділ"
   },
   {
-    "id": "dep-63",
+    "id": 1031,
     "name": "Псих. забезпечення ПШГ"
   },
   {
-    "id": "dep-64",
+    "id": 1032,
     "name": "Психологи"
   },
   {
-    "id": "dep-65",
+    "id": 1033,
     "name": "Психологічного забезпечення"
   },
   {
-    "id": "dep-66",
+    "id": 1034,
     "name": "РВБ"
   },
   {
-    "id": "dep-67",
+    "id": 1035,
     "name": "РЕБ"
   },
   {
-    "id": "dep-68",
+    "id": 1036,
     "name": "РОС"
   },
   {
-    "id": "dep-69",
+    "id": 1037,
     "name": "РОС Відділення дисципліни"
   },
   {
-    "id": "dep-70",
+    "id": 1038,
     "name": "РОС ЦВС"
   },
   {
-    "id": "dep-71",
+    "id": 1039,
     "name": "РРЕБ"
   },
   {
-    "id": "dep-72",
+    "id": 1040,
     "name": "РСВ"
   },
   {
-    "id": "dep-73",
+    "id": 1041,
     "name": "РСВ/ТЗІ"
   },
   {
-    "id": "dep-74",
+    "id": 1042,
     "name": "РХБЗ"
   },
   {
-    "id": "dep-75",
+    "id": 1043,
     "name": "РХБз"
   },
   {
-    "id": "dep-76",
+    "id": 1044,
     "name": "Рекламний відділ"
   },
   {
-    "id": "dep-77",
+    "id": 1045,
     "name": "Ремонтно-відновлювальний батальйон"
   },
   {
-    "id": "dep-78",
+    "id": 1046,
     "name": "Речовий відділ"
   },
   {
-    "id": "dep-79",
+    "id": 1047,
     "name": "СБ"
   },
   {
-    "id": "dep-80",
+    "id": 1048,
     "name": "СБДР"
   },
   {
-    "id": "dep-81",
+    "id": 1049,
     "name": "СБС"
   },
   {
-    "id": "dep-82",
+    "id": 1050,
     "name": "СБС Берсерка"
   },
   {
-    "id": "dep-83",
+    "id": 1051,
     "name": "СБпС"
   },
   {
-    "id": "dep-84",
+    "id": 1052,
     "name": "СДБР"
   },
   {
-    "id": "dep-85",
+    "id": 1053,
     "name": "Секція зв'язку G-6"
   },
   {
-    "id": "dep-86",
+    "id": 1054,
     "name": "Служба закупівель"
   },
   {
-    "id": "dep-87",
+    "id": 1055,
     "name": "Служба комплектування"
   },
   {
-    "id": "dep-88",
+    "id": 1056,
     "name": "Служба охорони праці"
   },
   {
-    "id": "dep-89",
+    "id": 1057,
     "name": "Служба супроводу РОС"
   },
   {
-    "id": "dep-90",
+    "id": 1058,
     "name": "Топогрпфічна служба"
   },
   {
-    "id": "dep-91",
+    "id": 1059,
     "name": "УПО G-3"
   },
   {
-    "id": "dep-92",
+    "id": 1060,
     "name": "Управління"
   },
   {
-    "id": "dep-93",
+    "id": 1061,
     "name": "Управління озброєння і техніки (технічної частини) логістики (G-4)"
   },
   {
-    "id": "dep-94",
+    "id": 1062,
     "name": "Управління підготовки"
   },
   {
-    "id": "dep-95",
+    "id": 1063,
     "name": "Управління підготовки G-7"
   },
   {
-    "id": "dep-96",
+    "id": 1064,
     "name": "Управління тилу логістики G-4"
   },
   {
-    "id": "dep-97",
+    "id": 1065,
     "name": "Управліня тилу логістики (G-4)"
   },
   {
-    "id": "dep-98",
+    "id": 1066,
     "name": "Фіз. підготовка і спорт"
   },
   {
-    "id": "dep-99",
+    "id": 1067,
     "name": "Фін. відділ"
   },
   {
-    "id": "dep-100",
+    "id": 1068,
     "name": "Фін. забезпечення"
   },
   {
-    "id": "dep-101",
+    "id": 1069,
     "name": "Фінансове забезпечення"
   },
   {
-    "id": "dep-102",
+    "id": 1070,
     "name": "Юридичне відділення"
   },
   {
-    "id": "dep-103",
+    "id": 1071,
     "name": "Юридичний відділ"
   },
   {
-    "id": "dep-104",
+    "id": 1072,
     "name": "відділ беспілотних систем068 772 67 00"
   },
   {
-    "id": "dep-105",
+    "id": 1073,
     "name": "відділу комунікації"
   },
   {
-    "id": "dep-106",
+    "id": 1074,
     "name": "персональна штабна група"
   },
   {
-    "id": "dep-107",
+    "id": 1075,
     "name": "ремонтно-відновлювального батальйону"
   },
   {
-    "id": "dep-108",
+    "id": 1076,
     "name": "управління фінансового забезпечення"
   },
   {
-    "id": "dep-109",
+    "id": 1077,
     "name": "фізичної підготовки і спорту"
   }
 ];
 
 export const mockRanks: DirectoryItem[] = [
   {
-    "id": "rnk-0",
+    "id": 1078,
     "name": "солдат"
   },
   {
-    "id": "rnk-1",
+    "id": 1079,
     "name": "сержант"
   },
   {
-    "id": "rnk-2",
+    "id": 1080,
     "name": "офіцер"
   },
   {
-    "id": "rnk-3",
+    "id": 1081,
     "name": "капітан"
   },
   {
-    "id": "rnk-4",
+    "id": 1082,
     "name": "майор"
   },
   {
-    "id": "rnk-5",
+    "id": 1083,
     "name": "підполковник"
   },
   {
-    "id": "rnk-6",
+    "id": 1084,
     "name": "полковник"
   }
 ];
 
 export const mockLocations: DirectoryItem[] = [
   {
-    "id": "loc-0",
+    "id": 1085,
     "name": "БЗ"
   },
   {
-    "id": "loc-1",
+    "id": 1086,
     "name": "Київ"
   }
 ];

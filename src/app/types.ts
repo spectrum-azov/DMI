@@ -1,7 +1,7 @@
 // Types for the equipment management system
 
 export interface IssuanceRecord {
-  id: string;
+  id: number;
   nomenclature: string;
   type: string;
   model: string;
@@ -20,7 +20,7 @@ export interface IssuanceRecord {
 }
 
 export interface NeedRecord {
-  id: string;
+  id: number;
   nomenclature: string;
   type: string;
   quantity: number;
@@ -36,7 +36,7 @@ export interface NeedRecord {
 }
 
 export interface RejectedRecord {
-  id: string;
+  id: number;
   nomenclature: string;
   type: string;
   quantity: number;
@@ -52,7 +52,7 @@ export interface RejectedRecord {
 }
 
 export interface DirectoryItem {
-  id: string;
+  id: number;
   name: string;
 }
 
