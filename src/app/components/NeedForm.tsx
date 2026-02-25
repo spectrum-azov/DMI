@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
 import { NeedRecord, Directories } from '../types';
 import { formatUkrDate, formatISOToUkr, formatUkrToISO } from '../utils/dateUtils';
+import { SearchableSelect } from './SearchableSelect';
 
 interface NeedFormProps {
   isOpen: boolean;
@@ -80,37 +81,21 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
 
         <form onSubmit={handleSubmit} className="p-6 space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Номенклатура *
-              </label>
-              <select
-                required
-                value={formData.nomenclature}
-                onChange={(e) => setFormData({ ...formData, nomenclature: parseInt(e.target.value) })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
-              >
-                {directories.nomenclatures.map(item => (
-                  <option key={item.id} value={item.id}>{item.name}</option>
-                ))}
-              </select>
-            </div>
+            <SearchableSelect
+              label="Номенклатура"
+              required
+              options={directories.nomenclatures}
+              value={formData.nomenclature}
+              onChange={(val) => setFormData({ ...formData, nomenclature: val })}
+            />
 
-            <div>
-              <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Тип *
-              </label>
-              <select
-                required
-                value={formData.type}
-                onChange={(e) => setFormData({ ...formData, type: parseInt(e.target.value) })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
-              >
-                {directories.types.map(item => (
-                  <option key={item.id} value={item.id}>{item.name}</option>
-                ))}
-              </select>
-            </div>
+            <SearchableSelect
+              label="Тип"
+              required
+              options={directories.types}
+              value={formData.type}
+              onChange={(val) => setFormData({ ...formData, type: val })}
+            />
 
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">
@@ -152,21 +137,13 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
               />
             </div>
 
-            <div>
-              <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Служба *
-              </label>
-              <select
-                required
-                value={formData.department}
-                onChange={(e) => setFormData({ ...formData, department: parseInt(e.target.value) })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
-              >
-                {directories.departments.map(item => (
-                  <option key={item.id} value={item.id}>{item.name}</option>
-                ))}
-              </select>
-            </div>
+            <SearchableSelect
+              label="Служба"
+              required
+              options={directories.departments}
+              value={formData.department}
+              onChange={(val) => setFormData({ ...formData, department: val })}
+            />
 
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">
@@ -193,21 +170,13 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
               />
             </div>
 
-            <div>
-              <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Локація *
-              </label>
-              <select
-                required
-                value={formData.location}
-                onChange={(e) => setFormData({ ...formData, location: parseInt(e.target.value) })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
-              >
-                {directories.locations.map(item => (
-                  <option key={item.id} value={item.id}>{item.name}</option>
-                ))}
-              </select>
-            </div>
+            <SearchableSelect
+              label="Локація"
+              required
+              options={directories.locations}
+              value={formData.location}
+              onChange={(val) => setFormData({ ...formData, location: val })}
+            />
 
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">

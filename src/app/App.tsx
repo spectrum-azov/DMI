@@ -762,6 +762,7 @@ export default function App() {
                 rejectedData={rejectedData}
                 dateFilter={dateFilter}
                 directories={directories}
+                onRowClick={handleRowClick}
               />
             )}
 

@@ -10,6 +10,7 @@ interface DashboardProps {
   rejectedData: RejectedRecord[];
   dateFilter: DateFilter;
   directories?: Directories;
+  onRowClick?: (item: any, type: 'needs' | 'issuance' | 'rejected') => void;
 }
 
 export function Dashboard({
@@ -18,6 +19,7 @@ export function Dashboard({
   rejectedData,
   dateFilter,
   directories,
+  onRowClick,
 }: DashboardProps) {
 
   const filteredIssuance = issuanceData.filter((i) =>
@@ -293,7 +295,8 @@ export function Dashboard({
               filteredNeeds.slice(0, 5).map((need) => (
                 <div
                   key={need.id}
-                  className="flex items-start justify-between pb-3 border-b border-border last:border-0 last:pb-0"
+                  onClick={() => onRowClick && onRowClick(need, 'needs')}
+                  className={`flex items-start justify-between pb-3 border-b border-border last:border-0 last:pb-0 ${onRowClick ? 'cursor-pointer hover:bg-muted/50 rounded-lg p-2 -mx-2 transition-colors' : ''}`}
                 >
                   <div className="flex-1 pr-2">
                     <p className="font-medium text-sm text-foreground">
