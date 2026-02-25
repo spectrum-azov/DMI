@@ -10705,7 +10705,7 @@ export const mockNeedsData: NeedRecord[] = [
     "mobileNumber": "0991834580",
     "requestDate": "28.01.2026",
     "location": "Київ",
-    "status": "Погоджено",
+    "status": "На погодженні",
     "notes": "Видати леново"
   },
   {
@@ -10719,7 +10719,7 @@ export const mockNeedsData: NeedRecord[] = [
     "mobileNumber": "0991834580",
     "requestDate": "28.01.2026",
     "location": "Київ",
-    "status": "Погоджено",
+    "status": "На погодженні",
     "notes": ""
   },
   {
@@ -11601,7 +11601,7 @@ export const mockNeedsData: NeedRecord[] = [
     "mobileNumber": "",
     "requestDate": "24.02.2026",
     "location": "БЗ",
-    "status": "Погоджено",
+    "status": "На погодженні",
     "notes": ""
   },
   {
@@ -11615,7 +11615,7 @@ export const mockNeedsData: NeedRecord[] = [
     "mobileNumber": "",
     "requestDate": "24.02.2026",
     "location": "БЗ",
-    "status": "Погоджено",
+    "status": "На погодженні",
     "notes": "2 камери, відеореєстратор, монітор, HDD"
   },
   {
@@ -11629,7 +11629,7 @@ export const mockNeedsData: NeedRecord[] = [
     "mobileNumber": "",
     "requestDate": "24.02.2026",
     "location": "БЗ",
-    "status": "Погоджено",
+    "status": "На погодженні",
     "notes": ""
   },
   {
@@ -11643,7 +11643,7 @@ export const mockNeedsData: NeedRecord[] = [
     "mobileNumber": "",
     "requestDate": "24.02.2026",
     "location": "БЗ",
-    "status": "Погоджено",
+    "status": "На погодженні",
     "notes": ""
   },
   {
@@ -11657,7 +11657,7 @@ export const mockNeedsData: NeedRecord[] = [
     "mobileNumber": "",
     "requestDate": "24.02.2026",
     "location": "БЗ",
-    "status": "Погоджено",
+    "status": "На погодженні",
     "notes": ""
   },
   {
@@ -11671,7 +11671,7 @@ export const mockNeedsData: NeedRecord[] = [
     "mobileNumber": "",
     "requestDate": "24.02.2026",
     "location": "БЗ",
-    "status": "Погоджено",
+    "status": "На погодженні",
     "notes": ""
   },
   {
@@ -11685,7 +11685,7 @@ export const mockNeedsData: NeedRecord[] = [
     "mobileNumber": "",
     "requestDate": "24.02.2026",
     "location": "БЗ",
-    "status": "Погоджено",
+    "status": "На погодженні",
     "notes": "639413120"
   },
   {
@@ -11699,7 +11699,7 @@ export const mockNeedsData: NeedRecord[] = [
     "mobileNumber": "",
     "requestDate": "24.02.2026",
     "location": "БЗ",
-    "status": "Погоджено",
+    "status": "На погодженні",
     "notes": ""
   },
   {
@@ -11713,7 +11713,7 @@ export const mockNeedsData: NeedRecord[] = [
     "mobileNumber": "",
     "requestDate": "24.02.2026",
     "location": "БЗ",
-    "status": "Погоджено",
+    "status": "На погодженні",
     "notes": ""
   },
   {
