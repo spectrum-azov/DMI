@@ -10,6 +10,7 @@ import { useState, useRef, useEffect } from 'react';
 import { IssuanceRecord } from '../types';
 import { QuickDateFilter } from './QuickDateFilter';
 import { DateFilter, isWithinPeriod } from '../utils/dateUtils';
+import { TablePagination } from './TablePagination';
 
 interface Column {
     key: string;
@@ -55,6 +56,10 @@ export function IssuanceDataTable({
     const [isColumnsOpen, setIsColumnsOpen] = useState(false);
     const columnsRef = useRef<HTMLDivElement>(null);
 
+    // Pagination state
+    const [currentPage, setCurrentPage] = useState(1);
+    const [pageSize, setPageSize] = useState(10);
+
     // Close column panel when clicking outside
     useEffect(() => {
         function handleClickOutside(e: MouseEvent) {
@@ -68,6 +73,11 @@ export function IssuanceDataTable({
         document.addEventListener('mousedown', handleClickOutside);
         return () => document.removeEventListener('mousedown', handleClickOutside);
     }, []);
+
+    // Reset to first page when filters or tabs change
+    useEffect(() => {
+        setCurrentPage(1);
+    }, [searchTerm, dateFilter, subTab]);
 
     const toggleColumn = (key: string) => {
         setVisibleColumns((prev) => {
@@ -106,6 +116,11 @@ export function IssuanceDataTable({
         const cmp = aVal! < bVal! ? -1 : 1;
         return sortDirection === 'asc' ? cmp : -cmp;
     });
+
+    // Calculate paginated data
+    const totalItems = sortedData.length;
+    const startIndex = (currentPage - 1) * pageSize;
+    const paginatedData = sortedData.slice(startIndex, startIndex + pageSize);
 
     const handleSort = (key: string) => {
         if (sortColumn === key) {
@@ -275,7 +290,7 @@ export function IssuanceDataTable({
                         </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
-                        {sortedData.length === 0 ? (
+                        {paginatedData.length === 0 ? (
                             <tr>
                                 <td
                                     colSpan={
@@ -292,7 +307,7 @@ export function IssuanceDataTable({
                                 </td>
                             </tr>
                         ) : (
-                            sortedData.map((item) => (
+                            paginatedData.map((item) => (
                                 <tr
                                     key={item.id}
                                     className="hover:bg-gray-50 transition-colors"
@@ -357,10 +372,13 @@ export function IssuanceDataTable({
                 </table>
             </div>
 
-            <div className="text-xs text-gray-500">
-                Показано: {sortedData.length} із {activeData.length}{' '}
-                {subTab === 'pending' ? '(на видачу)' : '(видано)'}
-            </div>
+            <TablePagination
+                totalItems={totalItems}
+                pageSize={pageSize}
+                currentPage={currentPage}
+                onPageChange={setCurrentPage}
+                onPageSizeChange={setPageSize}
+            />
         </div>
     );
 }

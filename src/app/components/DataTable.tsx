@@ -8,6 +8,7 @@ import {
 import { useState, useRef, useEffect } from 'react';
 import { QuickDateFilter } from './QuickDateFilter';
 import { DateFilter, isWithinPeriod } from '../utils/dateUtils';
+import { TablePagination } from './TablePagination';
 
 interface Column {
   key: string;
@@ -52,6 +53,10 @@ export function DataTable({
   const [isColumnsOpen, setIsColumnsOpen] = useState(false);
   const columnsRef = useRef<HTMLDivElement>(null);
 
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const [pageSize, setPageSize] = useState(10);
+
   // Close column panel when clicking outside
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -65,6 +70,11 @@ export function DataTable({
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
+
+  // Reset to first page when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm, dateFilter]);
 
   const toggleColumn = (key: string) => {
     setVisibleColumns((prev) => {
@@ -102,6 +112,11 @@ export function DataTable({
     const comparison = aVal < bVal ? -1 : 1;
     return sortDirection === 'asc' ? comparison : -comparison;
   });
+
+  // Calculate paginated data
+  const totalItems = sortedData.length;
+  const startIndex = (currentPage - 1) * pageSize;
+  const paginatedData = sortedData.slice(startIndex, startIndex + pageSize);
 
   const handleSort = (columnKey: string) => {
     if (sortColumn === columnKey) {
@@ -233,7 +248,7 @@ export function DataTable({
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-200">
-            {sortedData.length === 0 ? (
+            {paginatedData.length === 0 ? (
               <tr>
                 <td
                   colSpan={activeColumns.length + (onEdit || onDelete ? 1 : 0)}
@@ -245,7 +260,7 @@ export function DataTable({
                 </td>
               </tr>
             ) : (
-              sortedData.map((item: any) => (
+              paginatedData.map((item: any) => (
                 <tr key={item.id} className="hover:bg-gray-50 transition-colors">
                   {activeColumns.map((column) => (
                     <td
@@ -286,9 +301,13 @@ export function DataTable({
         </table>
       </div>
 
-      <div className="text-xs text-gray-500">
-        Показано: {sortedData.length} із {dateFiltered.length} записів
-      </div>
+      <TablePagination
+        totalItems={totalItems}
+        pageSize={pageSize}
+        currentPage={currentPage}
+        onPageChange={setCurrentPage}
+        onPageSizeChange={setPageSize}
+      />
     </div>
   );
 }
