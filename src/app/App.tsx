@@ -94,7 +94,8 @@ export default function App() {
   // Move states
   const [isMoveDialogOpen, setIsMoveDialogOpen] = useState(false);
   const [moveTarget, setMoveTarget] = useState<RejectedRecord | undefined>();
-  const [moveType, setMoveType] = useState<'needs' | 'issuance'>('needs');
+  const [moveIssuanceTarget, setMoveIssuanceTarget] = useState<IssuanceRecord | undefined>();
+  const [moveType, setMoveType] = useState<'needs' | 'issuance' | 'return-issuance'>('needs');
 
   // Handlers for Issuance
   const handleAddIssuance = (data: Omit<IssuanceRecord, 'id'>) => {
@@ -132,7 +133,7 @@ export default function App() {
     if (confirm('Змінити статус на "Видано"?')) {
       setIssuanceData(
         issuanceData.map((item) =>
-          item.id === id ? { ...item, status: 'Видано' } : item,
+          item.id === id ? { ...item, status: 'Видано', issueDate: new Date().toLocaleDateString('uk-UA') } : item,
         ),
       );
     }
@@ -146,7 +147,7 @@ export default function App() {
 
     setIssuanceData(
       issuanceData.map((i) =>
-        i.id === id ? { ...i, status: newStatus } : i,
+        i.id === id ? { ...i, status: newStatus, issueDate: new Date().toLocaleDateString('uk-UA') } : i,
       ),
     );
   };
@@ -327,7 +328,27 @@ export default function App() {
     setIsMoveDialogOpen(true);
   };
 
+  const handleMoveCancelledToIssuance = (item: IssuanceRecord) => {
+    setMoveIssuanceTarget(item);
+    setMoveType('return-issuance');
+    setIsMoveDialogOpen(true);
+  };
+
   const handleConfirmMove = (notes: string) => {
+    if (moveType === 'return-issuance') {
+      if (!moveIssuanceTarget) return;
+      setIssuanceData(
+        issuanceData.map((i) =>
+          i.id === moveIssuanceTarget.id
+            ? { ...i, status: 'На видачу', issueDate: new Date().toLocaleDateString('uk-UA'), notes: notes || i.notes }
+            : i,
+        ),
+      );
+      setIsMoveDialogOpen(false);
+      setMoveIssuanceTarget(undefined);
+      return;
+    }
+
     if (!moveTarget) return;
 
     if (moveType === 'needs') {
@@ -340,13 +361,13 @@ export default function App() {
         position: moveTarget.position,
         department: moveTarget.department,
         mobileNumber: moveTarget.mobileNumber,
-        requestDate: new Date().toISOString().split('T')[0],
+        requestDate: new Date().toLocaleDateString('uk-UA'),
         location: moveTarget.location,
         status: 'На погодженні',
         notes: notes || moveTarget.notes,
       };
       setNeedsData([newNeed, ...needsData]);
-    } else {
+    } else if (moveType === 'issuance') {
       const newIssuance: IssuanceRecord = {
         id: Date.now().toString(),
         nomenclature: moveTarget.nomenclature,
@@ -358,7 +379,7 @@ export default function App() {
         department: moveTarget.department,
         request: moveTarget.nomenclature,
         requestNumber: '',
-        issueDate: new Date().toISOString().split('T')[0],
+        issueDate: new Date().toLocaleDateString('uk-UA'),
         location: moveTarget.location,
         status: 'На видачу',
         notes: notes || moveTarget.notes,
@@ -630,6 +651,7 @@ export default function App() {
                   onDelete={handleDeleteIssuance}
                   onIssue={handleIssueItem}
                   onStatusChange={handleUpdateIssuanceStatus}
+                  onReturnToIssuance={handleMoveCancelledToIssuance}
                   onRowClick={(item) => handleRowClick(item, 'issuance')}
                   emptyMessage="Немає записів про видачу"
                   dateFilter={dateFilter}
@@ -644,6 +666,8 @@ export default function App() {
                   columns={rejectedColumns}
                   onEdit={handleEditRejected}
                   onDelete={handleDeleteRejected}
+                  onMoveToNeeds={handleMoveRejectedToNeeds}
+                  onMoveToIssuance={handleMoveRejectedToIssuance}
                   onRowClick={(item) => handleRowClick(item, 'rejected')}
                   dateField="rejectedDate"
                   emptyMessage="Немає відхилених запитів"
@@ -704,6 +728,16 @@ export default function App() {
         title={viewingRecord?.title || ''}
         data={viewingRecord?.data}
         columns={viewingRecord?.columns || []}
+      />
+
+      <MoveDialog
+        isOpen={isMoveDialogOpen}
+        onClose={() => setIsMoveDialogOpen(false)}
+        onConfirm={handleConfirmMove}
+        title={moveType === 'needs' ? 'Повернення в потреби' : moveType === 'issuance' ? 'Переніс у видачу' : 'Повернення до видачі'}
+        description={moveType === 'needs' ? 'Запис буде повернено до списку потреб' : moveType === 'issuance' ? 'Запис буде перенесено в чергу на видачу' : 'Запис буде повернено до черги на видачу'}
+        itemName={moveType === 'return-issuance' ? (moveIssuanceTarget?.nomenclature || '') : (moveTarget?.nomenclature || '')}
+        initialNotes={moveType === 'return-issuance' ? moveIssuanceTarget?.notes : moveTarget?.notes}
       />
     </div>
   );

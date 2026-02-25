@@ -30,6 +30,7 @@ interface IssuanceDataTableProps {
     emptyMessage?: string;
     dateFilter: DateFilter;
     onStatusChange?: (id: string, newStatus: string) => void;
+    onReturnToIssuance?: (item: IssuanceRecord) => void;
 }
 
 const ISSUANCE_STATUSES = [
@@ -62,6 +63,7 @@ export function IssuanceDataTable({
     emptyMessage = 'Немає даних',
     dateFilter,
     onStatusChange,
+    onReturnToIssuance,
 }: IssuanceDataTableProps) {
     const [subTab, setSubTab] = useState<'pending' | 'issued' | 'cancelled'>('pending');
     const [searchTerm, setSearchTerm] = useState('');
@@ -342,7 +344,7 @@ export function IssuanceDataTable({
                                     </div>
                                 </th>
                             ))}
-                            {(onEdit || onDelete || (onIssue && subTab === 'pending')) && (
+                            {(onEdit || onDelete || (onIssue && subTab === 'pending') || (onReturnToIssuance && subTab === 'cancelled')) && (
                                 <th className="px-4 py-3 text-left text-sm font-semibold text-muted-foreground whitespace-nowrap">
                                     Дії
                                 </th>
@@ -355,7 +357,7 @@ export function IssuanceDataTable({
                                 <td
                                     colSpan={
                                         activeColumns.length +
-                                        (onEdit || onDelete || onIssue ? 1 : 0)
+                                        ((onEdit || onDelete || (onIssue && subTab === 'pending') || (onReturnToIssuance && subTab === 'cancelled')) ? 1 : 0)
                                     }
                                     className="px-4 py-8 text-center text-muted-foreground text-sm"
                                 >
@@ -402,7 +404,7 @@ export function IssuanceDataTable({
                                             )}
                                         </td>
                                     ))}
-                                    {(onEdit || onDelete || (onIssue && subTab === 'pending')) && (
+                                    {(onEdit || onDelete || (onIssue && subTab === 'pending') || (onReturnToIssuance && subTab === 'cancelled')) && (
                                         <td className="px-4 py-3 text-sm">
                                             <div className="flex gap-1">
                                                 {onIssue && subTab === 'pending' && (
@@ -453,6 +455,19 @@ export function IssuanceDataTable({
                                                             </div>
                                                         )}
                                                     </div>
+                                                )}
+                                                {onReturnToIssuance && subTab === 'cancelled' && (
+                                                    <button
+                                                        onClick={(e) => {
+                                                            e.stopPropagation();
+                                                            onReturnToIssuance(item);
+                                                        }}
+                                                        className="flex items-center gap-1 px-2 py-1 bg-green-600 text-white rounded text-xs font-medium hover:bg-green-700 transition-colors"
+                                                        title="На видачу"
+                                                    >
+                                                        <SendToBack size={13} />
+                                                        На видачу
+                                                    </button>
                                                 )}
                                                 {onEdit && (
                                                     <button
