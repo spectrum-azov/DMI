@@ -28,6 +28,7 @@ interface NeedsDataTableProps {
   onReject?: (item: NeedRecord) => void;
   onRowClick?: (item: NeedRecord) => void;
   emptyMessage?: string;
+  dateFilter: DateFilter;
 }
 
 /** Column keys visible by default */
@@ -48,14 +49,15 @@ export function NeedsDataTable({
   onReject,
   onRowClick,
   emptyMessage = 'Немає даних',
+  dateFilter,
 }: NeedsDataTableProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortColumn, setSortColumn] = useState<string | null>(null);
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
-  const [dateFilter, setDateFilter] = useState<DateFilter>('all');
-  const [visibleColumns, setVisibleColumns] = useState<Set<string>>(
-    new Set(DEFAULT_VISIBLE),
-  );
+  const [visibleColumns, setVisibleColumns] = useState<Set<string>>(() => {
+    const saved = localStorage.getItem('needs_visible_columns');
+    return saved ? new Set(JSON.parse(saved)) : new Set(DEFAULT_VISIBLE);
+  });
   const [isColumnsOpen, setIsColumnsOpen] = useState(false);
   const columnsRef = useRef<HTMLDivElement>(null);
 
@@ -81,6 +83,11 @@ export function NeedsDataTable({
   useEffect(() => {
     setCurrentPage(1);
   }, [searchTerm, dateFilter]);
+
+  // Persist column visibility
+  useEffect(() => {
+    localStorage.setItem('needs_visible_columns', JSON.stringify(Array.from(visibleColumns)));
+  }, [visibleColumns]);
 
   const toggleColumn = (key: string) => {
     setVisibleColumns((prev) => {
@@ -134,14 +141,7 @@ export function NeedsDataTable({
     <div className="flex flex-col gap-4">
       {/* Top toolbar */}
       <div className="flex flex-wrap items-center gap-3">
-        {/* Quick date filter */}
-        <QuickDateFilter
-          value={dateFilter}
-          onChange={setDateFilter}
-          className="flex-shrink-0"
-        />
-
-        {/* Spacer */}
+        <div className="flex-1" />
         <div className="flex-1" />
 
         {/* Column visibility toggle */}

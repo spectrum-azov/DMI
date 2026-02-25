@@ -29,12 +29,23 @@ import {
   mockNeedsData,
   mockRejectedData,
 } from './data/mockData';
+import { QuickDateFilter } from './components/QuickDateFilter';
+import { DateFilter } from './utils/dateUtils';
+import { useEffect } from 'react';
 
 type TabType = 'dashboard' | 'issuance' | 'needs' | 'rejected';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<TabType>('dashboard');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [dateFilter, setDateFilter] = useState<DateFilter>(() => {
+    const saved = localStorage.getItem('global_date_filter');
+    return (saved as DateFilter) || 'month';
+  });
+
+  useEffect(() => {
+    localStorage.setItem('global_date_filter', dateFilter);
+  }, [dateFilter]);
 
   // State for each data type
   const [issuanceData, setIssuanceData] =
@@ -463,25 +474,36 @@ export default function App() {
       <main className="flex-1 w-full max-w-full overflow-hidden">
         <div className="p-4 md:p-8 w-full max-w-6xl mx-auto">
           <div className="bg-card border border-border rounded-xl shadow-sm p-4 md:p-6 overflow-hidden">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-6 border-b border-border">
+              <div>
+                <h1 className="text-2xl font-bold text-foreground">
+                  {activeTab === 'dashboard' && 'Панель управління'}
+                  {activeTab === 'needs' && 'Потреби в обладнанні'}
+                  {activeTab === 'issuance' && 'Видача обладнання'}
+                  {activeTab === 'rejected' && 'Відхилені запити'}
+                </h1>
+                <p className="text-sm text-muted-foreground mt-1">
+                  {activeTab === 'dashboard' && 'Огляд системи обліку обладнання'}
+                  {activeTab === 'needs' && 'Управління запитами на нове обладнання'}
+                  {activeTab === 'issuance' && 'Облік виданого обладнання та черга на видачу'}
+                  {activeTab === 'rejected' && 'Історія відхилених потреб'}
+                </p>
+              </div>
+              <QuickDateFilter value={dateFilter} onChange={setDateFilter} />
+            </div>
+
             {activeTab === 'dashboard' && (
               <Dashboard
                 issuanceData={issuanceData}
                 needsData={needsData}
                 rejectedData={rejectedData}
+                dateFilter={dateFilter}
               />
             )}
 
             {activeTab === 'needs' && (
               <div className="space-y-4">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                  <div>
-                    <h2 className="text-xl font-semibold text-foreground">
-                      Потреби в обладнанні
-                    </h2>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      Управління запитами на нове обладнання
-                    </p>
-                  </div>
+                <div className="flex justify-end">
                   <button
                     onClick={() => {
                       setEditingNeed(undefined);
@@ -502,22 +524,13 @@ export default function App() {
                   onReject={handleRejectNeed}
                   onRowClick={(item) => handleRowClick(item, 'needs')}
                   emptyMessage="Немає запитів на потреби"
+                  dateFilter={dateFilter}
                 />
               </div>
             )}
 
             {activeTab === 'issuance' && (
               <div className="space-y-4">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                  <div>
-                    <h2 className="text-xl font-semibold text-foreground">
-                      Видача обладнання
-                    </h2>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      Облік виданого обладнання та черга на видачу
-                    </p>
-                  </div>
-                </div>
                 <IssuanceDataTable
                   data={issuanceData}
                   columns={issuanceColumns}
@@ -526,22 +539,13 @@ export default function App() {
                   onIssue={handleIssueItem}
                   onRowClick={(item) => handleRowClick(item, 'issuance')}
                   emptyMessage="Немає записів про видачу"
+                  dateFilter={dateFilter}
                 />
               </div>
             )}
 
             {activeTab === 'rejected' && (
               <div className="space-y-4">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                  <div>
-                    <h2 className="text-xl font-semibold text-foreground">
-                      Відхилені запити
-                    </h2>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      Історія відхилених потреб
-                    </p>
-                  </div>
-                </div>
                 <DataTable
                   data={rejectedData}
                   columns={rejectedColumns}
@@ -550,6 +554,7 @@ export default function App() {
                   onRowClick={(item) => handleRowClick(item, 'rejected')}
                   dateField="rejectedDate"
                   emptyMessage="Немає відхилених запитів"
+                  dateFilter={dateFilter}
                 />
               </div>
             )}

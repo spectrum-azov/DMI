@@ -27,6 +27,7 @@ interface IssuanceDataTableProps {
     onIssue?: (id: string) => void;
     onRowClick?: (item: IssuanceRecord) => void;
     emptyMessage?: string;
+    dateFilter: DateFilter;
 }
 
 /** Column keys visible by default */
@@ -46,15 +47,16 @@ export function IssuanceDataTable({
     onIssue,
     onRowClick,
     emptyMessage = 'Немає даних',
+    dateFilter,
 }: IssuanceDataTableProps) {
     const [subTab, setSubTab] = useState<'pending' | 'issued'>('pending');
     const [searchTerm, setSearchTerm] = useState('');
     const [sortColumn, setSortColumn] = useState<string | null>(null);
     const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
-    const [dateFilter, setDateFilter] = useState<DateFilter>('all');
-    const [visibleColumns, setVisibleColumns] = useState<Set<string>>(
-        new Set(DEFAULT_VISIBLE),
-    );
+    const [visibleColumns, setVisibleColumns] = useState<Set<string>>(() => {
+        const saved = localStorage.getItem('issuance_visible_columns');
+        return saved ? new Set(JSON.parse(saved)) : new Set(DEFAULT_VISIBLE);
+    });
     const [isColumnsOpen, setIsColumnsOpen] = useState(false);
     const columnsRef = useRef<HTMLDivElement>(null);
 
@@ -80,6 +82,11 @@ export function IssuanceDataTable({
     useEffect(() => {
         setCurrentPage(1);
     }, [searchTerm, dateFilter, subTab]);
+
+    // Persist column visibility
+    useEffect(() => {
+        localStorage.setItem('issuance_visible_columns', JSON.stringify(Array.from(visibleColumns)));
+    }, [visibleColumns]);
 
     const toggleColumn = (key: string) => {
         setVisibleColumns((prev) => {
@@ -240,11 +247,6 @@ export function IssuanceDataTable({
                         </div>
                     )}
                 </div>
-            </div>
-
-            {/* Quick date filter */}
-            <div className="flex">
-                <QuickDateFilter value={dateFilter} onChange={setDateFilter} />
             </div>
 
             {/* Search */}

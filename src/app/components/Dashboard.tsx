@@ -8,14 +8,15 @@ interface DashboardProps {
   issuanceData: IssuanceRecord[];
   needsData: NeedRecord[];
   rejectedData: RejectedRecord[];
+  dateFilter: DateFilter;
 }
 
 export function Dashboard({
   issuanceData,
   needsData,
   rejectedData,
+  dateFilter,
 }: DashboardProps) {
-  const [dateFilter, setDateFilter] = useState<DateFilter>('all');
 
   const filteredIssuance = issuanceData.filter((i) =>
     isWithinPeriod(i.issueDate, dateFilter),
@@ -58,7 +59,6 @@ export function Dashboard({
           <h2 className="text-2xl font-semibold mb-1 text-foreground">Панель управління</h2>
           <p className="text-muted-foreground">Огляд системи обліку обладнання</p>
         </div>
-        <QuickDateFilter value={dateFilter} onChange={setDateFilter} />
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

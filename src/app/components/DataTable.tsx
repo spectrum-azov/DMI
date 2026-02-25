@@ -24,6 +24,7 @@ interface DataTableProps {
   emptyMessage?: string;
   dateField?: string;
   onRowClick?: (item: any) => void;
+  dateFilter: DateFilter;
 }
 
 /** Column keys visible by default for Rejected table */
@@ -44,14 +45,15 @@ export function DataTable({
   emptyMessage = 'Немає даних',
   dateField,
   onRowClick,
+  dateFilter,
 }: DataTableProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortColumn, setSortColumn] = useState<string | null>(null);
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
-  const [dateFilter, setDateFilter] = useState<DateFilter>('all');
-  const [visibleColumns, setVisibleColumns] = useState<Set<string>>(
-    new Set(DEFAULT_VISIBLE),
-  );
+  const [visibleColumns, setVisibleColumns] = useState<Set<string>>(() => {
+    const saved = localStorage.getItem('rejected_visible_columns');
+    return saved ? new Set(JSON.parse(saved)) : new Set(DEFAULT_VISIBLE);
+  });
   const [isColumnsOpen, setIsColumnsOpen] = useState(false);
   const columnsRef = useRef<HTMLDivElement>(null);
 
@@ -77,6 +79,11 @@ export function DataTable({
   useEffect(() => {
     setCurrentPage(1);
   }, [searchTerm, dateFilter]);
+
+  // Persist column visibility
+  useEffect(() => {
+    localStorage.setItem('rejected_visible_columns', JSON.stringify(Array.from(visibleColumns)));
+  }, [visibleColumns]);
 
   const toggleColumn = (key: string) => {
     setVisibleColumns((prev) => {
@@ -133,13 +140,7 @@ export function DataTable({
     <div className="flex flex-col gap-4">
       {/* Top toolbar */}
       <div className="flex flex-wrap items-center justify-between gap-3">
-        {dateField ? (
-          <div className="flex">
-            <QuickDateFilter value={dateFilter} onChange={setDateFilter} />
-          </div>
-        ) : (
-          <div />
-        )}
+        <div />
 
         {/* Column visibility toggle */}
         <div className="relative" ref={columnsRef}>
