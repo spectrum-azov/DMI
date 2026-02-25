@@ -55,7 +55,7 @@ export function DetailsModal({
     // Helper to map keys to icons
     const getIcon = (key: string) => {
         const k = key.toLowerCase();
-        if (k.includes('name') || k.includes('person')) return <User size={14} />;
+        if (k.includes('name') || k.includes('person') || k.includes('rank')) return <User size={14} />;
         if (k.includes('mobile') || k.includes('phone')) return <Phone size={14} />;
         if (k.includes('department') || k.includes('service')) return <Building2 size={14} />;
         if (k.includes('location')) return <MapPin size={14} />;
@@ -131,6 +131,7 @@ export function DetailsModal({
                                         if (val === undefined || val === null || val === '') return <span className="text-muted-foreground/50 font-normal italic">—</span>;
                                         if (col.key === 'nomenclature') return directories?.nomenclatures.find(d => d.id === val)?.name || val;
                                         if (col.key === 'type') return directories?.types.find(d => d.id === val)?.name || val;
+                                        if (col.key === 'rank') return directories?.ranks.find(d => d.id === val)?.name || val;
                                         if (col.key === 'department') return directories?.departments.find(d => d.id === val)?.name || val;
                                         if (col.key === 'location') return directories?.locations.find(d => d.id === val)?.name || val;
                                         return String(val);

@@ -14580,7 +14580,7 @@ export const mockRanks: DirectoryItem[] = [
   },
   {
     "id": 1088,
-    "name": "полковник"
+    "name": "не визначено"
   }
 ];
 
