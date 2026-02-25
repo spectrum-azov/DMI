@@ -68,20 +68,31 @@ export default function App() {
   // Handlers for Issuance
   const handleAddIssuance = (data: Omit<IssuanceRecord, 'id'>) => {
     if (editingIssuance) {
-      setIssuanceData(
-        issuanceData.map((item) =>
-          item.id === editingIssuance.id
-            ? { ...data, id: editingIssuance.id }
-            : item,
-        ),
-      );
+      const updatedRecord = { ...data, id: editingIssuance.id };
+
+      // Якщо статус "Відміна" - повертаємо в потреби
+      if (data.status === 'Відміна') {
+        moveIssuanceToNeeds(updatedRecord);
+      } else {
+        setIssuanceData(
+          issuanceData.map((item) =>
+            item.id === editingIssuance.id ? updatedRecord : item,
+          ),
+        );
+      }
       setEditingIssuance(undefined);
     } else {
       const newRecord: IssuanceRecord = {
         ...data,
         id: Date.now().toString(),
       };
-      setIssuanceData([...issuanceData, newRecord]);
+
+      // Якщо статус "Відміна" - повертаємо в потреби
+      if (data.status === 'Відміна') {
+        moveIssuanceToNeeds(newRecord);
+      } else {
+        setIssuanceData([...issuanceData, newRecord]);
+      }
     }
   };
 
@@ -193,6 +204,28 @@ export default function App() {
     setIssuanceData([...issuanceData, newIssuance]);
     setNeedsData(needsData.filter((item) => item.id !== need.id));
     setActiveTab('issuance');
+  };
+
+  // Функція переміщення з видачі назад у потреби (при скасуванні)
+  const moveIssuanceToNeeds = (issuance: IssuanceRecord) => {
+    const newNeed: NeedRecord = {
+      id: Date.now().toString(),
+      nomenclature: issuance.nomenclature,
+      type: issuance.type,
+      quantity: issuance.quantity,
+      contactPerson: issuance.fullName,
+      position: '',
+      department: issuance.department,
+      mobileNumber: '',
+      requestDate: new Date().toLocaleDateString('uk-UA'),
+      location: issuance.location,
+      status: 'В обробці',
+      notes: issuance.notes || `Повернено з видачі (Відміна). Раніше було: ${issuance.requestNumber}`,
+    };
+
+    setNeedsData([...needsData, newNeed]);
+    setIssuanceData(issuanceData.filter((item) => item.id !== issuance.id));
+    setActiveTab('needs');
   };
 
   // Функція переміщення з потреб у відхилені

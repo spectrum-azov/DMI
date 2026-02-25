@@ -93,7 +93,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "requestNumber": "",
     "issueDate": "",
     "location": "",
-    "status": "Видано",
+    "status": "На паузі",
     "notes": "На погоджені у Лужкового",
     "quantity": 1
   },
@@ -109,7 +109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "requestNumber": "",
     "issueDate": "",
     "location": "",
-    "status": "Видано",
+    "status": "Готово",
     "notes": "На погоджені у Лужкового",
     "quantity": 1
   },
@@ -125,7 +125,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "requestNumber": "",
     "issueDate": "",
     "location": "",
-    "status": "Видано",
+    "status": "Готується",
     "notes": "На погоджені у Лужкового",
     "quantity": 1
   },
@@ -141,7 +141,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "requestNumber": "",
     "issueDate": "",
     "location": "",
-    "status": "Видано",
+    "status": "На видачу",
     "notes": "Перевелась, знаходится у Руденко",
     "quantity": 1
   },

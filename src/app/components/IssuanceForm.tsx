@@ -235,9 +235,15 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData }: IssuanceFo
                 className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
               >
                 <option value="">Оберіть статус</option>
+                <option value="На видачу" className="bg-card">На видачу</option>
+                <option value="Готується" className="bg-card">Готується</option>
+                <option value="Готово" className="bg-card">Готово</option>
+                <option value="На паузі" className="bg-card">На паузі</option>
+                <option value="Повернули" className="bg-card">Повернули</option>
+                <option value="Заміна" className="bg-card">Заміна</option>
+                <option value="Відміна" className="bg-card">Відміна</option>
+                <option value="Чекаєм на поставку" className="bg-card">Чекаєм на поставку</option>
                 <option value="Видано" className="bg-card">Видано</option>
-                <option value="В обробці" className="bg-card">В обробці</option>
-                <option value="Очікується" className="bg-card">Очікується</option>
               </select>
             </div>
 

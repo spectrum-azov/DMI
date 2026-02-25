@@ -13,7 +13,7 @@ export interface IssuanceRecord {
   /** Date queued/issued — format dd.MM.yyyy */
   issueDate: string;
   location: string;
-  /** 'На видачу' | 'Видано' */
+  /** 'Готується' | 'Готово' | 'На паузі' | 'Повернули' | 'Заміна' | 'Відміна' | 'Чекаєм на поставку' | 'Видано' | 'На видачу' */
   status: string;
   notes: string;
   quantity: number;
