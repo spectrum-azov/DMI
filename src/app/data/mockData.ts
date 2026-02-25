@@ -17,8 +17,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -37,8 +36,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -57,8 +55,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -77,8 +74,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -97,8 +93,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Знайти контакт, звязатись, звірити  майно",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -117,8 +112,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "На паузі",
     "notes": "На погоджені у Лужкового",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -137,8 +131,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Готово",
     "notes": "На погоджені у Лужкового",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -157,8 +150,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Готується",
     "notes": "На погоджені у Лужкового",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -177,8 +169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "На видачу",
     "notes": "Перевелась, знаходится у Руденко",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -197,8 +188,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -217,8 +207,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "На погоджені",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -237,8 +226,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -257,8 +245,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -277,8 +264,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -297,8 +283,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Повернули",
     "notes": "Як виявилось, робочий ноутбук їй не потрібен, тільки СЕДО. Її ноутбук піде під Лєдощук Максим.",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -317,8 +302,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -337,8 +321,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -357,8 +340,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -377,8 +359,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -397,8 +378,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -417,8 +397,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -437,8 +416,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -457,8 +435,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -477,8 +454,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "МАЙНО НЕ НАЛЕЖИТЬ ДАННІЙ МВО (відділ ПММ). ПОДИВИТИСЬ ЧИ ВІН СТОЇТЬ НА НОВОМУ складі",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -497,8 +473,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -517,8 +492,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "Додатково видати ще одну мишку",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -537,8 +511,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -557,8 +530,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -577,8 +549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -597,8 +568,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -617,8 +587,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -637,8 +606,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -657,8 +625,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Майно було передано Лужковому в автослужбу (від 16.02.2026).",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -677,8 +644,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -697,8 +663,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -717,8 +682,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -737,8 +701,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -757,8 +720,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -777,8 +739,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -797,8 +758,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -817,8 +777,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -837,8 +796,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -857,8 +815,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -877,8 +834,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -897,8 +853,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -917,8 +872,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -937,8 +891,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -957,8 +910,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -977,8 +929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -997,8 +948,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1017,8 +967,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "S/N не знаходить в Access",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1037,8 +986,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Попросили виписати на Дутчак Владислав Васильович",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1057,8 +1005,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1077,8 +1024,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1097,8 +1043,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1117,8 +1062,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1137,8 +1081,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1157,8 +1100,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1177,8 +1119,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1197,8 +1138,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1217,8 +1157,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1237,8 +1176,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1257,8 +1195,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1277,8 +1214,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1297,8 +1233,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1317,8 +1252,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1337,8 +1271,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Дубль (Передано на Лужкового)",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1357,8 +1290,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1377,8 +1309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1397,8 +1328,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1417,8 +1347,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1437,8 +1366,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1457,8 +1385,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1477,8 +1404,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1497,8 +1423,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1517,8 +1442,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1537,8 +1461,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Переходить на діловод S4 взводу матеріально-технічного забезпечення зенітного ракетно-артилерійського забезпечення Зілінську Вікторію Вікторівну, т.0681405013",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1557,8 +1480,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1577,8 +1499,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1597,8 +1518,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "На паузі",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1617,8 +1537,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1637,8 +1556,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1657,8 +1575,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1677,8 +1594,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Звільнився ",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1697,8 +1613,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "На паузі",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1717,8 +1632,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1737,8 +1651,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1757,8 +1670,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": " + флешка",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1777,8 +1689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": " + флешка",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1797,8 +1708,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1817,8 +1727,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": " + флешка",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1837,8 +1746,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": " + флешка",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1857,8 +1765,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": " + флешка",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1877,8 +1784,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1897,8 +1803,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1917,8 +1822,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1937,8 +1841,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1957,8 +1860,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1977,8 +1879,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -1997,8 +1898,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2017,8 +1917,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2037,8 +1936,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Відміна",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2057,8 +1955,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Відміна",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2077,8 +1974,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Відміна",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2097,8 +1993,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Відміна",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2117,8 +2012,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Відміна",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2137,8 +2031,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "На погоджені",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2157,8 +2050,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2177,8 +2069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "погоджено, додати до заявки",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2197,8 +2088,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2217,8 +2107,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2237,8 +2126,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2257,8 +2145,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2277,8 +2164,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2297,8 +2183,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2317,8 +2202,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Знайти контакт, звязатись, звірити  майно",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2337,8 +2221,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2357,8 +2240,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2377,8 +2259,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2397,8 +2278,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2417,8 +2297,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2437,8 +2316,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2457,8 +2335,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2477,8 +2354,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2497,8 +2373,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "На погоджені",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2517,8 +2392,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2537,8 +2411,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2557,8 +2430,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2577,8 +2449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2597,8 +2468,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2617,8 +2487,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2637,8 +2506,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2657,8 +2525,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2677,8 +2544,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2697,8 +2563,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2717,8 +2582,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2737,8 +2601,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2757,8 +2620,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2777,8 +2639,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2797,8 +2658,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2817,8 +2677,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2837,8 +2696,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Відміна",
     "notes": "Перероблена заявку без цієї мишки",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2857,8 +2715,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2877,8 +2734,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2897,8 +2753,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2917,8 +2772,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2937,8 +2791,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2957,8 +2810,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2977,8 +2829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -2997,8 +2848,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3017,8 +2867,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "на ОКП видадуть",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3037,8 +2886,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3057,8 +2905,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3077,8 +2924,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Заявка в фін.від.МВО Нетреба ",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3097,8 +2943,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Відміна",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3117,8 +2962,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Відміна",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3137,8 +2981,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3157,8 +3000,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3177,8 +3019,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3197,8 +3038,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3217,8 +3057,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3237,8 +3076,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3257,8 +3095,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3277,8 +3114,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3297,8 +3133,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3317,8 +3152,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Очікуєм відповідь",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3337,8 +3171,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Відміна",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3357,8 +3190,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "на погоджені",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3377,8 +3209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3397,8 +3228,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3417,8 +3247,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3437,8 +3266,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3457,8 +3285,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3477,8 +3304,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3497,8 +3323,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3517,8 +3342,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3537,8 +3361,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3557,8 +3380,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3577,8 +3399,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3597,8 +3418,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3617,8 +3437,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3637,8 +3456,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3657,8 +3475,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3677,8 +3494,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3697,8 +3513,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3717,8 +3532,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Готово",
     "notes": "У відпустці",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3737,8 +3551,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3757,8 +3570,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3777,8 +3589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3797,8 +3608,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3817,8 +3627,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3837,8 +3646,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3857,8 +3665,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3877,8 +3684,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3897,8 +3703,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3917,8 +3722,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3937,8 +3741,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3957,8 +3760,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Відміна",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3977,8 +3779,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Відміна",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -3997,8 +3798,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4017,8 +3817,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4037,8 +3836,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4057,8 +3855,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4077,8 +3874,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4097,8 +3893,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4117,8 +3912,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4137,8 +3931,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4157,8 +3950,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4177,8 +3969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4197,8 +3988,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4217,8 +4007,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4237,8 +4026,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4257,8 +4045,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4277,8 +4064,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4297,8 +4083,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "на погоджені",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4317,8 +4102,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4337,8 +4121,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4357,8 +4140,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4377,8 +4159,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4397,8 +4178,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4417,8 +4197,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4437,8 +4216,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Очікує передачі у фін.відділ",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4457,8 +4235,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово (Передано на Бастіоні)",
     "notes": "на виконанні. Забере після",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4477,8 +4254,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "на погоджені",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4497,8 +4273,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4517,8 +4292,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4537,8 +4311,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4557,8 +4330,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово (Передано на Бастіоні)",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4577,8 +4349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "без домену",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4597,8 +4368,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4617,8 +4387,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4637,8 +4406,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4657,8 +4425,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "2 мишки",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4677,8 +4444,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4697,8 +4463,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4717,8 +4482,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4737,8 +4501,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4757,8 +4520,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4777,8 +4539,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "без ліцензій",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4797,8 +4558,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4817,8 +4577,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Очікує передачі у фін.відділ",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4837,8 +4596,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4857,8 +4615,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "19.01.2026 отримала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4877,8 +4634,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Відміна",
     "notes": "Йому потрібен СЕДО ноут, цей передамо на іншу людину",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4897,8 +4653,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4917,8 +4672,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово (Передано на Бастіоні)",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4937,8 +4691,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4957,8 +4710,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4977,8 +4729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -4997,8 +4748,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5017,8 +4767,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "",
     "notes": "На ТПУ заміна ноута з віражем, камерами на більш моцний\nЗаміна на ДрімМашину",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5037,8 +4786,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5057,8 +4805,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5077,8 +4824,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5097,8 +4843,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5117,8 +4862,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "",
     "notes": "Знаходиться на ОКП. Передати",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5137,8 +4881,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5157,8 +4900,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5177,8 +4919,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5197,8 +4938,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5217,8 +4957,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5237,8 +4976,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5257,8 +4995,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5277,8 +5014,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5297,8 +5033,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5317,8 +5052,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5337,8 +5071,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5357,8 +5090,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5377,8 +5109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5397,8 +5128,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5417,8 +5147,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5437,8 +5166,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5457,8 +5185,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5477,8 +5204,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5497,8 +5223,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5517,8 +5242,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5537,8 +5261,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5557,8 +5280,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5577,8 +5299,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5597,8 +5318,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5617,8 +5337,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5637,8 +5356,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5657,8 +5375,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5677,8 +5394,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5697,8 +5413,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5717,8 +5432,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5737,8 +5451,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5757,8 +5470,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5777,8 +5489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5797,8 +5508,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5817,8 +5527,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5837,8 +5546,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5857,8 +5565,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5877,8 +5584,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5897,8 +5603,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5917,8 +5622,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5937,8 +5641,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5957,8 +5660,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -5976,8 +5678,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": "",
     "position": "Не вказано"
   },
@@ -5997,8 +5698,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6017,8 +5717,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6037,8 +5736,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6057,8 +5755,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6077,8 +5774,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6097,8 +5793,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "без ліцензій",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6117,8 +5812,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "без ліцензій",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6137,8 +5831,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "без ліцензій",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6157,8 +5850,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "без ліцензій",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6177,8 +5869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6197,8 +5888,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6217,8 +5907,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6237,8 +5926,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6257,8 +5945,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6277,8 +5964,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6297,8 +5983,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6317,8 +6002,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Готово",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6337,8 +6021,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6357,8 +6040,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6377,8 +6059,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "0 93 980 7397",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6397,8 +6078,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "0 68 766 9198",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6417,8 +6097,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "на Кадосіна  МВО / без ліцензій",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6437,8 +6116,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "на Кадосіна  МВО / без ліцензій",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6457,8 +6135,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "на Псядло МВО / без ліцензій",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6477,8 +6154,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "на Псядло МВО / без ліцензій",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6497,8 +6173,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово (Передано на Бастіоні)",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6517,8 +6192,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово",
     "notes": "чекає на ключі",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6537,8 +6211,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Очікує передачі у фін.відділ",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6557,8 +6230,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6577,8 +6249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6597,8 +6268,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6617,8 +6287,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6637,8 +6306,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6657,8 +6325,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Додати до заявки",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6677,8 +6344,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6697,8 +6363,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6717,8 +6382,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6737,8 +6401,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6757,8 +6420,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6777,8 +6439,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6797,8 +6458,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6817,8 +6477,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6837,8 +6496,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6857,8 +6515,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6877,8 +6534,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6897,8 +6553,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6917,8 +6572,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6937,8 +6591,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6957,8 +6610,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Погоджено,оформити заявку",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6977,8 +6629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -6997,8 +6648,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7017,8 +6667,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7037,8 +6686,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7057,8 +6705,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7077,8 +6724,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7097,8 +6743,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7117,8 +6762,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7137,8 +6781,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7157,8 +6800,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7177,8 +6819,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7197,8 +6838,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7217,8 +6857,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7237,8 +6876,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7257,8 +6895,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7277,8 +6914,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7297,8 +6933,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7317,8 +6952,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "/кронштейн",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7337,8 +6971,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7357,8 +6990,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово (На Бастіоні)",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7377,8 +7009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7397,8 +7028,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7417,8 +7047,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7437,8 +7066,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7457,8 +7085,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7477,8 +7104,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7497,8 +7123,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7517,8 +7142,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7537,8 +7161,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7557,8 +7180,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7577,8 +7199,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7597,8 +7218,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7617,8 +7237,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7637,8 +7256,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Готово",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7657,8 +7275,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7677,8 +7294,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7697,8 +7313,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7717,8 +7332,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7737,8 +7351,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7757,8 +7370,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7777,8 +7389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7797,8 +7408,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7817,8 +7427,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7837,8 +7446,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7857,8 +7465,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7877,8 +7484,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7897,8 +7503,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7917,8 +7522,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7937,8 +7541,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "уточнити в дібіта",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7957,8 +7560,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "уточнити в дібіта",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7977,8 +7579,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "Без ліцензії",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -7997,8 +7598,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8017,8 +7617,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8037,8 +7636,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8057,8 +7655,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8077,8 +7674,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8097,8 +7693,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8117,8 +7712,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8137,8 +7731,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8157,8 +7750,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8177,8 +7769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "Рубік ноут уже підготував, поки що без ліцензій",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8197,8 +7788,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8217,8 +7807,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово (Передано на Бастіоні)",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8237,8 +7826,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готово (Передано на Бастіоні)",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8257,8 +7845,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8277,8 +7864,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8297,8 +7883,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8317,8 +7902,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8337,8 +7921,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Готується",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8357,8 +7940,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8417,8 +7999,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8497,8 +8078,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8517,8 +8097,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8537,8 +8116,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8577,8 +8155,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8597,8 +8174,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8737,8 +8313,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Cистемний блок волонтери прислали. Єдине,що немає",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8757,8 +8332,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Cистемний блок волонтери прислали. Єдине,що немає",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8777,8 +8351,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8797,8 +8370,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8817,8 +8389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8837,8 +8408,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8917,8 +8487,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8937,8 +8506,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8957,8 +8525,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -8997,8 +8564,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9017,8 +8583,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9037,8 +8602,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9077,8 +8641,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "MSI ",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9097,8 +8660,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9117,8 +8679,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9137,8 +8698,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9157,8 +8717,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9197,8 +8756,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9217,8 +8775,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9237,8 +8794,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9257,8 +8813,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9277,8 +8832,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9297,8 +8851,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "моноблок",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9317,8 +8870,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9337,8 +8889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Ноутбук",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9357,8 +8908,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9397,8 +8947,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9417,8 +8966,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9437,8 +8985,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9457,8 +9004,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9477,8 +9023,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9497,8 +9042,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9517,8 +9061,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9537,8 +9080,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9557,8 +9099,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9577,8 +9118,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9597,8 +9137,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9617,8 +9156,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9637,8 +9175,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9657,8 +9194,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9677,8 +9213,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9697,8 +9232,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "моноблок",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9717,8 +9251,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "моноблок",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9737,8 +9270,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9757,8 +9289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9777,8 +9308,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9797,8 +9327,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "моноблок",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9817,8 +9346,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9837,8 +9365,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9857,8 +9384,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9877,8 +9403,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9897,8 +9422,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Для заступника ноутбук",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9917,8 +9441,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9937,8 +9460,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Просить на бз(по його словах потрібно швидше зробити його)",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9957,8 +9479,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9977,8 +9498,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -9997,8 +9517,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10017,8 +9536,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10037,8 +9555,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10077,8 +9594,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10097,8 +9613,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10117,8 +9632,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10137,8 +9651,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10157,8 +9670,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "потрібно ноутбук для роботи з СЕДо на ядро, для відділення дисципліни, звертався Дедала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10177,8 +9689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10197,8 +9708,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала  написали що в нього є",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10217,8 +9727,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10237,8 +9746,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10257,8 +9765,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "моноблок",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10297,8 +9804,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10317,8 +9823,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10337,8 +9842,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10357,8 +9861,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "2 мишки",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10377,8 +9880,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "\\мишка",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10397,8 +9899,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "\\мишка",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10437,8 +9938,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "\\мишка (А приблизно за понеділок-середа впораємось? Бо таке як мені на ОКП їхати вже з ним)\n\nА хіба вже не видали? Видали\n\nДедал: Відьміте статус, перенісість у видачу",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10477,8 +9977,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10497,8 +9996,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "Заміна поломаного ноута",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10517,8 +10015,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "На ТПУ заміна ноута з віражем, камерами на більш моцний\nЗаміна на ДрімМашину",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10537,8 +10034,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10557,8 +10053,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "для Кваша Олександр Андрійович",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10577,8 +10072,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10597,8 +10091,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10617,8 +10110,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Видати один комплект на Ядро на G-6 в цілому",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10637,8 +10129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10657,8 +10148,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10677,8 +10167,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10697,8 +10186,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10717,8 +10205,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10737,8 +10224,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10757,8 +10243,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10777,8 +10262,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10797,8 +10281,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Видати DreamMachine \nМайно на начальника топографічної служби Салова Богдана Ведення Дельти, Кропиви, CorelDrew з багатьма об'єктами на карт",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10817,8 +10300,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "Видати DreamMachine \nМайно на начальника топографічної служби Салова Богдана Ведення Дельти, Кропиви, CorelDrew з багатьма об'єктами на карт",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10837,8 +10319,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10857,8 +10338,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10877,8 +10357,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10897,8 +10376,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10917,8 +10395,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Рубік ноут уже підготував, поки що без ліцензій",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10957,8 +10434,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10977,8 +10453,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -10997,8 +10472,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": " робочий для встановлення програми Віраж",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11037,8 +10511,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11057,8 +10530,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Під які задачі? \nВнесення заліків о/с, тощо... Перехід від паперових звітів на цифрову платформу\n\nДедал: Видати йому Леново",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11077,8 +10549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11157,8 +10628,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11177,8 +10647,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11197,8 +10666,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11217,8 +10685,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11237,8 +10704,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11257,8 +10723,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Видати один комплект на Ядро на G-6 в цілому",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11277,8 +10742,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11297,8 +10761,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Видати Canon 463",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11317,8 +10780,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11337,8 +10799,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "БФП Epson EcoTank L6290 видати",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11357,8 +10818,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11377,8 +10837,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11397,8 +10856,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "З HDMI кабелем",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11437,8 +10895,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11457,8 +10914,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "просить Iphone ",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11477,8 +10933,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "просить Iphone ",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11497,8 +10952,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11517,8 +10971,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11537,8 +10990,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11557,8 +11009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11577,8 +11028,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11597,8 +11047,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11617,8 +11066,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11637,8 +11085,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11657,8 +11104,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11677,8 +11123,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11697,8 +11142,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11717,8 +11161,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11737,8 +11180,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11757,8 +11199,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11777,8 +11218,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11797,8 +11237,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11817,8 +11256,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11837,8 +11275,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11857,8 +11294,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11877,8 +11313,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11897,8 +11332,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11917,8 +11351,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11937,8 +11370,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11957,8 +11389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11977,8 +11408,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -11997,8 +11427,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12017,8 +11446,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12037,8 +11465,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12057,8 +11484,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12077,8 +11503,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12097,8 +11522,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12117,8 +11541,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12137,8 +11560,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12157,8 +11579,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12177,8 +11598,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12197,8 +11617,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12217,8 +11636,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12237,8 +11655,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12257,8 +11674,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12277,8 +11693,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12297,8 +11712,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12317,8 +11731,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12337,8 +11750,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12357,8 +11769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12377,8 +11788,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12397,8 +11807,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12417,8 +11826,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12437,8 +11845,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12457,8 +11864,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12477,8 +11883,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12497,8 +11902,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12517,8 +11921,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12537,8 +11940,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12557,8 +11959,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12577,8 +11978,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12597,8 +11997,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12617,8 +12016,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12637,8 +12035,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12657,8 +12054,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12677,8 +12073,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1087,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12697,8 +12092,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12717,8 +12111,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12737,8 +12130,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12757,8 +12149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12777,8 +12168,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12797,8 +12187,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12817,8 +12206,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12837,8 +12225,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12857,8 +12244,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12877,8 +12263,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12897,8 +12282,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12917,8 +12301,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12937,8 +12320,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12957,8 +12339,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12977,8 +12358,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -12997,8 +12377,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -13017,8 +12396,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Казала людина, що її начальник говорив з Дедалом",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -13037,8 +12415,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Казала людина, що її начальник говорив з Дедалом",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -13057,8 +12434,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Казала людина, що її начальник говорив з Дедалом",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -13077,8 +12453,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1086,
     "status": "Видано",
     "notes": "Казала людина, що її начальник говорив з Дедалом",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   },
   {
@@ -13097,8 +12472,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "location": 1085,
     "status": "Видано",
     "notes": "Для роботи монтажних груп",
-    "quantity": 1
-    ,
+    "quantity": 1,
     "mobileNumber": ""
   }
 ];
@@ -15382,6 +14756,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 808,
@@ -15390,6 +14766,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 809,
@@ -15398,6 +14776,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 810,
@@ -15406,6 +14786,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 811,
@@ -15414,6 +14796,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 812,
@@ -15422,6 +14806,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 813,
@@ -15430,6 +14816,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 814,
@@ -15438,6 +14826,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 815,
@@ -15446,6 +14836,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 816,
@@ -15454,6 +14846,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 817,
@@ -15462,6 +14856,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 818,
@@ -15470,6 +14866,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 819,
@@ -15478,6 +14876,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 820,
@@ -15486,6 +14886,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 821,
@@ -15494,6 +14896,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 822,
@@ -15502,6 +14906,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 823,
@@ -15510,6 +14916,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 824,
@@ -15518,6 +14926,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 825,
@@ -15526,6 +14936,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 826,
@@ -15534,6 +14946,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 827,
@@ -15542,6 +14956,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 828,
@@ -15550,6 +14966,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 829,
@@ -15558,6 +14976,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 830,
@@ -15566,6 +14986,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 831,
@@ -15574,6 +14996,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 832,
@@ -15582,6 +15006,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 833,
@@ -15590,6 +15016,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 834,
@@ -15598,6 +15026,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 835,
@@ -15606,6 +15036,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 836,
@@ -15614,6 +15046,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 837,
@@ -15622,6 +15056,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 838,
@@ -15630,6 +15066,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 839,
@@ -15638,6 +15076,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 840,
@@ -15646,6 +15086,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 841,
@@ -15654,6 +15096,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 842,
@@ -15662,6 +15106,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 843,
@@ -15670,6 +15116,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 844,
@@ -15678,6 +15126,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 845,
@@ -15686,6 +15136,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 846,
@@ -15694,6 +15146,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 847,
@@ -15702,6 +15156,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 848,
@@ -15710,6 +15166,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 849,
@@ -15718,6 +15176,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 850,
@@ -15726,6 +15186,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 851,
@@ -15734,6 +15196,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 852,
@@ -15742,6 +15206,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 853,
@@ -15750,6 +15216,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 855,
@@ -15758,6 +15226,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 856,
@@ -15766,6 +15236,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 857,
@@ -15774,6 +15246,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 858,
@@ -15782,6 +15256,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 859,
@@ -15790,6 +15266,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 860,
@@ -15798,6 +15276,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 861,
@@ -15806,6 +15286,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 862,
@@ -15814,6 +15296,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 863,
@@ -15822,6 +15306,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 864,
@@ -15830,6 +15316,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 865,
@@ -15838,6 +15326,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 866,
@@ -15846,6 +15336,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 867,
@@ -15854,6 +15346,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 868,
@@ -15862,6 +15356,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 869,
@@ -15870,6 +15366,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 870,
@@ -15878,6 +15376,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 871,
@@ -15886,6 +15386,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 872,
@@ -15894,6 +15396,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 873,
@@ -15902,6 +15406,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 874,
@@ -15910,6 +15416,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 875,
@@ -15918,6 +15426,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 876,
@@ -15926,6 +15436,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 877,
@@ -15934,6 +15446,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 878,
@@ -15942,6 +15456,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 881,
@@ -15950,6 +15466,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 882,
@@ -15958,6 +15476,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 883,
@@ -15966,6 +15486,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 884,
@@ -15974,6 +15496,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 885,
@@ -15982,6 +15506,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 886,
@@ -15990,6 +15516,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 887,
@@ -15998,6 +15526,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 888,
@@ -16006,6 +15536,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 889,
@@ -16014,6 +15546,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 890,
@@ -16022,6 +15556,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 891,
@@ -16030,6 +15566,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 892,
@@ -16038,6 +15576,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 893,
@@ -16046,6 +15586,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 894,
@@ -16054,6 +15596,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 895,
@@ -16062,6 +15606,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 896,
@@ -16070,6 +15616,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 897,
@@ -16078,6 +15626,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 898,
@@ -16086,6 +15636,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 899,
@@ -16094,6 +15646,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 900,
@@ -16102,6 +15656,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 901,
@@ -16110,6 +15666,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 902,
@@ -16118,6 +15676,8 @@ export const mockNomenclatures: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   }
 ];
 
@@ -16129,6 +15689,8 @@ export const mockTypes: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 896,
@@ -16137,6 +15699,8 @@ export const mockTypes: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 897,
@@ -16145,6 +15709,8 @@ export const mockTypes: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 898,
@@ -16153,6 +15719,8 @@ export const mockTypes: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 899,
@@ -16161,6 +15729,8 @@ export const mockTypes: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   }
 ];
 
@@ -16172,6 +15742,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 900,
@@ -16180,6 +15752,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 901,
@@ -16188,6 +15762,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 902,
@@ -16196,6 +15772,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 903,
@@ -16204,6 +15782,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 904,
@@ -16212,6 +15792,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 905,
@@ -16220,6 +15802,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 906,
@@ -16228,6 +15812,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 907,
@@ -16236,6 +15822,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 908,
@@ -16244,6 +15832,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 909,
@@ -16252,6 +15842,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 910,
@@ -16260,6 +15852,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 911,
@@ -16268,6 +15862,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 912,
@@ -16276,6 +15872,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 913,
@@ -16284,6 +15882,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 914,
@@ -16292,6 +15892,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 915,
@@ -16300,6 +15902,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 916,
@@ -16308,6 +15912,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 917,
@@ -16316,6 +15922,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 918,
@@ -16324,6 +15932,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 919,
@@ -16332,6 +15942,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 920,
@@ -16340,6 +15952,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 921,
@@ -16348,6 +15962,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 922,
@@ -16356,6 +15972,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 923,
@@ -16364,6 +15982,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 924,
@@ -16372,6 +15992,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 925,
@@ -16380,6 +16002,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 926,
@@ -16388,6 +16012,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 927,
@@ -16396,6 +16022,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 928,
@@ -16404,6 +16032,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 929,
@@ -16412,6 +16042,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 930,
@@ -16420,6 +16052,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 931,
@@ -16428,6 +16062,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 932,
@@ -16436,6 +16072,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 933,
@@ -16444,6 +16082,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 934,
@@ -16452,6 +16092,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 935,
@@ -16460,6 +16102,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 936,
@@ -16468,6 +16112,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 937,
@@ -16476,6 +16122,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 938,
@@ -16484,6 +16132,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 939,
@@ -16492,6 +16142,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 940,
@@ -16500,6 +16152,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 941,
@@ -16508,6 +16162,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 942,
@@ -16516,6 +16172,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 943,
@@ -16524,6 +16182,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 944,
@@ -16532,6 +16192,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 945,
@@ -16540,6 +16202,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 946,
@@ -16548,6 +16212,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 947,
@@ -16556,6 +16222,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 948,
@@ -16564,6 +16232,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 949,
@@ -16572,6 +16242,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 950,
@@ -16580,6 +16252,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 951,
@@ -16588,6 +16262,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 952,
@@ -16596,6 +16272,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 953,
@@ -16604,6 +16282,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 954,
@@ -16612,6 +16292,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 955,
@@ -16620,6 +16302,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 956,
@@ -16628,6 +16312,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 957,
@@ -16636,6 +16322,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 958,
@@ -16644,6 +16332,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 959,
@@ -16652,6 +16342,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 960,
@@ -16660,6 +16352,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 961,
@@ -16668,6 +16362,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 962,
@@ -16676,6 +16372,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 963,
@@ -16684,6 +16382,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 964,
@@ -16692,6 +16392,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 965,
@@ -16700,6 +16402,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 966,
@@ -16708,6 +16412,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 967,
@@ -16716,6 +16422,8 @@ export const mockPositions: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   }
 ];
 
@@ -16727,6 +16435,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 969,
@@ -16735,6 +16445,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 970,
@@ -16743,6 +16455,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 971,
@@ -16751,6 +16465,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 972,
@@ -16759,6 +16475,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 973,
@@ -16767,6 +16485,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 974,
@@ -16775,6 +16495,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 975,
@@ -16783,6 +16505,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 976,
@@ -16791,6 +16515,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 977,
@@ -16799,6 +16525,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 978,
@@ -16807,6 +16535,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 979,
@@ -16815,6 +16545,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 980,
@@ -16823,6 +16555,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 981,
@@ -16831,6 +16565,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 982,
@@ -16839,6 +16575,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 983,
@@ -16847,6 +16585,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 984,
@@ -16855,6 +16595,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 985,
@@ -16863,6 +16605,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 986,
@@ -16871,6 +16615,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 987,
@@ -16879,6 +16625,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 988,
@@ -16887,6 +16635,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 989,
@@ -16895,6 +16645,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 990,
@@ -16903,6 +16655,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 991,
@@ -16911,6 +16665,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 992,
@@ -16919,6 +16675,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 993,
@@ -16927,6 +16685,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 994,
@@ -16935,6 +16695,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 995,
@@ -16943,6 +16705,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 996,
@@ -16951,6 +16715,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 997,
@@ -16959,6 +16725,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 998,
@@ -16967,6 +16735,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 999,
@@ -16975,6 +16745,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1000,
@@ -16983,6 +16755,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1001,
@@ -16991,6 +16765,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1002,
@@ -16999,6 +16775,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1003,
@@ -17007,6 +16785,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1004,
@@ -17015,6 +16795,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1005,
@@ -17023,6 +16805,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1006,
@@ -17031,6 +16815,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1007,
@@ -17039,6 +16825,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1008,
@@ -17047,6 +16835,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1009,
@@ -17055,6 +16845,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1010,
@@ -17063,6 +16855,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1011,
@@ -17071,6 +16865,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1012,
@@ -17079,6 +16875,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1013,
@@ -17087,6 +16885,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1014,
@@ -17095,6 +16895,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1015,
@@ -17103,6 +16905,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1016,
@@ -17111,6 +16915,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1017,
@@ -17119,6 +16925,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1018,
@@ -17127,6 +16935,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1019,
@@ -17135,6 +16945,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1020,
@@ -17143,6 +16955,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1021,
@@ -17151,6 +16965,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1022,
@@ -17159,6 +16975,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1023,
@@ -17167,6 +16985,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1024,
@@ -17175,6 +16995,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1025,
@@ -17183,6 +17005,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1026,
@@ -17191,6 +17015,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1027,
@@ -17199,6 +17025,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1028,
@@ -17207,6 +17035,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1029,
@@ -17215,6 +17045,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1030,
@@ -17223,6 +17055,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1031,
@@ -17231,6 +17065,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1032,
@@ -17239,6 +17075,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1033,
@@ -17247,6 +17085,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1034,
@@ -17255,6 +17095,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1035,
@@ -17263,6 +17105,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1036,
@@ -17271,6 +17115,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1037,
@@ -17279,6 +17125,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1038,
@@ -17287,6 +17135,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1039,
@@ -17295,6 +17145,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1040,
@@ -17303,6 +17155,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1041,
@@ -17311,6 +17165,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1042,
@@ -17319,6 +17175,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1043,
@@ -17327,6 +17185,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1044,
@@ -17335,6 +17195,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1045,
@@ -17343,6 +17205,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1046,
@@ -17351,6 +17215,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1047,
@@ -17359,6 +17225,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1048,
@@ -17367,6 +17235,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1049,
@@ -17375,6 +17245,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1050,
@@ -17383,6 +17255,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1051,
@@ -17391,6 +17265,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1052,
@@ -17399,6 +17275,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1053,
@@ -17407,6 +17285,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1054,
@@ -17415,6 +17295,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1055,
@@ -17423,6 +17305,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1056,
@@ -17431,6 +17315,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1057,
@@ -17439,6 +17325,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1058,
@@ -17447,6 +17335,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1059,
@@ -17455,6 +17345,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1060,
@@ -17463,6 +17355,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1061,
@@ -17471,6 +17365,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1062,
@@ -17479,6 +17375,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1063,
@@ -17487,6 +17385,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1064,
@@ -17495,6 +17395,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1065,
@@ -17503,6 +17405,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1066,
@@ -17511,6 +17415,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1067,
@@ -17519,6 +17425,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1068,
@@ -17527,6 +17435,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1069,
@@ -17535,6 +17445,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1070,
@@ -17543,6 +17455,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1071,
@@ -17551,6 +17465,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1072,
@@ -17559,6 +17475,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1073,
@@ -17567,6 +17485,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1074,
@@ -17575,6 +17495,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1075,
@@ -17583,6 +17505,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1076,
@@ -17591,6 +17515,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1077,
@@ -17599,6 +17525,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1088,
@@ -17607,6 +17535,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1079,
@@ -17615,6 +17545,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1080,
@@ -17623,6 +17555,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1081,
@@ -17631,6 +17565,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1082,
@@ -17639,6 +17575,8 @@ export const mockDepartments: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   }
 ];
 
@@ -17650,6 +17588,8 @@ export const mockRanks: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1079,
@@ -17658,6 +17598,8 @@ export const mockRanks: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1080,
@@ -17666,6 +17608,8 @@ export const mockRanks: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1081,
@@ -17674,6 +17618,8 @@ export const mockRanks: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1082,
@@ -17682,6 +17628,8 @@ export const mockRanks: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1083,
@@ -17690,6 +17638,8 @@ export const mockRanks: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1084,
@@ -17698,6 +17648,8 @@ export const mockRanks: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1088,
@@ -17706,6 +17658,8 @@ export const mockRanks: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   }
 ];
 
@@ -17717,6 +17671,8 @@ export const mockLocations: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1086,
@@ -17725,6 +17681,8 @@ export const mockLocations: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   },
   {
     "id": 1087,
@@ -17733,5 +17691,7 @@ export const mockLocations: DirectoryItem[] = [
     "mobileNumber": "",
     "notes": "",
     "position": "Не вказано"
+    ,
+    "quantity": 1
   }
 ];
