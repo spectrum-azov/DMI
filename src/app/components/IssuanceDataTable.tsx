@@ -142,14 +142,14 @@ export function IssuanceDataTable({
                     <button
                         onClick={() => setSubTab('pending')}
                         className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all border ${subTab === 'pending'
-                            ? 'bg-orange-50 border-orange-300 text-orange-700 shadow-sm'
-                            : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'
+                            ? 'bg-orange-50 border-orange-300 text-orange-700 shadow-sm dark:bg-orange-950/20 dark:border-orange-800 dark:text-orange-400'
+                            : 'bg-card border-input text-muted-foreground hover:bg-accent'
                             }`}
                     >
                         <span
                             className={`inline-flex items-center justify-center w-5 h-5 rounded-full text-xs font-bold ${subTab === 'pending'
-                                ? 'bg-orange-200 text-orange-800'
-                                : 'bg-gray-200 text-gray-600'
+                                ? 'bg-orange-200 text-orange-800 dark:bg-orange-800 dark:text-orange-100'
+                                : 'bg-muted text-muted-foreground'
                                 }`}
                         >
                             {pendingData.length}
@@ -160,14 +160,14 @@ export function IssuanceDataTable({
                     <button
                         onClick={() => setSubTab('issued')}
                         className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all border ${subTab === 'issued'
-                            ? 'bg-green-50 border-green-300 text-green-700 shadow-sm'
-                            : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'
+                            ? 'bg-green-50 border-green-300 text-green-700 shadow-sm dark:bg-green-950/20 dark:border-green-800 dark:text-green-400'
+                            : 'bg-card border-input text-muted-foreground hover:bg-accent'
                             }`}
                     >
                         <span
                             className={`inline-flex items-center justify-center w-5 h-5 rounded-full text-xs font-bold ${subTab === 'issued'
-                                ? 'bg-green-200 text-green-800'
-                                : 'bg-gray-200 text-gray-600'
+                                ? 'bg-green-200 text-green-800 dark:bg-green-800 dark:text-green-100'
+                                : 'bg-muted text-muted-foreground'
                                 }`}
                         >
                             {issuedData.length}
@@ -181,8 +181,8 @@ export function IssuanceDataTable({
                     <button
                         onClick={() => setIsColumnsOpen((o) => !o)}
                         className={`flex items-center gap-1.5 px-3 py-2 rounded-lg border text-sm font-medium transition-colors ${isColumnsOpen
-                            ? 'bg-blue-50 border-blue-300 text-blue-700'
-                            : 'bg-white border-gray-300 text-gray-700 hover:bg-gray-50'
+                            ? 'bg-blue-50 border-blue-300 text-blue-700 dark:bg-blue-900/20 dark:border-blue-800 dark:text-blue-400'
+                            : 'bg-card border-input text-foreground hover:bg-accent'
                             }`}
                         title="Налаштування колонок"
                     >
@@ -191,9 +191,9 @@ export function IssuanceDataTable({
                     </button>
 
                     {isColumnsOpen && (
-                        <div className="absolute right-0 top-full mt-1 z-20 bg-white border border-gray-200 rounded-xl shadow-lg p-3 min-w-[210px]">
-                            <div className="flex items-center justify-between mb-2 pb-2 border-b border-gray-100">
-                                <span className="text-sm font-semibold text-gray-700">
+                        <div className="absolute right-0 top-full mt-1 z-20 bg-card border border-border rounded-xl shadow-lg p-3 min-w-[210px]">
+                            <div className="flex items-center justify-between mb-2 pb-2 border-b border-border">
+                                <span className="text-sm font-semibold text-foreground">
                                     Видимі колонки
                                 </span>
                                 <button
@@ -207,7 +207,7 @@ export function IssuanceDataTable({
                                 {columns.map((col) => (
                                     <label
                                         key={col.key}
-                                        className="flex items-center gap-2 py-1 px-1 rounded cursor-pointer hover:bg-gray-50 text-sm text-gray-700 select-none"
+                                        className="flex items-center gap-2 py-1 px-1 rounded cursor-pointer hover:bg-accent text-sm text-foreground select-none"
                                     >
                                         <input
                                             type="checkbox"
@@ -219,7 +219,7 @@ export function IssuanceDataTable({
                                     </label>
                                 ))}
                             </div>
-                            <div className="mt-2 pt-2 border-t border-gray-100 flex gap-2">
+                            <div className="mt-2 pt-2 border-t border-border flex gap-2">
                                 <button
                                     onClick={() =>
                                         setVisibleColumns(new Set(columns.map((c) => c.key)))
@@ -232,7 +232,7 @@ export function IssuanceDataTable({
                                     onClick={() =>
                                         setVisibleColumns(new Set(DEFAULT_VISIBLE))
                                     }
-                                    className="text-xs text-gray-500 hover:underline"
+                                    className="text-xs text-muted-foreground hover:underline"
                                 >
                                     За замовч.
                                 </button>
@@ -250,7 +250,7 @@ export function IssuanceDataTable({
             {/* Search */}
             <div className="relative">
                 <Search
-                    className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
+                    className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"
                     size={18}
                 />
                 <input
@@ -258,20 +258,20 @@ export function IssuanceDataTable({
                     placeholder="Пошук..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                    className="w-full pl-10 pr-4 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-foreground"
                 />
             </div>
 
             {/* Table */}
-            <div className="overflow-x-auto border border-gray-200 rounded-lg">
+            <div className="overflow-x-auto border border-border rounded-lg">
                 <table className="w-full">
-                    <thead className="bg-gray-50 border-b border-gray-200">
+                    <thead className="bg-muted/50 border-b border-border">
                         <tr>
                             {activeColumns.map((column) => (
                                 <th
                                     key={column.key}
                                     onClick={() => handleSort(column.key)}
-                                    className="px-4 py-3 text-left text-sm font-semibold text-gray-700 cursor-pointer hover:bg-gray-100 whitespace-nowrap"
+                                    className="px-4 py-3 text-left text-sm font-semibold text-muted-foreground cursor-pointer hover:bg-accent whitespace-nowrap"
                                     style={{ width: column.width }}
                                 >
                                     <div className="flex items-center gap-1">
@@ -285,13 +285,13 @@ export function IssuanceDataTable({
                                 </th>
                             ))}
                             {(onEdit || onDelete || (onIssue && subTab === 'pending')) && (
-                                <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700 whitespace-nowrap">
+                                <th className="px-4 py-3 text-left text-sm font-semibold text-muted-foreground whitespace-nowrap">
                                     Дії
                                 </th>
                             )}
                         </tr>
                     </thead>
-                    <tbody className="divide-y divide-gray-200">
+                    <tbody className="divide-y divide-border">
                         {paginatedData.length === 0 ? (
                             <tr>
                                 <td
@@ -299,7 +299,7 @@ export function IssuanceDataTable({
                                         activeColumns.length +
                                         (onEdit || onDelete || onIssue ? 1 : 0)
                                     }
-                                    className="px-4 py-8 text-center text-gray-500 text-sm"
+                                    className="px-4 py-8 text-center text-muted-foreground text-sm"
                                 >
                                     {searchTerm || dateFilter !== 'year'
                                         ? 'Нічого не знайдено'
@@ -313,18 +313,18 @@ export function IssuanceDataTable({
                                 <tr
                                     key={item.id}
                                     onClick={() => onRowClick && onRowClick(item)}
-                                    className={`transition-colors ${onRowClick ? 'cursor-pointer hover:bg-blue-50/50' : 'hover:bg-gray-50'}`}
+                                    className={`transition-colors ${onRowClick ? 'cursor-pointer hover:bg-blue-50/50 dark:hover:bg-blue-900/10' : 'hover:bg-accent'}`}
                                 >
                                     {activeColumns.map((column) => (
                                         <td
                                             key={column.key}
-                                            className="px-4 py-3 text-sm text-gray-900 whitespace-nowrap"
+                                            className="px-4 py-3 text-sm text-foreground whitespace-nowrap"
                                         >
                                             {column.key === 'status' ? (
                                                 <span
                                                     className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${item.status === 'На видачу'
-                                                        ? 'bg-orange-100 text-orange-700'
-                                                        : 'bg-green-100 text-green-700'
+                                                        ? 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400'
+                                                        : 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
                                                         }`}
                                                 >
                                                     {item.status}
@@ -356,7 +356,7 @@ export function IssuanceDataTable({
                                                             e.stopPropagation();
                                                             onEdit(item);
                                                         }}
-                                                        className="p-1.5 text-blue-600 hover:bg-blue-50 rounded transition-colors"
+                                                        className="p-1.5 text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded transition-colors"
                                                         title="Редагувати"
                                                     >
                                                         <Edit2 size={16} />
@@ -368,7 +368,7 @@ export function IssuanceDataTable({
                                                             e.stopPropagation();
                                                             onDelete(item.id);
                                                         }}
-                                                        className="p-1.5 text-gray-500 hover:bg-gray-100 rounded transition-colors"
+                                                        className="p-1.5 text-muted-foreground hover:bg-muted rounded transition-colors"
                                                         title="Видалити"
                                                     >
                                                         <Trash2 size={16} />
