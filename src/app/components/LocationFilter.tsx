@@ -25,7 +25,7 @@ export function LocationFilter({
             <div className="flex-shrink-0 p-2 bg-muted rounded-lg text-muted-foreground">
                 <MapPin size={20} />
             </div>
-            <div className="w-64">
+            <div className="w-32">
                 <SearchableSelect
                     options={allOptions}
                     value={value}

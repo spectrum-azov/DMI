@@ -834,6 +834,7 @@ export default function App() {
                   dateField="rejectedDate"
                   emptyMessage="Немає відхилених запитів"
                   dateFilter={dateFilter}
+                  locationFilter={locationFilter}
                   directories={directories}
                   storageKey="rejected_visible_columns"
                 />
