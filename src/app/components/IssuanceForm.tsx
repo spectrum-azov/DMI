@@ -20,7 +20,7 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
     serialNumber: '',
     fullName: '',
     rank: 0,
-    position: 0,
+    position: '',
     department: 0,
     mobileNumber: '',
     applicationStatus: 'В процесі',
@@ -32,7 +32,7 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
     isFrtCp: true,
     frpFullName: '',
     frpRank: 0,
-    frpPosition: 0,
+    frpPosition: '',
     frpMobileNumber: '',
   });
 
@@ -46,7 +46,7 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
         serialNumber: editData.serialNumber,
         fullName: editData.fullName,
         rank: editData.rank,
-        position: typeof editData.position === 'number' ? editData.position : 0,
+        position: editData.position || 'Не вказано',
         department: editData.department,
         mobileNumber: editData.mobileNumber || '',
         applicationStatus: editData.applicationStatus,
@@ -58,7 +58,7 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
         isFrtCp: editData.isFrtCp ?? true,
         frpFullName: editData.frpFullName || '',
         frpRank: editData.frpRank || 0,
-        frpPosition: typeof editData.frpPosition === 'number' ? editData.frpPosition : 0,
+        frpPosition: editData.frpPosition || '',
         frpMobileNumber: editData.frpMobileNumber || '',
       });
     } else {
@@ -70,7 +70,7 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
         serialNumber: '',
         fullName: '',
         rank: directories.ranks[0]?.id || 0,
-        position: directories.positions[0]?.id || 0,
+        position: '',
         department: directories.departments[0]?.id || 0,
         mobileNumber: '',
         applicationStatus: 'В процесі',
@@ -82,7 +82,7 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
         isFrtCp: true,
         frpFullName: '',
         frpRank: directories.ranks[0]?.id || 0,
-        frpPosition: directories.positions[0]?.id || 0,
+        frpPosition: '',
         frpMobileNumber: '',
       });
     }
@@ -192,13 +192,18 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
               onChange={(val) => setFormData({ ...formData, department: val })}
             />
 
-            <SearchableSelect
-              label="Посада *"
-              required
-              options={directories.positions}
-              value={formData.position}
-              onChange={(val) => setFormData({ ...formData, position: val })}
-            />
+            <div>
+              <label className="block text-sm font-medium text-muted-foreground mb-1">
+                Посада *
+              </label>
+              <input
+                type="text"
+                required
+                value={formData.position}
+                onChange={(e) => setFormData({ ...formData, position: e.target.value })}
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
+              />
+            </div>
 
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">
@@ -327,13 +332,18 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
                     onChange={(val) => setFormData({ ...formData, frpRank: val })}
                   />
 
-                  <SearchableSelect
-                    label="Посада МВО *"
-                    required={!formData.isFrtCp}
-                    options={directories.positions}
-                    value={formData.frpPosition || 0}
-                    onChange={(val) => setFormData({ ...formData, frpPosition: val })}
-                  />
+                  <div>
+                    <label className="block text-sm font-medium text-muted-foreground mb-1">
+                      Посада МВО *
+                    </label>
+                    <input
+                      type="text"
+                      required={!formData.isFrtCp}
+                      value={formData.frpPosition}
+                      onChange={(e) => setFormData({ ...formData, frpPosition: e.target.value })}
+                      className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
+                    />
+                  </div>
 
                   <div>
                     <label className="block text-sm font-medium text-muted-foreground mb-1">

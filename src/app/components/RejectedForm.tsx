@@ -24,7 +24,7 @@ export function RejectedForm({
     quantity: 1,
     fullName: '',
     rank: 0,
-    position: 0, // Changed from '' to 0
+    position: '',
     department: 0,
     mobileNumber: '',
     status: 'Відхилено',
@@ -34,7 +34,7 @@ export function RejectedForm({
     isFrtCp: true,
     frpFullName: '',
     frpRank: 0,
-    frpPosition: 0, // Changed from '' to 0
+    frpPosition: '',
     frpMobileNumber: '',
   });
 
@@ -46,7 +46,7 @@ export function RejectedForm({
         quantity: editData.quantity,
         fullName: editData.fullName,
         rank: editData.rank,
-        position: typeof editData.position === 'number' ? editData.position : 0, // Added type check
+        position: editData.position || 'Не вказано',
         department: editData.department,
         mobileNumber: editData.mobileNumber,
         status: editData.status,
@@ -56,7 +56,7 @@ export function RejectedForm({
         isFrtCp: editData.isFrtCp ?? true,
         frpFullName: editData.frpFullName || '',
         frpRank: editData.frpRank || 0,
-        frpPosition: typeof editData.frpPosition === 'number' ? editData.frpPosition : 0, // Added type check
+        frpPosition: editData.frpPosition || '',
         frpMobileNumber: editData.frpMobileNumber || '',
       });
     } else {
@@ -66,7 +66,7 @@ export function RejectedForm({
         quantity: 1,
         fullName: '',
         rank: directories.ranks[0]?.id || 0,
-        position: directories.positions[0]?.id || 0, // Changed from '' to default ID
+        position: '',
         department: directories.departments[0]?.id || 0,
         mobileNumber: '',
         status: 'Відхилено',
@@ -76,7 +76,7 @@ export function RejectedForm({
         isFrtCp: true,
         frpFullName: '',
         frpRank: directories.ranks[0]?.id || 0,
-        frpPosition: directories.positions[0]?.id || 0, // Changed from '' to default ID
+        frpPosition: '',
         frpMobileNumber: '',
       });
     }
@@ -165,13 +165,18 @@ export function RejectedForm({
               onChange={(val) => setFormData({ ...formData, rank: val })}
             />
 
-            <SearchableSelect
-              label="Посада *"
-              required
-              options={directories.positions}
-              value={formData.position}
-              onChange={(val) => setFormData({ ...formData, position: val })}
-            />
+            <div>
+              <label className="block text-sm font-medium text-muted-foreground mb-1">
+                Посада *
+              </label>
+              <input
+                type="text"
+                required
+                value={formData.position}
+                onChange={(e) => setFormData({ ...formData, position: e.target.value })}
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
+              />
+            </div>
 
             <SearchableSelect
               label="Служба"
@@ -295,13 +300,18 @@ export function RejectedForm({
                     onChange={(val) => setFormData({ ...formData, frpRank: val })}
                   />
 
-                  <SearchableSelect
-                    label="Посада МВО *"
-                    required={!formData.isFrtCp}
-                    options={directories.positions}
-                    value={formData.frpPosition || 0}
-                    onChange={(val) => setFormData({ ...formData, frpPosition: val })}
-                  />
+                  <div>
+                    <label className="block text-sm font-medium text-muted-foreground mb-1">
+                      Посада МВО *
+                    </label>
+                    <input
+                      type="text"
+                      required={!formData.isFrtCp}
+                      value={formData.frpPosition}
+                      onChange={(e) => setFormData({ ...formData, frpPosition: e.target.value })}
+                      className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
+                    />
+                  </div>
 
                   <div>
                     <label className="block text-sm font-medium text-muted-foreground mb-1">

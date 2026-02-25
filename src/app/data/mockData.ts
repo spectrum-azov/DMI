@@ -9,6 +9,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н:T4NXCV06129716E\nМ:",
     "rank": 1088,
     "fullName": "Єршов Олексій Сергійович",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Готово",
     "requestNumber": "137",
@@ -17,6 +18,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 2,
@@ -26,6 +29,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н:T4NXCV061283168\nМ:",
     "rank": 1088,
     "fullName": "Карпенко Олександр Олександрович",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Готово",
     "requestNumber": "124",
@@ -34,6 +38,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 3,
@@ -43,6 +49,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н:\nМ:",
     "rank": 1088,
     "fullName": "Гончар Костянтин Іванович",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Готово",
     "requestNumber": "124",
@@ -51,6 +58,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 4,
@@ -60,6 +69,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н:\nМ:",
     "rank": 1088,
     "fullName": "Шимонівський Дмитро Петрович",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Готово",
     "requestNumber": "124",
@@ -68,6 +78,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 5,
@@ -77,6 +89,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н:\nМ:",
     "rank": 1088,
     "fullName": "Вислоцький Ярослав Вікторович",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -85,6 +98,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Знайти контакт, звязатись, звірити  майно",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 6,
@@ -94,6 +109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061200168",
     "rank": 1088,
     "fullName": "Щербаков Тимофій Андрійович",
+    "position": "Не вказано",
     "department": 982,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -102,6 +118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "На паузі",
     "notes": "На погоджені у Лужкового",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 7,
@@ -111,6 +129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061274164",
     "rank": 1088,
     "fullName": "Сілявкін Денис Сергійович",
+    "position": "Не вказано",
     "department": 982,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -119,6 +138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "На погоджені у Лужкового",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 8,
@@ -128,6 +149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061296165",
     "rank": 1088,
     "fullName": "Нурієва Любов Петрівна",
+    "position": "Не вказано",
     "department": 982,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -136,6 +158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "На погоджені у Лужкового",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 9,
@@ -145,6 +169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV061190164\nМ:",
     "rank": 1088,
     "fullName": "Білецька Алла Анатоліївна",
+    "position": "Не вказано",
     "department": 982,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -153,6 +178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "На видачу",
     "notes": "Перевелась, знаходится у Руденко",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 10,
@@ -162,6 +189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV06114716G\nМ:",
     "rank": 1088,
     "fullName": "Равлюк Є.В.",
+    "position": "Не вказано",
     "department": 982,
     "applicationStatus": "Не Готово",
     "requestNumber": "240",
@@ -170,6 +198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 11,
@@ -179,6 +209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н:\nМ:",
     "rank": 1088,
     "fullName": "Лужковий Юрій Олександрович",
+    "position": "Не вказано",
     "department": 982,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -187,6 +218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "На погоджені",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 12,
@@ -196,6 +229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV06114916A\nМ:",
     "rank": 1088,
     "fullName": "Войтенко Віталій Миколайович",
+    "position": "Не вказано",
     "department": 1016,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -204,6 +238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 13,
@@ -213,6 +249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV06119816C\nМ:",
     "rank": 1088,
     "fullName": "Кожевник Олена Сергіївна",
+    "position": "Не вказано",
     "department": 1016,
     "applicationStatus": "Не Готово",
     "requestNumber": "№167",
@@ -221,6 +258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 14,
@@ -230,6 +269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV06123516D\nМ:",
     "rank": 1088,
     "fullName": "Менжига Ольга Миколаївна",
+    "position": "Не вказано",
     "department": 1016,
     "applicationStatus": "Не Готово",
     "requestNumber": "№151",
@@ -238,6 +278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 15,
@@ -247,6 +289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV06118116G\nМ:",
     "rank": 1088,
     "fullName": "Лернер Оксана Анатоліївна",
+    "position": "Не вказано",
     "department": 999,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -255,6 +298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Повернули",
     "notes": "Як виявилось, робочий ноутбук їй не потрібен, тільки СЕДО. Її ноутбук піде під Лєдощук Максим.",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 16,
@@ -264,6 +309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV061156168\nМ:",
     "rank": 1088,
     "fullName": "Лопатюк Віталій Васильович",
+    "position": "Не вказано",
     "department": 1025,
     "applicationStatus": "Не Готово",
     "requestNumber": "№95",
@@ -272,6 +318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 17,
@@ -281,6 +329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV06119116B\nМ:",
     "rank": 1088,
     "fullName": "Лизогуб Іван Сергійович",
+    "position": "Не вказано",
     "department": 1025,
     "applicationStatus": "Не Готово",
     "requestNumber": "№95",
@@ -289,6 +338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 18,
@@ -298,6 +349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV061299165\nМ:",
     "rank": 1088,
     "fullName": "Баглай Ігор Миколайович",
+    "position": "Не вказано",
     "department": 1025,
     "applicationStatus": "Не Готово",
     "requestNumber": "№95",
@@ -306,6 +358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 19,
@@ -315,6 +369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV061148166\nМ:",
     "rank": 1088,
     "fullName": "Сидоренко Оксана Миколаївна",
+    "position": "Не вказано",
     "department": 1025,
     "applicationStatus": "Не Готово",
     "requestNumber": "№95",
@@ -323,6 +378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 20,
@@ -332,6 +389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV06123216A\nМ: ",
     "rank": 1088,
     "fullName": "Загній Євген Анатолійович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "№95",
@@ -340,6 +398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 21,
@@ -349,6 +409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "М: xAL344471\nКМ: ARTL0832KM02377",
     "rank": 1088,
     "fullName": "Павлов Олександр Романович",
+    "position": "Не вказано",
     "department": 1025,
     "applicationStatus": "Не Готово",
     "requestNumber": "№95",
@@ -357,6 +418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 22,
@@ -366,6 +429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: xAL344492\n",
     "rank": 1088,
     "fullName": "Сидоренко Тетяна",
+    "position": "Не вказано",
     "department": 1071,
     "applicationStatus": "Не Готово",
     "requestNumber": "№149",
@@ -374,6 +438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 23,
@@ -383,6 +449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: CNCRT1H5LT",
     "rank": 1088,
     "fullName": "Горєліков Ілля",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "№122",
@@ -391,6 +458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 24,
@@ -400,6 +469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "H: CNCRT1H4DG",
     "rank": 1088,
     "fullName": "Сакевич Олександр Іванович ",
+    "position": "Не вказано",
     "department": 1034,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -408,6 +478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "МАЙНО НЕ НАЛЕЖИТЬ ДАННІЙ МВО (відділ ПММ). ПОДИВИТИСЬ ЧИ ВІН СТОЇТЬ НА НОВОМУ складі",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 25,
@@ -417,6 +489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: WZP27470SSY",
     "rank": 1088,
     "fullName": "Єршов Олексій Сергійович",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Не Готово",
     "requestNumber": "137",
@@ -425,6 +498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 26,
@@ -434,6 +509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV06122816F\n",
     "rank": 1088,
     "fullName": "Мельник Віталій Вадимович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "№153",
@@ -442,6 +518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Додатково видати ще одну мишку",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 27,
@@ -451,6 +529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV061229168\n",
     "rank": 1088,
     "fullName": "Бордан Олександр Сергійович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -459,6 +538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 28,
@@ -468,6 +549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV061239165",
     "rank": 1088,
     "fullName": "Волков Антон Вікторович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Готово",
     "requestNumber": "№106",
@@ -476,6 +558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 29,
@@ -485,6 +569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV06117816B\n",
     "rank": 1088,
     "fullName": "Мисник Владислав Владиславович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -493,6 +578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 30,
@@ -502,6 +589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV061264167\n",
     "rank": 1088,
     "fullName": "Негматулін Денис Валерійович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -510,6 +598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 31,
@@ -519,6 +609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "H: CNCRT3539C",
     "rank": 1088,
     "fullName": "Кадосін Євгеній",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Готово",
     "requestNumber": "№72",
@@ -527,6 +618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 32,
@@ -536,6 +629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Н: T4NXCV06114416D\n",
     "rank": 1088,
     "fullName": "Карасюк Олександр Леонідович",
+    "position": "Не вказано",
     "department": 1046,
     "applicationStatus": "Не Готово",
     "requestNumber": "№154",
@@ -544,6 +638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 33,
@@ -553,6 +649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344524",
     "rank": 1088,
     "fullName": "Білецька Алла Анатоліївна",
+    "position": "Не вказано",
     "department": 982,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -561,6 +658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Майно було передано Лужковому в автослужбу (від 16.02.2026).",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 34,
@@ -570,6 +669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "М: xAL344415\nКМ: ARTL0832KM02366",
     "rank": 1088,
     "fullName": "Кирилова Ліна Сергіївна",
+    "position": "Не вказано",
     "department": 1046,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -578,6 +678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 35,
@@ -587,6 +689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "М: xAL344363\nКМ: ARTL0832KM02367",
     "rank": 1088,
     "fullName": "Березін Роман Іванович\n",
+    "position": "Не вказано",
     "department": 1028,
     "applicationStatus": "Не Готово",
     "requestNumber": "№156",
@@ -595,6 +698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 36,
@@ -604,6 +709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06115716F",
     "rank": 1088,
     "fullName": "Зеленяк Дмитро Олексійович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -612,6 +718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 37,
@@ -621,6 +729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06115316D",
     "rank": 1088,
     "fullName": "Нетреба Микола Миколайович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -629,6 +738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 38,
@@ -638,6 +749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06117416A",
     "rank": 1088,
     "fullName": "Пономаренко Руслан Олександрович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Готово",
     "requestNumber": "94",
@@ -646,6 +758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 39,
@@ -655,6 +769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061282165",
     "rank": 1088,
     "fullName": "Шапаренко Олександр Сергійович",
+    "position": "Не вказано",
     "department": 997,
     "applicationStatus": "Не Готово",
     "requestNumber": "266",
@@ -663,6 +778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 40,
@@ -672,6 +789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061179169",
     "rank": 1088,
     "fullName": "Яременко Олександр Олександрович",
+    "position": "Не вказано",
     "department": 997,
     "applicationStatus": "Не Готово",
     "requestNumber": "№237",
@@ -680,6 +798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 41,
@@ -689,6 +809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06127116A",
     "rank": 1088,
     "fullName": "-//- (склад)",
+    "position": "Не вказано",
     "department": 997,
     "applicationStatus": "Не Готово",
     "requestNumber": "189",
@@ -697,6 +818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 42,
@@ -706,6 +829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06118016B",
     "rank": 1088,
     "fullName": "Марцішевський Дмитро Володимирович",
+    "position": "Не вказано",
     "department": 1056,
     "applicationStatus": "Не Готово",
     "requestNumber": "№158",
@@ -714,6 +838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 43,
@@ -723,6 +849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06122416A",
     "rank": 1088,
     "fullName": "Лоза Віталія Вікторівна",
+    "position": "Не вказано",
     "department": 1056,
     "applicationStatus": "Не Готово",
     "requestNumber": "№159",
@@ -731,6 +858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 44,
@@ -740,6 +869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061204166",
     "rank": 1088,
     "fullName": "Сакевич Олександр Іванович ",
+    "position": "Не вказано",
     "department": 1034,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -748,6 +878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 45,
@@ -757,6 +889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061132162",
     "rank": 1088,
     "fullName": "Бондаренко Наталія Сергіївна",
+    "position": "Не вказано",
     "department": 1012,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -765,6 +898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 46,
@@ -774,6 +909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344353",
     "rank": 1088,
     "fullName": "Бондаренко Наталія Сергіївна",
+    "position": "Не вказано",
     "department": 1012,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -782,6 +918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 47,
@@ -791,6 +929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344354",
     "rank": 1088,
     "fullName": "Бондаренко Наталія Сергіївна",
+    "position": "Не вказано",
     "department": 1012,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -799,6 +938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 48,
@@ -808,6 +949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061196167",
     "rank": 1088,
     "fullName": "Гришаєва Олена Володимирівна",
+    "position": "Не вказано",
     "department": 1005,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -816,6 +958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 49,
@@ -825,6 +969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06121216C",
     "rank": 1088,
     "fullName": "Фурик Олександр Володимирович",
+    "position": "Не вказано",
     "department": 1005,
     "applicationStatus": "Готово",
     "requestNumber": "238",
@@ -833,6 +978,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 50,
@@ -842,6 +989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T1NXCV00V73001F",
     "rank": 1088,
     "fullName": "Ніколенко Олександр",
+    "position": "Не вказано",
     "department": 1005,
     "applicationStatus": "Не Готово",
     "requestNumber": "№46",
@@ -850,6 +998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 51,
@@ -859,6 +1009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T1NXC00V725017",
     "rank": 1088,
     "fullName": "Чижиков Ігор",
+    "position": "Не вказано",
     "department": 1005,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -867,6 +1018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "S/N не знаходить в Access",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 52,
@@ -876,6 +1029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06118116G",
     "rank": 1088,
     "fullName": "Лєдощук Максим Дмитрович\n",
+    "position": "Не вказано",
     "department": 1008,
     "applicationStatus": "Не Готово",
     "requestNumber": "№161",
@@ -884,6 +1038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Попросили виписати на Дутчак Владислав Васильович",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 53,
@@ -893,6 +1049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344364",
     "rank": 1088,
     "fullName": "Шапаренко Олександр Сергійович",
+    "position": "Не вказано",
     "department": 997,
     "applicationStatus": "Не Готово",
     "requestNumber": "266",
@@ -901,6 +1058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 54,
@@ -910,6 +1069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "CNCRT1H5CQ",
     "rank": 1088,
     "fullName": "Яременко Олександр Олександрович\n",
+    "position": "Не вказано",
     "department": 997,
     "applicationStatus": "Не Готово",
     "requestNumber": "265",
@@ -918,6 +1078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 55,
@@ -927,6 +1089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061195164",
     "rank": 1088,
     "fullName": "Гуріна Каріна Ігорівна ",
+    "position": "Не вказано",
     "department": 1030,
     "applicationStatus": "Не Готово",
     "requestNumber": "248",
@@ -935,6 +1098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 56,
@@ -944,6 +1109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061308163",
     "rank": 1088,
     "fullName": "Винник Тетяна Володимирівна",
+    "position": "Не вказано",
     "department": 1030,
     "applicationStatus": "Не Готово",
     "requestNumber": "254",
@@ -952,6 +1118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 57,
@@ -961,6 +1129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06116416B",
     "rank": 1088,
     "fullName": "Вепрев Владислав",
+    "position": "Не вказано",
     "department": 1030,
     "applicationStatus": "Не Готово",
     "requestNumber": "251",
@@ -969,6 +1138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 58,
@@ -978,6 +1149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06120816B",
     "rank": 1088,
     "fullName": "Бакун Кирило Володимирович ",
+    "position": "Не вказано",
     "department": 1030,
     "applicationStatus": "Не Готово",
     "requestNumber": "253",
@@ -986,6 +1158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 59,
@@ -995,6 +1169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344472",
     "rank": 1088,
     "fullName": "Бакун Кирило Володимирович ",
+    "position": "Не вказано",
     "department": 1030,
     "applicationStatus": "Не Готово",
     "requestNumber": "253",
@@ -1003,6 +1178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 60,
@@ -1012,6 +1189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061187162",
     "rank": 1088,
     "fullName": "Олєксієнко Владислав Віталійович",
+    "position": "Не вказано",
     "department": 1024,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1020,6 +1198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 61,
@@ -1029,6 +1209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061124164",
     "rank": 1088,
     "fullName": "Миколюк Єгор Олексійович",
+    "position": "Не вказано",
     "department": 1016,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1037,6 +1218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 62,
@@ -1046,6 +1229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06124016H",
     "rank": 1088,
     "fullName": "Федін Олександр В'ячеславович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -1054,6 +1238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 63,
@@ -1063,6 +1249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "\nxAL344416",
     "rank": 1088,
     "fullName": "Кохан Олеся",
+    "position": "Не вказано",
     "department": 1053,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1071,6 +1258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 64,
@@ -1080,6 +1269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "WZP214510V7",
     "rank": 1088,
     "fullName": "Бондар Анатолій Віталійович",
+    "position": "Не вказано",
     "department": 1031,
     "applicationStatus": "Не Готово",
     "requestNumber": "185",
@@ -1088,6 +1278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 65,
@@ -1097,6 +1289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061209165",
     "rank": 1088,
     "fullName": "Троцька Оксана Олександрівна\n",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "106",
@@ -1105,6 +1298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 66,
@@ -1114,6 +1309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Троцька Оксана Олександрівна\n",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "20",
@@ -1122,6 +1318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 67,
@@ -1131,6 +1329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344524",
     "rank": 1088,
     "fullName": "Шимонівський Дмитро Петрович",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1139,6 +1338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Дубль (Передано на Лужкового)",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 68,
@@ -1148,6 +1349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344408",
     "rank": 1088,
     "fullName": "Погоський Олег Олегович",
+    "position": "Не вказано",
     "department": 1046,
     "applicationStatus": "Не Готово",
     "requestNumber": "223",
@@ -1156,6 +1358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 69,
@@ -1165,6 +1369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344516",
     "rank": 1088,
     "fullName": "Гніденко Вадим Андрійович",
+    "position": "Не вказано",
     "department": 1030,
     "applicationStatus": "Не Готово",
     "requestNumber": "252",
@@ -1173,6 +1378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 70,
@@ -1182,6 +1389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061137168",
     "rank": 1088,
     "fullName": "Лисенок Віталій Миколайович",
+    "position": "Не вказано",
     "department": 1034,
     "applicationStatus": "Готово",
     "requestNumber": "95",
@@ -1190,6 +1398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 71,
@@ -1199,6 +1409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344476",
     "rank": 1088,
     "fullName": "Багіров А.І.",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Не Готово",
     "requestNumber": "97",
@@ -1207,6 +1418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 72,
@@ -1216,6 +1429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06125416A",
     "rank": 1088,
     "fullName": "Скулинець Р.В.",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Не Готово",
     "requestNumber": "21",
@@ -1224,6 +1438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 73,
@@ -1233,6 +1449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061236167",
     "rank": 1088,
     "fullName": "Соломка С.О.",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Не Готово",
     "requestNumber": "22",
@@ -1241,6 +1458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 74,
@@ -1250,6 +1469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344352",
     "rank": 1088,
     "fullName": "Троцька О.",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "№20",
@@ -1258,6 +1478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 75,
@@ -1267,6 +1489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344505",
     "rank": 1088,
     "fullName": "Лужковий Юрій Олександрович",
+    "position": "Не вказано",
     "department": 982,
     "applicationStatus": "Готово",
     "requestNumber": "№24",
@@ -1275,6 +1498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 76,
@@ -1284,6 +1509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344386",
     "rank": 1088,
     "fullName": "Лужковий Юрій Олександрович",
+    "position": "Не вказано",
     "department": 982,
     "applicationStatus": "Готово",
     "requestNumber": "№24",
@@ -1292,6 +1518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 77,
@@ -1301,6 +1529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061193164",
     "rank": 1088,
     "fullName": "Апостол Віталій Вікторович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "№36",
@@ -1309,6 +1538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Переходить на діловод S4 взводу матеріально-технічного забезпечення зенітного ракетно-артилерійського забезпечення Зілінську Вікторію Вікторівну, т.0681405013",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 78,
@@ -1318,6 +1549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061265166",
     "rank": 1088,
     "fullName": "Овсяннікова Наталія Володимирівна",
+    "position": "Не вказано",
     "department": 1025,
     "applicationStatus": "Готово",
     "requestNumber": "95",
@@ -1326,6 +1558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 79,
@@ -1335,6 +1569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061220168",
     "rank": 1088,
     "fullName": "ФЕСУН ВАСИЛЬ ВІКТОРОВИЧ",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -1343,6 +1578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 80,
@@ -1352,6 +1589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Сумбатян Сергій Радикович",
+    "position": "Не вказано",
     "department": 1061,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1360,6 +1598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "На паузі",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 81,
@@ -1369,6 +1609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "CNCRT3538L",
     "rank": 1088,
     "fullName": "Прокопова Віра Павлівна",
+    "position": "Не вказано",
     "department": 1025,
     "applicationStatus": "Готово",
     "requestNumber": "95",
@@ -1377,6 +1618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 82,
@@ -1386,6 +1629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Планшет: HA1XGXDX / Алмаз: ",
     "rank": 1088,
     "fullName": "Мостович Денис Анатолійович",
+    "position": "Не вказано",
     "department": 1061,
     "applicationStatus": "Готово",
     "requestNumber": "24",
@@ -1394,6 +1638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 83,
@@ -1403,6 +1649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061277169",
     "rank": 1088,
     "fullName": "Печериця Максим Олександрович",
+    "position": "Не вказано",
     "department": 1057,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1411,6 +1658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 84,
@@ -1420,6 +1669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06118416A",
     "rank": 1088,
     "fullName": "Олександр Шмулько",
+    "position": "Не вказано",
     "department": 1057,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1428,6 +1678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Звільнився ",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 85,
@@ -1437,6 +1689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Алмаз: 493773",
     "rank": 1088,
     "fullName": "Пашинін Сергій Вікторович",
+    "position": "Не вказано",
     "department": 1064,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1445,6 +1698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "На паузі",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 86,
@@ -1454,6 +1709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Планшет: HA1WLZK3 / Алмаз: 493771",
     "rank": 1088,
     "fullName": " Іван Ігнатьєв",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1462,6 +1718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 87,
@@ -1471,6 +1729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "G9TP9LPV63 / IMEI: 35676521445000",
     "rank": 1088,
     "fullName": "Мостович Денис Анатолійович",
+    "position": "Не вказано",
     "department": 1061,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1479,6 +1738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 88,
@@ -1488,6 +1749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061133168",
     "rank": 1088,
     "fullName": "Карєбін Сергій Геннадійович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "14",
@@ -1496,6 +1758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": " + флешка",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 89,
@@ -1505,6 +1769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06130916H",
     "rank": 1088,
     "fullName": "Михальонок Андрій Євгенович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "14",
@@ -1513,6 +1778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": " + флешка",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 90,
@@ -1522,6 +1789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "CNCRT1H5K7",
     "rank": 1088,
     "fullName": "Михальонок Андрій Євгенович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "14",
@@ -1530,6 +1798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 91,
@@ -1539,6 +1809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061267166",
     "rank": 1088,
     "fullName": "Гудзенко  Тарас Петрович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "14",
@@ -1547,6 +1818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": " + флешка",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 92,
@@ -1556,6 +1829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061199162",
     "rank": 1088,
     "fullName": "Лупінов  Дмитро Валентинович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "14",
@@ -1564,6 +1838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": " + флешка",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 93,
@@ -1573,6 +1849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV01211167",
     "rank": 1088,
     "fullName": "Коломєєць  Ігор В'ячеславович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "14",
@@ -1581,6 +1858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": " + флешка",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 94,
@@ -1590,6 +1869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "1 - 865EAPE086 / 2 - 865EAPE067 / 3 - 865EAPD805 / 4 - 865EAPD802 / 5 - 865EAPD812 / 6 - 865EAPD974 / 7 - 865EAPD814 / 8 - 865EAPD374",
     "rank": 1088,
     "fullName": "Руковицан Віталій Володимирович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "14",
@@ -1598,6 +1878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 95,
@@ -1607,6 +1889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "NKNL57AU00000004F01536",
     "rank": 1088,
     "fullName": "Ніколенко Олександр",
+    "position": "Не вказано",
     "department": 1005,
     "applicationStatus": "Готово",
     "requestNumber": "46",
@@ -1615,6 +1898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 96,
@@ -1624,6 +1909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06119716A",
     "rank": 1088,
     "fullName": "Торгонський Микола Петрович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "18",
@@ -1632,6 +1918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 97,
@@ -1641,6 +1929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061263167",
     "rank": 1088,
     "fullName": "Пашко Софія Сергіївна",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "17",
@@ -1649,6 +1938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 98,
@@ -1658,6 +1949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "CNCRT353DN",
     "rank": 1088,
     "fullName": "Пашко Софія Сергіївна",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "17",
@@ -1666,6 +1958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 99,
@@ -1675,6 +1969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061273168",
     "rank": 1088,
     "fullName": "Яковенко Дмитро Олегович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "19",
@@ -1683,6 +1978,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 100,
@@ -1692,6 +1989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061151164",
     "rank": 1088,
     "fullName": "Топоровська Мирослава Анатоліївна",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Готово",
     "requestNumber": "44",
@@ -1700,6 +1998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 101,
@@ -1709,6 +2009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "DQ76NCVHFK",
     "rank": 1088,
     "fullName": "Сумбатян Сергій Радикович",
+    "position": "Не вказано",
     "department": 1061,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1717,6 +2018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 102,
@@ -1726,6 +2029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Топровська Мирослава Анатоліївна",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -1734,6 +2038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Відміна",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 103,
@@ -1743,6 +2049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Шпак Юлія Олександрівна",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -1751,6 +2058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Відміна",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 104,
@@ -1760,6 +2069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Василюк Яна Ігорівна",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -1768,6 +2078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Відміна",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 105,
@@ -1777,6 +2089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Безкровний Єгор Павлович",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -1785,6 +2098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Відміна",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 106,
@@ -1794,6 +2109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Молдавчук Вероніка Андріївна",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -1802,6 +2118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Відміна",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 107,
@@ -1811,6 +2129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344470",
     "rank": 1088,
     "fullName": "Бугір Василь Богданович",
+    "position": "Не вказано",
     "department": 1046,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1819,6 +2138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "На погоджені",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 108,
@@ -1828,6 +2149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9028373456",
     "rank": 1088,
     "fullName": "Токаренко А.А.",
+    "position": "Не вказано",
     "department": 1059,
     "applicationStatus": "Не Готово",
     "requestNumber": "231",
@@ -1836,6 +2158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 109,
@@ -1845,6 +2169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9028346782",
     "rank": 1088,
     "fullName": "Божков Максим Юрійович",
+    "position": "Не вказано",
     "department": 1042,
     "applicationStatus": "Не Готово",
     "requestNumber": "206",
@@ -1853,6 +2178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "погоджено, додати до заявки",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 110,
@@ -1862,6 +2189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344521",
     "rank": 1088,
     "fullName": "Янцевич Олександр Вікторович",
+    "position": "Не вказано",
     "department": 1071,
     "applicationStatus": "Не Готово",
     "requestNumber": "144",
@@ -1870,6 +2198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 111,
@@ -1879,6 +2209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "WZP23290RMR",
     "rank": 1088,
     "fullName": "Ніколенко Олександр",
+    "position": "Не вказано",
     "department": 1005,
     "applicationStatus": "Не Готово",
     "requestNumber": "179",
@@ -1887,6 +2218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 112,
@@ -1896,6 +2229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06112216A",
     "rank": 1088,
     "fullName": "Муцький Максим Вадимович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "37",
@@ -1904,6 +2238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 113,
@@ -1913,6 +2249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "CNCRT1H5GT",
     "rank": 1088,
     "fullName": "Муцький Максим Вадимович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "37",
@@ -1921,6 +2258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 114,
@@ -1930,6 +2269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061256163",
     "rank": 1088,
     "fullName": "Моляр Микола Олександрович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "28",
@@ -1938,6 +2278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 115,
@@ -1947,6 +2289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T1NXCV00V728014",
     "rank": 1088,
     "fullName": "ЦКЗ (Рябоволенко)",
+    "position": "Не вказано",
     "department": 1001,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1955,6 +2298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 116,
@@ -1964,6 +2309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "PF5GBSTQ",
     "rank": 1088,
     "fullName": "БОЙКО Наталію Олександрівну",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -1972,6 +2318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Знайти контакт, звязатись, звірити  майно",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 117,
@@ -1981,6 +2329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV061189166",
     "rank": 1088,
     "fullName": "Кривцов Михайло Борисович",
+    "position": "Не вказано",
     "department": 1034,
     "applicationStatus": "Готово",
     "requestNumber": "39",
@@ -1989,6 +2338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 118,
@@ -1998,6 +2349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06115016C",
     "rank": 1088,
     "fullName": "Довженко Юрій Федорович ",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "38",
@@ -2006,6 +2358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 119,
@@ -2015,6 +2369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T1NXCV00V721016",
     "rank": 1088,
     "fullName": "Шляхта Костянтин Ігорович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -2023,6 +2378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 120,
@@ -2032,6 +2389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "X8FZ020372",
     "rank": 1088,
     "fullName": "Шляхта Костянтин Ігорович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "65",
@@ -2040,6 +2398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 121,
@@ -2049,6 +2409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344447",
     "rank": 1088,
     "fullName": "Марцішевський Дмитро Володимирович",
+    "position": "Не вказано",
     "department": 1040,
     "applicationStatus": "Готово",
     "requestNumber": "50",
@@ -2057,6 +2418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 122,
@@ -2066,6 +2429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344438",
     "rank": 1088,
     "fullName": "Балфінова Алла Олександрівна ",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Готово",
     "requestNumber": "44",
@@ -2074,6 +2438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 123,
@@ -2083,6 +2449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344426",
     "rank": 1088,
     "fullName": "Старушкевич Віталій Іванович ",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Готово",
     "requestNumber": "64",
@@ -2091,6 +2458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 124,
@@ -2100,6 +2469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "2Z622F",
     "rank": 1088,
     "fullName": "Нетреба Микола Миколайович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -2108,6 +2478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 125,
@@ -2117,6 +2489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "PF5H9V8V",
     "rank": 1088,
     "fullName": "Воскобоєв Михайло Володимирович",
+    "position": "Не вказано",
     "department": 1046,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -2125,6 +2498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "На погоджені",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 126,
@@ -2134,6 +2509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "PF5HFKT8C",
     "rank": 1088,
     "fullName": "Романюк Марина Віталівна",
+    "position": "Не вказано",
     "department": 1002,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -2142,6 +2518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 127,
@@ -2151,6 +2529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "PF5FLC2W",
     "rank": 1088,
     "fullName": "Паничева Любов Миколаївна",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "79",
@@ -2159,6 +2538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 128,
@@ -2168,6 +2549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344455",
     "rank": 1088,
     "fullName": "ФЕСУН ВАСИЛЬ ВІКТОРОВИЧ",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Готово",
     "requestNumber": "80/1",
@@ -2176,6 +2558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 129,
@@ -2185,6 +2569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "ФЕСУН ВАСИЛЬ ВІКТОРОВИЧ",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Готово",
     "requestNumber": "80/1",
@@ -2193,6 +2578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 130,
@@ -2202,6 +2589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "1C1B0D6511ECE8C1B9450B08",
     "rank": 1088,
     "fullName": "ФЕСУН ВАСИЛЬ ВІКТОРОВИЧ",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -2210,6 +2598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 131,
@@ -2219,6 +2609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344453",
     "rank": 1088,
     "fullName": "ЦКЗ (Рябоволенко)",
+    "position": "Не вказано",
     "department": 1001,
     "applicationStatus": "Не Готово",
     "requestNumber": "85",
@@ -2227,6 +2618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 132,
@@ -2236,6 +2629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344523",
     "rank": 1088,
     "fullName": "Завальнюк Дмитро Миколайович",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Готово",
     "requestNumber": "84",
@@ -2244,6 +2638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 133,
@@ -2253,6 +2649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Степаненко Лариса Анатоліївна",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -2261,6 +2658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 134,
@@ -2270,6 +2669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9028208422",
     "rank": 1088,
     "fullName": "Семич Дмитро Вадимович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Готово",
     "requestNumber": "83",
@@ -2278,6 +2678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 135,
@@ -2287,6 +2689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9028038586",
     "rank": 1088,
     "fullName": "Голуб Віталій Борисович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "82",
@@ -2295,6 +2698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 136,
@@ -2304,6 +2709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344493",
     "rank": 1088,
     "fullName": "Степаненко Лариса Анатоліївна",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Готово",
     "requestNumber": "84",
@@ -2312,6 +2718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 137,
@@ -2321,6 +2729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344377",
     "rank": 1088,
     "fullName": "Яременко Олена Леонідівна",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Готово",
     "requestNumber": "84",
@@ -2329,6 +2738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 138,
@@ -2338,6 +2749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344424",
     "rank": 1088,
     "fullName": "Ліщинський Сергій Васильович",
+    "position": "Не вказано",
     "department": 1037,
     "applicationStatus": "Готово",
     "requestNumber": "86",
@@ -2346,6 +2758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 139,
@@ -2355,6 +2769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дончак Ярослав Миколайович",
+    "position": "Не вказано",
     "department": 1059,
     "applicationStatus": "Не Готово",
     "requestNumber": "190",
@@ -2363,6 +2778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 140,
@@ -2372,6 +2789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "5CW51497",
     "rank": 1088,
     "fullName": "Єрмоленко Тимур  Геннадійович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "101",
@@ -2380,6 +2798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 141,
@@ -2389,6 +2809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "1C1B0D6579FCE8C1B9460B5C",
     "rank": 1088,
     "fullName": "Єрмоленко Тимур  Геннадійович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "101",
@@ -2397,6 +2818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 142,
@@ -2406,6 +2829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Б/С",
     "rank": 1088,
     "fullName": "Єрмоленко Тимур  Геннадійович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "101",
@@ -2414,6 +2838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Відміна",
     "notes": "Перероблена заявку без цієї мишки",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 143,
@@ -2423,6 +2849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344369",
     "rank": 1088,
     "fullName": "Єрмоленко Тимур  Геннадійович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "101",
@@ -2431,6 +2858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 144,
@@ -2440,6 +2869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "24110695",
     "rank": 1088,
     "fullName": "Багіров Анар",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Готово",
     "requestNumber": "97",
@@ -2448,6 +2878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 145,
@@ -2457,6 +2889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Б/С",
     "rank": 1088,
     "fullName": "Троцька О.",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "96",
@@ -2465,6 +2898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 146,
@@ -2474,6 +2909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "PB4HA75303178",
     "rank": 1088,
     "fullName": "Волков Антон Вікторович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Готово",
     "requestNumber": "106",
@@ -2482,6 +2918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 147,
@@ -2491,6 +2929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Б/С",
     "rank": 1088,
     "fullName": "Грибанов Денис Олегович",
+    "position": "Не вказано",
     "department": 1040,
     "applicationStatus": "Готово",
     "requestNumber": "98",
@@ -2499,6 +2938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 148,
@@ -2508,6 +2949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Б/С",
     "rank": 1088,
     "fullName": "Сосновський Данило Юрійович",
+    "position": "Не вказано",
     "department": 1040,
     "applicationStatus": "Готово",
     "requestNumber": "99",
@@ -2516,6 +2958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 149,
@@ -2525,6 +2969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Б/С",
     "rank": 1088,
     "fullName": "Сищенко Іван Олександрович",
+    "position": "Не вказано",
     "department": 1040,
     "applicationStatus": "Готово",
     "requestNumber": "100",
@@ -2533,6 +2978,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 150,
@@ -2542,6 +2989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029294509",
     "rank": 1088,
     "fullName": "Штуль Ігор Григорович",
+    "position": "Не вказано",
     "department": 1040,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -2550,6 +2998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 151,
@@ -2559,6 +3009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029216867",
     "rank": 1088,
     "fullName": "261",
+    "position": "Не вказано",
     "department": 1040,
     "applicationStatus": "Не Готово",
     "requestNumber": "261",
@@ -2567,6 +3018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "на ОКП видадуть",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 152,
@@ -2576,6 +3029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Зернова Олександра",
+    "position": "Не вказано",
     "department": 1038,
     "applicationStatus": "Готово",
     "requestNumber": "107",
@@ -2584,6 +3038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 153,
@@ -2593,6 +3049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Толкачов Артем",
+    "position": "Не вказано",
     "department": 1057,
     "applicationStatus": "Готово",
     "requestNumber": "108",
@@ -2601,6 +3058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 154,
@@ -2610,6 +3069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T1NXCV00V739012",
     "rank": 1088,
     "fullName": "Пономаренко Руслан Олександрович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Готово",
     "requestNumber": "94",
@@ -2618,6 +3078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Заявка в фін.від.МВО Нетреба ",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 155,
@@ -2627,6 +3089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -2635,6 +3098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Відміна",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 156,
@@ -2644,6 +3109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Док СБ",
+    "position": "Не вказано",
     "department": 1047,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -2652,6 +3118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Відміна",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 157,
@@ -2661,6 +3129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029299571",
     "rank": 1088,
     "fullName": "Отенко Віктор Миколайович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -2669,6 +3138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 158,
@@ -2678,6 +3149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пісковець Вадим Олегович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "109",
@@ -2686,6 +3158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 159,
@@ -2695,6 +3169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029407476",
     "rank": 1088,
     "fullName": "Пісковець Вадим Олегович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "109",
@@ -2703,6 +3178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 160,
@@ -2712,6 +3189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9030653558",
     "rank": 1088,
     "fullName": "Макаренка Владислава Володимировича",
+    "position": "Не вказано",
     "department": 1034,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -2720,6 +3198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 161,
@@ -2729,6 +3209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Ворожбян Денис Олексійович",
+    "position": "Не вказано",
     "department": 1025,
     "applicationStatus": "Готово",
     "requestNumber": "110",
@@ -2737,6 +3218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 162,
@@ -2746,6 +3229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Збитковський Андрій  Ігорович",
+    "position": "Не вказано",
     "department": 1030,
     "applicationStatus": "Не Готово",
     "requestNumber": "250",
@@ -2754,6 +3238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 163,
@@ -2763,6 +3249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Збитковський Андрій  Ігорович",
+    "position": "Не вказано",
     "department": 1030,
     "applicationStatus": "Не Готово",
     "requestNumber": "250",
@@ -2771,6 +3258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 164,
@@ -2780,6 +3269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9028001034",
     "rank": 1088,
     "fullName": "Федоренко Олександр Володимирович",
+    "position": "Не вказано",
     "department": 1059,
     "applicationStatus": "Готово",
     "requestNumber": "126",
@@ -2788,6 +3278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 165,
@@ -2797,6 +3289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Отенко Віктор Миколайович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Готово",
     "requestNumber": "125",
@@ -2805,6 +3298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 166,
@@ -2814,6 +3309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029174907",
     "rank": 1088,
     "fullName": "Салій Сергій Михайлович",
+    "position": "Не вказано",
     "department": 1059,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -2822,6 +3318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Очікуєм відповідь",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 167,
@@ -2831,6 +3329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кохан Олеся",
+    "position": "Не вказано",
     "department": 1053,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -2839,6 +3338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Відміна",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 168,
@@ -2848,6 +3349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Колянда Олена Миколаївна",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Не Готово",
     "requestNumber": "124",
@@ -2856,6 +3358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "на погоджені",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 169,
@@ -2865,6 +3369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дорогавцев Єгор Сергійович",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -2873,6 +3378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 170,
@@ -2882,6 +3389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дорогавцев Єгор Сергійович",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -2890,6 +3398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 171,
@@ -2899,6 +3409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пинік Дмитро Миколайович",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -2907,6 +3418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 172,
@@ -2916,6 +3429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пинік Дмитро Миколайович",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -2924,6 +3438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 173,
@@ -2933,6 +3449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Лавровський Михайло Ігорович ",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -2941,6 +3458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 174,
@@ -2950,6 +3469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Лавровський Михайло Ігорович ",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -2958,6 +3478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 175,
@@ -2967,6 +3489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Ткаченко Ігор Олександрович ",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -2975,6 +3498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 176,
@@ -2984,6 +3509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Лавровський Михайло Ігорович ",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -2992,6 +3518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 177,
@@ -3001,6 +3529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "---",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -3009,6 +3538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 178,
@@ -3018,6 +3549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "---",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -3026,6 +3558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 179,
@@ -3035,6 +3569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "---",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -3043,6 +3578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 180,
@@ -3052,6 +3589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "---",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -3060,6 +3598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 181,
@@ -3069,6 +3609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "---",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -3077,6 +3618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 182,
@@ -3086,6 +3629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "---",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -3094,6 +3638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 183,
@@ -3103,6 +3649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "---",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -3111,6 +3658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 184,
@@ -3120,6 +3669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "---",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Готово",
     "requestNumber": "115",
@@ -3128,6 +3678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 185,
@@ -3137,6 +3689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Семич Дмитро Вадимович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Готово",
     "requestNumber": "127",
@@ -3145,6 +3698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 186,
@@ -3154,6 +3709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Мовчан Віталій Євгенович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Готово",
     "requestNumber": "128",
@@ -3162,6 +3718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "У відпустці",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 187,
@@ -3171,6 +3729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кадосін Євген Ігорович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Готово",
     "requestNumber": "129",
@@ -3179,6 +3738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 188,
@@ -3188,6 +3749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Вовк Мирослава Вікторівна",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3196,6 +3758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 189,
@@ -3205,6 +3769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "Xal344475",
     "rank": 1088,
     "fullName": "Іваниця Дмитро Іванович",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "122",
@@ -3213,6 +3778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 190,
@@ -3222,6 +3789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9023230101",
     "rank": 1088,
     "fullName": "Михалюк Василь Олексійович",
+    "position": "Не вказано",
     "department": 1057,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3230,6 +3798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 191,
@@ -3239,6 +3809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Полончук Данило Павлович",
+    "position": "Не вказано",
     "department": 1040,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3247,6 +3818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 192,
@@ -3256,6 +3829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дмитруха Андрій Віталійович",
+    "position": "Не вказано",
     "department": 1038,
     "applicationStatus": "Готово",
     "requestNumber": "№163",
@@ -3264,6 +3838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 193,
@@ -3273,6 +3849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Донець Діана Ростиславівна",
+    "position": "Не вказано",
     "department": 1038,
     "applicationStatus": "Готово",
     "requestNumber": "№162",
@@ -3281,6 +3858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 194,
@@ -3290,6 +3869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T112509",
     "rank": 1088,
     "fullName": "Сухомлинова Інна Олегівна",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Готово",
     "requestNumber": "134",
@@ -3298,6 +3878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 195,
@@ -3307,6 +3889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T237504",
     "rank": 1088,
     "fullName": "Стребков Олексій Вікторович",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Готово",
     "requestNumber": "134",
@@ -3315,6 +3898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 196,
@@ -3324,6 +3909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T292507",
     "rank": 1088,
     "fullName": "Бурмич Ірина",
+    "position": "Не вказано",
     "department": 1046,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3332,6 +3918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 197,
@@ -3341,6 +3929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T204508",
     "rank": 1088,
     "fullName": "Сергієнко Дмитро Миколайович ",
+    "position": "Не вказано",
     "department": 1057,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3349,6 +3938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 198,
@@ -3358,6 +3949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T139508",
     "rank": 1088,
     "fullName": "Шумовецька Презентація 2",
+    "position": "Не вказано",
     "department": 1057,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -3366,6 +3958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Відміна",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 199,
@@ -3375,6 +3969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T141509",
     "rank": 1088,
     "fullName": "Шумовецька Презентація 3",
+    "position": "Не вказано",
     "department": 1057,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -3383,6 +3978,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Відміна",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 200,
@@ -3392,6 +3989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T173500",
     "rank": 1088,
     "fullName": "Дорогавцев Єгор Сергійович",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Не Готово",
     "requestNumber": "269",
@@ -3400,6 +3998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 201,
@@ -3409,6 +4009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T19750B",
     "rank": 1088,
     "fullName": "Лавровський Михайло Ігорович ",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Не Готово",
     "requestNumber": "269",
@@ -3417,6 +4018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 202,
@@ -3426,6 +4029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T21250D",
     "rank": 1088,
     "fullName": "Ткаченко Ігор Олександрович ",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Не Готово",
     "requestNumber": "186",
@@ -3434,6 +4038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 203,
@@ -3443,6 +4049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T24350G",
     "rank": 1088,
     "fullName": "Семеренко Дмитро Анатолійович",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Не Готово",
     "requestNumber": "269",
@@ -3451,6 +4058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 204,
@@ -3460,6 +4069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T11850C",
     "rank": 1088,
     "fullName": "Співак Сергій",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Не Готово",
     "requestNumber": "269",
@@ -3468,6 +4078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 205,
@@ -3477,6 +4089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T270506",
     "rank": 1088,
     "fullName": "Ковальчук Андрій",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Не Готово",
     "requestNumber": "269",
@@ -3485,6 +4098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 206,
@@ -3494,6 +4109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T190508",
     "rank": 1088,
     "fullName": "Кароліна Віталіївна Мелещенко",
+    "position": "Не вказано",
     "department": 1053,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3502,6 +4118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 207,
@@ -3511,6 +4129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кароліна Віталіївна Мелещенко",
+    "position": "Не вказано",
     "department": 1053,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3519,6 +4138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 208,
@@ -3528,6 +4149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9030589075",
     "rank": 1088,
     "fullName": "Кароліна Віталіївна Мелещенко",
+    "position": "Не вказано",
     "department": 1053,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3536,6 +4158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 209,
@@ -3545,6 +4169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T26150F",
     "rank": 1088,
     "fullName": "Будніченко Андрій Миколайович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "272",
@@ -3553,6 +4178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 210,
@@ -3562,6 +4189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T14950A",
     "rank": 1088,
     "fullName": "Кролік Сергій Леонідович",
+    "position": "Не вказано",
     "department": 1030,
     "applicationStatus": "Не Готово",
     "requestNumber": "249",
@@ -3570,6 +4198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 211,
@@ -3579,6 +4209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T178503",
     "rank": 1088,
     "fullName": "Бацак Вікторія Валеріївна",
+    "position": "Не вказано",
     "department": 1054,
     "applicationStatus": "Не Готово",
     "requestNumber": "271",
@@ -3587,6 +4218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 212,
@@ -3596,6 +4229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T200508",
     "rank": 1088,
     "fullName": "Войтюк Станіслав Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3604,6 +4238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 213,
@@ -3613,6 +4249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "CN-0085J3-QDC00-58S-0NEL",
     "rank": 1088,
     "fullName": "Войтюк Станіслав Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3621,6 +4258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 214,
@@ -3630,6 +4269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T290506",
     "rank": 1088,
     "fullName": "Будяк В'ячеслав",
+    "position": "Не вказано",
     "department": 1034,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3638,6 +4278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 215,
@@ -3647,6 +4289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T310506",
     "rank": 1088,
     "fullName": "Христоєв Андрій Валерійович",
+    "position": "Не вказано",
     "department": 1040,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3655,6 +4298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "на погоджені",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 216,
@@ -3664,6 +4309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T152508",
     "rank": 1088,
     "fullName": "Семич Дмитро Вадимович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3672,6 +4318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 217,
@@ -3681,6 +4329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T141509",
     "rank": 1088,
     "fullName": "Нетреба Микола Миколайович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3689,6 +4338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 218,
@@ -3698,6 +4349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T139508",
     "rank": 1088,
     "fullName": "Сухарчук Павло Олександрович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3706,6 +4358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 219,
@@ -3715,6 +4369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T26550D",
     "rank": 1088,
     "fullName": "Чернетченко Сергій Вікторович",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3723,6 +4378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 220,
@@ -3732,6 +4389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T250506",
     "rank": 1088,
     "fullName": "Осташко Сергій Вячеславович,",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3740,6 +4398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 221,
@@ -3749,6 +4409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T267503",
     "rank": 1088,
     "fullName": "Бондар Анатолій Віталійович",
+    "position": "Не вказано",
     "department": 1031,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3757,6 +4418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 222,
@@ -3766,6 +4429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T311508",
     "rank": 1088,
     "fullName": "Хмельницький Владислав Олександрович",
+    "position": "Не вказано",
     "department": 1031,
     "applicationStatus": "Не Готово",
     "requestNumber": "242",
@@ -3774,6 +4438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Очікує передачі у фін.відділ",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 223,
@@ -3783,6 +4449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T19850E",
     "rank": 1088,
     "fullName": "Ярошенко Роман Олегович",
+    "position": "Не вказано",
     "department": 1031,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3791,6 +4458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово (Передано на Бастіоні)",
     "notes": "на виконанні. Забере після",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 224,
@@ -3800,6 +4469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T298507",
     "rank": 1088,
     "fullName": "Сьомченко Сергій Олександрович",
+    "position": "Не вказано",
     "department": 1031,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3808,6 +4478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "на погоджені",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 225,
@@ -3817,6 +4489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T232504",
     "rank": 1088,
     "fullName": "Мелащенко Олексій Володимирович",
+    "position": "Не вказано",
     "department": 1031,
     "applicationStatus": "Не Готово",
     "requestNumber": "185",
@@ -3825,6 +4498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 226,
@@ -3834,6 +4509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T17250D",
     "rank": 1088,
     "fullName": "Єрмоленко Тимур Геннадійович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Не Готово",
     "requestNumber": "101",
@@ -3842,6 +4518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 227,
@@ -3851,6 +4529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Макаренка Владислава Володимировича",
+    "position": "Не вказано",
     "department": 1034,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3859,6 +4538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 228,
@@ -3868,6 +4549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Ткаченко Ігор Олександрович",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -3876,6 +4558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово (Передано на Бастіоні)",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 229,
@@ -3885,6 +4569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "NKV255RNM00000005G00183",
     "rank": 1088,
     "fullName": "Анастасії Суботіной",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3893,6 +4578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "без домену",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 230,
@@ -3902,6 +4589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T22550F",
     "rank": 1088,
     "fullName": "Бобік Юрій Анатолійович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Не Готово",
     "requestNumber": "208",
@@ -3910,6 +4598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 231,
@@ -3919,6 +4609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T249506",
     "rank": 1088,
     "fullName": "Пижук Іван Ігорович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3927,6 +4618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 232,
@@ -3936,6 +4629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T4NXCV06127116A",
     "rank": 1088,
     "fullName": "Яременко Олена Леонідівна",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "189",
@@ -3944,6 +4638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 233,
@@ -3953,6 +4649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T21350A",
     "rank": 1088,
     "fullName": "Безкровний Єгор Павлович ",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3961,6 +4658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "2 мишки",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 234,
@@ -3970,6 +4669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T272506",
     "rank": 1088,
     "fullName": "Постоловський Олександр Сергійович ",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "122",
@@ -3978,6 +4678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 235,
@@ -3987,6 +4689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029519620",
     "rank": 1088,
     "fullName": "Мовчан Віталій Євгенович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -3995,6 +4698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 236,
@@ -4004,6 +4709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T291508",
     "rank": 1088,
     "fullName": "Білотіл Сергій Володимирович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4012,6 +4718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 237,
@@ -4021,6 +4729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T26950B",
     "rank": 1088,
     "fullName": "Хлинов Володимир Станіславович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4029,6 +4738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 238,
@@ -4038,6 +4749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T114500",
     "rank": 1088,
     "fullName": "Кушнір Роман Васильович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4046,6 +4758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 239,
@@ -4055,6 +4769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T275506",
     "rank": 1088,
     "fullName": "Псядло Сергій Володимирович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4063,6 +4778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "без ліцензій",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 240,
@@ -4072,6 +4789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T239504",
     "rank": 1088,
     "fullName": "Марков Євген Сергійович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4080,6 +4798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 241,
@@ -4089,6 +4809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Хмельницький Владислав Олександрович",
+    "position": "Не вказано",
     "department": 1031,
     "applicationStatus": "Не Готово",
     "requestNumber": "242",
@@ -4097,6 +4818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Очікує передачі у фін.відділ",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 242,
@@ -4106,6 +4829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Колянда Олена Миколаївна",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Не Готово",
     "requestNumber": "124",
@@ -4114,6 +4838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 243,
@@ -4123,6 +4849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L90305530156",
     "rank": 1088,
     "fullName": "Шеремет Леся Миколаївна",
+    "position": "Не вказано",
     "department": 1040,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4131,6 +4858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "19.01.2026 отримала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 244,
@@ -4140,6 +4869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T26650D",
     "rank": 1088,
     "fullName": "Хайнасов Олександр Олександрович",
+    "position": "Не вказано",
     "department": 1066,
     "applicationStatus": "Не Готово",
     "requestNumber": "-",
@@ -4148,6 +4878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Відміна",
     "notes": "Йому потрібен СЕДО ноут, цей передамо на іншу людину",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 245,
@@ -4157,6 +4889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029212646",
     "rank": 1088,
     "fullName": "Шклярук Валентин В'ячеславович",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4165,6 +4898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 246,
@@ -4174,6 +4909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Молдавчук Ольга Михайлівна",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4182,6 +4918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово (Передано на Бастіоні)",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 247,
@@ -4191,6 +4929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029520662",
     "rank": 1088,
     "fullName": "Міщенко Інна Геннадіївна ",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4199,6 +4938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 248,
@@ -4208,6 +4949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029299818",
     "rank": 1088,
     "fullName": "Степаненко Лариса Анатоліївна ",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4216,6 +4958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 249,
@@ -4225,6 +4969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029401912",
     "rank": 1088,
     "fullName": "Пилипенко Максим Юрійович",
+    "position": "Не вказано",
     "department": 973,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4233,6 +4978,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 250,
@@ -4242,6 +4989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9030579362",
     "rank": 1088,
     "fullName": "Борисюк Сергій Валентинович",
+    "position": "Не вказано",
     "department": 973,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4250,6 +4998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 251,
@@ -4259,6 +5009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Незік на ТПУ L4110THRTU001",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4267,6 +5018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "",
     "notes": "На ТПУ заміна ноута з віражем, камерами на більш моцний\nЗаміна на ДрімМашину",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 252,
@@ -4276,6 +5029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T23050G",
     "rank": 1088,
     "fullName": "Кваша Олександр Андрійович",
+    "position": "Не вказано",
     "department": 997,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4284,6 +5038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 253,
@@ -4293,6 +5049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T159504",
     "rank": 1088,
     "fullName": "Донець Діана Ростиславівна",
+    "position": "Не вказано",
     "department": 979,
     "applicationStatus": "Готово",
     "requestNumber": "162",
@@ -4301,6 +5058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 254,
@@ -4310,6 +5069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Макодзеба Іван Юрійович ",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4318,6 +5078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 255,
@@ -4327,6 +5089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Колянда Олена Миколаївна",
+    "position": "Не вказано",
     "department": 1017,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4335,6 +5098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 256,
@@ -4344,6 +5109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Сіренко Вікторія Валеріївна",
+    "position": "Не вказано",
     "department": 1006,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4352,6 +5118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "",
     "notes": "Знаходиться на ОКП. Передати",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 257,
@@ -4361,6 +5129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Двораківська Наталія Сергіївна",
+    "position": "Не вказано",
     "department": 1006,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4369,6 +5138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 258,
@@ -4378,6 +5149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T1NXCV00V720013",
     "rank": 1088,
     "fullName": "Шумовецька Презентація №1",
+    "position": "Не вказано",
     "department": 1057,
     "applicationStatus": "Не Готово",
     "requestNumber": "189",
@@ -4386,6 +5158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 259,
@@ -4395,6 +5169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "T1NXCV00V71901A",
     "rank": 1088,
     "fullName": "Шумовецька Презентація №2",
+    "position": "Не вказано",
     "department": 1057,
     "applicationStatus": "Не Готово",
     "requestNumber": "189",
@@ -4403,6 +5178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 260,
@@ -4412,6 +5189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Чугаєвський Володимир Володимирович",
+    "position": "Не вказано",
     "department": 1026,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4420,6 +5198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 261,
@@ -4429,6 +5209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Неверчак Дмитро Євгенович",
+    "position": "Не вказано",
     "department": 1071,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4437,6 +5218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 262,
@@ -4446,6 +5229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344410",
     "rank": 1088,
     "fullName": "Постоловський Олександр Сергійович",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "122",
@@ -4454,6 +5238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 263,
@@ -4463,6 +5249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T17950A",
     "rank": 1088,
     "fullName": "Степаненко Лариса Анатоліївна ",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4471,6 +5258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 264,
@@ -4480,6 +5269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T148503",
     "rank": 1088,
     "fullName": "Молдавчук Ольга Михайлівна",
+    "position": "Не вказано",
     "department": 1068,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4488,6 +5278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "Чекаємо на ключі офісу/вінди",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 265,
@@ -4497,6 +5289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "PB4HA75303198",
     "rank": 1088,
     "fullName": "Божков Максим Юрійович",
+    "position": "Не вказано",
     "department": 1042,
     "applicationStatus": "Не Готово",
     "requestNumber": "206",
@@ -4505,6 +5298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 266,
@@ -4514,6 +5309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "PB4HA75303184",
     "rank": 1088,
     "fullName": "Брецко М. В.",
+    "position": "Не вказано",
     "department": 1042,
     "applicationStatus": "Готово",
     "requestNumber": "206",
@@ -4522,6 +5318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 267,
@@ -4531,6 +5329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBGU850",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4539,6 +5338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 268,
@@ -4548,6 +5349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBGV407",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4556,6 +5358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 269,
@@ -4565,6 +5369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBGW070",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4573,6 +5378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 270,
@@ -4582,6 +5389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBGV807",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4590,6 +5398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 271,
@@ -4599,6 +5409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBGV819",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4607,6 +5418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 272,
@@ -4616,6 +5429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBGW004",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4624,6 +5438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 273,
@@ -4633,6 +5449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBGV433",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4641,6 +5458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 274,
@@ -4650,6 +5469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBGW031",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4658,6 +5478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 275,
@@ -4667,6 +5489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBE2851",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4675,6 +5498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 276,
@@ -4684,6 +5509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBE2853",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4692,6 +5518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 277,
@@ -4701,6 +5529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBE2992",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4709,6 +5538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 278,
@@ -4718,6 +5549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBE2928",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4726,6 +5558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 279,
@@ -4735,6 +5569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "511TABA714",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4743,6 +5578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 280,
@@ -4752,6 +5589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0A99QMAG",
     "rank": 1088,
     "fullName": "Мачо",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4760,6 +5598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 281,
@@ -4769,6 +5609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0ABHT05W",
     "rank": 1088,
     "fullName": "Мачо",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4777,6 +5618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 282,
@@ -4786,6 +5629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0AAD7Q68",
     "rank": 1088,
     "fullName": "Мачо",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4794,6 +5638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 283,
@@ -4803,6 +5649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0AF7SPS7",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4811,6 +5658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 284,
@@ -4820,6 +5669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0A67P1GZ",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4828,6 +5678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 285,
@@ -4837,6 +5689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0A8ZN97N",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4845,6 +5698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 286,
@@ -4854,6 +5709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0A0379DS",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4862,6 +5718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 287,
@@ -4871,6 +5729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0AF0CPB7",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4879,6 +5738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 288,
@@ -4888,6 +5749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0AA8TPZ8",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4896,6 +5758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 289,
@@ -4905,6 +5769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0A7ZRAEX",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4913,6 +5778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 290,
@@ -4922,6 +5789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Курбет",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4930,6 +5798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 291,
@@ -4939,6 +5809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "WZP25489AZN",
     "rank": 1088,
     "fullName": "Гопліт",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4947,6 +5818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 292,
@@ -4956,6 +5829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Паламар Святослав Ярославович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -4964,6 +5838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 293,
@@ -4973,6 +5849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBGV331",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4981,6 +5858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 294,
@@ -4990,6 +5869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBGU856",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -4998,6 +5878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 295,
@@ -5007,6 +5889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBGV212",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -5015,6 +5898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 296,
@@ -5024,6 +5909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EBGV215",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -5032,6 +5918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 297,
@@ -5041,6 +5929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "202509X0036",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -5049,6 +5938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 298,
@@ -5058,6 +5949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "202509X0029",
     "rank": 1088,
     "fullName": "Утюж Павло Андрійович",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "№166",
@@ -5066,6 +5958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 299,
@@ -5083,6 +5977,9 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": "",
+    "position": "Не вказано"
   },
   {
     "id": 300,
@@ -5092,6 +5989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "CN-0085J3-QDC00-58S-0P1L",
     "rank": 1088,
     "fullName": "Бівіс",
+    "position": "Не вказано",
     "department": 970,
     "applicationStatus": "Не Готово",
     "requestNumber": "215",
@@ -5100,6 +5998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 301,
@@ -5109,6 +6009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "PB4HA75303188",
     "rank": 1088,
     "fullName": "Льоня",
+    "position": "Не вказано",
     "department": 1024,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5117,6 +6018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 302,
@@ -5126,6 +6029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "511TABD720",
     "rank": 1088,
     "fullName": "3028",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5134,6 +6038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 303,
@@ -5143,6 +6049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "511TBB0397",
     "rank": 1088,
     "fullName": "3028",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5151,6 +6058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 304,
@@ -5160,6 +6069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "511TAV9090",
     "rank": 1088,
     "fullName": "3028",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5168,6 +6078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 305,
@@ -5177,6 +6089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T26650D",
     "rank": 1088,
     "fullName": "Самкова Дар'я Олександрівна",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "175",
@@ -5185,6 +6098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "без ліцензій",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 306,
@@ -5194,6 +6109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T16550D",
     "rank": 1088,
     "fullName": "Панченко Юрій Андрійович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Готово",
     "requestNumber": "174",
@@ -5202,6 +6118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "без ліцензій",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 307,
@@ -5211,6 +6129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T175505",
     "rank": 1088,
     "fullName": "Гордіков Степан Володимирович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "176",
@@ -5219,6 +6138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "без ліцензій",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 308,
@@ -5228,6 +6149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T274507",
     "rank": 1088,
     "fullName": "Гордіков Степан Володимирович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "176",
@@ -5236,6 +6158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "без ліцензій",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 309,
@@ -5245,6 +6169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "xAL344516",
     "rank": 1088,
     "fullName": "Хайнасов Олександр Олександрович",
+    "position": "Не вказано",
     "department": 1066,
     "applicationStatus": "Не Готово",
     "requestNumber": "226",
@@ -5253,6 +6178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 310,
@@ -5262,6 +6189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "ACTIVE10PNEU008226",
     "rank": 1088,
     "fullName": "3028",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5270,6 +6198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 311,
@@ -5279,6 +6209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "ACTIVE10PNEU008214",
     "rank": 1088,
     "fullName": "3028",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5287,6 +6218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 312,
@@ -5296,6 +6229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "ACTIVE10PNEU008428",
     "rank": 1088,
     "fullName": "3028",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5304,6 +6238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 313,
@@ -5313,6 +6249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "ACTIVE10PNEU008204",
     "rank": 1088,
     "fullName": "3028",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5321,6 +6258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 314,
@@ -5330,6 +6269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "ACTIVE10PNEU008424",
     "rank": 1088,
     "fullName": "3028",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5338,6 +6278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 315,
@@ -5347,6 +6289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "ACTIVE10PNEU008261",
     "rank": 1088,
     "fullName": "3028",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5355,6 +6298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 316,
@@ -5364,6 +6309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "511TABD499",
     "rank": 1088,
     "fullName": "Міцкевич Олександр Павлович",
+    "position": "Не вказано",
     "department": 1001,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5372,6 +6318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 317,
@@ -5381,6 +6329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "VNC3G05344",
     "rank": 1088,
     "fullName": "Карнаух Антон",
+    "position": "Не вказано",
     "department": 1046,
     "applicationStatus": "Готово",
     "requestNumber": "№160",
@@ -5389,6 +6338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 318,
@@ -5398,6 +6349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "511TZZD228",
     "rank": 1088,
     "fullName": "Курбету, ОЧ Ядро",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5406,6 +6358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 319,
@@ -5415,6 +6369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029174054",
     "rank": 1088,
     "fullName": "Дмитруха Андрій Віталійович",
+    "position": "Не вказано",
     "department": 1038,
     "applicationStatus": "Готово",
     "requestNumber": "№163",
@@ -5423,6 +6378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "0 93 980 7397",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 320,
@@ -5432,6 +6389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029175249",
     "rank": 1088,
     "fullName": "Донець Діана Ростиславівна",
+    "position": "Не вказано",
     "department": 1038,
     "applicationStatus": "Готово",
     "requestNumber": "№162",
@@ -5440,6 +6398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "0 68 766 9198",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 321,
@@ -5449,6 +6409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T171505",
     "rank": 1088,
     "fullName": "Каменна Марина Анатоліївна",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "№129",
@@ -5457,6 +6418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "на Кадосіна  МВО / без ліцензій",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 322,
@@ -5466,6 +6429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T30750E",
     "rank": 1088,
     "fullName": "Федосов Руслан Олегович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5474,6 +6438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "на Кадосіна  МВО / без ліцензій",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 323,
@@ -5483,6 +6449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T183504",
     "rank": 1088,
     "fullName": "Федеряєв Максим Вікторович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5491,6 +6458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "на Псядло МВО / без ліцензій",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 324,
@@ -5500,6 +6469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T285507",
     "rank": 1088,
     "fullName": "Кутовий Сергій Вітіславович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5508,6 +6478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "на Псядло МВО / без ліцензій",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 325,
@@ -5517,6 +6489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T305509",
     "rank": 1088,
     "fullName": "Ворожбяна Дениса",
+    "position": "Не вказано",
     "department": 1025,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5525,6 +6498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово (Передано на Бастіоні)",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 326,
@@ -5534,6 +6509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T20250C",
     "rank": 1088,
     "fullName": "Зайченко Гліб Олександрович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5542,6 +6518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "чекає на ключі",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 327,
@@ -5551,6 +6529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Хмельницький Владислав Олександрович ",
+    "position": "Не вказано",
     "department": 1031,
     "applicationStatus": "Не Готово",
     "requestNumber": "242",
@@ -5559,6 +6538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Очікує передачі у фін.відділ",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 328,
@@ -5568,6 +6549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T249506",
     "rank": 1088,
     "fullName": "Ричак Тимур Юрійович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5576,6 +6558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 329,
@@ -5585,6 +6569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HJ30ACN5S5A",
     "rank": 1088,
     "fullName": "Троцик",
+    "position": "Не вказано",
     "department": 1023,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5593,6 +6578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 330,
@@ -5602,6 +6589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "AP2101101440",
     "rank": 1088,
     "fullName": "Троцик",
+    "position": "Не вказано",
     "department": 1023,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5610,6 +6598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 331,
@@ -5619,6 +6609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "5CW54338",
     "rank": 1088,
     "fullName": "Троцик",
+    "position": "Не вказано",
     "department": 1023,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5627,6 +6618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 332,
@@ -5636,6 +6629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029176512",
     "rank": 1088,
     "fullName": "Анісімова Анастасія Володимирівна ",
+    "position": "Не вказано",
     "department": 1059,
     "applicationStatus": "Не Готово",
     "requestNumber": "218",
@@ -5644,6 +6638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 333,
@@ -5653,6 +6649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029297508",
     "rank": 1088,
     "fullName": "",
+    "position": "Не вказано",
     "department": 1059,
     "applicationStatus": "Не Готово",
     "requestNumber": "227",
@@ -5661,6 +6658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Додати до заявки",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 334,
@@ -5670,6 +6669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T17650G",
     "rank": 1088,
     "fullName": " Ланко Олексій ",
+    "position": "Не вказано",
     "department": 982,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5678,6 +6678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 335,
@@ -5687,6 +6689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T115504",
     "rank": 1088,
     "fullName": " Глушач Євгеній ",
+    "position": "Не вказано",
     "department": 982,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5695,6 +6698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 336,
@@ -5704,6 +6709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0ABDM4KW",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "259",
@@ -5712,6 +6718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 337,
@@ -5721,6 +6729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0A8H7GFR",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "258",
@@ -5729,6 +6738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 338,
@@ -5738,6 +6749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0AE29BES",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "258",
@@ -5746,6 +6758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 339,
@@ -5755,6 +6769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0A726W71",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "257",
@@ -5763,6 +6778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 340,
@@ -5772,6 +6789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Тхор Володимир Валентинович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5780,6 +6798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 341,
@@ -5789,6 +6809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дахненко Олександр Ігорович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5797,6 +6818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 342,
@@ -5806,6 +6829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Віговський Артем Олександрович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5814,6 +6838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 343,
@@ -5823,6 +6849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Сенчило Олександр Олексійович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5831,6 +6858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 344,
@@ -5840,6 +6869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пащина Микола Миколайович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "211",
@@ -5848,6 +6878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 345,
@@ -5857,6 +6889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "ACTIVE10PNEU008213",
     "rank": 1088,
     "fullName": "Пащина Микола Миколайович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "211",
@@ -5865,6 +6898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 346,
@@ -5874,6 +6909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "1C1B0DDF59C3E961A99222C7",
     "rank": 1088,
     "fullName": "Соколовський Максим Алімович ",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "246",
@@ -5882,6 +6918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 347,
@@ -5891,6 +6929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029292998",
     "rank": 1088,
     "fullName": "Соколовський Максим Алімович ",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "246",
@@ -5899,6 +6938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 348,
@@ -5908,6 +6949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029172244",
     "rank": 1088,
     "fullName": "Сонюк Володимир Федорович ",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5916,6 +6958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Погоджено,оформити заявку",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 349,
@@ -5925,6 +6969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HJ30ACVXKEX",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "258",
@@ -5933,6 +6978,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 350,
@@ -5942,6 +6989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HJ30A1Z7W69",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "258",
@@ -5950,6 +6998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 351,
@@ -5959,6 +7009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "R351ZE1APH7X0841",
     "rank": 1088,
     "fullName": "Дубина Артем Володимирович",
+    "position": "Не вказано",
     "department": 1044,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5967,6 +7018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 352,
@@ -5976,6 +7029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "R351ZC1APHAT1391",
     "rank": 1088,
     "fullName": "Дубина Артем Володимирович",
+    "position": "Не вказано",
     "department": 1044,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -5984,6 +7038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 353,
@@ -5993,6 +7049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "KIT4M03089635FWJ",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "257",
@@ -6001,6 +7058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 354,
@@ -6010,6 +7069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "KIT4M03213560RMW",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "258",
@@ -6018,6 +7078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 355,
@@ -6027,6 +7089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "202509X0137",
     "rank": 1088,
     "fullName": "Макій",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6035,6 +7098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 356,
@@ -6044,6 +7109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "202503X0641",
     "rank": 1088,
     "fullName": "Макій",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6052,6 +7118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 357,
@@ -6061,6 +7129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HJB0A04Z51X",
     "rank": 1088,
     "fullName": "3009",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6069,6 +7138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 358,
@@ -6078,6 +7149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HJB0A4A1BPG",
     "rank": 1088,
     "fullName": "3009",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6086,6 +7158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 359,
@@ -6095,6 +7169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0ACMP69R",
     "rank": 1088,
     "fullName": "3009",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6103,6 +7178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 360,
@@ -6112,6 +7189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0A6T8QS3",
     "rank": 1088,
     "fullName": "3009",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6120,6 +7198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 361,
@@ -6129,6 +7209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0AAMAXJ2",
     "rank": 1088,
     "fullName": "3009",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6137,6 +7218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 362,
@@ -6146,6 +7229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0A5KJY9A",
     "rank": 1088,
     "fullName": "3009",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6154,6 +7238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 363,
@@ -6163,6 +7249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0A0X1CGS",
     "rank": 1088,
     "fullName": "3009",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6171,6 +7258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 364,
@@ -6180,6 +7269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HHK0A8352AZ",
     "rank": 1088,
     "fullName": "3009",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6188,6 +7278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 365,
@@ -6197,6 +7289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Берсерк",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6205,6 +7298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 366,
@@ -6214,6 +7309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "FZ2A2536019699",
     "rank": 1088,
     "fullName": "Фокс",
+    "position": "Не вказано",
     "department": 1026,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6222,6 +7318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "/кронштейн",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 367,
@@ -6231,6 +7329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кокович Дмитро Вікторович",
+    "position": "Не вказано",
     "department": 1023,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6239,6 +7338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 368,
@@ -6248,6 +7349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Каменна Марина Анатоліївна",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6256,6 +7358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово (На Бастіоні)",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 369,
@@ -6265,6 +7369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "1C1B0D6B2B3DE951A9941213",
     "rank": 1088,
     "fullName": "Псядло Сергій Володимирович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6273,6 +7378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 370,
@@ -6282,6 +7389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "F44D30469B59E961A97915BD",
     "rank": 1088,
     "fullName": "Болюх Ігор Олександрович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "245",
@@ -6290,6 +7398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 371,
@@ -6299,6 +7409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029407063",
     "rank": 1088,
     "fullName": "Болюх Ігор Олександрович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "245",
@@ -6307,6 +7418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 372,
@@ -6316,6 +7429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EAPC646",
     "rank": 1088,
     "fullName": "Влад",
+    "position": "Не вказано",
     "department": 1028,
     "applicationStatus": "Не Готово",
     "requestNumber": "208",
@@ -6324,6 +7438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 373,
@@ -6333,6 +7449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EAPC666",
     "rank": 1088,
     "fullName": "Влад",
+    "position": "Не вказано",
     "department": 1028,
     "applicationStatus": "Не Готово",
     "requestNumber": "208",
@@ -6341,6 +7458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 374,
@@ -6350,6 +7469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EAPC427",
     "rank": 1088,
     "fullName": "Влад",
+    "position": "Не вказано",
     "department": 1028,
     "applicationStatus": "Не Готово",
     "requestNumber": "208",
@@ -6358,6 +7478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 375,
@@ -6367,6 +7489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EAPC680",
     "rank": 1088,
     "fullName": "Влад",
+    "position": "Не вказано",
     "department": 1028,
     "applicationStatus": "Не Готово",
     "requestNumber": "208",
@@ -6375,6 +7498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 376,
@@ -6384,6 +7509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EAPD911",
     "rank": 1088,
     "fullName": "Влад",
+    "position": "Не вказано",
     "department": 1028,
     "applicationStatus": "Не Готово",
     "requestNumber": "208",
@@ -6392,6 +7518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 377,
@@ -6401,6 +7529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EAPC659",
     "rank": 1088,
     "fullName": "Влад",
+    "position": "Не вказано",
     "department": 1028,
     "applicationStatus": "Не Готово",
     "requestNumber": "208",
@@ -6409,6 +7538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 378,
@@ -6418,6 +7549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "865EAPC432",
     "rank": 1088,
     "fullName": "Влад",
+    "position": "Не вказано",
     "department": 1028,
     "applicationStatus": "Не Готово",
     "requestNumber": "208",
@@ -6426,6 +7558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 379,
@@ -6435,6 +7569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029198195",
     "rank": 1088,
     "fullName": "Пащина Микола Миколайович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "268",
@@ -6443,6 +7578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 380,
@@ -6452,6 +7589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "KIT4M03214649R5N",
     "rank": 1088,
     "fullName": "Дюк",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6460,6 +7598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 381,
@@ -6469,6 +7609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "PB4HA75303172",
     "rank": 1088,
     "fullName": "Чижиков Ігор Вікторович",
+    "position": "Не вказано",
     "department": 1064,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6477,6 +7618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 382,
@@ -6486,6 +7629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "511TABD849",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6494,6 +7638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 383,
@@ -6503,6 +7649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Мельник Віталій Вадимович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6511,6 +7658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 384,
@@ -6520,6 +7669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T206504",
     "rank": 1088,
     "fullName": "Анісімова Анастасія Володимирівна ",
+    "position": "Не вказано",
     "department": 1059,
     "applicationStatus": "Не Готово",
     "requestNumber": "218",
@@ -6528,6 +7678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 385,
@@ -6537,6 +7689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "HA21ATEL",
     "rank": 1088,
     "fullName": "Хайнасов Олександр Олександрович",
+    "position": "Не вказано",
     "department": 1066,
     "applicationStatus": "Не Готово",
     "requestNumber": "226",
@@ -6545,6 +7698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 386,
@@ -6554,6 +7709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "X8FZ020365",
     "rank": 1088,
     "fullName": "Болюх Ігор Олександрович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "239",
@@ -6562,6 +7718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 387,
@@ -6571,6 +7729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6579,6 +7738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 388,
@@ -6588,6 +7749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6596,6 +7758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 389,
@@ -6605,6 +7769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6613,6 +7778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 390,
@@ -6622,6 +7789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6630,6 +7798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 391,
@@ -6639,6 +7809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6647,6 +7818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 392,
@@ -6656,6 +7829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV029533498",
     "rank": 1088,
     "fullName": "Федоренко Олександр Володимирович",
+    "position": "Не вказано",
     "department": 1059,
     "applicationStatus": "Не Готово",
     "requestNumber": "126",
@@ -6664,6 +7838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 393,
@@ -6673,6 +7849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "1C1B0D03C47BE96099120E56",
     "rank": 1088,
     "fullName": "Панченко Юрій Андрійович",
+    "position": "Не вказано",
     "department": 1014,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6681,6 +7858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 394,
@@ -6690,6 +7869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "5CW54336",
     "rank": 1088,
     "fullName": "Болюх І.О.",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "245",
@@ -6698,6 +7878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 395,
@@ -6707,6 +7889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Шаповал Артем Віталійович ",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6715,6 +7898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 396,
@@ -6724,6 +7909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": " Олеся Сергіївна Кохан",
+    "position": "Не вказано",
     "department": 1053,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6732,6 +7918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 397,
@@ -6741,6 +7929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пісковець Вадим Олегович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6749,6 +7938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "уточнити в дібіта",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 398,
@@ -6758,6 +7949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пісковець Вадим Олегович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6766,6 +7958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "уточнити в дібіта",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 399,
@@ -6775,6 +7969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T132504 ",
     "rank": 1088,
     "fullName": "Шаповал Артем Віталійович ",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6783,6 +7978,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "Без ліцензії",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 400,
@@ -6792,6 +7989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Гайдай Дмитро Миколайович",
+    "position": "Не вказано",
     "department": 1037,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6800,6 +7998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 401,
@@ -6809,6 +8009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": " Олеся Сергіївна Кохан",
+    "position": "Не вказано",
     "department": 1053,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6817,6 +8018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 402,
@@ -6826,6 +8029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Болюх Ігор Олександрович",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6834,6 +8038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 403,
@@ -6843,6 +8049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "КАДОСІН Євгеній Ігорович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6851,6 +8058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 404,
@@ -6860,6 +8069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Троцику/ Корнілов",
+    "position": "Не вказано",
     "department": 1023,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6868,6 +8078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 405,
@@ -6877,6 +8089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Фебу Утюж",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6885,6 +8098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 406,
@@ -6894,6 +8109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Макій",
+    "position": "Не вказано",
     "department": 994,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6902,6 +8118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 407,
@@ -6911,6 +8129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "",
+    "position": "Не вказано",
     "department": 1058,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6919,6 +8138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 408,
@@ -6928,6 +8149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Руковицан Віталій ",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6936,6 +8158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 409,
@@ -6945,6 +8169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кривенко Оксана Михайлівна",
+    "position": "Не вказано",
     "department": 1059,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -6953,6 +8178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "Рубік ноут уже підготував, поки що без ліцензій",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 410,
@@ -6962,6 +8189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "L9029198195",
     "rank": 1088,
     "fullName": "Філіпішиним Романом Валентиновичем ",
+    "position": "Не вказано",
     "department": 1020,
     "applicationStatus": "Не Готово",
     "requestNumber": "268",
@@ -6970,6 +8198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 411,
@@ -6979,6 +8209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T189503",
     "rank": 1088,
     "fullName": "Гебрін Дмитро Ігорович ",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "264",
@@ -6987,6 +8218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово (Передано на Бастіоні)",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 412,
@@ -6996,6 +8229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "PF5KS7GP",
     "rank": 1088,
     "fullName": "Гебрін Дмитро Ігорович ",
+    "position": "Не вказано",
     "department": 1063,
     "applicationStatus": "Не Готово",
     "requestNumber": "264",
@@ -7004,6 +8238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готово (Передано на Бастіоні)",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 413,
@@ -7013,6 +8249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXCV08T281501",
     "rank": 1088,
     "fullName": "Славіцький Олег Дмитрович",
+    "position": "Не вказано",
     "department": 1001,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -7021,6 +8258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 414,
@@ -7030,6 +8269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "TCNXC08T29650C",
     "rank": 1088,
     "fullName": "Костянюк Максим Михайлович",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -7038,6 +8278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 415,
@@ -7047,6 +8289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Костянюк Максим Михайлович",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -7055,6 +8298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 416,
@@ -7064,6 +8309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Костянюк Максим Михайлович",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -7072,6 +8318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 417,
@@ -7081,6 +8329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "E0D55E55CA2AE98079240D32",
     "rank": 1088,
     "fullName": "Костянюк Максим Михайлович",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Не Готово",
     "requestNumber": "",
@@ -7089,6 +8338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Готується",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 418,
@@ -7098,6 +8349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Шеремет Леся Миколаївна",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7106,6 +8358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 419,
@@ -7115,6 +8369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Фебу Утюж",
+    "position": "Не вказано",
     "department": 1039,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7123,6 +8378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 7
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 420,
@@ -7132,6 +8389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Мачо",
+    "position": "Не вказано",
     "department": 1051,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7140,6 +8398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 3
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 421,
@@ -7149,6 +8409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Троцик",
+    "position": "Не вказано",
     "department": 1023,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7157,6 +8418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 422,
@@ -7166,6 +8429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7174,6 +8438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 6
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 423,
@@ -7183,6 +8449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "3009",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7191,6 +8458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 2
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 424,
@@ -7200,6 +8469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "3009",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7208,6 +8478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 6
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 425,
@@ -7217,6 +8489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дюк",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7225,6 +8498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 426,
@@ -7234,6 +8509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Курбету",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7242,6 +8518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 427,
@@ -7251,6 +8529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Міцкевич Олександр Павлович",
+    "position": "Не вказано",
     "department": 1000,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7259,6 +8538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 428,
@@ -7268,6 +8549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7276,6 +8558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 3
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 429,
@@ -7285,6 +8569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7293,6 +8578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 430,
@@ -7302,6 +8589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Фебу Утюж",
+    "position": "Не вказано",
     "department": 1039,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7310,6 +8598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 431,
@@ -7319,6 +8609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Троцик",
+    "position": "Не вказано",
     "department": 1023,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7327,6 +8618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 2
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 432,
@@ -7336,6 +8629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Руковицан Віталій ",
+    "position": "Не вказано",
     "department": 989,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7344,6 +8638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Передали з Евересту на Хогвартс",
     "quantity": 2
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 433,
@@ -7353,6 +8649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Фебу Утюж",
+    "position": "Не вказано",
     "department": 1039,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7361,6 +8658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 2
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 434,
@@ -7370,6 +8669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Солдат ",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7378,6 +8678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Було видано два аукітеля, перенести у видачу",
     "quantity": 2
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 435,
@@ -7387,6 +8689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дубина Артем Володимирович",
+    "position": "Не вказано",
     "department": 1003,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7395,6 +8698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 2
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 436,
@@ -7404,6 +8709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Макій",
+    "position": "Не вказано",
     "department": 983,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7412,6 +8718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 2
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 437,
@@ -7421,6 +8729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Збитковський Андрій  Ігорович",
+    "position": "Не вказано",
     "department": 972,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7429,6 +8738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Cистемний блок волонтери прислали. Єдине,що немає",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 438,
@@ -7438,6 +8749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Збитковський Андрій  Ігорович",
+    "position": "Не вказано",
     "department": 972,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7446,6 +8758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Cистемний блок волонтери прислали. Єдине,що немає",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 439,
@@ -7455,6 +8769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дорогавцев Єгор Сергійович",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7463,6 +8778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 440,
@@ -7472,6 +8789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пинік Дмитро Миколайович",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7480,6 +8798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 441,
@@ -7489,6 +8809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Лавровський Михайло Ігорович ",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7497,6 +8818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 442,
@@ -7506,6 +8829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Ткаченко Ігор Олександрович ",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7514,6 +8838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 443,
@@ -7523,6 +8849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "",
+    "position": "Не вказано",
     "department": 1019,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7531,6 +8858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала (на мед. забезпечення)",
     "quantity": 4
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 444,
@@ -7540,6 +8869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "КАДОСІН Євгеній Ігорович",
+    "position": "Не вказано",
     "department": 991,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7548,6 +8878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 4
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 445,
@@ -7557,6 +8889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Руковицан В.В",
+    "position": "Не вказано",
     "department": 993,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7565,6 +8898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "UHF",
     "quantity": 8
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 446,
@@ -7574,6 +8909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7582,6 +8918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 447,
@@ -7591,6 +8929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Єрмоленко Тимур  Геннадійович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7599,6 +8938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 448,
@@ -7608,6 +8949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Вовк Мирослава Вікторівна",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7616,6 +8958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 449,
@@ -7625,6 +8969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Болюх Ігор Олександрович",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7633,6 +8978,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 4
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 450,
@@ -7642,6 +8989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Троцику/ Корнілов",
+    "position": "Не вказано",
     "department": 1023,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7650,6 +8998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 451,
@@ -7659,6 +9009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Фебу Утюж",
+    "position": "Не вказано",
     "department": 1039,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7667,6 +9018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 452,
@@ -7676,6 +9029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Макій",
+    "position": "Не вказано",
     "department": 983,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7684,6 +9038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 453,
@@ -7693,6 +9049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Войтюк Станіслав Андрійович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7701,6 +9058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Видати тільки один монітор Делл 27\"",
     "quantity": 2
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 454,
@@ -7710,6 +9069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Волков Антон Вікторович",
+    "position": "Не вказано",
     "department": 988,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7718,6 +9078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "MSI ",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 455,
@@ -7727,6 +9089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дорогавцев Єгор Сергійович",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7735,6 +9098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 456,
@@ -7744,6 +9109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пинік Дмитро Миколайович",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7752,6 +9118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 457,
@@ -7761,6 +9129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Лавровський Михайло Ігорович ",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7769,6 +9138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 458,
@@ -7778,6 +9149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Ткаченко Ігор Олександрович ",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7786,6 +9158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 459,
@@ -7795,6 +9169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7803,6 +9178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала (на мед. забезпечення)",
     "quantity": 4
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 460,
@@ -7812,6 +9189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Квант(Максим)",
+    "position": "Не вказано",
     "department": 1042,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7820,6 +9198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 461,
@@ -7829,6 +9209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дука(Олександр)",
+    "position": "Не вказано",
     "department": 1006,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7837,6 +9218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 462,
@@ -7846,6 +9229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Шериф (G-7)",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7854,6 +9238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 463,
@@ -7863,6 +9249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Берсерк",
+    "position": "Не вказано",
     "department": 1049,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7871,6 +9258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 464,
@@ -7880,6 +9269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Чижиков Ігор Вікторович",
+    "position": "Не вказано",
     "department": 972,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7888,6 +9278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 465,
@@ -7897,6 +9289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Балфінова Алла Олександрівна ",
+    "position": "Не вказано",
     "department": 1069,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7905,6 +9298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "моноблок",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 466,
@@ -7914,6 +9309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Христоєв Андрій Валерійович",
+    "position": "Не вказано",
     "department": 1041,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7922,6 +9318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 467,
@@ -7931,6 +9329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Ворожбяна Дениса",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7939,6 +9338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Ноутбук",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 468,
@@ -7948,6 +9349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Іваниця Дмитро Іванович",
+    "position": "Не вказано",
     "department": 1076,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7956,6 +9358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 469,
@@ -7965,6 +9369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Гебрін Дмитро Ігорович ",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7973,6 +9378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "ПК робочий + для СЕДО",
     "quantity": 2
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 470,
@@ -7982,6 +9389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Чезету/Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -7990,6 +9398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 471,
@@ -7999,6 +9409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Троцику/Корнілов МВО",
+    "position": "Не вказано",
     "department": 1023,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8007,6 +9418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 472,
@@ -8016,6 +9429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Браяну Мелащенко",
+    "position": "Не вказано",
     "department": 1032,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8024,6 +9438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 473,
@@ -8033,6 +9449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Фебу Утюж",
+    "position": "Не вказано",
     "department": 1039,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8041,6 +9458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 474,
@@ -8050,6 +9469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Макій",
+    "position": "Не вказано",
     "department": 983,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8058,6 +9478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 475,
@@ -8067,6 +9489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Гопліт",
+    "position": "Не вказано",
     "department": 1051,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8075,6 +9498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 476,
@@ -8084,6 +9509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Овсяннікова Наталія Володимирівна",
+    "position": "Не вказано",
     "department": 1025,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8092,6 +9518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 477,
@@ -8101,6 +9529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "ФЕСУН ВАСИЛЬ ВІКТОРОВИЧ",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8109,6 +9538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 478,
@@ -8118,6 +9549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Апостол Віталій Вікторович",
+    "position": "Не вказано",
     "department": 1015,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8126,6 +9558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 479,
@@ -8135,6 +9569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Карєбін С.Г. ",
+    "position": "Не вказано",
     "department": 993,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8143,6 +9578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 480,
@@ -8152,6 +9589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Михальонок  А.Є",
+    "position": "Не вказано",
     "department": 993,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8160,6 +9598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 481,
@@ -8169,6 +9609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Гудзенко Т.П.",
+    "position": "Не вказано",
     "department": 993,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8177,6 +9618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 482,
@@ -8186,6 +9629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Лупінов Д.В",
+    "position": "Не вказано",
     "department": 993,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8194,6 +9638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 483,
@@ -8203,6 +9649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Коломєєць І.В.",
+    "position": "Не вказано",
     "department": 993,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8211,6 +9658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 484,
@@ -8220,6 +9669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Топровська Мирослава Анатоліївна",
+    "position": "Не вказано",
     "department": 1067,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8228,6 +9678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 485,
@@ -8237,6 +9689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бугір Василь Богданович",
+    "position": "Не вказано",
     "department": 1046,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8245,6 +9698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "моноблок",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 486,
@@ -8254,6 +9709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Янцевич Олександр Вікторович",
+    "position": "Не вказано",
     "department": 1071,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8262,6 +9718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "моноблок",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 487,
@@ -8271,6 +9729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "БОЙКО Наталію Олександрівну",
+    "position": "Не вказано",
     "department": 969,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8279,6 +9738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 488,
@@ -8288,6 +9749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Муцький Максим Вадимович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8296,6 +9758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 489,
@@ -8305,6 +9769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Моляр Микола Олександрович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8313,6 +9778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 490,
@@ -8322,6 +9789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Старушкевич Віталій Іванович ",
+    "position": "Не вказано",
     "department": 1062,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8330,6 +9798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "моноблок",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 491,
@@ -8339,6 +9809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Будніченко Андрій Миколайович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8347,6 +9818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 492,
@@ -8356,6 +9829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кролік Сергій Леонідович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8364,6 +9838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 493,
@@ -8373,6 +9849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Сухомлинова Інна Олегівна",
+    "position": "Не вказано",
     "department": 1011,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8381,6 +9858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 494,
@@ -8390,6 +9869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Стребков Олексій Вікторович",
+    "position": "Не вказано",
     "department": 1011,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8398,6 +9878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 495,
@@ -8407,6 +9889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Ткаченко Валентин Євгенович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8415,6 +9898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Для заступника ноутбук",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 496,
@@ -8424,6 +9909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Войтюк Станіслав Андрійович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8432,6 +9918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 497,
@@ -8441,6 +9929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Воскобоєв Михайло Володимирович",
+    "position": "Не вказано",
     "department": 1065,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8449,6 +9938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Просить на бз(по його словах потрібно швидше зробити його)",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 498,
@@ -8458,6 +9949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бобік Юрій Анатолійович",
+    "position": "Не вказано",
     "department": 990,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8466,6 +9958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 499,
@@ -8475,6 +9969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Будяк В'ячеслав",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8483,6 +9978,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 500,
@@ -8492,6 +9989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "ФЕСУН ВАСИЛЬ ВІКТОРОВИЧ",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8500,6 +9998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 501,
@@ -8509,6 +10009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Паничева Любов Миколаївна",
+    "position": "Не вказано",
     "department": 1015,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8517,6 +10018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 502,
@@ -8526,6 +10029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пижук Іван Ігорович",
+    "position": "Не вказано",
     "department": 1015,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8534,6 +10038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 503,
@@ -8543,6 +10049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Позігун",
+    "position": "Не вказано",
     "department": 1050,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8551,6 +10058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "запит на Дедала був",
     "quantity": 5
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 504,
@@ -8560,6 +10069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Постоловський Олександр Сергійович",
+    "position": "Не вказано",
     "department": 1069,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8568,6 +10078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 505,
@@ -8577,6 +10089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Яременко Олена Леонідівна",
+    "position": "Не вказано",
     "department": 1069,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8585,6 +10098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 506,
@@ -8594,6 +10109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Завальнюк Дмитро Миколайович",
+    "position": "Не вказано",
     "department": 1069,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8602,6 +10118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 507,
@@ -8611,6 +10129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Яременко Олена Леонідівна",
+    "position": "Не вказано",
     "department": 1069,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8619,6 +10138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 508,
@@ -8628,6 +10149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Ліщинський Сергій Васильович",
+    "position": "Не вказано",
     "department": 1009,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8636,6 +10158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "потрібно ноутбук для роботи з СЕДо на ядро, для відділення дисципліни, звертався Дедала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 509,
@@ -8645,6 +10169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дорогавцев Єгор Сергійович",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8653,6 +10178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 510,
@@ -8662,6 +10189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пинік Дмитро Миколайович",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8670,6 +10198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала  написали що в нього є",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 511,
@@ -8679,6 +10209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Лавровський Михайло Ігорович ",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8687,6 +10218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 512,
@@ -8696,6 +10229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Ткаченко Ігор Олександрович ",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8704,6 +10238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Нач. мед.питала в Дедала",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 513,
@@ -8713,6 +10249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Єрмоленко Тимур  Геннадійович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8721,6 +10258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "моноблок",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 514,
@@ -8730,6 +10269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бондар Анатолій Віталійович",
+    "position": "Не вказано",
     "department": 1033,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8738,6 +10278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 5
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 515,
@@ -8747,6 +10289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Руковицан В В",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8755,6 +10298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 516,
@@ -8764,6 +10309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Макаренка Владислава Володимировича",
+    "position": "Не вказано",
     "department": 1045,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8772,6 +10318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 517,
@@ -8781,6 +10329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Ткаченко Ігор Олександрович",
+    "position": "Не вказано",
     "department": 1004,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8789,6 +10338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 518,
@@ -8798,6 +10349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Безкровний Єгор Павлович ",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8806,6 +10358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "2 мишки",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 519,
@@ -8815,6 +10369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Яременко Олена Леонідівна",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8823,6 +10378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "\\мишка",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 520,
@@ -8832,6 +10389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Постоловський Олександр Сергійович ",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8840,6 +10398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "\\мишка",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 521,
@@ -8849,6 +10409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Молдавчук Ольга Михайлівна",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8857,6 +10418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "\\мишка",
     "quantity": 2
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 522,
@@ -8866,6 +10429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Федоренко Олександр Володимирович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8874,6 +10438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "\\мишка (А приблизно за понеділок-середа впораємось? Бо таке як мені на ОКП їхати вже з ним)\n\nА хіба вже не видали? Видали\n\nДедал: Відьміте статус, перенісість у видачу",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 523,
@@ -8883,6 +10449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "КАДОСІН Євгеній Ігорович",
+    "position": "Не вказано",
     "department": 991,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8891,6 +10458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 5
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 524,
@@ -8900,6 +10469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Хайнасов Олександр Олександрович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8908,6 +10478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 525,
@@ -8917,6 +10489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бурмич Ірина",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8925,6 +10498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Заміна поломаного ноута",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 526,
@@ -8934,6 +10509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Незік на ТПУ L4110THRTU001",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8942,6 +10518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "На ТПУ заміна ноута з віражем, камерами на більш моцний\nЗаміна на ДрімМашину",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 527,
@@ -8951,6 +10529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Рибак Анастасія Анатоліївна",
+    "position": "Не вказано",
     "department": 976,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8959,6 +10538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 528,
@@ -8968,6 +10549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Курносов Дем'ян Сергійович",
+    "position": "Не вказано",
     "department": 986,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8976,6 +10558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "для Кваша Олександр Андрійович",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 529,
@@ -8985,6 +10569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Донець Діана Ростиславівна",
+    "position": "Не вказано",
     "department": 1036,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -8993,6 +10578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 530,
@@ -9002,6 +10589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кароліна Віталіївна Мелещенко",
+    "position": "Не вказано",
     "department": 974,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9010,6 +10598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 531,
@@ -9019,6 +10609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": " Олеся Сергіївна Кохан",
+    "position": "Не вказано",
     "department": 974,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9027,6 +10618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Видати один комплект на Ядро на G-6 в цілому",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 532,
@@ -9036,6 +10629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Макодзеба Іван Юрійович ",
+    "position": "Не вказано",
     "department": 984,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9044,6 +10638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 533,
@@ -9053,6 +10649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Колянда Олена Миколаївна",
+    "position": "Не вказано",
     "department": 969,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9061,6 +10658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 534,
@@ -9070,6 +10669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Семеренко Дмитро Анатолійович",
+    "position": "Не вказано",
     "department": 1018,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9078,6 +10678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 535,
@@ -9087,6 +10689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Семич Дмитро Вадимович",
+    "position": "Не вказано",
     "department": 996,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9095,6 +10698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 536,
@@ -9104,6 +10709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Нетреба Микола Миколайович",
+    "position": "Не вказано",
     "department": 996,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9112,6 +10718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 537,
@@ -9121,6 +10729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Сухарчук Павло Олександрович",
+    "position": "Не вказано",
     "department": 996,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9129,6 +10738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 538,
@@ -9138,6 +10749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Чернетченко Сергій Вікторович",
+    "position": "Не вказано",
     "department": 996,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9146,6 +10758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 539,
@@ -9155,6 +10769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Осташко Сергій Вячеславович,",
+    "position": "Не вказано",
     "department": 996,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9163,6 +10778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 540,
@@ -9172,6 +10789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Сіренко Вікторія Валеріївна",
+    "position": "Не вказано",
     "department": 1006,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9180,6 +10798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Видати DreamMachine \nМайно на начальника топографічної служби Салова Богдана Ведення Дельти, Кропиви, CorelDrew з багатьма об'єктами на карт",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 541,
@@ -9189,6 +10809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Двораківська Наталія Сергіївна",
+    "position": "Не вказано",
     "department": 1006,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9197,6 +10818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Видати DreamMachine \nМайно на начальника топографічної служби Салова Богдана Ведення Дельти, Кропиви, CorelDrew з багатьма об'єктами на карт",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 542,
@@ -9206,6 +10829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Гайдай Дмитро Миколайович",
+    "position": "Не вказано",
     "department": 1036,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9214,6 +10838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 543,
@@ -9223,6 +10849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Зайченко Гліб Олександрович",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9231,6 +10858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 544,
@@ -9240,6 +10869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Шаповал Артем Віталійович ",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9248,6 +10878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 545,
@@ -9257,6 +10889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Анісімова Анастасія Володимирівна ",
+    "position": "Не вказано",
     "department": 971,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9265,6 +10898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 546,
@@ -9274,6 +10909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кривенко Оксана Михайлівна",
+    "position": "Не вказано",
     "department": 977,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9282,6 +10918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Рубік ноут уже підготував, поки що без ліцензій",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 547,
@@ -9291,6 +10929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9299,6 +10938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 0
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 548,
@@ -9308,6 +10949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Сумбатян Сергій Радикович",
+    "position": "Не вказано",
     "department": 1061,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9316,6 +10958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 549,
@@ -9325,6 +10969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Мостович Денис Анатолійович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9333,6 +10978,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 550,
@@ -9342,6 +10989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Чугаєвський Володимир Володимирович",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9350,6 +10998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": " робочий для встановлення програми Віраж",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 551,
@@ -9359,6 +11009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9367,6 +11018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 5
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 552,
@@ -9376,6 +11029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пащина Микола Миколайович",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9384,6 +11038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 553,
@@ -9393,6 +11049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Хайнасов Олександр Олександрович",
+    "position": "Не вказано",
     "department": 1077,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9401,6 +11058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Під які задачі? \nВнесення заліків о/с, тощо... Перехід від паперових звітів на цифрову платформу\n\nДедал: Видати йому Леново",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 554,
@@ -9410,6 +11069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Калина(Паламар Святослав Ярославович)",
+    "position": "Не вказано",
     "department": 1060,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9418,6 +11078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 555,
@@ -9427,6 +11089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Влад",
+    "position": "Не вказано",
     "department": 1029,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9435,6 +11098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 7
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 556,
@@ -9444,6 +11109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Фебу Утюж",
+    "position": "Не вказано",
     "department": 1039,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9452,6 +11118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 12
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 557,
@@ -9461,6 +11129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Фебу Утюж",
+    "position": "Не вказано",
     "department": 1039,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9469,6 +11138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 4
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 558,
@@ -9478,6 +11149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Прокопова Віра Павлівна",
+    "position": "Не вказано",
     "department": 1025,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9486,6 +11158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 559,
@@ -9495,6 +11169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Михальонок  А.Є",
+    "position": "Не вказано",
     "department": 993,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9503,6 +11178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 560,
@@ -9512,6 +11189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Муцький Максим Вадимович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9520,6 +11198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 561,
@@ -9529,6 +11209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Нетреба Микола Миколайович",
+    "position": "Не вказано",
     "department": 995,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9537,6 +11218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 562,
@@ -9546,6 +11229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Єрмоленко Тимур  Геннадійович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9554,6 +11238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 563,
@@ -9563,6 +11249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": " Олеся Сергіївна Кохан",
+    "position": "Не вказано",
     "department": 974,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9571,6 +11258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Видати один комплект на Ядро на G-6 в цілому",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 564,
@@ -9580,6 +11269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Карнаух Антон",
+    "position": "Не вказано",
     "department": 1046,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9588,6 +11278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 565,
@@ -9597,6 +11289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Шаповал Артем Віталійович ",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9605,6 +11298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Видати Canon 463",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 566,
@@ -9614,6 +11309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Троцик",
+    "position": "Не вказано",
     "department": 1023,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9622,6 +11318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 567,
@@ -9631,6 +11329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Болюх Ігор Олександрович",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9639,6 +11338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "БФП Epson EcoTank L6290 видати",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 568,
@@ -9648,6 +11349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9656,6 +11358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 569,
@@ -9665,6 +11369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9673,6 +11378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 570,
@@ -9682,6 +11389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Курбету",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9690,6 +11398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "З HDMI кабелем",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 571,
@@ -9699,6 +11409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9707,6 +11418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 2
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 572,
@@ -9716,6 +11429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Фокс",
+    "position": "Не вказано",
     "department": 1026,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9724,6 +11438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 573,
@@ -9733,6 +11449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Мостович Денис Анатолійович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9741,6 +11458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "просить Iphone ",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 574,
@@ -9750,6 +11469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Сумбатян Сергій Радикович",
+    "position": "Не вказано",
     "department": 1061,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9758,6 +11478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "просить Iphone ",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 575,
@@ -9767,6 +11489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Токаренко Антон Анатолійович",
+    "position": "Не вказано",
     "department": 1059,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9775,6 +11498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 576,
@@ -9784,6 +11509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Божков Максим Юрійович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9792,6 +11518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 577,
@@ -9801,6 +11529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "ФЕСУН ВАСИЛЬ ВІКТОРОВИЧ",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9809,6 +11538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 578,
@@ -9818,6 +11549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Семич Дмитро Вадимович",
+    "position": "Не вказано",
     "department": 998,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9826,6 +11558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 579,
@@ -9835,6 +11569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Голуб Віталій Борисович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9843,6 +11578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 580,
@@ -9852,6 +11589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Грибанов Денис Олегович",
+    "position": "Не вказано",
     "department": 1041,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9860,6 +11598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 581,
@@ -9869,6 +11609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Сосновський Данило Юрійович",
+    "position": "Не вказано",
     "department": 1041,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9877,6 +11618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 582,
@@ -9886,6 +11629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Сищенко Іван Олександрович",
+    "position": "Не вказано",
     "department": 1041,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9894,6 +11638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 583,
@@ -9903,6 +11649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Штуль Ігор Григорович",
+    "position": "Не вказано",
     "department": 1041,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9911,6 +11658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 584,
@@ -9920,6 +11669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Христоєв Андрій Валерійович",
+    "position": "Не вказано",
     "department": 1041,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9928,6 +11678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 585,
@@ -9937,6 +11689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дончак Ярослав Миколайович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9945,6 +11698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 586,
@@ -9954,6 +11709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пісковець Вадим Олегович",
+    "position": "Не вказано",
     "department": 978,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9962,6 +11718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 587,
@@ -9971,6 +11729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Макаренка Владислава Володимировича",
+    "position": "Не вказано",
     "department": 1045,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9979,6 +11738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 588,
@@ -9988,6 +11749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Салій Сергій Михайлович",
+    "position": "Не вказано",
     "department": 971,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -9996,6 +11758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 589,
@@ -10005,6 +11769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Мовчан Віталій Євгенович",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10013,6 +11778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 590,
@@ -10022,6 +11789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Хмельницький Владислав Олександрович",
+    "position": "Не вказано",
     "department": 1027,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10030,6 +11798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 591,
@@ -10039,6 +11809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Шимонівський Дмитро",
+    "position": "Не вказано",
     "department": 969,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10047,6 +11818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 592,
@@ -10056,6 +11829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Штуль Ігор Григорович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10064,6 +11838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 593,
@@ -10073,6 +11849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Михалюк Василь Олексійович",
+    "position": "Не вказано",
     "department": 1055,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10081,6 +11858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 594,
@@ -10090,6 +11869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Шклярук Валентин В'ячеславович",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10098,6 +11878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 595,
@@ -10107,6 +11889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Молдавчук Ольга Михайлівна",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10115,6 +11898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 596,
@@ -10124,6 +11909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Міщенко Інна Геннадіївна ",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10132,6 +11918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 597,
@@ -10141,6 +11929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Степаненко Лариса Анатоліївна ",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10149,6 +11938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 598,
@@ -10158,6 +11949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пилипенко Максим Юрійович",
+    "position": "Не вказано",
     "department": 973,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10166,6 +11958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 599,
@@ -10175,6 +11969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Борисюк Сергій Валентинович",
+    "position": "Не вказано",
     "department": 973,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10183,6 +11978,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 600,
@@ -10192,6 +11989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кароліна Віталіївна Мелещенко",
+    "position": "Не вказано",
     "department": 974,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10200,6 +11998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 601,
@@ -10209,6 +12009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Хмельницький Владислав Олександрович ",
+    "position": "Не вказано",
     "department": 1027,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10217,6 +12018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 602,
@@ -10226,6 +12029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дмитруха Андрій Віталійович",
+    "position": "Не вказано",
     "department": 1036,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10234,6 +12038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 603,
@@ -10243,6 +12049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Донець Діана Ростиславівна",
+    "position": "Не вказано",
     "department": 1036,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10251,6 +12058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 604,
@@ -10260,6 +12069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Анісімова Анастасія Володимирівна ",
+    "position": "Не вказано",
     "department": 971,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10268,6 +12078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 605,
@@ -10277,6 +12089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кривенко Оксана Михайлівна",
+    "position": "Не вказано",
     "department": 977,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10285,6 +12098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 606,
@@ -10294,6 +12109,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Сонюк Володимир Федорович ",
+    "position": "Не вказано",
     "department": 1073,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10302,6 +12118,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 607,
@@ -10311,6 +12129,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Болюх Ігор Олександрович",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10319,6 +12138,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 608,
@@ -10328,6 +12149,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пащина Микола Миколайович",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10336,6 +12158,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 609,
@@ -10345,6 +12169,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Соколовський Максим Алімович ",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10353,6 +12178,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 610,
@@ -10362,6 +12189,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Карєбін С.Г. ",
+    "position": "Не вказано",
     "department": 993,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10370,6 +12198,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 611,
@@ -10379,6 +12209,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Михальонок  А.Є",
+    "position": "Не вказано",
     "department": 993,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10387,6 +12218,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 612,
@@ -10396,6 +12229,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Гудзенко Т.П.",
+    "position": "Не вказано",
     "department": 993,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10404,6 +12238,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 613,
@@ -10413,6 +12249,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Лупінов Д.В",
+    "position": "Не вказано",
     "department": 993,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10421,6 +12258,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 614,
@@ -10430,6 +12269,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Коломєєць І.В.",
+    "position": "Не вказано",
     "department": 993,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10438,6 +12278,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 615,
@@ -10447,6 +12289,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Ричак Тимур Юрійович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10455,6 +12298,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 616,
@@ -10464,6 +12309,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Божков Максим Юрійович",
+    "position": "Не вказано",
     "department": 1043,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10472,6 +12318,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 617,
@@ -10481,6 +12329,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Степаненко Лариса Анатоліївна",
+    "position": "Не вказано",
     "department": 1069,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10489,6 +12338,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 618,
@@ -10498,6 +12349,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Троцька О.",
+    "position": "Не вказано",
     "department": 1015,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10506,6 +12358,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 619,
@@ -10515,6 +12369,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "ФЕСУН ВАСИЛЬ ВІКТОРОВИЧ",
+    "position": "Не вказано",
     "department": 1035,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10523,6 +12378,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 620,
@@ -10532,6 +12389,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Зернова Олександра",
+    "position": "Не вказано",
     "department": 1036,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10540,6 +12398,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 621,
@@ -10549,6 +12409,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Толкачов Артем",
+    "position": "Не вказано",
     "department": 1036,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10557,6 +12418,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 622,
@@ -10566,6 +12429,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Єрмоленко Тимур  Геннадійович",
+    "position": "Не вказано",
     "department": 992,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10574,6 +12438,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 623,
@@ -10583,6 +12449,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Отенко Віктор Миколайович",
+    "position": "Не вказано",
     "department": 995,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10591,6 +12458,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 624,
@@ -10600,6 +12469,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пісковець Вадим Олегович",
+    "position": "Не вказано",
     "department": 978,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10608,6 +12478,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 625,
@@ -10617,6 +12489,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кохан Олеся",
+    "position": "Не вказано",
     "department": 974,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10625,6 +12498,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 626,
@@ -10634,6 +12509,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Колянда Олена Миколаївна",
+    "position": "Не вказано",
     "department": 969,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10642,6 +12518,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 627,
@@ -10651,6 +12529,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Семич Дмитро Вадимович",
+    "position": "Не вказано",
     "department": 998,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10659,6 +12538,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 628,
@@ -10668,6 +12549,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Отенко Віктор Миколайович",
+    "position": "Не вказано",
     "department": 995,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10676,6 +12558,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 629,
@@ -10685,6 +12569,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Мовчан Віталій Євгенович",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10693,6 +12578,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 630,
@@ -10702,6 +12589,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кадосін Євген Ігорович",
+    "position": "Не вказано",
     "department": 991,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10710,6 +12598,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 631,
@@ -10719,6 +12609,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Полончук Данило Павлович",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10727,6 +12618,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 632,
@@ -10736,6 +12629,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дмитруха Андрій Віталійович",
+    "position": "Не вказано",
     "department": 1036,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10744,6 +12638,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 633,
@@ -10753,6 +12649,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Донець Діана Ростиславівна",
+    "position": "Не вказано",
     "department": 1036,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10761,6 +12658,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 634,
@@ -10770,6 +12669,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кароліна Віталіївна Мелещенко",
+    "position": "Не вказано",
     "department": 974,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10778,6 +12678,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 635,
@@ -10787,6 +12689,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Неверчак Дмитро Євгенович",
+    "position": "Не вказано",
     "department": 1070,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10795,6 +12698,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 636,
@@ -10804,6 +12709,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Хмельницький Владислав Олександрович ",
+    "position": "Не вказано",
     "department": 1027,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10812,6 +12718,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 637,
@@ -10821,6 +12729,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Тхор Володимир Валентинович",
+    "position": "Не вказано",
     "department": 989,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10829,6 +12738,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 638,
@@ -10838,6 +12749,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Дахненко Олександр Ігорович",
+    "position": "Не вказано",
     "department": 989,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10846,6 +12758,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 639,
@@ -10855,6 +12769,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Віговський Артем Олександрович",
+    "position": "Не вказано",
     "department": 989,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10863,6 +12778,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 640,
@@ -10872,6 +12789,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Сенчило Олександр Олексійович",
+    "position": "Не вказано",
     "department": 989,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10880,6 +12798,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 641,
@@ -10889,6 +12809,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Пащина Микола Миколайович",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10897,6 +12818,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 642,
@@ -10906,6 +12829,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Кокович Дмитро Вікторович",
+    "position": "Не вказано",
     "department": 1023,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10914,6 +12838,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 643,
@@ -10923,6 +12849,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Болюх Ігор Олександрович",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10931,6 +12858,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 644,
@@ -10940,6 +12869,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Мельник Віталій Вадимович",
+    "position": "Не вказано",
     "department": 988,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10948,6 +12878,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 645,
@@ -10957,6 +12889,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Соколовський Максим Алімович ",
+    "position": "Не вказано",
     "department": 975,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10965,6 +12898,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 646,
@@ -10974,6 +12909,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Каменна Марина Анатоліївна",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10982,6 +12918,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 647,
@@ -10991,6 +12929,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Псядло Сергій Володимирович",
+    "position": "Не вказано",
     "department": 987,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -10999,6 +12938,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 648,
@@ -11008,6 +12949,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Ворожбян Денис Олексійович",
+    "position": "Не вказано",
     "department": 972,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -11016,6 +12958,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 649,
@@ -11025,6 +12969,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Панченко Юрій",
+    "position": "Не вказано",
     "department": 1015,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -11033,6 +12978,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 650,
@@ -11042,6 +12989,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Філіпішиним Романом Валентиновичем",
+    "position": "Не вказано",
     "department": 1088,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -11050,6 +12998,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 651,
@@ -11059,6 +13009,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": " Костянюк Максим Михайлович",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -11067,6 +13018,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Казала людина, що її начальник говорив з Дедалом",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 652,
@@ -11076,6 +13029,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": " Костянюк Максим Михайлович",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -11084,6 +13038,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Казала людина, що її начальник говорив з Дедалом",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 653,
@@ -11093,6 +13049,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": " Костянюк Максим Михайлович",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -11101,6 +13058,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Казала людина, що її начальник говорив з Дедалом",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 654,
@@ -11110,6 +13069,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": " Костянюк Максим Михайлович",
+    "position": "Не вказано",
     "department": 1048,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -11118,6 +13078,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Казала людина, що її начальник говорив з Дедалом",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   },
   {
     "id": 655,
@@ -11127,6 +13089,7 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "serialNumber": "",
     "rank": 1088,
     "fullName": "Славіцький Олег Дмитрович",
+    "position": "Не вказано",
     "department": 1001,
     "applicationStatus": "Готово",
     "requestNumber": "",
@@ -11135,6 +13098,8 @@ export const mockIssuanceData: IssuanceRecord[] = [
     "status": "Видано",
     "notes": "Для роботи монтажних груп",
     "quantity": 1
+    ,
+    "mobileNumber": ""
   }
 ];
 
@@ -11145,7 +13110,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 2,
     "rank": 1088,
-    "contactPerson": "Олійник Богдан Олегович",
+    "fullName": "Олійник Богдан Олегович",
     "position": "Сержант з матеріального забезпечення 1-ї зенітної артилерійської батареї зентіного ракетно-артилерійського дивізіону ",
     "department": 1015,
     "mobileNumber": "380505605982",
@@ -11160,7 +13125,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Солдат ",
+    "fullName": "Солдат ",
     "position": "Топографічна служба ",
     "department": 1088,
     "mobileNumber": "",
@@ -11175,7 +13140,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 10,
     "rank": 1088,
-    "contactPerson": "Грибанов Денис Олегович",
+    "fullName": "Грибанов Денис Олегович",
     "position": "технік служби технічного захисту інформації режимно-секретного відділу персональної штабної групи",
     "department": 1041,
     "mobileNumber": "674453267",
@@ -11190,7 +13155,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Марцішевський Дмитро Володимирович",
+    "fullName": "Марцішевський Дмитро Володимирович",
     "position": "Старший офіцер служби охорони праці персональної штабної групи",
     "department": 1088,
     "mobileNumber": "0984894852",
@@ -11205,7 +13170,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 4,
     "rank": 1088,
-    "contactPerson": "КАДОСІН Євгеній Ігорович",
+    "fullName": "КАДОСІН Євгеній Ігорович",
     "position": "командир 1-ї роти матеріального забезпечення батальйону забезпечення",
     "department": 991,
     "mobileNumber": " +380 50 048 9208",
@@ -11220,7 +13185,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Кваша Олександр Андрійович",
+    "fullName": "Кваша Олександр Андрійович",
     "position": "діловод обліково - операційної служби  відділу бронетанкової техніки  управління озброєння і техніки (технічної частини) логістики (G-4) ",
     "department": 986,
     "mobileNumber": "073 475 03 06",
@@ -11235,7 +13200,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Макодзеба Іван Юрійович ",
+    "fullName": "Макодзеба Іван Юрійович ",
     "position": "Начальник речового складу 2-го господарчого взводу 1-ї роти матеріального забезпечення батальйону забезпечення ",
     "department": 984,
     "mobileNumber": "634401354",
@@ -11250,7 +13215,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Курносов Дем'ян Сергійович",
+    "fullName": "Курносов Дем'ян Сергійович",
     "position": "штаб-сержант служби організації забезпечення бронетанковою технікою відділу бронетанкової техніки управління озброєння і техніки (технічної частини) логістики (G-4)",
     "department": 986,
     "mobileNumber": "0 99 710 6710",
@@ -11265,7 +13230,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Пісковець Вадим Олегович",
+    "fullName": "Пісковець Вадим Олегович",
     "position": "Старший офіцер служби координації колективної підготовки відділу підготовки військ управління підготовки",
     "department": 975,
     "mobileNumber": "0991834580",
@@ -11280,7 +13245,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Марцішевський Дмитро Володимирович",
+    "fullName": "Марцішевський Дмитро Володимирович",
     "position": "Старший офіцер служби охорони праці персональної штабної групи",
     "department": 1088,
     "mobileNumber": "0984894852",
@@ -11295,7 +13260,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Кадосін Євгеній Ігорович",
+    "fullName": "Кадосін Євгеній Ігорович",
     "position": "командир 1-ї роти матеріального забезпечення батальйону забезпечення",
     "department": 988,
     "mobileNumber": " +380 50 048 9208",
@@ -11310,7 +13275,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 898,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Павлов Олександр Романович",
+    "fullName": "Павлов Олександр Романович",
     "position": "Нач служби забезпеченя ПММ",
     "department": 972,
     "mobileNumber": "684667655",
@@ -11325,7 +13290,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Антон ІГНАТЬЄВ",
+    "fullName": "Антон ІГНАТЬЄВ",
     "position": "Начальник відділу квартирно експлуатаційного забезпечення управління тилу логістики",
     "department": 972,
     "mobileNumber": "066 962 37 31",
@@ -11340,7 +13305,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 898,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": " Саловський Данило Олександрович",
+    "fullName": " Саловський Данило Олександрович",
     "position": "водій 1-го зенітно ракетного відділення 1-го зенітно ракетного взводу 1-ї зенітно ракетної батареї зенітно ракетно-артилеріцського дивізіону",
     "department": 1079,
     "mobileNumber": "380983254356",
@@ -11355,7 +13320,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 898,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": " Пальоху Владислава Анатолійовича",
+    "fullName": " Пальоху Владислава Анатолійовича",
     "position": "начальника служби організації ремонту БТ техніки",
     "department": 986,
     "mobileNumber": "098-868-06-77",
@@ -11370,7 +13335,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 898,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Пісковець Вадим Олегович",
+    "fullName": "Пісковець Вадим Олегович",
     "position": "Старший офіцер служби координації колективної підготовки відділу підготовки військ управління підготовки",
     "department": 975,
     "mobileNumber": "0991834580",
@@ -11385,7 +13350,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Пісковець Вадим Олегович",
+    "fullName": "Пісковець Вадим Олегович",
     "position": "Старший офіцер служби координації колективної підготовки відділу підготовки військ управління підготовки",
     "department": 975,
     "mobileNumber": "0991834580",
@@ -11400,7 +13365,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 898,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Візер Микола Миколайович ",
+    "fullName": "Візер Микола Миколайович ",
     "position": "начальник служби військового капеланства персональної штабної групи ",
     "department": 1074,
     "mobileNumber": "0506572513",
@@ -11415,7 +13380,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Тхор Володимир Валентинович",
+    "fullName": "Тхор Володимир Валентинович",
     "position": "головний сержант батальйону охорони",
     "department": 989,
     "mobileNumber": "0990772958",
@@ -11430,7 +13395,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Дахненко Олександр Ігорович",
+    "fullName": "Дахненко Олександр Ігорович",
     "position": "головний сержант 3-го взводу охорони 2-ї роти охорони батальйону охорони",
     "department": 989,
     "mobileNumber": "0983228473",
@@ -11445,7 +13410,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Віговський Артем Олександрович",
+    "fullName": "Віговський Артем Олександрович",
     "position": "командир 2-го взводу охорони 2-ї роти охорони батальйону охорони",
     "department": 989,
     "mobileNumber": "0997029620",
@@ -11460,7 +13425,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Сенчило Олександр Олексійович",
+    "fullName": "Сенчило Олександр Олексійович",
     "position": "командир взводу 3-го взводу охорони 1-ї роти охорони батальйону охорони",
     "department": 989,
     "mobileNumber": "380505014029",
@@ -11475,7 +13440,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Соколовський Максим Алімович ",
+    "fullName": "Соколовський Максим Алімович ",
     "position": "Начальник служби вивчення та впровадження досвіду відділу планування та підготовки управлінь військових частин управління підготовки G-7",
     "department": 975,
     "mobileNumber": "0976849246",
@@ -11490,7 +13455,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Діденко Євгенія Вікторівна",
+    "fullName": "Діденко Євгенія Вікторівна",
     "position": "старший офіцер служби комплектування та проходження служби рядовим, сержантським і старшинським складом відділу кадрової роботи управління персоналу штабу",
     "department": 1080,
     "mobileNumber": "0505625285",
@@ -11505,7 +13470,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Мартиненка Андрія Анатолійовича",
+    "fullName": "Мартиненка Андрія Анатолійовича",
     "position": "Старший офіцер відділення організації зв'язку управління зв'язку та інформатизації (G-6) штабу",
     "department": 974,
     "mobileNumber": "",
@@ -11520,7 +13485,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 3,
     "rank": 1088,
-    "contactPerson": "Болюх Ігор Олександрович",
+    "fullName": "Болюх Ігор Олександрович",
     "position": "Начальник відділу планування та підготовки управлінь військових частин управління підготовки",
     "department": 975,
     "mobileNumber": "0958513274",
@@ -11535,7 +13500,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 2,
     "rank": 1088,
-    "contactPerson": "Мельник Віталій Вадимович",
+    "fullName": "Мельник Віталій Вадимович",
     "position": "сержант з матеріального забезпечення 2-ї автомобільної роти батальйону забезпечення",
     "department": 988,
     "mobileNumber": "0631063284",
@@ -11550,7 +13515,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Федосов Руслан Олегович",
+    "fullName": "Федосов Руслан Олегович",
     "position": "командир 1-го господарчого взводу 1-ї роти матеріального забезпечення батальйону забезпечення",
     "department": 988,
     "mobileNumber": "380 95 703 3772",
@@ -11565,7 +13530,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Пащина Микола Миколайович",
+    "fullName": "Пащина Микола Миколайович",
     "position": "Начальник Служби Координації підготовки підрозділів артилерії відділу підготовки за призначенням (G-7)",
     "department": 975,
     "mobileNumber": "0964345781",
@@ -11580,7 +13545,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Руковицан В В",
+    "fullName": "Руковицан В В",
     "position": "сержант матеріального забезпечення ",
     "department": 992,
     "mobileNumber": "680836590",
@@ -11595,7 +13560,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Чугаєвський Володимир Володимирович ",
+    "fullName": "Чугаєвський Володимир Володимирович ",
     "position": "начальник служби координації підготовки підрозділів ППО  відділу підготовки за призначенням управління підготовки (G-7)",
     "department": 975,
     "mobileNumber": "",
@@ -11610,7 +13575,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Пинік Дмитро Миколайович",
+    "fullName": "Пинік Дмитро Миколайович",
     "position": "Діловод матеріально технічними засобами медичного відділу управління тилу логістики (G-4)",
     "department": 972,
     "mobileNumber": "066 055 76 16",
@@ -11625,7 +13590,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Яременко Олена Леонідівна",
+    "fullName": "Яременко Олена Леонідівна",
     "position": "Старший офіцер відділення обліку виплати одноразової грошової допомоги управління фінансового забезпечення",
     "department": 1088,
     "mobileNumber": "666237876",
@@ -11640,7 +13605,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Вовк Мирослава Вікторівна",
+    "fullName": "Вовк Мирослава Вікторівна",
     "position": "Штаб сержант першої категорії СБДР управління озброєння і техніки (технічної частини)",
     "department": 1048,
     "mobileNumber": "380505913141",
@@ -11655,7 +13620,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Отенко Віктор",
+    "fullName": "Отенко Віктор",
     "position": "Оператор безпілотних літальних апаратів 5 відділення ударних безпілотних авіаційних комплексів взводу ударних безпілотних авіаційних комплексів літакового типу спеціального призначення роти ударних безпілотних авіаційних комплексів спеціального призначення батальйону безпілотних систем",
     "department": 985,
     "mobileNumber": "‪+380 67 776 3665",
@@ -11670,7 +13635,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Шимонівський Дмитро",
+    "fullName": "Шимонівський Дмитро",
     "position": "начальник відділу кадрової роботи управління персоналу (G-1) штабу",
     "department": 969,
     "mobileNumber": "(096-515-46-68)",
@@ -11685,7 +13650,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Салов Богдан",
+    "fullName": "Салов Богдан",
     "position": "начальник топографічної служби",
     "department": 1006,
     "mobileNumber": "097 188 82 14",
@@ -11700,7 +13665,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Пісковець Вадим Олегович",
+    "fullName": "Пісковець Вадим Олегович",
     "position": "Старший офіцер служби координації колективної підготовки відділу підготовки військ управління підготовки",
     "department": 975,
     "mobileNumber": "991834580",
@@ -11715,7 +13680,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Станіслав Соломка",
+    "fullName": "Станіслав Соломка",
     "position": "старший технік- начальник КТП СБДР",
     "department": 1048,
     "mobileNumber": "380 50 472 7399",
@@ -11730,7 +13695,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 898,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": " Саловський Данило Олександрович",
+    "fullName": " Саловський Данило Олександрович",
     "position": "водій 1-го зенітно ракетного відділення 1-го зенітно ракетного взводу 1-ї зенітно ракетної батареї зенітно ракетно-артилеріцського дивізіону",
     "department": 1079,
     "mobileNumber": "380983254356",
@@ -11745,7 +13710,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Дрелінський Сергій Вікторович",
+    "fullName": "Дрелінський Сергій Вікторович",
     "position": "начальник служби запобігання та виявлення корупції",
     "department": 1088,
     "mobileNumber": "067 749 26 74",
@@ -11760,7 +13725,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Макаренка Владислава Володимировича",
+    "fullName": "Макаренка Владислава Володимировича",
     "position": " т.в.о. КРВБ",
     "department": 1045,
     "mobileNumber": "936264764",
@@ -11775,7 +13740,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Сенчило Олександр Олексійович",
+    "fullName": "Сенчило Олександр Олексійович",
     "position": "командир взводу 3-го взводу охорони 1-ї роти охорони батальйону охорони",
     "department": 989,
     "mobileNumber": "380505014029",
@@ -11790,7 +13755,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Марцішевський Дмитро Володимирович",
+    "fullName": "Марцішевський Дмитро Володимирович",
     "position": "Старший офіцер служби охорони праці персональної штабної групи",
     "department": 1088,
     "mobileNumber": "0984894852",
@@ -11805,8 +13770,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 2,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -11820,7 +13785,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Псядло Сергій Володимирович",
+    "fullName": "Псядло Сергій Володимирович",
     "position": "Головний сержант 3-го господарчого взводу 2-ї роти матеріального забезпечення батальйону забезпечення",
     "department": 988,
     "mobileNumber": "095 393 31 76 ",
@@ -11835,7 +13800,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Кадосін Євгеній Ігорович",
+    "fullName": "Кадосін Євгеній Ігорович",
     "position": "командир 1-ї роти матеріального забезпечення батальйону забезпечення",
     "department": 988,
     "mobileNumber": " +380 50 048 9208",
@@ -11850,7 +13815,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Шимонівський Дмитро",
+    "fullName": "Шимонівський Дмитро",
     "position": "G-1",
     "department": 969,
     "mobileNumber": "",
@@ -11865,7 +13830,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 2,
     "rank": 1088,
-    "contactPerson": "Берсерк",
+    "fullName": "Берсерк",
     "position": "Служба безпілотних систем",
     "department": 1051,
     "mobileNumber": "0687726700",
@@ -11880,7 +13845,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Семеренко Дмитро Анатолійович",
+    "fullName": "Семеренко Дмитро Анатолійович",
     "position": "командир госпітальної роти медичного батальйону",
     "department": 1088,
     "mobileNumber": "0 63 403 1680",
@@ -11895,7 +13860,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Пинік Дмитро",
+    "fullName": "Пинік Дмитро",
     "position": "Діловод матеріально технічними засобами медичного відділу управління тилу логістики (G-4)",
     "department": 1022,
     "mobileNumber": "066 055 76 16",
@@ -11910,7 +13875,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Літвінчук Ілля Андрійович",
+    "fullName": "Літвінчук Ілля Андрійович",
     "position": "старший офіцер служби обліку та звітності відділу обліку особового складу управління персоналу (G-1) штабу",
     "department": 1081,
     "mobileNumber": "093-707-41-92",
@@ -11925,7 +13890,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 898,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Зеленяк Дмитро Олексійович",
+    "fullName": "Зеленяк Дмитро Олексійович",
     "position": "начальник групи технічного обслуговування та списання безпілотних систем відділу технічного забезпечення безпілотних систем управління безпілотних систем",
     "department": 995,
     "mobileNumber": "0933540773",
@@ -11940,7 +13905,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Зеленяк Дмитро Олексійович",
+    "fullName": "Зеленяк Дмитро Олексійович",
     "position": "начальник групи технічного обслуговування та списання безпілотних систем відділу технічного забезпечення безпілотних систем управління безпілотних систем",
     "department": 995,
     "mobileNumber": "0933540773",
@@ -11955,7 +13920,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Клименко Олександр Михайлович",
+    "fullName": "Клименко Олександр Михайлович",
     "position": "інженер групи технічного обслуговування та списання безпілотних систем відділу технічного забезпечення безпілотних систем управління безпілотних систем",
     "department": 995,
     "mobileNumber": "0678952239",
@@ -11970,8 +13935,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 22,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -11985,8 +13950,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 10,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12000,8 +13965,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 11,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12015,8 +13980,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 15,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12030,8 +13995,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 9,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12045,8 +14010,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 6,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12060,8 +14025,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 8,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12075,8 +14040,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 15,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12090,8 +14055,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 14,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12105,8 +14070,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 2,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12120,8 +14085,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 10,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12135,8 +14100,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 4,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12150,8 +14115,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 3,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12165,8 +14130,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12180,8 +14145,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12195,8 +14160,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12210,8 +14175,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12225,8 +14190,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12240,8 +14205,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 21,
     "rank": 1088,
-    "contactPerson": "Бандера",
-    "position": "",
+    "fullName": "Бандера",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "requestDate": "15.02.2026",
@@ -12255,7 +14220,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 898,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Сонюк Володимир Федорович ",
+    "fullName": "Сонюк Володимир Федорович ",
     "position": "Офіцер відділу комунікацій персональної штабної групи",
     "department": 1073,
     "mobileNumber": "380503877843",
@@ -12270,7 +14235,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": " Костянюк Максим Михайлович",
+    "fullName": " Костянюк Максим Михайлович",
     "position": "тво командира взводу Сбдр",
     "department": 1048,
     "mobileNumber": "0972809152",
@@ -12285,7 +14250,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 10,
     "rank": 1088,
-    "contactPerson": "Кадосін Євгеній Ігорович",
+    "fullName": "Кадосін Євгеній Ігорович",
     "position": "командир 1-ї роти матеріального забезпечення батальйону забезпечення",
     "department": 991,
     "mobileNumber": " +380 50 048 9208",
@@ -12300,7 +14265,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Кадосін Євгеній Ігорович",
+    "fullName": "Кадосін Євгеній Ігорович",
     "position": "командир 1-ї роти матеріального забезпечення батальйону забезпечення",
     "department": 991,
     "mobileNumber": " +380 50 048 9208",
@@ -12315,8 +14280,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 3,
     "rank": 1088,
-    "contactPerson": "Троцик",
-    "position": "",
+    "fullName": "Троцик",
+    "position": "Не вказано",
     "department": 1023,
     "mobileNumber": "",
     "requestDate": "24.02.2026",
@@ -12330,8 +14295,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 2,
     "rank": 1088,
-    "contactPerson": "Феб",
-    "position": "",
+    "fullName": "Феб",
+    "position": "Не вказано",
     "department": 1039,
     "mobileNumber": "",
     "requestDate": "24.02.2026",
@@ -12345,8 +14310,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Феб",
-    "position": "",
+    "fullName": "Феб",
+    "position": "Не вказано",
     "department": 1039,
     "mobileNumber": "",
     "requestDate": "24.02.2026",
@@ -12360,8 +14325,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Хак",
-    "position": "",
+    "fullName": "Хак",
+    "position": "Не вказано",
     "department": 1026,
     "mobileNumber": "",
     "requestDate": "24.02.2026",
@@ -12375,8 +14340,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Хак",
-    "position": "",
+    "fullName": "Хак",
+    "position": "Не вказано",
     "department": 1026,
     "mobileNumber": "",
     "requestDate": "24.02.2026",
@@ -12390,8 +14355,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Хак",
-    "position": "",
+    "fullName": "Хак",
+    "position": "Не вказано",
     "department": 1026,
     "mobileNumber": "",
     "requestDate": "24.02.2026",
@@ -12405,8 +14370,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 896,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Хак",
-    "position": "",
+    "fullName": "Хак",
+    "position": "Не вказано",
     "department": 1026,
     "mobileNumber": "",
     "requestDate": "24.02.2026",
@@ -12420,8 +14385,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Хак",
-    "position": "",
+    "fullName": "Хак",
+    "position": "Не вказано",
     "department": 1026,
     "mobileNumber": "",
     "requestDate": "24.02.2026",
@@ -12435,8 +14400,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 2,
     "rank": 1088,
-    "contactPerson": "Хак",
-    "position": "",
+    "fullName": "Хак",
+    "position": "Не вказано",
     "department": 1026,
     "mobileNumber": "",
     "requestDate": "24.02.2026",
@@ -12450,8 +14415,8 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 3,
     "rank": 1088,
-    "contactPerson": "Феб",
-    "position": "",
+    "fullName": "Феб",
+    "position": "Не вказано",
     "department": 1039,
     "mobileNumber": "",
     "requestDate": "24.02.2026",
@@ -12465,7 +14430,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Рижко Олександр Русланович ",
+    "fullName": "Рижко Олександр Русланович ",
     "position": "Начальник відділення медичного забезпечення медичного батальйону",
     "department": 1021,
     "mobileNumber": "0 67 857 40 74",
@@ -12480,7 +14445,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Ярова Оксана Володимирівна ",
+    "fullName": "Ярова Оксана Володимирівна ",
     "position": "Асистент фармацевта аптеки медичного пункту медичного батальйону",
     "department": 1021,
     "mobileNumber": "067 232 05 26",
@@ -12495,7 +14460,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Грибов Максим Олександрович ",
+    "fullName": "Грибов Максим Олександрович ",
     "position": "Лікар медичного пункту медичного батальйону",
     "department": 1021,
     "mobileNumber": "0 66 128 88 05",
@@ -12510,7 +14475,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Рижко Олександр Русланович ",
+    "fullName": "Рижко Олександр Русланович ",
     "position": "Начальник відділення медичного забезпечення медичного батальйону",
     "department": 1021,
     "mobileNumber": "0 67 857 40 74",
@@ -12525,7 +14490,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 898,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Нетреба Микола Миколайович",
+    "fullName": "Нетреба Микола Миколайович",
     "position": "т. в. о. начальника управління безпілотних систем персональної штабної групи",
     "department": 995,
     "mobileNumber": "097-718-37-32",
@@ -12540,7 +14505,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 896,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Нетреба Микола Миколайович",
+    "fullName": "Нетреба Микола Миколайович",
     "position": "т. в. о. начальника управління безпілотних систем персональної штабної групи",
     "department": 995,
     "mobileNumber": "097-718-37-32",
@@ -12555,7 +14520,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 2,
     "rank": 1088,
-    "contactPerson": "Кадосін Євгеній Ігорович",
+    "fullName": "Кадосін Євгеній Ігорович",
     "position": "командир 1-ї роти матеріального забезпечення батальйону забезпечення",
     "department": 991,
     "mobileNumber": " +380 50 048 9208",
@@ -12570,7 +14535,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 897,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Шавеко Євгеній Олексанлрович,",
+    "fullName": "Шавеко Євгеній Олексанлрович,",
     "position": "командир 1-ої автомобільної роти",
     "department": 981,
     "mobileNumber": "",
@@ -12585,7 +14550,7 @@ export const mockNeedsData: NeedRecord[] = [
     "type": 898,
     "quantity": 1,
     "rank": 1088,
-    "contactPerson": "Стаднюк Юрій Миколайович",
+    "fullName": "Стаднюк Юрій Миколайович",
     "position": "дешифрувальник розвідувальних матеріалів з безпілотних літальних апаратів відділення збору, обробки та аналізу інформації роти ударних безпілотних авіаційних комплексів спеціального призначення батальйону безпілотних систем",
     "department": 995,
     "mobileNumber": "380633773074",
@@ -12604,7 +14569,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "quantity": 3,
     "rank": 1088,
     "fullName": "Сергій",
-    "position": "",
+    "position": "Не вказано",
     "department": 1012,
     "mobileNumber": "0 97 499 8043",
     "status": "Відхилено",
@@ -12619,7 +14584,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "quantity": 3,
     "rank": 1088,
     "fullName": "Сергій",
-    "position": "",
+    "position": "Не вказано",
     "department": 1012,
     "mobileNumber": "0 97 499 8043",
     "status": "Відхилено",
@@ -12634,7 +14599,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "quantity": 1,
     "rank": 1088,
     "fullName": "Федін Олександр В'ячеславович",
-    "position": "",
+    "position": "Не вказано",
     "department": 1007,
     "mobileNumber": "0 96 522 8308",
     "status": "Відхилено",
@@ -12664,7 +14629,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "quantity": 3,
     "rank": 1088,
     "fullName": "Сергій",
-    "position": "",
+    "position": "Не вказано",
     "department": 1012,
     "mobileNumber": "0 97 499 8043",
     "status": "Відхилено",
@@ -12679,7 +14644,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "quantity": 1,
     "rank": 1088,
     "fullName": "Федін Олександр В'ячеславович",
-    "position": "",
+    "position": "Не вказано",
     "department": 1007,
     "mobileNumber": "0 96 522 8308",
     "status": "Відхилено",
@@ -12784,7 +14749,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "quantity": 1,
     "rank": 1088,
     "fullName": "Аліна",
-    "position": "",
+    "position": "Не вказано",
     "department": 986,
     "mobileNumber": "",
     "status": "Відхилено",
@@ -12799,7 +14764,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "quantity": 1,
     "rank": 1088,
     "fullName": "Аліна",
-    "position": "",
+    "position": "Не вказано",
     "department": 986,
     "mobileNumber": "",
     "status": "Відхилено",
@@ -13249,7 +15214,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "quantity": 1,
     "rank": 1088,
     "fullName": "Бандера",
-    "position": "",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "status": "Відхилено",
@@ -13294,7 +15259,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "quantity": 1,
     "rank": 1088,
     "fullName": "Бандера",
-    "position": "",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "status": "Відхилено",
@@ -13309,7 +15274,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "quantity": 1,
     "rank": 1088,
     "fullName": "Бандера",
-    "position": "",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "status": "Відхилено",
@@ -13354,7 +15319,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "quantity": 2,
     "rank": 1088,
     "fullName": "Бандера",
-    "position": "",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "status": "Відхилено",
@@ -13369,7 +15334,7 @@ export const mockRejectedData: RejectedRecord[] = [
     "quantity": 1,
     "rank": 1088,
     "fullName": "Бандера",
-    "position": "",
+    "position": "Не вказано",
     "department": 1015,
     "mobileNumber": "0962345399",
     "status": "Відхилено",
@@ -13413,374 +15378,746 @@ export const mockNomenclatures: DirectoryItem[] = [
   {
     "id": 807,
     "name": "983"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 808,
     "name": "Ecoflow delta max"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 809,
     "name": "HDMI кабель"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 810,
     "name": "IP-Телефон"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 811,
     "name": "LTE модем"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 812,
     "name": "LTE модем комплект"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 813,
     "name": "LTEмодем LHGG LTE6"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 814,
     "name": "LTEмодем SXT LTE6 kit"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 815,
     "name": "Starlink"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 816,
     "name": "Starlink mini"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 817,
     "name": "Wifi міст"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 818,
     "name": "ІР Телефон"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 819,
     "name": "Авто р/ст UHF"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 820,
     "name": "Авто р/ст VHF"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 821,
     "name": "Авто. р/ст"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 822,
     "name": "Вайфай міст"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 823,
     "name": "Виносна штирьова\n антена(не павук)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 824,
     "name": "Відеоспостереження"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 825,
     "name": "Гарнітура"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 826,
     "name": "Генератор"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 827,
     "name": "Генератор 5кВт інверторний"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 828,
     "name": "Диски"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 829,
     "name": "Екофло"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 830,
     "name": "Екофлоу 2400"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 831,
     "name": "Екофлоу 3600"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 832,
     "name": "Екофлоу міні до1000"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 833,
     "name": "Жорсткий диск 1-2Тб"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 834,
     "name": "Зарядна станція"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 835,
     "name": "Зарядна станція 2кВт"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 836,
     "name": "Зарядна станція 3кВт"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 837,
     "name": "Кабель"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 838,
     "name": "Кабель для прошивки\n Motorola DP"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 839,
     "name": "Кабель для прошивки\n Motorola R7"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 840,
     "name": "Кабель для прошивки автомобільної Motorola DM4400/4600 (HKN6184)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 841,
     "name": "Кабель для прошивки автомобільної Motorola DM4400/4600 (PMKN4010)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 842,
     "name": "Клавіатура"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 843,
     "name": "Комплект рацій"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 844,
     "name": "Комутатор"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 845,
     "name": "Кронтшейн для ТВ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 846,
     "name": "Ламінатор"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 847,
     "name": "МОСІ комплект (ноут принтер мишка)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 848,
     "name": "МОСІ телефон"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 849,
     "name": "МФУ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 850,
     "name": "Мишка"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 851,
     "name": "Мобільне ТК МОСІ в захищенному кейсі"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 852,
     "name": "Моноблок"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 853,
     "name": "Монітор"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 855,
     "name": "Ноутбук"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 856,
     "name": "Павук, мишки ноут 10, блоки живлення 12"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 857,
     "name": "Плазма"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 858,
     "name": "Планшет"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 859,
     "name": "Планшет + Алмаз BT"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 860,
     "name": "Порт р/ст UHF"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 861,
     "name": "Порт р/ст VHF"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 862,
     "name": "Порт. Р/С UHF"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 863,
     "name": "Порт. р/ст UHF"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 864,
     "name": "Порт. р/ст VHF"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 865,
     "name": "Принтер"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 866,
     "name": "Программатор DM4600"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 867,
     "name": "Программатор R7"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 868,
     "name": "Проектор"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 869,
     "name": "Проектор + дошка"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 870,
     "name": "Р/ст авто VHF"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 871,
     "name": "Р/ст порт R7 VHF \nз екраном"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 872,
     "name": "Р/ст порт VHF"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 873,
     "name": "Системний блок"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 874,
     "name": "Смартфон"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 875,
     "name": "Старлінк"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 876,
     "name": "Старлінк міні"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 877,
     "name": "Сімкартка"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 878,
     "name": "Телевізор"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 881,
     "name": "Телефон"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 882,
     "name": "Токен"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 883,
     "name": "Токен / ЕКП"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 884,
     "name": "Флеш-носій"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 885,
     "name": "Флешка"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 886,
     "name": "Флешку або Жорсткий диск"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 887,
     "name": "Широкоформатний монітор"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 888,
     "name": "Шредер"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 889,
     "name": "кабель VGA -VGA та перехідник VGA - HDMI"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 890,
     "name": "кабель живлення до системного блоку"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 891,
     "name": "моноблок"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 892,
     "name": "принтер кольоровий"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 893,
     "name": "інвенторний генератор"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 894,
     "name": "інверторний генератор 3кВт"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 895,
     "name": "Планшет "
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 896,
     "name": "Токен "
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 897,
     "name": "Флешка "
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 898,
     "name": "Телевізор на КСП\n 50-55"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 899,
     "name": "Монітор 23-27"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 900,
     "name": " інверторний генератор 3кВт"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 901,
     "name": "Монітор "
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 902,
     "name": "Телевізор 43"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   }
 ];
 
@@ -13788,22 +16125,42 @@ export const mockTypes: DirectoryItem[] = [
   {
     "id": 895,
     "name": "ДСК"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 896,
     "name": "МОСІ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 897,
     "name": "Робочий"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 898,
     "name": "СЕДО"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 899,
     "name": ""
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   }
 ];
 
@@ -13811,278 +16168,554 @@ export const mockPositions: DirectoryItem[] = [
   {
     "id": 899,
     "name": "G-1"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 900,
     "name": "Інспектор СДБР"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 901,
     "name": "Асистент фармацевта аптеки медичного пункту медичного батальйону"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 902,
     "name": "Головний сержант 3-го господарчого взводу 2-ї роти матеріального забезпечення батальйону забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 903,
     "name": "Діловод"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 904,
     "name": "Діловод S1"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 905,
     "name": "Діловод матеріально технічними засобами медичного відділу управління тилу логістики (G-4)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 906,
     "name": "Діловот АТ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 907,
     "name": "Лікар медичного пункту медичного батальйону"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 908,
     "name": "Нач служби забезпеченя ПММ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 909,
     "name": "Начальник КТП СДБР"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 910,
     "name": "Начальник Служби Координації підготовки підрозділів артилерії відділу підготовки за призначенням (G-7)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 911,
     "name": "Начальник відділення медичного забезпечення медичного батальйону"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 912,
     "name": "Начальник відділу квартирно експлуатаційного забезпечення управління тилу логістики"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 913,
     "name": "Начальник відділу планування та підготовки управлінь військових частин управління підготовки"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 914,
     "name": "Начальник речового складу 2-го господарчого взводу 1-ї роти матеріального забезпечення батальйону забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 915,
     "name": "Начальник служби вивчення та впровадження досвіду відділу планування та підготовки управлінь військових частин управління підготовки G-7"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 916,
     "name": "Начальник служби з питань запобігання та виявлення корупції ПШГ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 917,
     "name": "Оператор безпілотних літальних апаратів 5 відділення ударних безпілотних авіаційних комплексів взводу ударних безпілотних авіаційних комплексів літакового типу спеціального призначення роти ударних безпілотних авіаційних комплексів спеціального призначення батальйону безпілотних систем"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 918,
     "name": "Офіцер відділу комунікацій персональної штабної групи"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 919,
     "name": "Помічник начальника служби РХБЗ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 920,
     "name": "Сержант з матеріального забезпечення 1-ї зенітної артилерійської батареї зентіного ракетно-артилерійського дивізіону"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 921,
     "name": "Служба безпілотних систем"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 922,
     "name": "Старший офіцер відділення обліку виплати одноразової грошової допомоги управління фінансового забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 923,
     "name": "Старший офіцер відділення організації зв'язку управління зв'язку та інформатизації (G-6) штабу"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 924,
     "name": "Старший офіцер служби координації колективної підготовки відділу підготовки військ управління підготовки"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 925,
     "name": "Старший офіцер служби охорони праці персональної штабної групи"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 926,
     "name": "Старший помічник начальника віддлення напрямків відділу командних пунктів G-3 Штабу"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 927,
     "name": "Т.в.о. начальника відділу матеріального обілдку управління фінансового забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 928,
     "name": "Топографічна служба"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 929,
     "name": "Штаб сержант першої категорії СБДР управління озброєння і техніки (технічної частини)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 930,
     "name": "Штаб-сержант першої категорії продовольчого відділу управління тилу логістики (G-4)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 931,
     "name": "водій 1-го зенітно ракетного відділення 1-го зенітно ракетного взводу 1-ї зенітно ракетної батареї зенітно ракетно-артилеріцського дивізіону"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 932,
     "name": "головний сержант 3-го взводу охорони 2-ї роти охорони батальйону охорони"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 933,
     "name": "головний сержант батальйону охорони"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 934,
     "name": "дешифрувальник розвідувальних матеріалів з безпілотних літальних апаратів відділення збору, обробки та аналізу інформації роти ударних безпілотних авіаційних комплексів спеціального призначення батальйону безпілотних систем"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 935,
     "name": "діловод обліково - операційної служби  відділу бронетанкової техніки  управління озброєння і техніки (технічної частини) логістики (G-4)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 936,
     "name": "командир 1-го автомобільного взводу 2-ї автомобільної роти батальйону забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 937,
     "name": "командир 1-го господарчого взводу 1-ї роти матеріального забезпечення батальйону забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 938,
     "name": "командир 1-ої автомобільної роти"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 939,
     "name": "командир 1-ї роти матеріального забезпечення батальйону забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 940,
     "name": "командир 2-го взводу охорони 2-ї роти охорони батальйону охорони"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 941,
     "name": "командир взводу 3-го взводу охорони 1-ї роти охорони батальйону охорони"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 942,
     "name": "командир госпітальної роти медичного батальйону"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 943,
     "name": "командир евакуаційної роти ремонтно-відновлювального батальйону"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 944,
     "name": "начальник відділу кадрової роботи управління персоналу (G-1) штабу"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 945,
     "name": "начальник групи технічного обслуговування та списання безпілотних систем відділу технічного забезпечення безпілотних систем управління безпілотних систем"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 946,
     "name": "начальник служби військового капеланства персональної штабної групи"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 947,
     "name": "начальник служби запобігання та виявлення корупції"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 948,
     "name": "начальник служби координації підготовки підрозділів ППО  відділу підготовки за призначенням управління підготовки (G-7)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 949,
     "name": "начальник топографічної служби"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 950,
     "name": "начальника служби організації ремонту БТ техніки"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 951,
     "name": "сержант з матеріального забезпечення 2-ї автомобільної роти батальйону забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 952,
     "name": "сержант матеріального забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 953,
     "name": "старший оператор відділення обслуговування роти"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 954,
     "name": "старший офіцер Розрахункового відділу управління фін. забезпечення персональної штабної групи"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 955,
     "name": "старший офіцер відділу матеріального обліку управління фінансового забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 956,
     "name": "старший офіцер служби забезпечення безпілотних систем відділу безпілотних систем штабу молодший лейтенант"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 957,
     "name": "старший офіцер служби комплектування та проходження служби рядовим, сержантським і старшинським складом відділу кадрової роботи управління персоналу штабу"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 958,
     "name": "старший офіцер служби обліку та звітності відділу обліку особового складу управління персоналу (G-1) штабу"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 959,
     "name": "старший офіцер фінансово видаткового відділення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 960,
     "name": "старший технік- начальник КТП СБДР"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 961,
     "name": "т. в. о. начальника управління безпілотних систем персональної штабної групи"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 962,
     "name": "т.в.о. КРВБ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 963,
     "name": "тво командира взводу Сбдр"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 964,
     "name": "технік служби технічного захисту інформації режимно-секретного відділу персональної штабної групи"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 965,
     "name": "штаб серажнт першої категорії фінансово-видаткового відділення управління фінансвого забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 966,
     "name": "штаб-сержант служби організації забезпечення бронетанковою технікою відділу бронетанкової техніки управління озброєння і техніки (технічної частини) логістики (G-4)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 967,
     "name": "інженер групи технічного обслуговування та списання безпілотних систем відділу технічного забезпечення безпілотних систем управління безпілотних систем"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   }
 ];
 
@@ -14090,462 +16723,922 @@ export const mockDepartments: DirectoryItem[] = [
   {
     "id": 968,
     "name": "(G-1)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 969,
     "name": "G-1"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 970,
     "name": "G-2"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 971,
     "name": "G-3"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 972,
     "name": "G-4"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 973,
     "name": "G-5"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 974,
     "name": "G-6"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 975,
     "name": "G-7"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 976,
     "name": "G1"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 977,
     "name": "G3"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 978,
     "name": "G7"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 979,
     "name": "Інф. роботи"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 980,
     "name": "АТ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 981,
     "name": "Автомобіл. служба"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 982,
     "name": "Автомобільна техніка"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 983,
     "name": "ББпС"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 984,
     "name": "БЗ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 985,
     "name": "БПС"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 986,
     "name": "БТ відділ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 987,
     "name": "Бат. забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 988,
     "name": "Бат.забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 989,
     "name": "Бат.охорони"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 990,
     "name": "Батальйон Охорони"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 991,
     "name": "Батальйон забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 992,
     "name": "Батальйон охорони"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 993,
     "name": "Батальон охорони"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 994,
     "name": "Безпілотних систем"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 995,
     "name": "Безпілотні системи"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 996,
     "name": "БпС"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 997,
     "name": "Бронетанкової техніки"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 998,
     "name": "ВБпСШ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 999,
     "name": "ВДЗК"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1000,
     "name": "ВЗ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1001,
     "name": "Вузол зв'язку"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1002,
     "name": "Відділ благодійної допомоги"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1003,
     "name": "Відділ комунікації (медійка)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1004,
     "name": "Відділ медичного забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1005,
     "name": "Відділ озброєння"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1006,
     "name": "Відділ підтримки"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1007,
     "name": "Відділення РЕБ штабу"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1008,
     "name": "Відділення гуманітарних дисциплін управління по РОС"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1009,
     "name": "Відділення дисципліни"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1010,
     "name": "Група комплектування"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1011,
     "name": "Група нагородженнь (G-1)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1012,
     "name": "Група організації списання матеріально-технічних засобів управління озброєння і техніки (технічної частини) логістики (G-4)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1013,
     "name": "ЗРАД"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1014,
     "name": "ЗРАДН"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1015,
     "name": "ЗРАДн"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1016,
     "name": "КЕЗ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1017,
     "name": "Кадрова робота G-1"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1018,
     "name": "Мед.забезпеченння"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1019,
     "name": "Мед.забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1020,
     "name": "Медична служба"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1021,
     "name": "Медичний бат"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1022,
     "name": "Медичний відділ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1023,
     "name": "ОЗСП"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1024,
     "name": "Облік особового складу G-1"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1025,
     "name": "ПММ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1026,
     "name": "ППО"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1027,
     "name": "ПШГ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1028,
     "name": "Пожежний відділ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1029,
     "name": "Пожежний загін"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1030,
     "name": "Продовольчий відділ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1031,
     "name": "Псих. забезпечення ПШГ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1032,
     "name": "Психологи"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1033,
     "name": "Психологічного забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1034,
     "name": "РВБ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1035,
     "name": "РЕБ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1036,
     "name": "РОС"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1037,
     "name": "РОС Відділення дисципліни"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1038,
     "name": "РОС ЦВС"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1039,
     "name": "РРЕБ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1040,
     "name": "РСВ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1041,
     "name": "РСВ/ТЗІ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1042,
     "name": "РХБЗ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1043,
     "name": "РХБз"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1044,
     "name": "Рекламний відділ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1045,
     "name": "Ремонтно-відновлювальний батальйон"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1046,
     "name": "Речовий відділ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1047,
     "name": "СБ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1048,
     "name": "СБДР"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1049,
     "name": "СБС"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1050,
     "name": "СБС Берсерка"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1051,
     "name": "СБпС"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1052,
     "name": "СДБР"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1053,
     "name": "Секція зв'язку G-6"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1054,
     "name": "Служба закупівель"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1055,
     "name": "Служба комплектування"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1056,
     "name": "Служба охорони праці"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1057,
     "name": "Служба супроводу РОС"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1058,
     "name": "Топогрпфічна служба"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1059,
     "name": "УПО G-3"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1060,
     "name": "Управління"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1061,
     "name": "Управління озброєння і техніки (технічної частини) логістики (G-4)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1062,
     "name": "Управління підготовки"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1063,
     "name": "Управління підготовки G-7"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1064,
     "name": "Управління тилу логістики G-4"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1065,
     "name": "Управліня тилу логістики (G-4)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1066,
     "name": "Фіз. підготовка і спорт"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1067,
     "name": "Фін. відділ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1068,
     "name": "Фін. забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1069,
     "name": "Фінансове забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1070,
     "name": "Юридичне відділення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1071,
     "name": "Юридичний відділ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1072,
     "name": "відділ беспілотних систем068 772 67 00"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1073,
     "name": "відділу комунікації"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1074,
     "name": "персональна штабна група"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1075,
     "name": "ремонтно-відновлювального батальйону"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1076,
     "name": "управління фінансового забезпечення"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1077,
     "name": "фізичної підготовки і спорту"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1088,
     "name": ""
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1079,
     "name": " Група комплектування"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1080,
     "name": " (G-1)"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1081,
     "name": "G-1 "
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1082,
     "name": "ремонтно-відновлювального батальйону "
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   }
 ];
 
@@ -14553,34 +17646,66 @@ export const mockRanks: DirectoryItem[] = [
   {
     "id": 1078,
     "name": "солдат"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1079,
     "name": "сержант"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1080,
     "name": "офіцер"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1081,
     "name": "капітан"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1082,
     "name": "майор"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1083,
     "name": "підполковник"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1084,
     "name": "полковник"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1088,
     "name": "не визначено"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   }
 ];
 
@@ -14588,13 +17713,25 @@ export const mockLocations: DirectoryItem[] = [
   {
     "id": 1085,
     "name": "БЗ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1086,
     "name": "Київ"
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   },
   {
     "id": 1087,
     "name": ""
+    ,
+    "mobileNumber": "",
+    "notes": "",
+    "position": "Не вказано"
   }
 ];
