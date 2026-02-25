@@ -433,22 +433,6 @@ export default function App() {
             </div>
           </button>
 
-          <div className="pt-4 mt-2 mb-1 px-4 text-[10px] font-bold uppercase tracking-wider text-muted-foreground/60">
-            Звіти та Графіки
-          </div>
-
-          <button
-            onClick={() => handleTabChange('status-graph')}
-            className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'status-graph'
-              ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400'
-              : 'text-muted-foreground hover:bg-muted hover:text-foreground'
-              }`}
-          >
-            <div className="flex items-center gap-3">
-              <FileText size={20} />
-              Графік статусів
-            </div>
-          </button>
 
           <button
             onClick={() => handleTabChange('needs')}
@@ -513,8 +497,20 @@ export default function App() {
             </span>
           </button>
 
-          <div className="pt-4 mt-4 border-t border-border">
+          <div className="pt-4 mt-4 border-t border-border space-y-2">
             <ThemeToggle />
+            <button
+              onClick={() => handleTabChange('status-graph')}
+              className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'status-graph'
+                ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400'
+                : 'text-muted-foreground hover:bg-muted hover:text-foreground'
+                }`}
+            >
+              <div className="flex items-center gap-3">
+                <FileText size={20} />
+                Граф статусів
+              </div>
+            </button>
           </div>
         </nav>
       </aside>
