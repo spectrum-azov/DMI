@@ -1,4 +1,4 @@
-export type DateFilter = 'day' | 'week' | 'month' | 'quarter' | 'year';
+export type DateFilter = 'day' | 'week' | 'month' | 'quarter' | 'year' | 'all';
 
 export const DATE_FILTER_LABELS: Record<DateFilter, string> = {
     day: 'День',
@@ -6,6 +6,7 @@ export const DATE_FILTER_LABELS: Record<DateFilter, string> = {
     month: 'Місяць',
     quarter: 'Квартал',
     year: 'Рік',
+    all: 'Весь час',
 };
 
 export const ALL_DATE_FILTERS: DateFilter[] = [
@@ -14,6 +15,7 @@ export const ALL_DATE_FILTERS: DateFilter[] = [
     'month',
     'quarter',
     'year',
+    'all',
 ];
 
 /** Parse Ukrainian date format dd.MM.yyyy → Date */
@@ -26,12 +28,14 @@ export function parseUkrDate(dateStr: string): Date | null {
     return new Date(year, month - 1, day);
 }
 
-/** Returns the earliest date that still matches the given filter from today */
-export function getFilterStartDate(filter: DateFilter): Date {
+/** Returns the earliest date that still matches the given filter from today. Returns null for 'all'. */
+export function getFilterStartDate(filter: DateFilter): Date | null {
     const now = new Date();
     const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
     switch (filter) {
+        case 'all':
+            return null;
         case 'day':
             return today;
         case 'week': {
@@ -57,12 +61,20 @@ export function getFilterStartDate(filter: DateFilter): Date {
     }
 }
 
-/** Returns true if the given Ukrainian date string falls within the filter period */
+/** Returns true if the given Ukrainian date string falls within the filter period. 
+ *  If dateStr is empty, returns true so records without dates aren't hidden by default.
+ */
 export function isWithinPeriod(
     dateStr: string,
     filter: DateFilter,
 ): boolean {
+    if (filter === 'all' || !dateStr) return true;
+
     const date = parseUkrDate(dateStr);
     if (!date) return false;
-    return date >= getFilterStartDate(filter);
+
+    const startDate = getFilterStartDate(filter);
+    if (!startDate) return true; // Safety for 'all'
+
+    return date >= startDate;
 }

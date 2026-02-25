@@ -15,7 +15,7 @@ export function Dashboard({
   needsData,
   rejectedData,
 }: DashboardProps) {
-  const [dateFilter, setDateFilter] = useState<DateFilter>('month');
+  const [dateFilter, setDateFilter] = useState<DateFilter>('all');
 
   const filteredIssuance = issuanceData.filter((i) =>
     isWithinPeriod(i.issueDate, dateFilter),
@@ -194,12 +194,12 @@ export function Dashboard({
                   </div>
                   <span
                     className={`text-xs px-2 py-1 rounded-full whitespace-nowrap font-medium ${need.status === 'Погоджено'
-                        ? 'bg-green-100 text-green-700'
-                        : need.status === 'В обробці'
-                          ? 'bg-yellow-100 text-yellow-700'
-                          : need.status === 'Новий запит'
-                            ? 'bg-blue-100 text-blue-700'
-                            : 'bg-gray-100 text-gray-700'
+                      ? 'bg-green-100 text-green-700'
+                      : need.status === 'В обробці'
+                        ? 'bg-yellow-100 text-yellow-700'
+                        : need.status === 'Новий запит'
+                          ? 'bg-blue-100 text-blue-700'
+                          : 'bg-gray-100 text-gray-700'
                       }`}
                   >
                     {need.status}

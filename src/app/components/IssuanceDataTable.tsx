@@ -49,7 +49,7 @@ export function IssuanceDataTable({
     const [searchTerm, setSearchTerm] = useState('');
     const [sortColumn, setSortColumn] = useState<string | null>(null);
     const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
-    const [dateFilter, setDateFilter] = useState<DateFilter>('month');
+    const [dateFilter, setDateFilter] = useState<DateFilter>('all');
     const [visibleColumns, setVisibleColumns] = useState<Set<string>>(
         new Set(DEFAULT_VISIBLE),
     );
