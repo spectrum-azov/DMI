@@ -54,6 +54,7 @@ const DEFAULT_VISIBLE: string[] = [
     'fullName',
     'rank',
     'department',
+    'applicationStatus',
     'status',
 ];
 
@@ -404,6 +405,17 @@ export function IssuanceDataTable({
                                                         }`}
                                                 >
                                                     {item.status}
+                                                </span>
+                                            ) : column.key === 'applicationStatus' ? (
+                                                <span
+                                                    className={`inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider ${item.applicationStatus === 'готово'
+                                                        ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
+                                                        : item.applicationStatus === 'не готово'
+                                                            ? 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'
+                                                            : 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400'
+                                                        }`}
+                                                >
+                                                    {item.applicationStatus}
                                                 </span>
                                             ) : (
                                                 (() => {

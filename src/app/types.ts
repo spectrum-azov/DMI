@@ -9,7 +9,7 @@ export interface IssuanceRecord {
   fullName: string;
   rank: number;
   department: number;
-  request: string;
+  applicationStatus: string;
   requestNumber: string;
   /** Date queued/issued — format dd.MM.yyyy */
   issueDate: string;
@@ -18,6 +18,7 @@ export interface IssuanceRecord {
   status: string;
   notes: string;
   quantity: number;
+  request: string;
 }
 
 export interface NeedRecord {

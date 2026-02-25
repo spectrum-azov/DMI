@@ -21,7 +21,7 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
     fullName: '',
     rank: 0,
     department: 0,
-    request: '',
+    applicationStatus: 'В процесі',
     requestNumber: '',
     issueDate: '',
     location: 0,
@@ -40,7 +40,7 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
         fullName: editData.fullName,
         rank: editData.rank,
         department: editData.department,
-        request: editData.request,
+        applicationStatus: editData.applicationStatus,
         requestNumber: editData.requestNumber,
         issueDate: editData.issueDate,
         location: editData.location,
@@ -57,7 +57,7 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
         fullName: '',
         rank: directories.ranks[0]?.id || 0,
         department: directories.departments[0]?.id || 0,
-        request: 'Так',
+        applicationStatus: 'В процесі',
         requestNumber: '',
         issueDate: new Date().toLocaleDateString('uk-UA'),
         location: directories.locations[0]?.id || 0,
@@ -173,14 +173,17 @@ export function IssuanceForm({ isOpen, onClose, onSubmit, editData, directories 
 
             <div>
               <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Заявка
+                Статус заявки
               </label>
-              <input
-                type="text"
-                value={formData.request}
-                onChange={(e) => setFormData({ ...formData, request: e.target.value })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
+              <select
+                value={formData.applicationStatus}
+                onChange={(e) => setFormData({ ...formData, applicationStatus: e.target.value })}
+                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
+              >
+                <option value="готово">готово</option>
+                <option value="в процесі">в процесі</option>
+                <option value="не готово">не готово</option>
+              </select>
             </div>
 
             <div>
