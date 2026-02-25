@@ -275,15 +275,22 @@ export default function App() {
       quantity: need.quantity,
       model: '',
       serialNumber: '',
-      fullName: need.contactPerson,
+      fullName: need.fullName,
       rank: need.rank,
+      position: need.position,
       department: need.department,
+      mobileNumber: need.mobileNumber,
       applicationStatus: 'В процесі',
       requestNumber: `REQ-${Date.now()}`,
       issueDate: new Date().toLocaleDateString('uk-UA'),
       location: need.location,
       status: 'На видачу',
       notes: need.notes || `Погоджено запит від ${need.requestDate}`,
+      isFrtCp: need.isFrtCp,
+      frpFullName: need.frpFullName,
+      frpRank: need.frpRank,
+      frpPosition: need.frpPosition,
+      frpMobileNumber: need.frpMobileNumber,
     };
 
     setIssuanceData([...issuanceData, newIssuance]);
@@ -298,15 +305,20 @@ export default function App() {
       nomenclature: issuance.nomenclature,
       type: issuance.type,
       quantity: issuance.quantity,
-      contactPerson: issuance.fullName,
+      fullName: issuance.fullName,
       rank: issuance.rank,
-      position: '',
+      position: issuance.position,
       department: issuance.department,
-      mobileNumber: '',
+      mobileNumber: issuance.mobileNumber,
       requestDate: new Date().toLocaleDateString('uk-UA'),
       location: issuance.location,
       status: 'В обробці',
       notes: issuance.notes || `Повернено з видачі (Відміна). Раніше було: ${issuance.requestNumber}`,
+      isFrtCp: issuance.isFrtCp,
+      frpFullName: issuance.frpFullName,
+      frpRank: issuance.frpRank,
+      frpPosition: issuance.frpPosition,
+      frpMobileNumber: issuance.frpMobileNumber,
     };
 
     setNeedsData([...needsData, newNeed]);
@@ -321,7 +333,7 @@ export default function App() {
       nomenclature: need.nomenclature,
       type: need.type,
       quantity: need.quantity,
-      fullName: need.contactPerson,
+      fullName: need.fullName,
       rank: need.rank,
       position: need.position,
       department: need.department,
@@ -330,6 +342,11 @@ export default function App() {
       notes: reason,
       location: need.location,
       rejectedDate: new Date().toLocaleDateString('uk-UA'),
+      isFrtCp: need.isFrtCp,
+      frpFullName: need.frpFullName,
+      frpRank: need.frpRank,
+      frpPosition: need.frpPosition,
+      frpMobileNumber: need.frpMobileNumber,
     };
 
     setRejectedData([...rejectedData, newRejected]);
@@ -418,6 +435,11 @@ export default function App() {
         location: moveTarget.location,
         status: 'На погодженні',
         notes: notes || moveTarget.notes,
+        isFrtCp: moveTarget.isFrtCp,
+        frpFullName: moveTarget.frpFullName,
+        frpRank: moveTarget.frpRank,
+        frpPosition: moveTarget.frpPosition,
+        frpMobileNumber: moveTarget.frpMobileNumber,
       };
       setNeedsData([newNeed, ...needsData]);
     } else if (moveType === 'issuance') {
@@ -430,13 +452,20 @@ export default function App() {
         serialNumber: '',
         fullName: moveTarget.fullName,
         rank: moveTarget.rank,
+        position: moveTarget.position,
         department: moveTarget.department,
+        mobileNumber: moveTarget.mobileNumber,
         applicationStatus: 'В процесі',
         requestNumber: '',
         issueDate: new Date().toLocaleDateString('uk-UA'),
         location: moveTarget.location,
         status: 'На видачу',
         notes: notes || moveTarget.notes,
+        isFrtCp: moveTarget.isFrtCp,
+        frpFullName: moveTarget.frpFullName,
+        frpRank: moveTarget.frpRank,
+        frpPosition: moveTarget.frpPosition,
+        frpMobileNumber: moveTarget.frpMobileNumber,
       };
       setIssuanceData([newIssuance, ...issuanceData]);
     }
@@ -541,6 +570,11 @@ export default function App() {
     { key: 'issueDate', label: 'Дата запису', width: '100px' },
     { key: 'location', label: 'Локація', width: '100px' },
     { key: 'status', label: 'Статус', width: '100px' },
+    { key: 'isFrtCp', label: 'МВО є контактною особою', width: '100px' },
+    { key: 'frpFullName', label: 'ПІБ МВО', width: '150px' },
+    { key: 'frpRank', label: 'Звання МВО', width: '100px' },
+    { key: 'frpPosition', label: 'Посада МВО', width: '120px' },
+    { key: 'frpMobileNumber', label: 'Моб. номер МВО', width: '120px' },
   ];
 
   const needsColumns = [
@@ -548,7 +582,7 @@ export default function App() {
     { key: 'nomenclature', label: 'Номенклатура', width: '150px' },
     { key: 'type', label: 'Тип', width: '100px' },
     { key: 'quantity', label: 'К-сть', width: '80px' },
-    { key: 'contactPerson', label: 'Контактна особа', width: '150px' },
+    { key: 'fullName', label: 'Контактна особа', width: '150px' },
     { key: 'rank', label: 'Звання', width: '100px' },
     { key: 'position', label: 'Посада', width: '120px' },
     { key: 'department', label: 'Служба', width: '120px' },
@@ -556,6 +590,11 @@ export default function App() {
     { key: 'requestDate', label: 'Дата запиту', width: '100px' },
     { key: 'location', label: 'Локація', width: '100px' },
     { key: 'status', label: 'Статус', width: '130px' },
+    { key: 'isFrtCp', label: 'МВО є контактною особою', width: '100px' },
+    { key: 'frpFullName', label: 'ПІБ МВО', width: '150px' },
+    { key: 'frpRank', label: 'Звання МВО', width: '100px' },
+    { key: 'frpPosition', label: 'Посада МВО', width: '120px' },
+    { key: 'frpMobileNumber', label: 'Моб. номер МВО', width: '120px' },
   ];
 
   const rejectedColumns = [
@@ -570,6 +609,11 @@ export default function App() {
     { key: 'mobileNumber', label: 'Моб. номер', width: '120px' },
     { key: 'status', label: 'Статус', width: '100px' },
     { key: 'rejectedDate', label: 'Дата відхилення', width: '120px' },
+    { key: 'isFrtCp', label: 'МВО є контактною особою', width: '100px' },
+    { key: 'frpFullName', label: 'ПІБ МВО', width: '150px' },
+    { key: 'frpRank', label: 'Звання МВО', width: '100px' },
+    { key: 'frpPosition', label: 'Посада МВО', width: '120px' },
+    { key: 'frpMobileNumber', label: 'Моб. номер МВО', width: '120px' },
     { key: 'notes', label: 'Примітки', width: '200px' },
   ];
 

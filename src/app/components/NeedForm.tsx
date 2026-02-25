@@ -17,11 +17,16 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
     nomenclature: 0,
     type: 0,
     quantity: 1,
-    contactPerson: '',
+    fullName: '',
     rank: 0,
-    position: '',
+    position: 0,
     department: 0,
     mobileNumber: '',
+    isFrtCp: true,
+    frpFullName: '',
+    frpRank: 0,
+    frpPosition: 0,
+    frpMobileNumber: '',
     requestDate: formatUkrDate(new Date()),
     location: 0,
     status: 'На погодженні',
@@ -34,11 +39,16 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
         nomenclature: editData.nomenclature,
         type: editData.type,
         quantity: editData.quantity,
-        contactPerson: editData.contactPerson,
+        fullName: editData.fullName,
         rank: editData.rank,
-        position: editData.position,
+        position: typeof editData.position === 'number' ? editData.position : 0,
         department: editData.department,
         mobileNumber: editData.mobileNumber,
+        isFrtCp: editData.isFrtCp ?? true,
+        frpFullName: editData.frpFullName || '',
+        frpRank: editData.frpRank || 0,
+        frpPosition: typeof editData.frpPosition === 'number' ? editData.frpPosition : 0,
+        frpMobileNumber: editData.frpMobileNumber || '',
         requestDate: editData.requestDate,
         location: editData.location,
         status: editData.status,
@@ -49,11 +59,16 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
         nomenclature: directories.nomenclatures[0]?.id || 0,
         type: directories.types[0]?.id || 0,
         quantity: 1,
-        contactPerson: '',
+        fullName: '',
         rank: directories.ranks[0]?.id || 0,
-        position: '',
+        position: directories.positions[0]?.id || 0,
         department: directories.departments[0]?.id || 0,
         mobileNumber: '',
+        isFrtCp: true,
+        frpFullName: '',
+        frpRank: directories.ranks[0]?.id || 0,
+        frpPosition: directories.positions[0]?.id || 0,
+        frpMobileNumber: '',
         requestDate: formatUkrDate(new Date()),
         location: directories.locations[0]?.id || 0,
         status: 'На погодженні',
@@ -121,8 +136,8 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
               <input
                 type="text"
                 required
-                value={formData.contactPerson}
-                onChange={(e) => setFormData({ ...formData, contactPerson: e.target.value })}
+                value={formData.fullName}
+                onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                 className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
               />
             </div>
@@ -135,18 +150,13 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
               onChange={(val) => setFormData({ ...formData, rank: val })}
             />
 
-            <div>
-              <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Посада *
-              </label>
-              <input
-                type="text"
-                required
-                value={formData.position}
-                onChange={(e) => setFormData({ ...formData, position: e.target.value })}
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
-            </div>
+            <SearchableSelect
+              label="Посада *"
+              required
+              options={directories.positions}
+              value={formData.position}
+              onChange={(val) => setFormData({ ...formData, position: val })}
+            />
 
             <SearchableSelect
               label="Служба"
@@ -175,7 +185,7 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
               <input
                 type="date"
                 required
-                value={formatUkrToISO(formData.requestDate)}
+                value={formatUkrToISO(formData.requestDate || '')}
                 onChange={(e) => setFormData({ ...formData, requestDate: formatISOToUkr(e.target.value) })}
                 className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
               />
@@ -199,6 +209,73 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
                 value={formData.status}
                 className="w-full px-3 py-2 bg-muted border border-input rounded-lg text-muted-foreground cursor-not-allowed"
               />
+            </div>
+
+            <div className="md:col-span-2 border-t border-border pt-4 mt-2">
+              <div className="flex items-center gap-2 mb-4">
+                <input
+                  type="checkbox"
+                  id="isFrtCp"
+                  checked={formData.isFrtCp}
+                  onChange={(e) => setFormData({ ...formData, isFrtCp: e.target.checked })}
+                  className="w-4 h-4 text-blue-600 rounded border-input focus:ring-blue-500"
+                />
+                <label htmlFor="isFrtCp" className="text-sm font-medium text-foreground">
+                  Матеріально відповідальна особа спропадає з контактною особою
+                </label>
+              </div>
+
+              {!formData.isFrtCp && (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 animate-in fade-in slide-in-from-top-2 duration-300">
+                  <div className="md:col-span-2">
+                    <h3 className="text-sm font-semibold text-foreground mb-2">
+                      Дані матеріально відповідальної особи
+                    </h3>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-muted-foreground mb-1">
+                      ПІБ МВО *
+                    </label>
+                    <input
+                      type="text"
+                      required={!formData.isFrtCp}
+                      value={formData.frpFullName}
+                      onChange={(e) => setFormData({ ...formData, frpFullName: e.target.value })}
+                      className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
+                    />
+                  </div>
+
+                  <SearchableSelect
+                    label="Звання МВО"
+                    required={!formData.isFrtCp}
+                    options={directories.ranks}
+                    value={formData.frpRank || 0}
+                    onChange={(val) => setFormData({ ...formData, frpRank: val })}
+                  />
+
+                  <SearchableSelect
+                    label="Посада МВО *"
+                    required={!formData.isFrtCp}
+                    options={directories.positions}
+                    value={formData.frpPosition || 0}
+                    onChange={(val) => setFormData({ ...formData, frpPosition: val })}
+                  />
+
+                  <div>
+                    <label className="block text-sm font-medium text-muted-foreground mb-1">
+                      Моб. номер МВО *
+                    </label>
+                    <input
+                      type="tel"
+                      required={!formData.isFrtCp}
+                      value={formData.frpMobileNumber}
+                      onChange={(e) => setFormData({ ...formData, frpMobileNumber: e.target.value })}
+                      className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
+                    />
+                  </div>
+                </div>
+              )}
             </div>
 
             <div className="md:col-span-2">

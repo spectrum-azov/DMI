@@ -284,13 +284,21 @@ export function DataTable({
                       className="px-4 py-3 text-sm text-foreground whitespace-nowrap"
                     >
                       {(() => {
-                        const val = item[column.key];
+                        const val = (item as any)[column.key];
                         if (val === undefined || val === null || val === '') return '—';
-                        if (column.key === 'nomenclature') return directories?.nomenclatures.find(d => d.id === val)?.name || val;
-                        if (column.key === 'type') return directories?.types.find(d => d.id === val)?.name || val;
-                        if (column.key === 'rank') return directories?.ranks.find(d => d.id === val)?.name || val;
-                        if (column.key === 'department') return directories?.departments.find(d => d.id === val)?.name || val;
-                        if (column.key === 'location') return directories?.locations.find(d => d.id === val)?.name || val;
+
+                        const getDirName = (list: any[] | undefined, id: any) => {
+                          const found = list?.find(d => String(d.id) === String(id));
+                          return found ? found.name : undefined;
+                        };
+
+                        if (column.key === 'nomenclature') return getDirName(directories?.nomenclatures, val) ?? val;
+                        if (column.key === 'type') return getDirName(directories?.types, val) ?? val;
+                        if (column.key === 'rank') return getDirName(directories?.ranks, val) ?? val;
+                        if (column.key === 'department') return getDirName(directories?.departments, val) ?? val;
+                        if (column.key === 'location') return getDirName(directories?.locations, val) ?? val;
+                        if (column.key === 'position') return getDirName(directories?.positions, val) ?? val;
+
                         return String(val);
                       })()}
                     </td>

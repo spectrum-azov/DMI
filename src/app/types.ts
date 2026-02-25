@@ -1,59 +1,46 @@
 // Types for the equipment management system
 
-export interface IssuanceRecord {
-  id: number;
-  nomenclature: number;
-  type: number;
-  model: string;
-  serialNumber: string;
-  fullName: string;
-  rank: number;
-  department: number;
-  applicationStatus: string;
-  requestNumber: string;
-  /** Date queued/issued — format dd.MM.yyyy */
-  issueDate: string;
-  location: number;
-  /** 'Готується' | 'Готово' | 'На паузі' | 'Повернули' | 'Заміна' | 'Відміна' | 'Чекаєм на поставку' | 'Видано' | 'На видачу' */
-  status: string;
-  notes: string;
-  quantity: number;
-  request: string;
-}
-
-export interface NeedRecord {
+/** 
+ * Unified record type for the system.
+ * Combines fields for Needs, Issuance, and Rejected records.
+ */
+export interface BaseRecord {
   id: number;
   nomenclature: number;
   type: number;
   quantity: number;
-  contactPerson: string;
+  fullName: string; // Unified: contactPerson = fullName
   rank: number;
   position: string;
   department: number;
   mobileNumber: string;
-  /** format dd.MM.yyyy */
-  requestDate: string;
   location: number;
   status: string;
   notes: string;
+
+  // Financially Responsible Person (FRP) fields
+  isFrtCp?: boolean;
+  frpFullName?: string;
+  frpRank?: number;
+  frpPosition?: string;
+  frpMobileNumber?: string;
+
+  // Domain specific fields (optional)
+  model?: string;
+  serialNumber?: string;
+  applicationStatus?: string;
+  requestNumber?: string;
+
+  // Date fields (stored as dd.MM.yyyy)
+  date?: string; // Unified date field
+  issueDate?: string;
+  requestDate?: string;
+  rejectedDate?: string;
 }
 
-export interface RejectedRecord {
-  id: number;
-  nomenclature: number;
-  type: number;
-  quantity: number;
-  fullName: string;
-  rank: number;
-  position: string;
-  department: number;
-  mobileNumber: string;
-  status: string;
-  notes: string;
-  location: number;
-  /** format dd.MM.yyyy */
-  rejectedDate: string;
-}
+export type IssuanceRecord = BaseRecord;
+export type NeedRecord = BaseRecord;
+export type RejectedRecord = BaseRecord;
 
 export interface DirectoryItem {
   id: number;

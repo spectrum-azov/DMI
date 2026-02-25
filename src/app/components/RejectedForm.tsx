@@ -24,13 +24,18 @@ export function RejectedForm({
     quantity: 1,
     fullName: '',
     rank: 0,
-    position: '',
+    position: 0, // Changed from '' to 0
     department: 0,
     mobileNumber: '',
     status: 'Відхилено',
     notes: '',
     location: 0,
     rejectedDate: new Date().toLocaleDateString('uk-UA'),
+    isFrtCp: true,
+    frpFullName: '',
+    frpRank: 0,
+    frpPosition: 0, // Changed from '' to 0
+    frpMobileNumber: '',
   });
 
   useEffect(() => {
@@ -41,13 +46,18 @@ export function RejectedForm({
         quantity: editData.quantity,
         fullName: editData.fullName,
         rank: editData.rank,
-        position: editData.position,
+        position: typeof editData.position === 'number' ? editData.position : 0, // Added type check
         department: editData.department,
         mobileNumber: editData.mobileNumber,
         status: editData.status,
         notes: editData.notes,
         location: editData.location,
         rejectedDate: editData.rejectedDate || '',
+        isFrtCp: editData.isFrtCp ?? true,
+        frpFullName: editData.frpFullName || '',
+        frpRank: editData.frpRank || 0,
+        frpPosition: typeof editData.frpPosition === 'number' ? editData.frpPosition : 0, // Added type check
+        frpMobileNumber: editData.frpMobileNumber || '',
       });
     } else {
       setFormData({
@@ -56,13 +66,18 @@ export function RejectedForm({
         quantity: 1,
         fullName: '',
         rank: directories.ranks[0]?.id || 0,
-        position: '',
+        position: directories.positions[0]?.id || 0, // Changed from '' to default ID
         department: directories.departments[0]?.id || 0,
         mobileNumber: '',
         status: 'Відхилено',
         notes: '',
         location: directories.locations[0]?.id || 0,
         rejectedDate: new Date().toLocaleDateString('uk-UA'),
+        isFrtCp: true,
+        frpFullName: '',
+        frpRank: directories.ranks[0]?.id || 0,
+        frpPosition: directories.positions[0]?.id || 0, // Changed from '' to default ID
+        frpMobileNumber: '',
       });
     }
   }, [editData, isOpen]);
@@ -150,20 +165,13 @@ export function RejectedForm({
               onChange={(val) => setFormData({ ...formData, rank: val })}
             />
 
-            <div>
-              <label className="block text-sm font-medium text-muted-foreground mb-1">
-                Посада *
-              </label>
-              <input
-                type="text"
-                required
-                value={formData.position}
-                onChange={(e) =>
-                  setFormData({ ...formData, position: e.target.value })
-                }
-                className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
-              />
-            </div>
+            <SearchableSelect
+              label="Посада *"
+              required
+              options={directories.positions}
+              value={formData.position}
+              onChange={(val) => setFormData({ ...formData, position: val })}
+            />
 
             <SearchableSelect
               label="Служба"
@@ -242,6 +250,73 @@ export function RejectedForm({
                 placeholder="Причина відхилення..."
                 className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
               />
+            </div>
+
+            <div className="md:col-span-2 border-t border-border pt-4 mt-2">
+              <div className="flex items-center gap-2 mb-4">
+                <input
+                  type="checkbox"
+                  id="isFrtCp"
+                  checked={formData.isFrtCp}
+                  onChange={(e) => setFormData({ ...formData, isFrtCp: e.target.checked })}
+                  className="w-4 h-4 text-blue-600 rounded border-input focus:ring-blue-500"
+                />
+                <label htmlFor="isFrtCp" className="text-sm font-medium text-foreground">
+                  Матеріально відповідальна особа спропадає з отримувачем
+                </label>
+              </div>
+
+              {!formData.isFrtCp && (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 animate-in fade-in slide-in-from-top-2 duration-300">
+                  <div className="md:col-span-2">
+                    <h3 className="text-sm font-semibold text-foreground mb-2">
+                      Дані матеріально відповідальної особи
+                    </h3>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-muted-foreground mb-1">
+                      ПІБ МВО *
+                    </label>
+                    <input
+                      type="text"
+                      required={!formData.isFrtCp}
+                      value={formData.frpFullName}
+                      onChange={(e) => setFormData({ ...formData, frpFullName: e.target.value })}
+                      className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
+                    />
+                  </div>
+
+                  <SearchableSelect
+                    label="Звання МВО"
+                    required={!formData.isFrtCp}
+                    options={directories.ranks}
+                    value={formData.frpRank || 0}
+                    onChange={(val) => setFormData({ ...formData, frpRank: val })}
+                  />
+
+                  <SearchableSelect
+                    label="Посада МВО *"
+                    required={!formData.isFrtCp}
+                    options={directories.positions}
+                    value={formData.frpPosition || 0}
+                    onChange={(val) => setFormData({ ...formData, frpPosition: val })}
+                  />
+
+                  <div>
+                    <label className="block text-sm font-medium text-muted-foreground mb-1">
+                      Моб. номер МВО *
+                    </label>
+                    <input
+                      type="tel"
+                      required={!formData.isFrtCp}
+                      value={formData.frpMobileNumber}
+                      onChange={(e) => setFormData({ ...formData, frpMobileNumber: e.target.value })}
+                      className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground placeholder:text-muted-foreground"
+                    />
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 

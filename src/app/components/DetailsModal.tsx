@@ -129,11 +129,22 @@ export function DetailsModal({
                                     {(() => {
                                         const val = data[col.key];
                                         if (val === undefined || val === null || val === '') return <span className="text-muted-foreground/50 font-normal italic">—</span>;
-                                        if (col.key === 'nomenclature') return directories?.nomenclatures.find(d => d.id === val)?.name || val;
-                                        if (col.key === 'type') return directories?.types.find(d => d.id === val)?.name || val;
-                                        if (col.key === 'rank') return directories?.ranks.find(d => d.id === val)?.name || val;
-                                        if (col.key === 'department') return directories?.departments.find(d => d.id === val)?.name || val;
-                                        if (col.key === 'location') return directories?.locations.find(d => d.id === val)?.name || val;
+
+                                        // Lookup function for directory items
+                                        const getDirName = (list: any[] | undefined, id: any) => {
+                                            const found = list?.find(d => String(d.id) === String(id));
+                                            return found ? found.name : undefined;
+                                        };
+
+                                        if (col.key === 'nomenclature') return getDirName(directories?.nomenclatures, val) ?? val;
+                                        if (col.key === 'type') return getDirName(directories?.types, val) ?? val;
+                                        if (col.key === 'rank' || col.key === 'frpRank') return getDirName(directories?.ranks, val) ?? val;
+                                        if (col.key === 'department') return getDirName(directories?.departments, val) ?? val;
+                                        if (col.key === 'location') return getDirName(directories?.locations, val) ?? val;
+                                        if (col.key === 'position') return getDirName(directories?.positions, val) ?? val;
+
+                                        if (col.key === 'isFrtCp') return val ? 'Так' : 'Ні';
+
                                         return String(val);
                                     })()}
                                 </div>
