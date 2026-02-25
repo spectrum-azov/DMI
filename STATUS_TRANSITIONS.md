@@ -23,7 +23,7 @@ flowchart TD
     %% Секція Потреб
     subgraph Needs ["📦 ПОТРЕБИ"]
         direction TB
-        N1["В обробці"]:::needs
+        N1["На погодженні"]:::needs
         N2["Погоджено"]:::needs
         N1 --> N2
     end
@@ -42,6 +42,8 @@ flowchart TD
             direction LR
             I4["На паузі"]:::issuance
             I5["Чекаєм на поставку"]:::issuance
+            I7["Готується"]:::issuance
+            I8["Готово"]:::issuance
         end
         
         I1 <--> Prep
@@ -52,8 +54,9 @@ flowchart TD
     %% Кінцеві стани
     subgraph Final ["🏁 РЕЗУЛЬТАТ"]
         direction TB
-        F1["Видано"]:::done
-        F2["Відхилено"]:::error
+          F2["Відхилено"]:::error
+           F1["Видано"]:::done
+     
         
         subgraph Post ["Сервіс"]
             direction LR

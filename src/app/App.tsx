@@ -33,7 +33,9 @@ import { QuickDateFilter } from './components/QuickDateFilter';
 import { DateFilter, isWithinPeriod } from './utils/dateUtils';
 import { useEffect } from 'react';
 
-type TabType = 'dashboard' | 'issuance' | 'needs' | 'rejected';
+import { StatusGraph } from './components/StatusGraph';
+
+type TabType = 'dashboard' | 'issuance' | 'needs' | 'rejected' | 'status-graph';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<TabType>('dashboard');
@@ -431,6 +433,23 @@ export default function App() {
             </div>
           </button>
 
+          <div className="pt-4 mt-2 mb-1 px-4 text-[10px] font-bold uppercase tracking-wider text-muted-foreground/60">
+            Звіти та Графіки
+          </div>
+
+          <button
+            onClick={() => handleTabChange('status-graph')}
+            className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'status-graph'
+              ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400'
+              : 'text-muted-foreground hover:bg-muted hover:text-foreground'
+              }`}
+          >
+            <div className="flex items-center gap-3">
+              <FileText size={20} />
+              Графік статусів
+            </div>
+          </button>
+
           <button
             onClick={() => handleTabChange('needs')}
             className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'needs'
@@ -511,12 +530,14 @@ export default function App() {
                   {activeTab === 'needs' && 'Потреби в обладнанні'}
                   {activeTab === 'issuance' && 'Видача обладнання'}
                   {activeTab === 'rejected' && 'Відхилені запити'}
+                  {activeTab === 'status-graph' && 'Графік переходів статусів'}
                 </h1>
                 <p className="text-sm text-muted-foreground mt-1">
                   {activeTab === 'dashboard' && 'Огляд системи обліку обладнання'}
                   {activeTab === 'needs' && 'Управління запитами на нове обладнання'}
                   {activeTab === 'issuance' && 'Облік виданого обладнання та черга на видачу'}
                   {activeTab === 'rejected' && 'Історія відхилених потреб'}
+                  {activeTab === 'status-graph' && 'Візуалізація життєвого циклу обладнання'}
                 </p>
               </div>
               <QuickDateFilter value={dateFilter} onChange={setDateFilter} />
@@ -579,6 +600,8 @@ export default function App() {
                 />
               </div>
             )}
+
+            {activeTab === 'status-graph' && <StatusGraph />}
           </div>
         </div>
       </main>
