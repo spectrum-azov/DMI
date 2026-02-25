@@ -1,5 +1,12 @@
-import { Edit2, Trash2, Search, SendToBack } from 'lucide-react';
-import { useState } from 'react';
+import {
+    Edit2,
+    Trash2,
+    Search,
+    SendToBack,
+    SlidersHorizontal,
+    X,
+} from 'lucide-react';
+import { useState, useRef, useEffect } from 'react';
 import { IssuanceRecord } from '../types';
 import { QuickDateFilter } from './QuickDateFilter';
 import { DateFilter, isWithinPeriod } from '../utils/dateUtils';
@@ -20,6 +27,15 @@ interface IssuanceDataTableProps {
     emptyMessage?: string;
 }
 
+/** Column keys visible by default */
+const DEFAULT_VISIBLE: string[] = [
+    'nomenclature',
+    'quantity',
+    'fullName',
+    'department',
+    'status',
+];
+
 export function IssuanceDataTable({
     data,
     columns,
@@ -33,6 +49,39 @@ export function IssuanceDataTable({
     const [sortColumn, setSortColumn] = useState<string | null>(null);
     const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
     const [dateFilter, setDateFilter] = useState<DateFilter>('month');
+    const [visibleColumns, setVisibleColumns] = useState<Set<string>>(
+        new Set(DEFAULT_VISIBLE),
+    );
+    const [isColumnsOpen, setIsColumnsOpen] = useState(false);
+    const columnsRef = useRef<HTMLDivElement>(null);
+
+    // Close column panel when clicking outside
+    useEffect(() => {
+        function handleClickOutside(e: MouseEvent) {
+            if (
+                columnsRef.current &&
+                !columnsRef.current.contains(e.target as Node)
+            ) {
+                setIsColumnsOpen(false);
+            }
+        }
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, []);
+
+    const toggleColumn = (key: string) => {
+        setVisibleColumns((prev) => {
+            const next = new Set(prev);
+            if (next.has(key)) {
+                next.delete(key);
+            } else {
+                next.add(key);
+            }
+            return next;
+        });
+    };
+
+    const activeColumns = columns.filter((col) => visibleColumns.has(col.key));
 
     const pendingData = data.filter((item) => item.status === 'На видачу');
     const issuedData = data.filter((item) => item.status === 'Видано');
@@ -51,8 +100,8 @@ export function IssuanceDataTable({
 
     const sortedData = [...searchFiltered].sort((a, b) => {
         if (!sortColumn) return 0;
-        const aVal = (a as Record<string, unknown>)[sortColumn];
-        const bVal = (b as Record<string, unknown>)[sortColumn];
+        const aVal = (a as any)[sortColumn];
+        const bVal = (b as any)[sortColumn];
         if (aVal === bVal) return 0;
         const cmp = aVal! < bVal! ? -1 : 1;
         return sortDirection === 'asc' ? cmp : -cmp;
@@ -69,47 +118,117 @@ export function IssuanceDataTable({
 
     return (
         <div className="flex flex-col gap-4">
-            {/* Sub-tabs */}
-            <div className="flex gap-2">
-                <button
-                    onClick={() => setSubTab('pending')}
-                    className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all border ${subTab === 'pending'
+            {/* Top toolbar */}
+            <div className="flex flex-wrap items-center justify-between gap-3">
+                {/* Sub-tabs */}
+                <div className="flex gap-2">
+                    <button
+                        onClick={() => setSubTab('pending')}
+                        className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all border ${subTab === 'pending'
                             ? 'bg-orange-50 border-orange-300 text-orange-700 shadow-sm'
                             : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'
-                        }`}
-                >
-                    <span
-                        className={`inline-flex items-center justify-center w-5 h-5 rounded-full text-xs font-bold ${subTab === 'pending'
+                            }`}
+                    >
+                        <span
+                            className={`inline-flex items-center justify-center w-5 h-5 rounded-full text-xs font-bold ${subTab === 'pending'
                                 ? 'bg-orange-200 text-orange-800'
                                 : 'bg-gray-200 text-gray-600'
-                            }`}
-                    >
-                        {pendingData.length}
-                    </span>
-                    На видачу
-                </button>
+                                }`}
+                        >
+                            {pendingData.length}
+                        </span>
+                        На видачу
+                    </button>
 
-                <button
-                    onClick={() => setSubTab('issued')}
-                    className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all border ${subTab === 'issued'
+                    <button
+                        onClick={() => setSubTab('issued')}
+                        className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all border ${subTab === 'issued'
                             ? 'bg-green-50 border-green-300 text-green-700 shadow-sm'
                             : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'
-                        }`}
-                >
-                    <span
-                        className={`inline-flex items-center justify-center w-5 h-5 rounded-full text-xs font-bold ${subTab === 'issued'
-                                ? 'bg-green-200 text-green-800'
-                                : 'bg-gray-200 text-gray-600'
                             }`}
                     >
-                        {issuedData.length}
-                    </span>
-                    Видано
-                </button>
+                        <span
+                            className={`inline-flex items-center justify-center w-5 h-5 rounded-full text-xs font-bold ${subTab === 'issued'
+                                ? 'bg-green-200 text-green-800'
+                                : 'bg-gray-200 text-gray-600'
+                                }`}
+                        >
+                            {issuedData.length}
+                        </span>
+                        Видано
+                    </button>
+                </div>
+
+                {/* Column visibility toggle */}
+                <div className="relative" ref={columnsRef}>
+                    <button
+                        onClick={() => setIsColumnsOpen((o) => !o)}
+                        className={`flex items-center gap-1.5 px-3 py-2 rounded-lg border text-sm font-medium transition-colors ${isColumnsOpen
+                            ? 'bg-blue-50 border-blue-300 text-blue-700'
+                            : 'bg-white border-gray-300 text-gray-700 hover:bg-gray-50'
+                            }`}
+                        title="Налаштування колонок"
+                    >
+                        <SlidersHorizontal size={16} />
+                        <span className="hidden sm:inline">Колонки</span>
+                    </button>
+
+                    {isColumnsOpen && (
+                        <div className="absolute right-0 top-full mt-1 z-20 bg-white border border-gray-200 rounded-xl shadow-lg p-3 min-w-[210px]">
+                            <div className="flex items-center justify-between mb-2 pb-2 border-b border-gray-100">
+                                <span className="text-sm font-semibold text-gray-700">
+                                    Видимі колонки
+                                </span>
+                                <button
+                                    onClick={() => setIsColumnsOpen(false)}
+                                    className="p-0.5 text-gray-400 hover:text-gray-600 rounded"
+                                >
+                                    <X size={14} />
+                                </button>
+                            </div>
+                            <div className="space-y-1">
+                                {columns.map((col) => (
+                                    <label
+                                        key={col.key}
+                                        className="flex items-center gap-2 py-1 px-1 rounded cursor-pointer hover:bg-gray-50 text-sm text-gray-700 select-none"
+                                    >
+                                        <input
+                                            type="checkbox"
+                                            checked={visibleColumns.has(col.key)}
+                                            onChange={() => toggleColumn(col.key)}
+                                            className="accent-blue-600 w-4 h-4 rounded"
+                                        />
+                                        {col.label}
+                                    </label>
+                                ))}
+                            </div>
+                            <div className="mt-2 pt-2 border-t border-gray-100 flex gap-2">
+                                <button
+                                    onClick={() =>
+                                        setVisibleColumns(new Set(columns.map((c) => c.key)))
+                                    }
+                                    className="text-xs text-blue-600 hover:underline"
+                                >
+                                    Всі
+                                </button>
+                                <button
+                                    onClick={() =>
+                                        setVisibleColumns(new Set(DEFAULT_VISIBLE))
+                                    }
+                                    className="text-xs text-gray-500 hover:underline"
+                                >
+                                    За замовч.
+                                </button>
+                            </div>
+                        </div>
+                    )}
+                </div>
             </div>
 
             {/* Quick date filter */}
-            <QuickDateFilter value={dateFilter} onChange={setDateFilter} />
+            <div className="flex">
+                <QuickDateFilter value={dateFilter} onChange={setDateFilter} />
+            </div>
 
             {/* Search */}
             <div className="relative">
@@ -131,7 +250,7 @@ export function IssuanceDataTable({
                 <table className="w-full">
                     <thead className="bg-gray-50 border-b border-gray-200">
                         <tr>
-                            {columns.map((column) => (
+                            {activeColumns.map((column) => (
                                 <th
                                     key={column.key}
                                     onClick={() => handleSort(column.key)}
@@ -160,12 +279,12 @@ export function IssuanceDataTable({
                             <tr>
                                 <td
                                     colSpan={
-                                        columns.length +
+                                        activeColumns.length +
                                         (onEdit || onDelete || onIssue ? 1 : 0)
                                     }
                                     className="px-4 py-8 text-center text-gray-500 text-sm"
                                 >
-                                    {searchTerm
+                                    {searchTerm || dateFilter !== 'year'
                                         ? 'Нічого не знайдено'
                                         : subTab === 'pending'
                                             ? 'Немає записів "На видачу"'
@@ -178,7 +297,7 @@ export function IssuanceDataTable({
                                     key={item.id}
                                     className="hover:bg-gray-50 transition-colors"
                                 >
-                                    {columns.map((column) => (
+                                    {activeColumns.map((column) => (
                                         <td
                                             key={column.key}
                                             className="px-4 py-3 text-sm text-gray-900 whitespace-nowrap"
@@ -186,14 +305,14 @@ export function IssuanceDataTable({
                                             {column.key === 'status' ? (
                                                 <span
                                                     className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${item.status === 'На видачу'
-                                                            ? 'bg-orange-100 text-orange-700'
-                                                            : 'bg-green-100 text-green-700'
+                                                        ? 'bg-orange-100 text-orange-700'
+                                                        : 'bg-green-100 text-green-700'
                                                         }`}
                                                 >
                                                     {item.status}
                                                 </span>
                                             ) : (
-                                                ((item as Record<string, unknown>)[column.key] ?? '—') as string
+                                                ((item as any)[column.key] ?? '—') as string
                                             )}
                                         </td>
                                     ))}

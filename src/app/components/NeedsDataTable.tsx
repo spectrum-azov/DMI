@@ -97,8 +97,8 @@ export function NeedsDataTable({
 
   const sortedData = [...searchFiltered].sort((a, b) => {
     if (!sortColumn) return 0;
-    const aVal = (a as Record<string, unknown>)[sortColumn];
-    const bVal = (b as Record<string, unknown>)[sortColumn];
+    const aVal = (a as any)[sortColumn];
+    const bVal = (b as any)[sortColumn];
     if (aVal === bVal) return 0;
     const cmp = aVal! < bVal! ? -1 : 1;
     return sortDirection === 'asc' ? cmp : -cmp;
@@ -132,8 +132,8 @@ export function NeedsDataTable({
           <button
             onClick={() => setIsColumnsOpen((o) => !o)}
             className={`flex items-center gap-1.5 px-3 py-2 rounded-lg border text-sm font-medium transition-colors ${isColumnsOpen
-                ? 'bg-blue-50 border-blue-300 text-blue-700'
-                : 'bg-white border-gray-300 text-gray-700 hover:bg-gray-50'
+              ? 'bg-blue-50 border-blue-300 text-blue-700'
+              : 'bg-white border-gray-300 text-gray-700 hover:bg-gray-50'
               }`}
             title="Налаштування колонок"
           >
@@ -258,8 +258,8 @@ export function NeedsDataTable({
                       key={column.key}
                       className="px-4 py-3 text-sm text-gray-900 whitespace-nowrap"
                     >
-                      {(item as Record<string, unknown>)[column.key] != null
-                        ? String((item as Record<string, unknown>)[column.key])
+                      {(item as any)[column.key] != null
+                        ? String((item as any)[column.key])
                         : '—'}
                     </td>
                   ))}
