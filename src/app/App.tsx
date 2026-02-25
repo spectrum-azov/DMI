@@ -536,7 +536,9 @@ export default function App() {
                   {activeTab === 'status-graph' && 'Візуалізація життєвого циклу обладнання'}
                 </p>
               </div>
-              <QuickDateFilter value={dateFilter} onChange={setDateFilter} />
+              {activeTab !== 'status-graph' && (
+                <QuickDateFilter value={dateFilter} onChange={setDateFilter} />
+              )}
             </div>
 
             {activeTab === 'dashboard' && (
