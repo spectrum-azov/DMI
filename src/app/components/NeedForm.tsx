@@ -48,11 +48,13 @@ export function NeedForm({ isOpen, onClose, onSubmit, editData, directories }: N
   const selectedType = directories.types.find(t => t.id === formData.type);
 
   const isComputer = selectedNomenclature?.name.toLowerCase().includes('ноутбук') ||
-    selectedNomenclature?.name.toLowerCase().includes('комп\'ютер') ||
+    selectedNomenclature?.name.toLowerCase().includes('ноут') ||
+    selectedNomenclature?.name.toLowerCase().includes('комп') ||
     selectedNomenclature?.name.toLowerCase().includes('моноблок');
 
   const isSpecialType = selectedType?.name.toLowerCase().includes('робочий') ||
-    selectedType?.name.toLowerCase().includes('седо');
+    selectedType?.name.toLowerCase().includes('седо') ||
+    selectedType?.name.toLowerCase().includes('sedo');
 
   const showAccountFields = isComputer && isSpecialType;
 
