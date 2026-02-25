@@ -85,5 +85,6 @@
     "overrides": {
       "vite": "6.3.5"
     }
-  }
+  },
+  "homepage": "https://spectrum-azov.github.io/DataManagementInterface/"
 }
