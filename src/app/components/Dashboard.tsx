@@ -60,12 +60,6 @@ export function Dashboard({
 
   return (
     <div className="space-y-6">
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-        <div>
-          <h2 className="text-2xl font-semibold mb-1 text-foreground">Панель управління</h2>
-          <p className="text-muted-foreground">Огляд системи обліку обладнання</p>
-        </div>
-      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="bg-blue-50/50 border border-blue-200 rounded-lg p-6 dark:bg-blue-900/10 dark:border-blue-800">

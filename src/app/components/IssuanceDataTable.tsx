@@ -104,6 +104,14 @@ export function IssuanceDataTable({
 
     const pendingData = data.filter((item) => item.status !== 'Видано');
     const issuedData = data.filter((item) => item.status === 'Видано');
+
+    const filteredPendingCount = pendingData.filter((i) =>
+        isWithinPeriod(i.issueDate, dateFilter),
+    ).length;
+    const filteredIssuedCount = issuedData.filter((i) =>
+        isWithinPeriod(i.issueDate, dateFilter),
+    ).length;
+
     const activeData = subTab === 'pending' ? pendingData : issuedData;
 
     const dateFiltered = activeData.filter((item) =>
@@ -153,12 +161,12 @@ export function IssuanceDataTable({
                             }`}
                     >
                         <span
-                            className={`inline-flex items-center justify-center w-5 h-5 rounded-full text-xs font-bold ${subTab === 'pending'
+                            className={`inline-flex items-center justify-center h-5 px-1.5 rounded-full text-[10px] font-bold ${subTab === 'pending'
                                 ? 'bg-orange-200 text-orange-800 dark:bg-orange-800 dark:text-orange-100'
                                 : 'bg-muted text-muted-foreground'
                                 }`}
                         >
-                            {pendingData.length}
+                            {filteredPendingCount} / {pendingData.length}
                         </span>
                         На видачу
                     </button>
@@ -171,12 +179,12 @@ export function IssuanceDataTable({
                             }`}
                     >
                         <span
-                            className={`inline-flex items-center justify-center w-5 h-5 rounded-full text-xs font-bold ${subTab === 'issued'
+                            className={`inline-flex items-center justify-center h-5 px-1.5 rounded-full text-[10px] font-bold ${subTab === 'issued'
                                 ? 'bg-green-200 text-green-800 dark:bg-green-800 dark:text-green-100'
                                 : 'bg-muted text-muted-foreground'
                                 }`}
                         >
-                            {issuedData.length}
+                            {filteredIssuedCount} / {issuedData.length}
                         </span>
                         Видано
                     </button>
