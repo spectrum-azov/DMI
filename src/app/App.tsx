@@ -9,7 +9,11 @@ import {
   Menu,
   X,
   FileText,
+  Sun,
+  Moon,
 } from 'lucide-react';
+import { ThemeProvider } from 'next-themes';
+import { ThemeToggle } from './components/ui/theme-toggle';
 import { DataTable } from './components/DataTable';
 import { NeedsDataTable } from './components/NeedsDataTable';
 import { IssuanceDataTable } from './components/IssuanceDataTable';
@@ -308,18 +312,18 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col md:flex-row">
+    <div className="min-h-screen bg-background text-foreground flex flex-col md:flex-row">
       {/* Mobile top bar */}
-      <div className="md:hidden bg-white border-b border-gray-200 p-4 flex items-center justify-between sticky top-0 z-30">
+      <div className="md:hidden bg-card border-b border-border p-4 flex items-center justify-between sticky top-0 z-30">
         <div className="flex items-center gap-2">
           <FileSpreadsheet className="text-blue-600" size={24} />
-          <h1 className="text-lg font-bold text-gray-900 leading-tight">
+          <h1 className="text-lg font-bold text-foreground leading-tight">
             Система обліку <br /> обладнання
           </h1>
         </div>
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="p-2 bg-gray-100 rounded-lg text-gray-700 hover:bg-gray-200"
+          className="p-2 bg-muted rounded-lg text-muted-foreground hover:bg-accent"
         >
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -328,12 +332,12 @@ export default function App() {
       {/* Sidebar navigation */}
       <aside
         className={`${isMobileMenuOpen ? 'block' : 'hidden'
-          } md:block w-full md:w-64 bg-white border-r border-gray-200 flex-shrink-0 md:sticky md:top-0 md:h-screen md:overflow-y-auto z-20`}
+          } md:block w-full md:w-64 bg-card border-r border-border flex-shrink-0 md:sticky md:top-0 md:h-screen md:overflow-y-auto z-20`}
       >
-        <div className="hidden md:flex items-center gap-3 p-6 border-b border-gray-100">
+        <div className="hidden md:flex items-center gap-3 p-6 border-b border-border">
           <FileSpreadsheet className="text-blue-600 flex-shrink-0" size={32} />
           <div>
-            <h1 className="text-lg font-bold text-gray-900 leading-tight">
+            <h1 className="text-lg font-bold text-foreground leading-tight">
               Система обліку <br /> обладнання
             </h1>
           </div>
@@ -343,8 +347,8 @@ export default function App() {
           <button
             onClick={() => handleTabChange('dashboard')}
             className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'dashboard'
-              ? 'bg-blue-50 text-blue-700'
-              : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+              ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400'
+              : 'text-muted-foreground hover:bg-muted hover:text-foreground'
               }`}
           >
             <div className="flex items-center gap-3">
@@ -356,8 +360,8 @@ export default function App() {
           <button
             onClick={() => handleTabChange('needs')}
             className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'needs'
-              ? 'bg-blue-50 text-blue-700'
-              : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+              ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400'
+              : 'text-muted-foreground hover:bg-muted hover:text-foreground'
               }`}
           >
             <div className="flex items-center gap-3">
@@ -366,8 +370,8 @@ export default function App() {
             </div>
             <span
               className={`text-xs px-2 py-0.5 rounded-full ${activeTab === 'needs'
-                ? 'bg-blue-200 text-blue-800'
-                : 'bg-gray-100 text-gray-600'
+                ? 'bg-blue-200 text-blue-800 dark:bg-blue-800 dark:text-blue-100'
+                : 'bg-muted text-muted-foreground'
                 }`}
             >
               {needsData.length}
@@ -377,8 +381,8 @@ export default function App() {
           <button
             onClick={() => handleTabChange('issuance')}
             className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'issuance'
-              ? 'bg-blue-50 text-blue-700'
-              : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+              ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400'
+              : 'text-muted-foreground hover:bg-muted hover:text-foreground'
               }`}
           >
             <div className="flex items-center gap-3">
@@ -387,8 +391,8 @@ export default function App() {
             </div>
             <span
               className={`text-xs px-2 py-0.5 rounded-full ${activeTab === 'issuance'
-                ? 'bg-blue-200 text-blue-800'
-                : 'bg-gray-100 text-gray-600'
+                ? 'bg-blue-200 text-blue-800 dark:bg-blue-800 dark:text-blue-100'
+                : 'bg-muted text-muted-foreground'
                 }`}
             >
               {issuanceData.length}
@@ -398,8 +402,8 @@ export default function App() {
           <button
             onClick={() => handleTabChange('rejected')}
             className={`w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors ${activeTab === 'rejected'
-              ? 'bg-blue-50 text-blue-700'
-              : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+              ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400'
+              : 'text-muted-foreground hover:bg-muted hover:text-foreground'
               }`}
           >
             <div className="flex items-center gap-3">
@@ -408,20 +412,24 @@ export default function App() {
             </div>
             <span
               className={`text-xs px-2 py-0.5 rounded-full ${activeTab === 'rejected'
-                ? 'bg-blue-200 text-blue-800'
-                : 'bg-gray-100 text-gray-600'
+                ? 'bg-blue-200 text-blue-800 dark:bg-blue-800 dark:text-blue-100'
+                : 'bg-muted text-muted-foreground'
                 }`}
             >
               {rejectedData.length}
             </span>
           </button>
+
+          <div className="pt-4 mt-4 border-t border-border">
+            <ThemeToggle />
+          </div>
         </nav>
       </aside>
 
       {/* Main content */}
       <main className="flex-1 w-full max-w-full overflow-hidden">
         <div className="p-4 md:p-8 w-full max-w-6xl mx-auto">
-          <div className="bg-white border border-gray-200 rounded-xl shadow-sm p-4 md:p-6 overflow-hidden">
+          <div className="bg-card border border-border rounded-xl shadow-sm p-4 md:p-6 overflow-hidden">
             {activeTab === 'dashboard' && (
               <Dashboard
                 issuanceData={issuanceData}
@@ -434,10 +442,10 @@ export default function App() {
               <div className="space-y-4">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                   <div>
-                    <h2 className="text-xl font-semibold">
+                    <h2 className="text-xl font-semibold text-foreground">
                       Потреби в обладнанні
                     </h2>
-                    <p className="text-sm text-gray-500 mt-1">
+                    <p className="text-sm text-muted-foreground mt-1">
                       Управління запитами на нове обладнання
                     </p>
                   </div>
@@ -469,10 +477,10 @@ export default function App() {
               <div className="space-y-4">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                   <div>
-                    <h2 className="text-xl font-semibold">
+                    <h2 className="text-xl font-semibold text-foreground">
                       Видача обладнання
                     </h2>
-                    <p className="text-sm text-gray-500 mt-1">
+                    <p className="text-sm text-muted-foreground mt-1">
                       Облік виданого обладнання та черга на видачу
                     </p>
                   </div>
@@ -493,10 +501,10 @@ export default function App() {
               <div className="space-y-4">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                   <div>
-                    <h2 className="text-xl font-semibold">
+                    <h2 className="text-xl font-semibold text-foreground">
                       Відхилені запити
                     </h2>
-                    <p className="text-sm text-gray-500 mt-1">
+                    <p className="text-sm text-muted-foreground mt-1">
                       Історія відхилених потреб
                     </p>
                   </div>

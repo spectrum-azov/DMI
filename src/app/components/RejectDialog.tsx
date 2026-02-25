@@ -28,21 +28,21 @@ export function RejectDialog({ isOpen, onClose, onConfirm, itemName }: RejectDia
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
-      <div className="bg-white rounded-lg shadow-xl max-w-md w-full">
-        <div className="border-b border-gray-200 px-6 py-4 flex items-center justify-between">
-          <h2 className="text-xl font-semibold text-red-900">Відхилити запит</h2>
-          <button onClick={handleClose} className="text-gray-400 hover:text-gray-600">
+    <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+      <div className="bg-card rounded-lg shadow-xl max-w-md w-full border border-border">
+        <div className="border-b border-border px-6 py-4 flex items-center justify-between">
+          <h2 className="text-xl font-semibold text-red-600 dark:text-red-400">Відхилити запит</h2>
+          <button onClick={handleClose} className="text-muted-foreground hover:text-foreground">
             <X size={24} />
           </button>
         </div>
 
         <form onSubmit={handleSubmit} className="p-6 space-y-4">
           <div>
-            <p className="text-sm text-gray-600 mb-4">
-              Ви збираєтесь відхилити запит: <strong>{itemName}</strong>
+            <p className="text-sm text-muted-foreground mb-4">
+              Ви збираєтесь відхилити запит: <strong className="text-foreground">{itemName}</strong>
             </p>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-muted-foreground mb-2">
               Причина відхилення *
             </label>
             <textarea
@@ -51,15 +51,15 @@ export function RejectDialog({ isOpen, onClose, onConfirm, itemName }: RejectDia
               onChange={(e) => setReason(e.target.value)}
               rows={4}
               placeholder="Вкажіть причину відхилення запиту..."
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
+              className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 text-foreground placeholder:text-muted-foreground"
             />
           </div>
 
-          <div className="flex gap-3 justify-end pt-4 border-t border-gray-200">
+          <div className="flex gap-3 justify-end pt-4 border-t border-border">
             <button
               type="button"
               onClick={handleClose}
-              className="px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
+              className="px-4 py-2 text-muted-foreground bg-muted hover:bg-muted/80 rounded-lg transition-colors"
             >
               Скасувати
             </button>

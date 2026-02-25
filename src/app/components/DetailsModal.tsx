@@ -68,20 +68,20 @@ export function DetailsModal({
     // Helper for status badge styling
     const getStatusStyles = (status: string) => {
         const s = String(status || '').toLowerCase();
-        if (s.includes('погоджено') || s.includes('видано')) return 'bg-green-100 text-green-700 border-green-200';
-        if (s.includes('відхилено')) return 'bg-red-100 text-red-700 border-red-200';
-        if (s.includes('чекає') || s.includes('на видачу')) return 'bg-orange-100 text-orange-700 border-orange-200';
-        return 'bg-blue-100 text-blue-700 border-blue-200';
+        if (s.includes('погоджено') || s.includes('видано')) return 'bg-green-100 text-green-700 border-green-200 dark:bg-green-900/30 dark:text-green-400 dark:border-green-800/50';
+        if (s.includes('відхилено')) return 'bg-red-100 text-red-700 border-red-200 dark:bg-red-900/30 dark:text-red-400 dark:border-red-800/50';
+        if (s.includes('чекає') || s.includes('на видачу')) return 'bg-orange-100 text-orange-700 border-orange-200 dark:bg-orange-900/30 dark:text-orange-400 dark:border-orange-800/50';
+        return 'bg-blue-100 text-blue-700 border-blue-200 dark:bg-blue-900/30 dark:text-blue-400 dark:border-blue-800/50';
     };
 
     const mainFields = ['nomenclature', 'status', 'notes'];
     const gridFields = columns.filter(col => !mainFields.includes(col.key));
 
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm animate-in fade-in duration-200">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200">
             <div
                 ref={modalRef}
-                className="bg-white rounded-[2rem] shadow-2xl w-full max-w-xl overflow-hidden animate-in zoom-in-95 duration-200 border border-gray-100"
+                className="bg-card rounded-[2rem] shadow-2xl w-full max-w-xl overflow-hidden animate-in zoom-in-95 duration-200 border border-border"
                 onClick={(e) => e.stopPropagation()}
             >
                 {/* Header Section */}
@@ -91,7 +91,7 @@ export function DetailsModal({
                     </div>
                     <button
                         onClick={onClose}
-                        className="p-1.5 text-gray-400 hover:text-gray-900 hover:bg-gray-100 rounded-xl transition-all"
+                        className="p-1.5 text-muted-foreground hover:text-foreground hover:bg-muted rounded-xl transition-all"
                     >
                         <X size={20} />
                     </button>
@@ -101,12 +101,12 @@ export function DetailsModal({
                 <div className="px-8 pb-8 pt-2">
                     {/* Main Title Row */}
                     <div className="mb-6">
-                        <h2 className="text-2xl font-black text-gray-900 leading-tight mb-2 tracking-tight">
+                        <h2 className="text-2xl font-black text-foreground leading-tight mb-2 tracking-tight">
                             {data.nomenclature || 'Без назви'}
                         </h2>
-                        <div className="flex items-start gap-2 bg-gray-50/80 p-3 rounded-2xl border border-gray-100">
-                            <FileText size={16} className="text-gray-400 mt-0.5 shrink-0" />
-                            <p className="text-gray-600 font-medium text-sm leading-relaxed">
+                        <div className="flex items-start gap-2 bg-muted/50 p-3 rounded-2xl border border-border">
+                            <FileText size={16} className="text-muted-foreground mt-0.5 shrink-0" />
+                            <p className="text-muted-foreground font-medium text-sm leading-relaxed">
                                 {data.notes || 'Немає додаткових приміток'}
                             </p>
                         </div>
@@ -116,14 +116,14 @@ export function DetailsModal({
                     <div className="grid grid-cols-2 gap-x-10 gap-y-4">
                         {gridFields.map((col) => (
                             <div key={col.key} className="flex flex-col gap-0.5">
-                                <div className="flex items-center gap-1.5 text-gray-400">
+                                <div className="flex items-center gap-1.5 text-muted-foreground">
                                     <span className="shrink-0 opacity-70">{getIcon(col.key)}</span>
                                     <span className="text-[10px] font-bold uppercase tracking-widest">
                                         {col.label}
                                     </span>
                                 </div>
-                                <div className="text-gray-900 font-bold text-[13px] leading-tight break-words">
-                                    {data[col.key] || <span className="text-gray-300 font-normal italic">—</span>}
+                                <div className="text-foreground font-bold text-[13px] leading-tight break-words">
+                                    {data[col.key] || <span className="text-muted-foreground/50 font-normal italic">—</span>}
                                 </div>
                             </div>
                         ))}
@@ -134,7 +134,7 @@ export function DetailsModal({
                 <div className="px-8 pb-8 flex justify-end">
                     <button
                         onClick={onClose}
-                        className="px-8 py-3 bg-gray-900 text-white text-xs font-black uppercase tracking-widest rounded-2xl hover:bg-blue-600 transition-all shadow-xl shadow-gray-200 active:scale-95"
+                        className="px-8 py-3 bg-primary text-primary-foreground text-xs font-black uppercase tracking-widest rounded-2xl hover:bg-blue-600 transition-all shadow-xl dark:shadow-none active:scale-95"
                     >
                         Закрити
                     </button>
