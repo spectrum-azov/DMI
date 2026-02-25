@@ -140,6 +140,24 @@ export default function App() {
     }
   };
 
+  const handleUpdateIssuanceStatus = (id: string, newStatus: string) => {
+    const item = issuanceData.find((i) => i.id === id);
+    if (!item) return;
+
+    if (newStatus === 'Відміна') {
+      if (confirm('Ви впевнені, що хочете відмінити цю видачу? Запис буде повернуто в потреби.')) {
+        moveIssuanceToNeeds({ ...item, status: newStatus });
+        return;
+      }
+    }
+
+    setIssuanceData(
+      issuanceData.map((i) =>
+        i.id === id ? { ...i, status: newStatus } : i,
+      ),
+    );
+  };
+
   // Handlers for Needs
   const handleAddNeed = (data: Omit<NeedRecord, 'id'>) => {
     if (editingNeed) {
@@ -539,6 +557,7 @@ export default function App() {
                   onEdit={handleEditIssuance}
                   onDelete={handleDeleteIssuance}
                   onIssue={handleIssueItem}
+                  onStatusChange={handleUpdateIssuanceStatus}
                   onRowClick={(item) => handleRowClick(item, 'issuance')}
                   emptyMessage="Немає записів про видачу"
                   dateFilter={dateFilter}

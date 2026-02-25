@@ -5,6 +5,7 @@ import {
     SendToBack,
     SlidersHorizontal,
     X,
+    ChevronDown,
 } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import { IssuanceRecord } from '../types';
@@ -28,7 +29,19 @@ interface IssuanceDataTableProps {
     onRowClick?: (item: IssuanceRecord) => void;
     emptyMessage?: string;
     dateFilter: DateFilter;
+    onStatusChange?: (id: string, newStatus: string) => void;
 }
+
+const ISSUANCE_STATUSES = [
+    'Готується',
+    'Готово',
+    'На паузі',
+    'Чекаєм на поставку',
+    'Повернули',
+    'Заміна',
+    'Відміна',
+    'Видано'
+];
 
 /** Column keys visible by default */
 const DEFAULT_VISIBLE: string[] = [
@@ -48,6 +61,7 @@ export function IssuanceDataTable({
     onRowClick,
     emptyMessage = 'Немає даних',
     dateFilter,
+    onStatusChange,
 }: IssuanceDataTableProps) {
     const [subTab, setSubTab] = useState<'pending' | 'issued'>('pending');
     const [searchTerm, setSearchTerm] = useState('');
@@ -58,7 +72,9 @@ export function IssuanceDataTable({
         return saved ? new Set(JSON.parse(saved)) : new Set(DEFAULT_VISIBLE);
     });
     const [isColumnsOpen, setIsColumnsOpen] = useState(false);
+    const [openStatusId, setOpenStatusId] = useState<string | null>(null);
     const columnsRef = useRef<HTMLDivElement>(null);
+    const statusDropdownRef = useRef<HTMLDivElement>(null);
 
     // Pagination state
     const [currentPage, setCurrentPage] = useState(1);
@@ -72,6 +88,12 @@ export function IssuanceDataTable({
                 !columnsRef.current.contains(e.target as Node)
             ) {
                 setIsColumnsOpen(false);
+            }
+            if (
+                statusDropdownRef.current &&
+                !statusDropdownRef.current.contains(e.target as Node)
+            ) {
+                setOpenStatusId(null);
             }
         }
         document.addEventListener('mousedown', handleClickOutside);
@@ -359,17 +381,53 @@ export function IssuanceDataTable({
                                         <td className="px-4 py-3 text-sm">
                                             <div className="flex gap-1">
                                                 {onIssue && subTab === 'pending' && (
-                                                    <button
-                                                        onClick={(e) => {
-                                                            e.stopPropagation();
-                                                            onIssue(item.id);
-                                                        }}
-                                                        className="flex items-center gap-1 px-2 py-1 bg-green-600 text-white rounded text-xs font-medium hover:bg-green-700 transition-colors"
-                                                        title="Видати"
-                                                    >
-                                                        <SendToBack size={13} />
-                                                        Видати
-                                                    </button>
+                                                    <div className="flex gap-1">
+                                                        <button
+                                                            onClick={(e) => {
+                                                                e.stopPropagation();
+                                                                onIssue(item.id);
+                                                            }}
+                                                            className="flex items-center gap-1 px-2 py-1 bg-green-600 text-white rounded text-xs font-medium hover:bg-green-700 transition-colors"
+                                                            title="Видати"
+                                                        >
+                                                            <SendToBack size={13} />
+                                                            Видати
+                                                        </button>
+
+                                                        {onStatusChange && (
+                                                            <div className="relative" ref={openStatusId === item.id ? statusDropdownRef : null}>
+                                                                <button
+                                                                    onClick={(e) => {
+                                                                        e.stopPropagation();
+                                                                        setOpenStatusId(openStatusId === item.id ? null : item.id);
+                                                                    }}
+                                                                    className="flex items-center gap-1 px-2 py-1 bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400 rounded text-xs font-medium hover:bg-blue-200 dark:hover:bg-blue-900/50 transition-colors border border-blue-200 dark:border-blue-800"
+                                                                    title="Змінити статус"
+                                                                >
+                                                                    Статус
+                                                                    <ChevronDown size={13} />
+                                                                </button>
+
+                                                                {openStatusId === item.id && (
+                                                                    <div className="absolute right-0 top-full mt-1 z-30 bg-card border border-border rounded-lg shadow-xl py-1 min-w-[160px]">
+                                                                        {ISSUANCE_STATUSES.map((status) => (
+                                                                            <button
+                                                                                key={status}
+                                                                                onClick={(e) => {
+                                                                                    e.stopPropagation();
+                                                                                    onStatusChange(item.id, status);
+                                                                                    setOpenStatusId(null);
+                                                                                }}
+                                                                                className={`w-full text-left px-3 py-1.5 text-xs hover:bg-accent hover:text-accent-foreground transition-colors ${item.status === status ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/20 font-medium' : 'text-foreground'}`}
+                                                                            >
+                                                                                {status}
+                                                                            </button>
+                                                                        ))}
+                                                                    </div>
+                                                                )}
+                                                            </div>
+                                                        )}
+                                                    </div>
                                                 )}
                                                 {onEdit && (
                                                     <button
