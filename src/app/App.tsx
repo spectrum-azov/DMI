@@ -30,7 +30,7 @@ import {
   mockRejectedData,
 } from './data/mockData';
 import { QuickDateFilter } from './components/QuickDateFilter';
-import { DateFilter } from './utils/dateUtils';
+import { DateFilter, isWithinPeriod } from './utils/dateUtils';
 import { useEffect } from 'react';
 
 type TabType = 'dashboard' | 'issuance' | 'needs' | 'rejected';
@@ -47,12 +47,24 @@ export default function App() {
     localStorage.setItem('global_date_filter', dateFilter);
   }, [dateFilter]);
 
+
   // State for each data type
   const [issuanceData, setIssuanceData] =
     useState<IssuanceRecord[]>(mockIssuanceData);
   const [needsData, setNeedsData] = useState<NeedRecord[]>(mockNeedsData);
   const [rejectedData, setRejectedData] =
     useState<RejectedRecord[]>(mockRejectedData);
+
+  // Filtered counts for sidebar
+  const filteredNeedsCount = needsData.filter((n) =>
+    isWithinPeriod(n.requestDate, dateFilter),
+  ).length;
+  const filteredIssuanceCount = issuanceData.filter((i) =>
+    isWithinPeriod(i.issueDate, dateFilter),
+  ).length;
+  const filteredRejectedCount = rejectedData.filter((r) =>
+    isWithinPeriod(r.rejectedDate, dateFilter),
+  ).length;
 
   // Form states
   const [isIssuanceFormOpen, setIsIssuanceFormOpen] = useState(false);
@@ -413,12 +425,12 @@ export default function App() {
               Потреба
             </div>
             <span
-              className={`text-xs px-2 py-0.5 rounded-full ${activeTab === 'needs'
+              className={`text-[10px] px-1.5 py-0.5 rounded-full font-bold ${activeTab === 'needs'
                 ? 'bg-blue-200 text-blue-800 dark:bg-blue-800 dark:text-blue-100'
                 : 'bg-muted text-muted-foreground'
                 }`}
             >
-              {needsData.length}
+              {filteredNeedsCount} / {needsData.length}
             </span>
           </button>
 
@@ -434,12 +446,12 @@ export default function App() {
               Видача
             </div>
             <span
-              className={`text-xs px-2 py-0.5 rounded-full ${activeTab === 'issuance'
+              className={`text-[10px] px-1.5 py-0.5 rounded-full font-bold ${activeTab === 'issuance'
                 ? 'bg-blue-200 text-blue-800 dark:bg-blue-800 dark:text-blue-100'
                 : 'bg-muted text-muted-foreground'
                 }`}
             >
-              {issuanceData.length}
+              {filteredIssuanceCount} / {issuanceData.length}
             </span>
           </button>
 
@@ -455,12 +467,12 @@ export default function App() {
               Відхилені
             </div>
             <span
-              className={`text-xs px-2 py-0.5 rounded-full ${activeTab === 'rejected'
+              className={`text-[10px] px-1.5 py-0.5 rounded-full font-bold ${activeTab === 'rejected'
                 ? 'bg-blue-200 text-blue-800 dark:bg-blue-800 dark:text-blue-100'
                 : 'bg-muted text-muted-foreground'
                 }`}
             >
-              {rejectedData.length}
+              {filteredRejectedCount} / {rejectedData.length}
             </span>
           </button>
 

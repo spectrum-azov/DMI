@@ -52,6 +52,12 @@ export function Dashboard({
     'Інші': pendingIssuance.filter(i => !['Готується', 'Готово', 'На паузі', 'Чекаєм на поставку'].includes(i.status)).length,
   };
 
+  // All-time totals
+  const allTimeIssuances = issuanceData.length;
+  const allTimePending = issuanceData.filter((i) => i.status !== 'Видано').length;
+  const allTimeApproved = needsData.filter((n) => n.status === 'Погоджено').length;
+  const allTimeRejected = rejectedData.length;
+
   return (
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
@@ -67,12 +73,17 @@ export function Dashboard({
             <div className="p-2 bg-blue-100 rounded-lg dark:bg-blue-900/30">
               <Package className="text-blue-600 dark:text-blue-400" size={24} />
             </div>
-            <span className="text-3xl font-bold text-blue-900 dark:text-blue-200">
-              {totalIssuances}
-            </span>
+            <div className="text-right">
+              <span className="text-3xl font-bold text-blue-900 dark:text-blue-200">
+                {totalIssuances}
+              </span>
+              <span className="text-lg font-medium text-blue-700/60 dark:text-blue-400/50 ml-1">
+                / {allTimeIssuances}
+              </span>
+            </div>
           </div>
           <h3 className="font-medium text-blue-900 dark:text-blue-200">Всього записів видачі</h3>
-          <p className="text-sm text-blue-700 dark:text-blue-300 mt-1">Оброблено у періоді</p>
+          <p className="text-sm text-blue-700 dark:text-blue-300 mt-1">Оброблено (період / всього)</p>
         </div>
 
         <div className="bg-yellow-50/50 border border-yellow-200 rounded-lg p-6 dark:bg-yellow-900/10 dark:border-yellow-800">
@@ -80,12 +91,17 @@ export function Dashboard({
             <div className="p-2 bg-yellow-100 rounded-lg dark:bg-yellow-900/30">
               <Clock className="text-yellow-600 dark:text-yellow-400" size={24} />
             </div>
-            <span className="text-3xl font-bold text-yellow-900 dark:text-yellow-200">
-              {totalPending}
-            </span>
+            <div className="text-right">
+              <span className="text-3xl font-bold text-yellow-900 dark:text-yellow-200">
+                {totalPending}
+              </span>
+              <span className="text-lg font-medium text-yellow-700/60 dark:text-yellow-400/50 ml-1">
+                / {allTimePending}
+              </span>
+            </div>
           </div>
           <h3 className="font-medium text-yellow-900 dark:text-yellow-200">У черзі на видачу</h3>
-          <p className="text-sm text-yellow-700 dark:text-yellow-300 mt-1">Очікують видачі</p>
+          <p className="text-sm text-yellow-700 dark:text-yellow-300 mt-1">Очікують (період / всього)</p>
         </div>
 
         <div className="bg-green-50/50 border border-green-200 rounded-lg p-6 dark:bg-green-900/10 dark:border-green-800">
@@ -93,13 +109,18 @@ export function Dashboard({
             <div className="p-2 bg-green-100 rounded-lg dark:bg-green-900/30">
               <CheckCircle className="text-green-600 dark:text-green-400" size={24} />
             </div>
-            <span className="text-3xl font-bold text-green-900 dark:text-green-200">
-              {approvedNeeds}
-            </span>
+            <div className="text-right">
+              <span className="text-3xl font-bold text-green-900 dark:text-green-200">
+                {approvedNeeds}
+              </span>
+              <span className="text-lg font-medium text-green-700/60 dark:text-green-400/50 ml-1">
+                / {allTimeApproved}
+              </span>
+            </div>
           </div>
           <h3 className="font-medium text-green-900 dark:text-green-200">Погоджені потреби</h3>
           <p className="text-sm text-green-700 dark:text-green-300 mt-1">
-            Готові до видачі
+            Готові (період / всього)
           </p>
         </div>
 
@@ -108,12 +129,17 @@ export function Dashboard({
             <div className="p-2 bg-red-100 rounded-lg dark:bg-red-900/30">
               <XCircle className="text-red-600 dark:text-red-400" size={24} />
             </div>
-            <span className="text-3xl font-bold text-red-900 dark:text-red-200">
-              {totalRejected}
-            </span>
+            <div className="text-right">
+              <span className="text-3xl font-bold text-red-900 dark:text-red-200">
+                {totalRejected}
+              </span>
+              <span className="text-lg font-medium text-red-700/60 dark:text-red-400/50 ml-1">
+                / {allTimeRejected}
+              </span>
+            </div>
           </div>
           <h3 className="font-medium text-red-900 dark:text-red-200">Відхилені запити</h3>
-          <p className="text-sm text-red-700 dark:text-red-300 mt-1">Не схвалені</p>
+          <p className="text-sm text-red-700 dark:text-red-300 mt-1">Відхилено (період / всього)</p>
         </div>
       </div>
 
