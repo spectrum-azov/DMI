@@ -23,13 +23,13 @@ interface IssuanceDataTableProps {
     data: IssuanceRecord[];
     columns: Column[];
     onEdit?: (item: IssuanceRecord) => void;
-    onDelete?: (id: string) => void;
+    onDelete?: (id: number) => void;
     /** Called when user clicks "Видати" on a pending item */
-    onIssue?: (id: string) => void;
+    onIssue?: (id: number) => void;
     onRowClick?: (item: IssuanceRecord) => void;
     emptyMessage?: string;
     dateFilter: DateFilter;
-    onStatusChange?: (id: string, newStatus: string) => void;
+    onStatusChange?: (id: number, newStatus: string) => void;
     onReturnToIssuance?: (item: IssuanceRecord) => void;
 }
 
@@ -74,7 +74,7 @@ export function IssuanceDataTable({
         return saved ? new Set(JSON.parse(saved)) : new Set(DEFAULT_VISIBLE);
     });
     const [isColumnsOpen, setIsColumnsOpen] = useState(false);
-    const [openStatusId, setOpenStatusId] = useState<string | null>(null);
+    const [openStatusId, setOpenStatusId] = useState<number | null>(null);
     const columnsRef = useRef<HTMLDivElement>(null);
     const statusDropdownRef = useRef<HTMLDivElement>(null);
 

@@ -141,7 +141,7 @@ export default function App() {
     } else {
       const newRecord: IssuanceRecord = {
         ...data,
-        id: Date.now().toString(),
+        id: Date.now(),
       };
 
       setIssuanceData([...issuanceData, newRecord]);
@@ -153,13 +153,13 @@ export default function App() {
     setIsIssuanceFormOpen(true);
   };
 
-  const handleDeleteIssuance = (id: string) => {
+  const handleDeleteIssuance = (id: number) => {
     if (confirm('Ви впевнені, що хочете видалити цей запис?')) {
       setIssuanceData(issuanceData.filter((item) => item.id !== id));
     }
   };
 
-  const handleIssueItem = (id: string) => {
+  const handleIssueItem = (id: number) => {
     if (confirm('Змінити статус на "Видано"?')) {
       setIssuanceData(
         issuanceData.map((item) =>
@@ -169,7 +169,7 @@ export default function App() {
     }
   };
 
-  const handleUpdateIssuanceStatus = (id: string, newStatus: string) => {
+  const handleUpdateIssuanceStatus = (id: number, newStatus: string) => {
     const item = issuanceData.find((i) => i.id === id);
     if (!item) return;
 
@@ -207,7 +207,7 @@ export default function App() {
     } else {
       const newRecord: NeedRecord = {
         ...data,
-        id: Date.now().toString(),
+        id: Date.now(),
       };
       setNeedsData([...needsData, newRecord]);
     }
@@ -218,7 +218,7 @@ export default function App() {
     setIsNeedFormOpen(true);
   };
 
-  const handleDeleteNeed = (id: string) => {
+  const handleDeleteNeed = (id: number) => {
     if (confirm('Ви впевнені, що хочете видалити цей запит?')) {
       setNeedsData(needsData.filter((item) => item.id !== id));
     }
@@ -250,7 +250,7 @@ export default function App() {
   // Функція переміщення з потреб у видачу (тепер зі статусом "На видачу")
   const moveNeedToIssuance = (need: NeedRecord) => {
     const newIssuance: IssuanceRecord = {
-      id: Date.now().toString(),
+      id: Date.now(),
       nomenclature: need.nomenclature,
       type: need.type,
       quantity: need.quantity,
@@ -274,7 +274,7 @@ export default function App() {
   // Функція переміщення з видачі назад у потреби (при скасуванні)
   const moveIssuanceToNeeds = (issuance: IssuanceRecord) => {
     const newNeed: NeedRecord = {
-      id: Date.now().toString(),
+      id: Date.now(),
       nomenclature: issuance.nomenclature,
       type: issuance.type,
       quantity: issuance.quantity,
@@ -296,7 +296,7 @@ export default function App() {
   // Функція переміщення з потреб у відхилені
   const moveNeedToRejected = (need: NeedRecord, reason: string) => {
     const newRejected: RejectedRecord = {
-      id: Date.now().toString(),
+      id: Date.now(),
       nomenclature: need.nomenclature,
       type: need.type,
       quantity: need.quantity,
@@ -329,7 +329,7 @@ export default function App() {
     } else {
       const newRecord: RejectedRecord = {
         ...data,
-        id: Date.now().toString(),
+        id: Date.now(),
       };
       setRejectedData([...rejectedData, newRecord]);
     }
@@ -340,7 +340,7 @@ export default function App() {
     setIsRejectedFormOpen(true);
   };
 
-  const handleDeleteRejected = (id: string) => {
+  const handleDeleteRejected = (id: number) => {
     if (confirm('Ви впевнені, що хочете видалити цей запис?')) {
       setRejectedData(rejectedData.filter((item) => item.id !== id));
     }
@@ -383,7 +383,7 @@ export default function App() {
 
     if (moveType === 'needs') {
       const newNeed: NeedRecord = {
-        id: Date.now().toString(),
+        id: Date.now(),
         nomenclature: moveTarget.nomenclature,
         type: moveTarget.type,
         quantity: moveTarget.quantity,
@@ -399,7 +399,7 @@ export default function App() {
       setNeedsData([newNeed, ...needsData]);
     } else if (moveType === 'issuance') {
       const newIssuance: IssuanceRecord = {
-        id: Date.now().toString(),
+        id: Date.now(),
         nomenclature: moveTarget.nomenclature,
         type: moveTarget.type,
         quantity: moveTarget.quantity,
@@ -431,7 +431,7 @@ export default function App() {
       setList(list.map(item => item.id === editingDirectoryItem.id ? { ...data, id: item.id } : item));
       setEditingDirectoryItem(undefined);
     } else {
-      setList([...list, { ...data, id: Date.now().toString() }]);
+      setList([...list, { ...data, id: Date.now() }]);
     }
   };
 
@@ -440,7 +440,7 @@ export default function App() {
     setIsDirectoryFormOpen(true);
   };
 
-  const handleDeleteDirectoryItem = (id: string, list: DirectoryItem[], setList: (list: DirectoryItem[]) => void) => {
+  const handleDeleteDirectoryItem = (id: number, list: DirectoryItem[], setList: (list: DirectoryItem[]) => void) => {
     if (confirm('Ви впевнені, що хочете видалити цей запис?')) {
       setList(list.filter(item => item.id !== id));
     }

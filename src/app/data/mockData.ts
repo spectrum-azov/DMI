@@ -11856,7 +11856,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 97 499 8043",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 754,
@@ -11869,7 +11870,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 97 499 8043",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 755,
@@ -11882,7 +11884,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 96 522 8308",
     "status": "Відхилено",
     "notes": "Широкоформатний монітор (для роботи з таблицями та звітами за корпус)",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 756,
@@ -11895,7 +11898,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 99 710 6710",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 757,
@@ -11908,7 +11912,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 97 499 8043",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 758,
@@ -11921,7 +11926,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 96 522 8308",
     "status": "Відхилено",
     "notes": "Широкоформатний монітор (для роботи з таблицями та звітами за корпус)",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 759,
@@ -11934,7 +11940,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 99 710 6710",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 760,
@@ -11947,7 +11954,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 50 472 7399",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 761,
@@ -11960,7 +11968,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 63 670 7317",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 762,
@@ -11973,7 +11982,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 50 472 7399",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 763,
@@ -11986,7 +11996,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 50 472 7399",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 764,
@@ -11999,7 +12010,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "667239163",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 765,
@@ -12012,7 +12024,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 766,
@@ -12025,7 +12038,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 767,
@@ -12038,7 +12052,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "380 67 717 2583",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 768,
@@ -12051,7 +12066,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "637372776",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 769,
@@ -12064,7 +12080,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "380 67 717 2583",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 770,
@@ -12077,7 +12094,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "067 377 5698",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 771,
@@ -12090,7 +12108,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "095 939 9307",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 772,
@@ -12103,7 +12122,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 (99) 042 17 34",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 773,
@@ -12116,7 +12136,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 (99) 042 17 34",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 774,
@@ -12129,7 +12150,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 (67) 3127274",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 775,
@@ -12142,7 +12164,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 (50) 472 73 99",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 776,
@@ -12155,7 +12178,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "",
     "status": "Відхилено",
     "notes": "нема нічого в наявності потрібен окремий телефон (цілодобово), куплю на нього сімку, і в голосовому режимі, або автовідповідач воно має працювати, я розглядати/перевіряти і доповідати",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 777,
@@ -12168,7 +12192,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "973942726",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 778,
@@ -12181,7 +12206,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "067 377 5698",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 779,
@@ -12194,7 +12220,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "095 939 9307",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 780,
@@ -12207,7 +12234,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "682316411",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 781,
@@ -12220,7 +12248,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 (99) 042 17 34",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 782,
@@ -12233,7 +12262,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 (99) 042 17 34",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 783,
@@ -12246,7 +12276,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 (67) 3127274",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 784,
@@ -12259,7 +12290,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0 (50) 472 73 99",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 785,
@@ -12272,7 +12304,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "973942726",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 786,
@@ -12285,7 +12318,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "968004854",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 787,
@@ -12298,7 +12332,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "954607661",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 788,
@@ -12311,7 +12346,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "682316411",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 789,
@@ -12324,7 +12360,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "067 576 44 24",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 790,
@@ -12337,7 +12374,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "935375529",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 791,
@@ -12350,7 +12388,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "685449221",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 792,
@@ -12363,7 +12402,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "968004854",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 793,
@@ -12376,7 +12416,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 794,
@@ -12389,7 +12430,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "067 576 44 24",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 795,
@@ -12402,7 +12444,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "685449221",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 796,
@@ -12415,7 +12458,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0962345399",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 797,
@@ -12428,7 +12472,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "380505605982",
     "status": "Відхилено",
     "notes": "Всі заявки по засобах зв'язку приймаються тільки через Бандеру або Чезета, 5-7w",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 798,
@@ -12441,7 +12486,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "380505605982",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 799,
@@ -12454,7 +12500,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0962345399",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 800,
@@ -12467,7 +12514,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0962345399",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 801,
@@ -12480,7 +12528,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "380505605982",
     "status": "Відхилено",
     "notes": "Всі заявки по засобах зв'язку приймаються тільки через Бандеру або Чезета",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 802,
@@ -12493,7 +12542,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "380505605982",
     "status": "Відхилено",
     "notes": "на КСП",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 803,
@@ -12506,7 +12556,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0962345399",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 804,
@@ -12519,7 +12570,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "0962345399",
     "status": "Відхилено",
     "notes": "",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 805,
@@ -12532,7 +12584,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "975408076",
     "status": "Відхилено",
     "notes": "для роботи з таблицями, можна взяти ці що з ОРАНТИ",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   },
   {
     "id": 806,
@@ -12545,7 +12598,8 @@ export const mockRejectedData: RejectedRecord[] = [
     "mobileNumber": "380505605982",
     "status": "Відхилено",
     "notes": "Всі заявки по засобах зв'язку приймаються тільки через Бандеру або Чезета",
-    "rejectedDate": "24.02.2026"
+    "rejectedDate": "24.02.2026",
+    "location": ""
   }
 ];
 

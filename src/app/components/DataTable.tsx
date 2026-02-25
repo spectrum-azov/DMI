@@ -22,7 +22,7 @@ interface DataTableProps {
   data: any[];
   columns: Column[];
   onEdit?: (item: any) => void;
-  onDelete?: (id: string) => void;
+  onDelete?: (id: number) => void;
   onMoveToNeeds?: (item: any) => void;
   onMoveToIssuance?: (item: any) => void;
   emptyMessage?: string;

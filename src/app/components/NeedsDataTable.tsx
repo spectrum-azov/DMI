@@ -24,7 +24,7 @@ interface NeedsDataTableProps {
   data: NeedRecord[];
   columns: Column[];
   onEdit?: (item: NeedRecord) => void;
-  onDelete?: (id: string) => void;
+  onDelete?: (id: number) => void;
   onApprove?: (item: NeedRecord) => void;
   onReject?: (item: NeedRecord) => void;
   onRowClick?: (item: NeedRecord) => void;
