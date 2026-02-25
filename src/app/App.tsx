@@ -268,8 +268,8 @@ export default function App() {
 
     setIssuanceData([...issuanceData, newIssuance]);
     setNeedsData(needsData.filter((item) => item.id !== need.id));
-    setActiveTab('issuance');
   };
+
 
   // Функція переміщення з видачі назад у потреби (при скасуванні)
   const moveIssuanceToNeeds = (issuance: IssuanceRecord) => {
