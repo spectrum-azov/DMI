@@ -22,6 +22,7 @@ import { NeedForm } from './components/NeedForm';
 import { RejectedForm } from './components/RejectedForm';
 import { RejectDialog } from './components/RejectDialog';
 import { DetailsModal } from './components/DetailsModal';
+import { MoveDialog } from './components/MoveDialog';
 import { Dashboard } from './components/Dashboard';
 import { IssuanceRecord, NeedRecord, RejectedRecord } from './types';
 import {
@@ -90,21 +91,21 @@ export default function App() {
   >();
   const [rejectingNeed, setRejectingNeed] = useState<NeedRecord | undefined>();
 
+  // Move states
+  const [isMoveDialogOpen, setIsMoveDialogOpen] = useState(false);
+  const [moveTarget, setMoveTarget] = useState<RejectedRecord | undefined>();
+  const [moveType, setMoveType] = useState<'needs' | 'issuance'>('needs');
+
   // Handlers for Issuance
   const handleAddIssuance = (data: Omit<IssuanceRecord, 'id'>) => {
     if (editingIssuance) {
       const updatedRecord = { ...data, id: editingIssuance.id };
 
-      // Якщо статус "Відміна" - повертаємо в потреби
-      if (data.status === 'Відміна') {
-        moveIssuanceToNeeds(updatedRecord);
-      } else {
-        setIssuanceData(
-          issuanceData.map((item) =>
-            item.id === editingIssuance.id ? updatedRecord : item,
-          ),
-        );
-      }
+      setIssuanceData(
+        issuanceData.map((item) =>
+          item.id === editingIssuance.id ? updatedRecord : item,
+        ),
+      );
       setEditingIssuance(undefined);
     } else {
       const newRecord: IssuanceRecord = {
@@ -112,12 +113,7 @@ export default function App() {
         id: Date.now().toString(),
       };
 
-      // Якщо статус "Відміна" - повертаємо в потреби
-      if (data.status === 'Відміна') {
-        moveIssuanceToNeeds(newRecord);
-      } else {
-        setIssuanceData([...issuanceData, newRecord]);
-      }
+      setIssuanceData([...issuanceData, newRecord]);
     }
   };
 
@@ -146,12 +142,7 @@ export default function App() {
     const item = issuanceData.find((i) => i.id === id);
     if (!item) return;
 
-    if (newStatus === 'Відміна') {
-      if (confirm('Ви впевнені, що хочете відмінити цю видачу? Запис буде повернуто в потреби.')) {
-        moveIssuanceToNeeds({ ...item, status: newStatus });
-        return;
-      }
-    }
+    // No longer moving to needs automatically, keeping in Issuance for the new 'Відміна' tab
 
     setIssuanceData(
       issuanceData.map((i) =>
@@ -284,6 +275,7 @@ export default function App() {
       mobileNumber: need.mobileNumber,
       status: 'Відхилено',
       notes: reason,
+      location: need.location,
       rejectedDate: new Date().toLocaleDateString('uk-UA'),
     };
 
@@ -321,6 +313,62 @@ export default function App() {
     if (confirm('Ви впевнені, що хочете видалити цей запис?')) {
       setRejectedData(rejectedData.filter((item) => item.id !== id));
     }
+  };
+
+  const handleMoveRejectedToNeeds = (item: RejectedRecord) => {
+    setMoveTarget(item);
+    setMoveType('needs');
+    setIsMoveDialogOpen(true);
+  };
+
+  const handleMoveRejectedToIssuance = (item: RejectedRecord) => {
+    setMoveTarget(item);
+    setMoveType('issuance');
+    setIsMoveDialogOpen(true);
+  };
+
+  const handleConfirmMove = (notes: string) => {
+    if (!moveTarget) return;
+
+    if (moveType === 'needs') {
+      const newNeed: NeedRecord = {
+        id: Date.now().toString(),
+        nomenclature: moveTarget.nomenclature,
+        type: moveTarget.type,
+        quantity: moveTarget.quantity,
+        contactPerson: moveTarget.fullName,
+        position: moveTarget.position,
+        department: moveTarget.department,
+        mobileNumber: moveTarget.mobileNumber,
+        requestDate: new Date().toISOString().split('T')[0],
+        location: moveTarget.location,
+        status: 'На погодженні',
+        notes: notes || moveTarget.notes,
+      };
+      setNeedsData([newNeed, ...needsData]);
+    } else {
+      const newIssuance: IssuanceRecord = {
+        id: Date.now().toString(),
+        nomenclature: moveTarget.nomenclature,
+        type: moveTarget.type,
+        quantity: moveTarget.quantity,
+        model: '',
+        serialNumber: '',
+        fullName: moveTarget.fullName,
+        department: moveTarget.department,
+        request: moveTarget.nomenclature,
+        requestNumber: '',
+        issueDate: new Date().toISOString().split('T')[0],
+        location: moveTarget.location,
+        status: 'На видачу',
+        notes: notes || moveTarget.notes,
+      };
+      setIssuanceData([newIssuance, ...issuanceData]);
+    }
+
+    setRejectedData(rejectedData.filter((r) => r.id !== moveTarget.id));
+    setIsMoveDialogOpen(false);
+    setMoveTarget(undefined);
   };
 
   const handleRowClick = (item: any, type: TabType) => {
@@ -384,7 +432,12 @@ export default function App() {
 
   const handleTabChange = (tab: TabType) => {
     setActiveTab(tab);
-    setIsMobileMenuOpen(false); // Close menu on mobile after selection
+    setIsMobileMenuOpen(false);
+    setIsIssuanceFormOpen(false);
+    setIsNeedFormOpen(false);
+    setIsRejectedFormOpen(false);
+    setIsRejectDialogOpen(false);
+    setIsMoveDialogOpen(false);
   };
 
   return (

@@ -46,6 +46,7 @@ export interface RejectedRecord {
   mobileNumber: string;
   status: string;
   notes: string;
+  location: string;
   /** format dd.MM.yyyy */
   rejectedDate: string;
 }

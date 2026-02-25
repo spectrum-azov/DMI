@@ -63,7 +63,7 @@ export function IssuanceDataTable({
     dateFilter,
     onStatusChange,
 }: IssuanceDataTableProps) {
-    const [subTab, setSubTab] = useState<'pending' | 'issued'>('pending');
+    const [subTab, setSubTab] = useState<'pending' | 'issued' | 'cancelled'>('pending');
     const [searchTerm, setSearchTerm] = useState('');
     const [sortColumn, setSortColumn] = useState<string | null>(null);
     const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
@@ -124,8 +124,9 @@ export function IssuanceDataTable({
 
     const activeColumns = columns.filter((col) => visibleColumns.has(col.key));
 
-    const pendingData = data.filter((item) => item.status !== 'Видано');
+    const pendingData = data.filter((item) => item.status !== 'Видано' && item.status !== 'Відміна');
     const issuedData = data.filter((item) => item.status === 'Видано');
+    const cancelledData = data.filter((item) => item.status === 'Відміна');
 
     const filteredPendingCount = pendingData.filter((i) =>
         isWithinPeriod(i.issueDate, dateFilter),
@@ -133,8 +134,14 @@ export function IssuanceDataTable({
     const filteredIssuedCount = issuedData.filter((i) =>
         isWithinPeriod(i.issueDate, dateFilter),
     ).length;
+    const filteredCancelledCount = cancelledData.filter((i) =>
+        isWithinPeriod(i.issueDate, dateFilter),
+    ).length;
 
-    const activeData = subTab === 'pending' ? pendingData : issuedData;
+    const activeData =
+        subTab === 'pending' ? pendingData :
+            subTab === 'issued' ? issuedData :
+                cancelledData;
 
     const dateFiltered = activeData.filter((item) =>
         isWithinPeriod(item.issueDate, dateFilter),
@@ -209,6 +216,24 @@ export function IssuanceDataTable({
                             {filteredIssuedCount} / {issuedData.length}
                         </span>
                         Видано
+                    </button>
+
+                    <button
+                        onClick={() => setSubTab('cancelled')}
+                        className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all border ${subTab === 'cancelled'
+                            ? 'bg-red-50 border-red-300 text-red-700 shadow-sm dark:bg-red-950/20 dark:border-red-800 dark:text-red-400'
+                            : 'bg-card border-input text-muted-foreground hover:bg-accent'
+                            }`}
+                    >
+                        <span
+                            className={`inline-flex items-center justify-center h-5 px-1.5 rounded-full text-[10px] font-bold ${subTab === 'cancelled'
+                                ? 'bg-red-200 text-red-800 dark:bg-red-800 dark:text-red-100'
+                                : 'bg-muted text-muted-foreground'
+                                }`}
+                        >
+                            {filteredCancelledCount} / {cancelledData.length}
+                        </span>
+                        Відміна
                     </button>
                 </div>
             </div>

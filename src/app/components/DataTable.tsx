@@ -3,6 +3,8 @@ import {
   Trash2,
   Search,
   SlidersHorizontal,
+  RotateCcw,
+  Send,
   X,
 } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
@@ -21,6 +23,8 @@ interface DataTableProps {
   columns: Column[];
   onEdit?: (item: any) => void;
   onDelete?: (id: string) => void;
+  onMoveToNeeds?: (item: any) => void;
+  onMoveToIssuance?: (item: any) => void;
   emptyMessage?: string;
   dateField?: string;
   onRowClick?: (item: any) => void;
@@ -42,6 +46,8 @@ export function DataTable({
   columns,
   onEdit,
   onDelete,
+  onMoveToNeeds,
+  onMoveToIssuance,
   emptyMessage = 'Немає даних',
   dateField,
   onRowClick,
@@ -135,6 +141,8 @@ export function DataTable({
       setSortDirection('asc');
     }
   };
+
+  const hasActions = onEdit || onDelete || onMoveToNeeds || onMoveToIssuance;
 
   return (
     <div className="flex flex-col gap-4">
@@ -242,7 +250,7 @@ export function DataTable({
                   </div>
                 </th>
               ))}
-              {(onEdit || onDelete) && (
+              {hasActions && (
                 <th className="px-4 py-3 text-left text-sm font-semibold text-muted-foreground whitespace-nowrap">
                   Дії
                 </th>
@@ -253,7 +261,7 @@ export function DataTable({
             {paginatedData.length === 0 ? (
               <tr>
                 <td
-                  colSpan={activeColumns.length + (onEdit || onDelete ? 1 : 0)}
+                  colSpan={activeColumns.length + (hasActions ? 1 : 0)}
                   className="px-4 py-8 text-center text-muted-foreground text-sm"
                 >
                   {searchTerm || (dateField && dateFilter !== 'year')
@@ -276,9 +284,33 @@ export function DataTable({
                       {item[column.key] || '—'}
                     </td>
                   ))}
-                  {(onEdit || onDelete) && (
+                  {hasActions && (
                     <td className="px-4 py-3 text-sm">
                       <div className="flex gap-1">
+                        {onMoveToNeeds && (
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              onMoveToNeeds(item);
+                            }}
+                            className="p-1.5 text-orange-600 hover:bg-orange-50 dark:hover:bg-orange-900/20 rounded transition-colors"
+                            title="На погодження"
+                          >
+                            <RotateCcw size={16} />
+                          </button>
+                        )}
+                        {onMoveToIssuance && (
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              onMoveToIssuance(item);
+                            }}
+                            className="p-1.5 text-green-600 hover:bg-green-50 dark:hover:bg-green-900/20 rounded transition-colors"
+                            title="На видачу"
+                          >
+                            <Send size={16} />
+                          </button>
+                        )}
                         {onEdit && (
                           <button
                             onClick={(e) => {
