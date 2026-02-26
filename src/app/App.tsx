@@ -53,6 +53,7 @@ import { DateFilter, isWithinPeriod } from './utils/dateUtils';
 import { useEffect } from 'react';
 
 import { StatusGraph } from './components/StatusGraph';
+import { issuanceColumns, needsColumns, rejectedColumns } from './constants/columns';
 
 type DirectoryTab = 'dir-nomenclature' | 'dir-types' | 'dir-positions' | 'dir-departments' | 'dir-ranks' | 'dir-locations';
 type TabType = 'dashboard' | 'issuance' | 'needs' | 'rejected' | 'status-graph' | DirectoryTab;
@@ -555,67 +556,7 @@ export default function App() {
     setIsDetailsModalOpen(true);
   };
 
-  const issuanceColumns = [
-    { key: 'id', label: '№', width: '60px' },
-    { key: 'nomenclature', label: 'Номенклатура', width: '150px' },
-    { key: 'type', label: 'Тип', width: '100px' },
-    { key: 'quantity', label: 'К-сть', width: '80px' },
-    { key: 'model', label: 'Модель', width: '120px' },
-    { key: 'serialNumber', label: 'Серійний номер', width: '120px' },
-    { key: 'fullName', label: 'ПІБ', width: '150px' },
-    { key: 'rank', label: 'Звання', width: '100px' },
-    { key: 'department', label: 'Служба', width: '120px' },
-    { key: 'applicationStatus', label: 'Статус заявки', width: '120px' },
-    { key: 'requestNumber', label: 'Номер заявки', width: '120px' },
-    { key: 'issueDate', label: 'Дата запису', width: '100px' },
-    { key: 'location', label: 'Локація', width: '100px' },
-    { key: 'status', label: 'Статус', width: '100px' },
-    { key: 'isFrtCp', label: 'МВО є отримувачем', width: '100px' },
-    { key: 'frpFullName', label: 'ПІБ МВО', width: '150px' },
-    { key: 'frpRank', label: 'Звання МВО', width: '100px' },
-    { key: 'frpPosition', label: 'Посада МВО', width: '120px' },
-    { key: 'frpMobileNumber', label: 'Моб. номер МВО', width: '120px' },
-  ];
 
-  const needsColumns = [
-    { key: 'id', label: '№', width: '60px' },
-    { key: 'nomenclature', label: 'Номенклатура', width: '150px' },
-    { key: 'type', label: 'Тип', width: '100px' },
-    { key: 'quantity', label: 'К-сть', width: '80px' },
-    { key: 'fullName', label: 'Контактна особа', width: '150px' },
-    { key: 'rank', label: 'Звання', width: '100px' },
-    { key: 'position', label: 'Посада', width: '120px' },
-    { key: 'department', label: 'Служба', width: '120px' },
-    { key: 'mobileNumber', label: 'Моб. номер', width: '120px' },
-    { key: 'requestDate', label: 'Дата запиту', width: '100px' },
-    { key: 'location', label: 'Локація', width: '100px' },
-    { key: 'status', label: 'Статус', width: '130px' },
-    { key: 'isFrtCp', label: 'МВО є контактною особою', width: '100px' },
-    { key: 'frpFullName', label: 'ПІБ МВО', width: '150px' },
-    { key: 'frpRank', label: 'Звання МВО', width: '100px' },
-    { key: 'frpPosition', label: 'Посада МВО', width: '120px' },
-    { key: 'frpMobileNumber', label: 'Моб. номер МВО', width: '120px' },
-  ];
-
-  const rejectedColumns = [
-    { key: 'id', label: '№', width: '60px' },
-    { key: 'nomenclature', label: 'Номенклатура', width: '150px' },
-    { key: 'type', label: 'Тип', width: '100px' },
-    { key: 'quantity', label: 'К-сть', width: '80px' },
-    { key: 'fullName', label: 'ПІБ', width: '150px' },
-    { key: 'rank', label: 'Звання', width: '100px' },
-    { key: 'position', label: 'Посада', width: '150px' },
-    { key: 'department', label: 'Служба', width: '120px' },
-    { key: 'mobileNumber', label: 'Моб. номер', width: '120px' },
-    { key: 'status', label: 'Статус', width: '100px' },
-    { key: 'rejectedDate', label: 'Дата відхилення', width: '120px' },
-    { key: 'isFrtCp', label: 'МВО є контактною особою', width: '100px' },
-    { key: 'frpFullName', label: 'ПІБ МВО', width: '150px' },
-    { key: 'frpRank', label: 'Звання МВО', width: '100px' },
-    { key: 'frpPosition', label: 'Посада МВО', width: '120px' },
-    { key: 'frpMobileNumber', label: 'Моб. номер МВО', width: '120px' },
-    { key: 'notes', label: 'Примітки', width: '200px' },
-  ];
 
   const handleTabChange = (tab: TabType) => {
     setActiveTab(tab);
