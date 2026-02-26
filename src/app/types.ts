@@ -61,3 +61,5 @@ export interface Directories {
 }
 
 export type SheetType = 'issuance' | 'needs' | 'rejected' | 'dashboard' | 'directories';
+export type DirectoryTab = 'dir-nomenclature' | 'dir-types' | 'dir-positions' | 'dir-departments' | 'dir-ranks' | 'dir-locations';
+export type TabType = 'dashboard' | 'issuance' | 'needs' | 'rejected' | 'status-graph' | DirectoryTab;
