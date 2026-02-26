@@ -175,7 +175,6 @@ export function AppSidebar({
                                 {[
                                     { id: 'dir-nomenclature', label: 'Номенклатури', icon: Tag },
                                     { id: 'dir-types', label: 'Типи', icon: Layers },
-                                    { id: 'dir-positions', label: 'Посади', icon: Briefcase },
                                     { id: 'dir-departments', label: 'Служби', icon: Users },
                                     { id: 'dir-ranks', label: 'Звання', icon: Star },
                                     { id: 'dir-locations', label: 'Локації', icon: MapPin },

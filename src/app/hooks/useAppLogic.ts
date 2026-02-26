@@ -3,7 +3,7 @@ import { TabType, IssuanceRecord, NeedRecord, RejectedRecord, DirectoryItem, Dir
 import { DateFilter, isWithinPeriod } from '../utils/dateUtils';
 import {
     mockIssuanceData, mockNeedsData, mockRejectedData, mockNomenclatures, mockTypes,
-    mockPositions, mockDepartments, mockRanks, mockLocations
+    mockDepartments, mockRanks, mockLocations
 } from '../data/mockData';
 
 export function useAppLogic() {
@@ -21,12 +21,11 @@ export function useAppLogic() {
 
     const [nomenclatures, setNomenclatures] = useState<DirectoryItem[]>(mockNomenclatures);
     const [types, setTypes] = useState<DirectoryItem[]>(mockTypes);
-    const [positions, setPositions] = useState<DirectoryItem[]>(mockPositions);
     const [departments, setDepartments] = useState<DirectoryItem[]>(mockDepartments);
     const [ranks, setRanks] = useState<DirectoryItem[]>(mockRanks);
     const [locations, setLocations] = useState<DirectoryItem[]>(mockLocations);
 
-    const directories: Directories = { nomenclatures, types, departments, locations, positions, ranks };
+    const directories: Directories = { nomenclatures, types, departments, locations, ranks };
 
     const [isDirectoriesOpen, setIsDirectoriesOpen] = useState(false);
     const [isDirectoryFormOpen, setIsDirectoryFormOpen] = useState(false);
@@ -131,8 +130,8 @@ export function useAppLogic() {
 
     const handleAddDirectoryItem = (data: Omit<DirectoryItem, 'id'>) => {
         const tab = activeTab as DirectoryTab;
-        const setters: any = { 'dir-nomenclature': setNomenclatures, 'dir-types': setTypes, 'dir-positions': setPositions, 'dir-departments': setDepartments, 'dir-ranks': setRanks, 'dir-locations': setLocations };
-        const lists: any = { 'dir-nomenclature': nomenclatures, 'dir-types': types, 'dir-positions': positions, 'dir-departments': departments, 'dir-ranks': ranks, 'dir-locations': locations };
+        const setters: any = { 'dir-nomenclature': setNomenclatures, 'dir-types': setTypes, 'dir-departments': setDepartments, 'dir-ranks': setRanks, 'dir-locations': setLocations };
+        const lists: any = { 'dir-nomenclature': nomenclatures, 'dir-types': types, 'dir-departments': departments, 'dir-ranks': ranks, 'dir-locations': locations };
         if (editingDirectoryItem) setters[tab](lists[tab].map((i: any) => i.id === editingDirectoryItem.id ? { ...data, id: i.id } : i));
         else setters[tab]([...lists[tab], { ...data, id: Date.now() }]);
     };
@@ -146,6 +145,6 @@ export function useAppLogic() {
         rejectingNeed, setRejectingNeed, isMoveDialogOpen, setIsMoveDialogOpen, moveTarget, setMoveTarget, moveIssuanceTarget, setMoveIssuanceTarget,
         moveType, setMoveType, filteredNeedsCount, filteredIssuanceCount, filteredRejectedCount,
         handleIssueItem, handleUpdateIssuanceStatus, handleAddIssuance, handleAddNeed, handleAddRejected, handleConfirmReject, handleConfirmMove, handleAddDirectoryItem,
-        setIssuanceData, setNeedsData, setRejectedData, setNomenclatures, setTypes, setPositions, setDepartments, setRanks, setLocations
+        setIssuanceData, setNeedsData, setRejectedData, setNomenclatures, setTypes, setDepartments, setRanks, setLocations
     };
 }

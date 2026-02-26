@@ -34,7 +34,7 @@ export default function App() {
     filteredNeedsCount, filteredIssuanceCount, filteredRejectedCount,
     handleIssueItem, handleUpdateIssuanceStatus, handleAddIssuance, handleAddNeed, handleAddRejected,
     handleConfirmReject, handleConfirmMove, handleAddDirectoryItem,
-    setIssuanceData, setNeedsData, setRejectedData, setNomenclatures, setTypes, setPositions, setDepartments, setRanks, setLocations
+    setIssuanceData, setNeedsData, setRejectedData, setNomenclatures, setTypes, setDepartments, setRanks, setLocations
   } = logic;
 
   const handleTabChange = (tab: any) => {
@@ -50,9 +50,9 @@ export default function App() {
   };
 
   const getDirInfo = (tab: DirectoryTab) => {
-    const titles: any = { 'dir-nomenclature': 'Номенклатури', 'dir-types': 'Типи', 'dir-positions': 'Посади', 'dir-departments': 'Служби', 'dir-ranks': 'Звання', 'dir-locations': 'Локації' };
-    const lists: any = { 'dir-nomenclature': directories.nomenclatures, 'dir-types': directories.types, 'dir-positions': directories.positions, 'dir-departments': directories.departments, 'dir-ranks': directories.ranks, 'dir-locations': directories.locations };
-    const setters: any = { 'dir-nomenclature': setNomenclatures, 'dir-types': setTypes, 'dir-positions': setPositions, 'dir-departments': setDepartments, 'dir-ranks': setRanks, 'dir-locations': setLocations };
+    const titles: any = { 'dir-nomenclature': 'Номенклатури', 'dir-types': 'Типи', 'dir-departments': 'Служби', 'dir-ranks': 'Звання', 'dir-locations': 'Локації' };
+    const lists: any = { 'dir-nomenclature': directories.nomenclatures, 'dir-types': directories.types, 'dir-departments': directories.departments, 'dir-ranks': directories.ranks, 'dir-locations': directories.locations };
+    const setters: any = { 'dir-nomenclature': setNomenclatures, 'dir-types': setTypes, 'dir-departments': setDepartments, 'dir-ranks': setRanks, 'dir-locations': setLocations };
     return { title: titles[tab], list: lists[tab], set: setters[tab] };
   };
 
