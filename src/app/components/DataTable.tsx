@@ -1,17 +1,15 @@
 import {
   Edit2,
   Trash2,
-  Search,
-  SlidersHorizontal,
   RotateCcw,
   Send,
-  X,
 } from 'lucide-react';
-import { useState, useRef, useEffect } from 'react';
-import { QuickDateFilter } from './QuickDateFilter';
-import { DateFilter, isWithinPeriod } from '../utils/dateUtils';
+import { DateFilter } from '../utils/dateUtils';
 import { TablePagination } from './TablePagination';
 import { Directories } from '../types';
+import { useDataTable } from '../hooks/useDataTable';
+import { DataTableToolbar } from './DataTableToolbar';
+import { DataTableCell } from './DataTableCell';
 
 interface Column {
   key: string;
@@ -52,184 +50,44 @@ export function DataTable({
   storageKey = 'common_visible_columns',
   directories,
 }: DataTableProps) {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [sortColumn, setSortColumn] = useState<string | null>(null);
-  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
-  const [visibleColumns, setVisibleColumns] = useState<Set<string>>(() => {
-    const saved = localStorage.getItem(storageKey);
-    return saved ? new Set(JSON.parse(saved)) : new Set(defaultVisibleColumns || columns.map(c => c.key));
+  const {
+    searchTerm,
+    setSearchTerm,
+    sortColumn,
+    sortDirection,
+    handleSort,
+    visibleColumns,
+    toggleColumn,
+    setVisibleColumns,
+    currentPage,
+    setCurrentPage,
+    pageSize,
+    setPageSize,
+    paginatedData,
+    totalItems,
+  } = useDataTable({
+    data,
+    storageKey,
+    defaultVisibleColumns,
+    dateField,
+    dateFilter,
+    locationFilter,
   });
-
-  const [isColumnsOpen, setIsColumnsOpen] = useState(false);
-  const columnsRef = useRef<HTMLDivElement>(null);
-
-  // Pagination state
-  const [currentPage, setCurrentPage] = useState(1);
-  const [pageSize, setPageSize] = useState(10);
-
-  // Close column panel when clicking outside
-  useEffect(() => {
-    function handleClickOutside(e: MouseEvent) {
-      if (
-        columnsRef.current &&
-        !columnsRef.current.contains(e.target as Node)
-      ) {
-        setIsColumnsOpen(false);
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
-
-  // Reset to first page when filters change
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [searchTerm, dateFilter, locationFilter]);
-
-  // Persist column visibility
-  useEffect(() => {
-    localStorage.setItem(storageKey, JSON.stringify(Array.from(visibleColumns)));
-  }, [visibleColumns, storageKey]);
-
-  const toggleColumn = (key: string) => {
-    setVisibleColumns((prev) => {
-      const next = new Set(prev);
-      if (next.has(key)) {
-        next.delete(key);
-      } else {
-        next.add(key);
-      }
-      return next;
-    });
-  };
 
   const activeColumns = columns.filter((col) => visibleColumns.has(col.key));
-
-  const filtered = data.filter((item) => {
-    const isDateMatch = !dateField || isWithinPeriod(item[dateField], dateFilter);
-    const isLocMatch = locationFilter === 0 || item.location === locationFilter;
-    return isDateMatch && isLocMatch;
-  });
-
-  const filteredData = filtered.filter((item) => {
-    const searchLower = searchTerm.toLowerCase();
-    return Object.values(item).some((value) =>
-      String(value).toLowerCase().includes(searchLower),
-    );
-  });
-
-  const sortedData = [...filteredData].sort((a, b) => {
-    if (!sortColumn) return 0;
-
-    const aVal = (a as any)[sortColumn];
-    const bVal = (b as any)[sortColumn];
-
-    if (aVal === bVal) return 0;
-
-    const comparison = aVal < bVal ? -1 : 1;
-    return sortDirection === 'asc' ? comparison : -comparison;
-  });
-
-  // Calculate paginated data
-  const totalItems = sortedData.length;
-  const startIndex = (currentPage - 1) * pageSize;
-  const paginatedData = sortedData.slice(startIndex, startIndex + pageSize);
-
-  const handleSort = (columnKey: string) => {
-    if (sortColumn === columnKey) {
-      setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc');
-    } else {
-      setSortColumn(columnKey);
-      setSortDirection('asc');
-    }
-  };
-
   const hasActions = onEdit || onDelete || onMoveToNeeds || onMoveToIssuance;
 
   return (
     <div className="flex flex-col gap-4">
-      {/* Toolbar: Search & Columns */}
-      <div className="flex items-center gap-2">
-        {/* Search - occupies most space */}
-        <div className="relative flex-1">
-          <Search
-            className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"
-            size={18}
-          />
-          <input
-            type="text"
-            placeholder="Пошук..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full pl-10 pr-4 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-foreground"
-          />
-        </div>
-
-        {/* Column visibility toggle */}
-        <div className="relative" ref={columnsRef}>
-          <button
-            onClick={() => setIsColumnsOpen((o) => !o)}
-            className={`flex items-center gap-1.5 px-3 py-2 rounded-lg border text-sm font-medium transition-colors ${isColumnsOpen
-              ? 'bg-blue-50 border-blue-300 text-blue-700 dark:bg-blue-900/20 dark:border-blue-800 dark:text-blue-400'
-              : 'bg-card border-input text-foreground hover:bg-accent'
-              }`}
-            title="Налаштування колонок"
-          >
-            <SlidersHorizontal size={16} />
-            <span className="hidden sm:inline">Колонки</span>
-          </button>
-
-          {isColumnsOpen && (
-            <div className="absolute right-0 top-full mt-1 z-20 bg-card border border-border rounded-xl shadow-lg p-3 min-w-[210px]">
-              <div className="flex items-center justify-between mb-2 pb-2 border-b border-border">
-                <span className="text-sm font-semibold text-foreground">
-                  Видимі колонки
-                </span>
-                <button
-                  onClick={() => setIsColumnsOpen(false)}
-                  className="p-0.5 text-gray-400 hover:text-gray-600 rounded"
-                >
-                  <X size={14} />
-                </button>
-              </div>
-              <div className="space-y-1">
-                {columns.map((col) => (
-                  <label
-                    key={col.key}
-                    className="flex items-center gap-2 py-1 px-1 rounded cursor-pointer hover:bg-accent text-sm text-foreground select-none"
-                  >
-                    <input
-                      type="checkbox"
-                      checked={visibleColumns.has(col.key)}
-                      onChange={() => toggleColumn(col.key)}
-                      className="accent-blue-600 w-4 h-4 rounded"
-                    />
-                    {col.label}
-                  </label>
-                ))}
-              </div>
-              <div className="mt-2 pt-2 border-t border-border flex gap-2">
-                <button
-                  onClick={() =>
-                    setVisibleColumns(new Set(columns.map((c) => c.key)))
-                  }
-                  className="text-xs text-blue-600 hover:underline"
-                >
-                  Всі
-                </button>
-                <button
-                  onClick={() =>
-                    setVisibleColumns(new Set(defaultVisibleColumns || columns.map(c => c.key)))
-                  }
-                  className="text-xs text-muted-foreground hover:underline"
-                >
-                  За замовч.
-                </button>
-              </div>
-            </div>
-          )}
-        </div>
-      </div>
+      <DataTableToolbar
+        searchTerm={searchTerm}
+        onSearchChange={setSearchTerm}
+        columns={columns}
+        visibleColumns={visibleColumns}
+        onToggleColumn={toggleColumn}
+        defaultVisibleColumns={defaultVisibleColumns}
+        onResetColumns={setVisibleColumns}
+      />
 
       <div className="overflow-x-auto border border-border rounded-lg">
         <table className="w-full">
@@ -283,24 +141,7 @@ export function DataTable({
                       key={column.key}
                       className="px-4 py-3 text-sm text-foreground whitespace-nowrap"
                     >
-                      {(() => {
-                        const val = (item as any)[column.key];
-                        if (val === undefined || val === null || val === '') return '—';
-
-                        const getDirName = (list: any[] | undefined, id: any) => {
-                          const found = list?.find(d => String(d.id) === String(id));
-                          return found ? found.name : undefined;
-                        };
-
-                        if (column.key === 'nomenclature') return getDirName(directories?.nomenclatures, val) ?? val;
-                        if (column.key === 'type') return getDirName(directories?.types, val) ?? val;
-                        if (column.key === 'rank') return getDirName(directories?.ranks, val) ?? val;
-                        if (column.key === 'department') return getDirName(directories?.departments, val) ?? val;
-                        if (column.key === 'location') return getDirName(directories?.locations, val) ?? val;
-                        if (column.key === 'position') return getDirName(directories?.positions, val) ?? val;
-
-                        return String(val);
-                      })()}
+                      <DataTableCell columnKey={column.key} value={item[column.key]} item={item} directories={directories} />
                     </td>
                   ))}
                   {hasActions && (
@@ -308,10 +149,7 @@ export function DataTable({
                       <div className="flex gap-1">
                         {onMoveToNeeds && (
                           <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              onMoveToNeeds(item);
-                            }}
+                            onClick={(e) => { e.stopPropagation(); onMoveToNeeds(item); }}
                             className="p-1.5 text-orange-600 hover:bg-orange-50 dark:hover:bg-orange-900/20 rounded transition-colors"
                             title="На погодження"
                           >
@@ -320,10 +158,7 @@ export function DataTable({
                         )}
                         {onMoveToIssuance && (
                           <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              onMoveToIssuance(item);
-                            }}
+                            onClick={(e) => { e.stopPropagation(); onMoveToIssuance(item); }}
                             className="p-1.5 text-green-600 hover:bg-green-50 dark:hover:bg-green-900/20 rounded transition-colors"
                             title="На видачу"
                           >
@@ -332,10 +167,7 @@ export function DataTable({
                         )}
                         {onEdit && (
                           <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              onEdit(item);
-                            }}
+                            onClick={(e) => { e.stopPropagation(); onEdit(item); }}
                             className="p-1.5 text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded transition-colors"
                             title="Редагувати"
                           >
@@ -344,10 +176,7 @@ export function DataTable({
                         )}
                         {onDelete && (
                           <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              onDelete(item.id);
-                            }}
+                            onClick={(e) => { e.stopPropagation(); onDelete(item.id); }}
                             className="p-1.5 text-destructive hover:bg-destructive/10 rounded transition-colors"
                             title="Видалити"
                           >
