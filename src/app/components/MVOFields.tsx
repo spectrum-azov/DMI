@@ -2,13 +2,13 @@ import { SearchableSelect } from './SearchableSelect';
 import { Directories } from '../types';
 
 interface MVOFieldsProps {
-    isFrtCp: boolean;
+    isFrtCp: boolean | undefined;
     setIsFrtCp: (val: boolean) => void;
     data: {
-        frpFullName: string;
-        frpRank: number;
-        frpPosition: string;
-        frpMobileNumber: string;
+        frpFullName?: string;
+        frpRank?: number;
+        frpPosition?: string;
+        frpMobileNumber?: string;
     };
     onChange: (field: string, value: any) => void;
     directories: Directories;
@@ -21,7 +21,7 @@ export function MVOFields({ isFrtCp, setIsFrtCp, data, onChange, directories }: 
                 <input
                     type="checkbox"
                     id="isFrtCp"
-                    checked={isFrtCp}
+                    checked={!!isFrtCp}
                     onChange={(e) => setIsFrtCp(e.target.checked)}
                     className="w-4 h-4 text-blue-600 rounded border-input focus:ring-blue-500"
                 />
@@ -40,7 +40,7 @@ export function MVOFields({ isFrtCp, setIsFrtCp, data, onChange, directories }: 
                         <input
                             type="text"
                             required={!isFrtCp}
-                            value={data.frpFullName}
+                            value={data.frpFullName || ''}
                             onChange={(e) => onChange('frpFullName', e.target.value)}
                             className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
                         />
@@ -49,7 +49,7 @@ export function MVOFields({ isFrtCp, setIsFrtCp, data, onChange, directories }: 
                         label="Звання МВО"
                         required={!isFrtCp}
                         options={directories.ranks}
-                        value={data.frpRank}
+                        value={data.frpRank || 0}
                         onChange={(val) => onChange('frpRank', val)}
                     />
                     <div>
@@ -57,7 +57,7 @@ export function MVOFields({ isFrtCp, setIsFrtCp, data, onChange, directories }: 
                         <input
                             type="text"
                             required={!isFrtCp}
-                            value={data.frpPosition}
+                            value={data.frpPosition || ''}
                             onChange={(e) => onChange('frpPosition', e.target.value)}
                             className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
                         />
@@ -66,7 +66,7 @@ export function MVOFields({ isFrtCp, setIsFrtCp, data, onChange, directories }: 
                         <label className="block text-sm font-medium text-muted-foreground mb-1">Моб. номер МВО</label>
                         <input
                             type="tel"
-                            value={data.frpMobileNumber}
+                            value={data.frpMobileNumber || ''}
                             onChange={(e) => onChange('frpMobileNumber', e.target.value)}
                             className="w-full px-3 py-2 bg-card border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-foreground"
                         />

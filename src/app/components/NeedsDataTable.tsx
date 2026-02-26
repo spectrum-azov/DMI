@@ -128,7 +128,7 @@ export function NeedsDataTable({
                 >
                   {activeColumns.map((column) => (
                     <td key={column.key} className="px-4 py-3 text-sm text-foreground whitespace-nowrap">
-                      <DataTableCell columnKey={column.key} value={item[column.key]} item={item} directories={directories} />
+                      <DataTableCell columnKey={column.key} value={(item as any)[column.key]} item={item} directories={directories} />
                     </td>
                   ))}
                   <td className="px-4 py-3 text-sm">
