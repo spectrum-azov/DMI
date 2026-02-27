@@ -145,6 +145,7 @@ export function useAppLogic() {
         rejectingNeed, setRejectingNeed, isMoveDialogOpen, setIsMoveDialogOpen, moveTarget, setMoveTarget, moveIssuanceTarget, setMoveIssuanceTarget,
         moveType, setMoveType, filteredNeedsCount, filteredIssuanceCount, filteredRejectedCount,
         handleIssueItem, handleUpdateIssuanceStatus, handleAddIssuance, handleAddNeed, handleAddRejected, handleConfirmReject, handleConfirmMove, handleAddDirectoryItem,
+        moveNeedToIssuance, moveNeedToRejected,
         setIssuanceData, setNeedsData, setRejectedData, setNomenclatures, setTypes, setDepartments, setRanks, setLocations
     };
 }
